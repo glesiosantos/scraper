@@ -1,13 +1,7 @@
-// src/index.ts
-// import { scrapeBrands } from './brands/scrapeBrands'
-// import { scrapeModels } from './models/scrapeModels'
-
-import { scrapeVehicles } from "./vehicles/scrapeVehicles"
+import { scrapeBrands } from "./brands/scrapeBrands"
 
 async function run() {
-  // await scrapeBrands()
-  // await scrapeModels()
-  await scrapeVehicles()
+  scrapeBrands()
 }
 
 run()
