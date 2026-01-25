@@ -3,7 +3,14 @@
  * NÃO EDITE MANUALMENTE
  */
 
-import { Brand } from '../types'
+export interface Brand {
+  name: string
+  slug?: string
+  url?: string
+  logoUrl?: string
+  type: 'car' | 'moto'
+  source: 'kbb' | 'mobiauto'
+}
 
 export const brands: Brand[] = [
 {

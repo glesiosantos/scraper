@@ -1,0 +1,172 @@
+[
+  {
+    "nome": "Audi",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089255/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "BMW",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089257/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Chevrolet",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089244/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Citroën",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089245/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Fiat",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089246/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Ford",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089247/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Honda",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089248/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Hyundai",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089249/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Jeep",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089250/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Kia",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089364/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Mitsubishi",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089400/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Nissan",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089251/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Peugeot",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64195544/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Renault",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64195545/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Toyota",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/585933502/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Volkswagen",
+    "tipo": "Carro",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089253/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "BMW",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089343/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Dafra",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089261/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Ducati",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089370/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Haojue",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64143947/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Harley-Davidson",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64143948/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Honda",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/535755388/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "KTM",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144950/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Kawasaki",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144941/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Shineray",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144304/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Suzuki",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089263/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Triumph",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144301/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Yamaha",
+    "tipo": "Moto",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/398780464/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Ford",
+    "tipo": "Caminhão",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089269/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Iveco",
+    "tipo": "Caminhão",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089276/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Mercedes-Benz",
+    "tipo": "Caminhão",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089285/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Scania",
+    "tipo": "Caminhão",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089286/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Volkswagen",
+    "tipo": "Caminhão",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089300/transform/fl_progressive,f_webp,q_100,w_72"
+  },
+  {
+    "nome": "Volvo",
+    "tipo": "Caminhão",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089301/transform/fl_progressive,f_webp,q_100,w_72"
+  }
+]
