@@ -1,12 +1,14 @@
 import type { Page } from 'puppeteer'
 import puppeteer from 'puppeteer'
-import * as cheerio from 'cheerio'
 import { readFile, writeFile } from 'fs/promises'
-import { MarcaJson, ModeloAnoJson } from './types'
+import { MarcaJson } from './types'
+import * as cheerio from 'cheerio'
 
 const BASE_URL = 'https://www.mobiauto.com.br'
 
-function tipoToUrl(tipo: 'Carro' | 'Moto' | 'Caminhão'): 'carros' | 'motos' | 'caminhoes' {
+function tipoToUrl(
+  tipo: 'Carro' | 'Moto' | 'Caminhão'
+): 'carros' | 'motos' | 'caminhoes' {
   switch (tipo) {
     case 'Carro':
       return 'carros'
@@ -17,88 +19,63 @@ function tipoToUrl(tipo: 'Carro' | 'Moto' | 'Caminhão'): 'carros' | 'motos' | '
   }
 }
 
-type Modelo = {
+type ModeloJson = {
+  marca: string
+  tipo: 'carros' | 'motos' | 'caminhoes'
   modelo: string
   slug: string
   link: string
   imagem: string
 }
-
 async function getModelos(
   page: Page,
   tipo: 'carros' | 'motos' | 'caminhoes',
   marca: string
-): Promise<Modelo[]> {
+) {
   const url = `${BASE_URL}/tabela-fipe/${tipo}/${marca}`
 
   await page.goto(url, {
-    waitUntil: 'networkidle2',
-    timeout: 60000
+    waitUntil: 'domcontentloaded',
+    timeout: 30000
   })
 
-  await page.waitForFunction(
-    () => document.querySelectorAll('a[href*="/tabela-fipe"]').length > 0,
-    { timeout: 60000 }
-  )
-
-  return await page.evaluate(() => {
-    const anchors = Array.from(
-      document.querySelectorAll<HTMLAnchorElement>('a[href*="/tabela-fipe"]')
-    )
-
-    return anchors
-      .map(a => {
-        const h3 = a.querySelector('h3')
-        if (!h3) return null
-
-        const link = a.getAttribute('href')
-        if (!link) return null
-
-        const slug = link.split('/').pop()
-        if (!slug) return null
-
-        const img = a.querySelector('img')
-
-        return {
-          modelo: h3.textContent?.trim() ?? '',
-          slug,
-          link,
-          imagem: img?.getAttribute('src') ?? ''
-        }
-      })
-      .filter((m): m is Modelo => m !== null)
-  })
-}
-
-async function getAnos(
-  page: Page,
-  tipo: 'carros' | 'motos' | 'caminhoes',
-  marca: string,
-  modeloSlug: string
-): Promise<number[]> {
-  const url = `${BASE_URL}/tabela-fipe/${tipo}/${marca}/${modeloSlug}`
-
-  await page.goto(url, {
-    waitUntil: 'networkidle2',
-    timeout: 60000
-  })
-
-  await page.waitForSelector('a[href*="/tabela-fipe"]', { timeout: 30000 })
+  // NÃO usar waitForFunction
+  await new Promise(r => setTimeout(r, 500))
 
   const html = await page.content()
   const $ = cheerio.load(html)
 
-  const anos = new Set<number>()
+  const modelos: {
+    modelo: string
+    slug: string
+    link: string
+    imagem: string
+  }[] = []
 
-  $('p').each((_, el) => {
-    const texto = $(el).text().trim()
-    const ano = Number(texto)
-    if (!isNaN(ano) && ano > 1900 && ano < 2100) {
-      anos.add(ano)
-    }
+  $(`a[href*="/tabela-fipe/${tipo}/${marca}/"]`).each((_, el) => {
+    const link = $(el).attr('href')
+    if (!link) return
+
+    const slug = link.split('/').pop()
+    if (!slug) return
+
+    const modelo = $(el).find('h3').text().trim()
+    if (!modelo) return
+
+    const imagem =
+      $(el).find('img').attr('src') ??
+      $(el).find('img').attr('data-src') ??
+      ''
+
+    modelos.push({
+      modelo,
+      slug,
+      link,
+      imagem
+    })
   })
 
-  return Array.from(anos).sort()
+  return modelos
 }
 
 async function main() {
@@ -112,7 +89,7 @@ async function main() {
 
   const page = await browser.newPage()
 
-  const resultado: ModeloAnoJson[] = []
+  const resultado: ModeloJson[] = []
 
   for (const marca of marcas) {
     const tipoUrl = tipoToUrl(marca.tipo)
@@ -121,20 +98,13 @@ async function main() {
 
     const modelos = await getModelos(page, tipoUrl, marca.slug)
 
+    console.log(`   ➜ ${modelos.length} modelos`)
+
     for (const modelo of modelos) {
-      const anos = await getAnos(
-        page,
-        tipoUrl,
-        marca.slug,
-        modelo.slug
-      )
-
-      if (!anos.length) continue
-
       resultado.push({
         marca: marca.slug,
-        modelo: modelo.modelo,
-        ano_versao: anos
+        tipo: tipoUrl,
+        ...modelo
       })
     }
   }

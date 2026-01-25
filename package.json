@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "dev": "ts-node src/index.ts",
     "modelo:dev": "ts-node src/modelos-json.ts",
     "marca:dev": "ts-node src/marcas-json.ts",
     "build": "tsc",
