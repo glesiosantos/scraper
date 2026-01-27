@@ -1,4 +1,4 @@
-import puppeteer, { Page } from 'puppeteer'
+import puppeteer, { Browser, Page } from 'puppeteer'
 import { readFile, writeFile } from 'fs/promises'
 
 const BASE_URL = 'https://www.mobiauto.com.br'
@@ -30,236 +30,12 @@ type ModeloBrowser = {
   imagem: string | null
 }
 
-type ModeloComAnos = ModeloBrowser & {
-  anos: number[]
-}
-
 /* =======================
    HELPERS
 ======================= */
 
-async function getImagemDoModelo(
-  page: Page,
-  link: string
-): Promise<string | null> {
-  await page.goto(link, {
-    waitUntil: 'domcontentloaded',
-    timeout: 60000
-  })
-
-  // pequena espera para o lazy-load acontecer
-  await page.waitForFunction(
-    () => document.querySelector('div.css-1vthgnu img'),
-    { timeout: 30000 }
-  )
-
-  return await page.evaluate(() => {
-    let imagem: string | null = null
-
-    // 🎯 container correto da imagem do modelo
-    const imgModelo = document.querySelector<HTMLImageElement>(
-      'div.css-1vthgnu img'
-    )
-
-    if (imgModelo) {
-      const dataSrc =
-        imgModelo.getAttribute('data-src') ||
-        imgModelo.getAttribute('data-lazy-src') ||
-        imgModelo.getAttribute('data-srcset')
-
-      const src = imgModelo.getAttribute('src')
-
-      imagem =
-        dataSrc &&
-        !dataSrc.includes('326164696') && // logo
-        !dataSrc.endsWith('.gif')
-          ? dataSrc
-          : src &&
-            !src.includes('326164696') &&
-            !src.endsWith('.gif')
-          ? src
-          : null
-    }
-
-    return imagem
-  })
-}
-
-
-function sleep(ms: number) {
-  return new Promise(resolve => setTimeout(resolve, ms))
-}
-
-async function aceitarCookies(page: Page) {
-  try {
-    await page.waitForSelector('button', { timeout: 5000 })
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll('button')).find(b =>
-        b.textContent?.toLowerCase().includes('aceitar')
-      )
-      btn?.click()
-    })
-  } catch {
-    // banner não apareceu
-  }
-}
-
-/* =======================
-   MODELOS
-======================= */
-
-async function getModelos(
-  page: Page,
-  tipo: 'carros' | 'motos' | 'caminhoes',
-  marcaSlug: string,
-  marcaNome: string
-): Promise<ModeloBrowser[]> {
-  const url = `${BASE_URL}/tabela-fipe/${tipo}/${marcaSlug}`
-
-  await page.goto(url, {
-    waitUntil: 'domcontentloaded',
-    timeout: 60000
-  })
-
-  await aceitarCookies(page)
-
-  await page.waitForSelector('ul li a[href]', { timeout: 60000 })
-
-  const modelos = await page.evaluate(
-    (marca: string, tipo: string, marcaSlug: string) => {
-      const anchors = Array.from(
-        document.querySelectorAll<HTMLAnchorElement>('ul li a[href]')
-      )
-
-      const lista = anchors.map(a => {
-        const href = a.getAttribute('href')
-        if (!href) return null
-
-        // garante que é link de MODELO
-        const regex = new RegExp(
-          `/tabela-fipe/${tipo}/${marcaSlug}/[^/]+$`
-        )
-        if (!regex.test(href)) return null
-
-        const h3 = a.querySelector('h3')
-        if (!h3) return null
-
-        const slug = href.split('/').pop()
-        if (!slug) return null
-
-        const imagem =
-          a.querySelector('img')?.getAttribute('src') ||
-          a.querySelector('img')?.getAttribute('data-src') ||
-          (() => {
-            const el = a.querySelector<HTMLElement>(
-              'span[style*="background-image"]'
-            )
-            if (!el) return null
-            const match = el.style.backgroundImage.match(
-              /url\(["']?(.*?)["']?\)/
-            )
-            return match?.[1] ?? null
-          })()
-
-        return {
-          marca,
-          modelo: h3.textContent?.trim() ?? '',
-          slug,
-          link: href.startsWith('http')
-            ? href
-            : `https://www.mobiauto.com.br${href}`,
-          imagem
-        }
-      })
-
-      // remove null ainda no browser
-      return lista.filter(Boolean)
-    },
-    marcaNome,
-    tipo,
-    marcaSlug
-  )
-
-  return modelos as ModeloBrowser[]
-}
-
-/* =======================
-   ANOS DO MODELO
-======================= */
-async function getAnosEImagemDoModelo(
-  page: Page,
-  tipo: 'carros' | 'motos' | 'caminhoes',
-  marcaSlug: string,
-  modeloSlug: string
-): Promise<{ anos: number[]; imagem: string | null }> {
-  const url = `${BASE_URL}/tabela-fipe/${tipo}/${marcaSlug}/${modeloSlug}`
-
-  try {
-    await page.goto(url, {
-      waitUntil: 'domcontentloaded',
-      timeout: 60000
-    })
-
-    // espera curta e segura
-    await Promise.race([
-      page.waitForSelector('img', { timeout: 15000 }),
-      sleep(15000)
-    ])
-
-    return await page.evaluate(() => {
-        const anos = new Set<number>()
-
-        // 📅 captura anos
-        document.querySelectorAll<HTMLAnchorElement>('a[href]').forEach(a => {
-          const match = a.href.match(/\/(\d{4})$/)
-          if (match) {
-            const ano = Number(match[1])
-            if (ano > 1900 && ano < 2100) anos.add(ano)
-          }
-        })
-
-        // 🖼️ captura imagem correta do MODELO (ignora ads)
-        let imagem: string | null = null
-
-        const imgModelo = document.querySelector<HTMLImageElement>(
-          'div.css-1vthgnu img'
-        )
-
-        if (imgModelo?.src) {
-          imagem = imgModelo.src
-        } else {
-          // fallback seguro: og:image (SEO)
-          const og =
-            document.querySelector<HTMLMetaElement>(
-              'meta[property="og:image"]'
-            )?.content
-
-          if (og && !og.includes('gif')) {
-            imagem = og
-          }
-        }
-
-        return {
-          anos: Array.from(anos).sort(),
-          imagem
-        }
-      })
-
-  } catch {
-    console.warn(
-      `⚠️ Falha ao buscar anos/imagem → ${marcaSlug}/${modeloSlug}`
-    )
-    return { anos: [], imagem: null }
-  }
-}
-
-
-/* =======================
-   MAIN
-======================= */
-
 function tipoToUrl(
-  tipo: 'Carro' | 'Moto' | 'Caminhão'
+  tipo: MarcaJson['tipo']
 ): 'carros' | 'motos' | 'caminhoes' {
   if (tipo === 'Carro') return 'carros'
   if (tipo === 'Moto') return 'motos'
@@ -275,6 +51,165 @@ function slugify(text: string): string {
     .replace(/(^-|-$)/g, '')
 }
 
+async function aceitarCookies(page: Page) {
+  try {
+    await page.waitForSelector('button', { timeout: 5000 })
+    await page.evaluate(() => {
+      const btn = Array.from(document.querySelectorAll('button')).find(b =>
+        b.textContent?.toLowerCase().includes('aceitar')
+      )
+      btn?.click()
+    })
+  } catch {
+    /* ignora */
+  }
+}
+
+/* =======================
+   MODELOS
+======================= */
+
+async function getModelos(
+  browser: Browser,
+  tipo: 'carros' | 'motos' | 'caminhoes',
+  marcaSlug: string,
+  marcaNome: string
+): Promise<ModeloBrowser[]> {
+  const page = await browser.newPage()
+
+  try {
+    const url = `${BASE_URL}/tabela-fipe/${tipo}/${marcaSlug}`
+
+    await page.goto(url, {
+      waitUntil: 'domcontentloaded',
+      timeout: 45000
+    })
+
+    await aceitarCookies(page)
+
+    await page.waitForFunction(
+      () => document.querySelectorAll('a[href*="/tabela-fipe"]').length > 0,
+      { timeout: 20000 }
+    )
+
+    const modelos = await page.evaluate(
+      (marca: string, tipo: string, marcaSlug: string) => {
+        return Array.from(
+          document.querySelectorAll<HTMLAnchorElement>('a[href]')
+        )
+          .map(a => {
+            const href = a.getAttribute('href')
+            if (!href) return null
+
+            const regex = new RegExp(
+              `/tabela-fipe/${tipo}/${marcaSlug}/[^/]+$`
+            )
+            if (!regex.test(href)) return null
+
+            const h3 = a.querySelector('h3')
+            if (!h3) return null
+
+            const slug = href.split('/').pop()
+            if (!slug) return null
+
+            const img =
+              a.querySelector('img')?.getAttribute('src') ??
+              a.querySelector('img')?.getAttribute('data-src') ??
+              null
+
+            return {
+              marca,
+              modelo: h3.textContent?.trim() ?? '',
+              slug,
+              link: href.startsWith('http')
+                ? href
+                : `https://www.mobiauto.com.br${href}`,
+              imagem: img
+            }
+          })
+          .filter(Boolean)
+      },
+      marcaNome,
+      tipo,
+      marcaSlug
+    )
+
+    return modelos as ModeloBrowser[]
+  } catch (err) {
+    console.warn(`⚠️ Falha ao carregar modelos → ${marcaSlug}`)
+    return []
+  } finally {
+    await page.close()
+  }
+}
+
+/* =======================
+   ANOS + IMAGEM GRANDE
+======================= */
+
+async function getAnosEImagemDoModelo(
+  browser: Browser,
+  tipo: 'carros' | 'motos' | 'caminhoes',
+  marcaSlug: string,
+  modeloSlug: string
+): Promise<{ anos: number[]; imagem: string | null }> {
+  const page = await browser.newPage()
+
+  try {
+    const url = `${BASE_URL}/tabela-fipe/${tipo}/${marcaSlug}/${modeloSlug}`
+
+    await page.goto(url, {
+      waitUntil: 'domcontentloaded',
+      timeout: 45000
+    })
+
+    await Promise.race([
+      page.waitForSelector('a[href$="/1990"], a[href$="/2000"], a[href$="/2010"]', {
+        timeout: 15000
+      }),
+      new Promise(res => setTimeout(res, 15000))
+    ])
+
+    return await page.evaluate(() => {
+      const anos = new Set<number>()
+
+      document.querySelectorAll<HTMLAnchorElement>('a[href]').forEach(a => {
+        const match = a.href.match(/\/(\d{4})$/)
+        if (match) {
+          const ano = Number(match[1])
+          if (ano > 1900 && ano < 2100) anos.add(ano)
+        }
+      })
+
+      // 🎯 imagem grande do modelo
+      const imagem =
+        document.querySelector<HTMLImageElement>(
+          'div.css-1vthgnu img'
+        )?.src ??
+        document.querySelector<HTMLMetaElement>(
+          'meta[property="og:image"]'
+        )?.content ??
+        null
+
+      return {
+        anos: Array.from(anos).sort(),
+        imagem
+      }
+    })
+  } catch {
+    console.warn(
+      `⚠️ Falha ao buscar anos/imagem → ${marcaSlug}/${modeloSlug}`
+    )
+    return { anos: [], imagem: null }
+  } finally {
+    await page.close()
+  }
+}
+
+/* =======================
+   MAIN
+======================= */
+
 async function main() {
   const marcas: MarcaJson[] = JSON.parse(
     await readFile('marcas-mobiauto.json', 'utf-8')
@@ -285,8 +220,6 @@ async function main() {
     defaultViewport: null
   })
 
-  const page = await browser.newPage()
-
   const resultado: ModeloFinal[] = []
 
   for (const marca of marcas) {
@@ -296,7 +229,7 @@ async function main() {
     console.log(`🔎 ${marca.tipo} | ${marca.nome}`)
 
     const modelos = await getModelos(
-      page,
+      browser,
       tipoUrl,
       marcaSlug,
       marca.nome
@@ -306,19 +239,13 @@ async function main() {
 
     for (const modelo of modelos) {
       const { anos, imagem } = await getAnosEImagemDoModelo(
-        page,
+        browser,
         tipoUrl,
         marcaSlug,
         modelo.slug
       )
 
       if (!anos.length) continue
-
-      let img = modelo.imagem
-
-      if (!imagem) {
-        img = await getImagemDoModelo(page, modelo.link)
-      }
 
       resultado.push({
         marca: marca.nome,
@@ -330,7 +257,7 @@ async function main() {
         anos
       })
 
-      console.log(`📅 ${modelo.modelo}: [${anos.join(', ')}]`)
+      console.log(`   📅 ${modelo.modelo}: [${anos.join(', ')}]`)
     }
   }
 
