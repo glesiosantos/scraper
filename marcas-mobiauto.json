@@ -1,172 +1,95 @@
 [
-  {
-    "nome": "Audi",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089255/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "BMW",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089257/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Chevrolet",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089244/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Citroën",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089245/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Fiat",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089246/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Ford",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089247/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Honda",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089248/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Hyundai",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089249/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Jeep",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089250/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Kia",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089364/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Mitsubishi",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089400/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Nissan",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089251/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Peugeot",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64195544/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Renault",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64195545/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Toyota",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/585933502/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Volkswagen",
-    "tipo": "Carro",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089253/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "BMW",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089343/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Dafra",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089261/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Ducati",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089370/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Haojue",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64143947/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Harley-Davidson",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64143948/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Honda",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/535755388/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "KTM",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144950/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Kawasaki",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144941/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Shineray",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144304/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Suzuki",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089263/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Triumph",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144301/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Yamaha",
-    "tipo": "Moto",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/398780464/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Ford",
-    "tipo": "Caminhão",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089269/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Iveco",
-    "tipo": "Caminhão",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089276/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Mercedes-Benz",
-    "tipo": "Caminhão",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089285/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Scania",
-    "tipo": "Caminhão",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089286/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Volkswagen",
-    "tipo": "Caminhão",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089300/transform/fl_progressive,f_webp,q_100,w_72"
-  },
-  {
-    "nome": "Volvo",
-    "tipo": "Caminhão",
-    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089301/transform/fl_progressive,f_webp,q_100,w_72"
-  }
+  { "nome": "Aston Martin", "url_logo": "https://www.autoo.com.br/img/aston-martin.png", "tipo": "Carro" },
+  { "nome": "Audi", "url_logo": "https://www.autoo.com.br/img/audi.png", "tipo": "Carro" },
+  { "nome": "Bentley", "url_logo": "https://www.autoo.com.br/img/bentley.png", "tipo": "Carro" },
+  { "nome": "BMW", "url_logo": "https://www.autoo.com.br/img/bmw.png", "tipo": "Carro" },
+  { "nome": "BYD", "url_logo": "https://www.autoo.com.br/img/byd.png", "tipo": "Carro" },
+  { "nome": "CAOA Chery", "url_logo": "https://www.autoo.com.br/img/caoa-chery.png", "tipo": "Carro" },
+  { "nome": "Chevrolet", "url_logo": "https://www.autoo.com.br/img/chevrolet.png", "tipo": "Carro" },
+  { "nome": "Citroën", "url_logo": "https://www.autoo.com.br/img/citroen.png", "tipo": "Carro" },
+  { "nome": "Denza", "url_logo": "https://www.autoo.com.br/img/denza.png", "tipo": "Carro" },
+  { "nome": "Effa", "url_logo": "https://www.autoo.com.br/img/effa.png", "tipo": "Carro" },
+  { "nome": "Ferrari", "url_logo": "https://www.autoo.com.br/img/ferrari.png", "tipo": "Carro" },
+  { "nome": "Fever", "url_logo": "https://www.autoo.com.br/img/fever.png", "tipo": "Carro" },
+  { "nome": "Fiat", "url_logo": "https://www.autoo.com.br/img/fiat.png", "tipo": "Carro" },
+  { "nome": "Ford", "url_logo": "https://www.autoo.com.br/img/ford.png", "tipo": "Carro" },
+  { "nome": "Foton", "url_logo": "https://www.autoo.com.br/img/foton.png", "tipo": "Caminhao" },
+  { "nome": "GAC", "url_logo": "https://www.autoo.com.br/img/gac.png", "tipo": "Carro" },
+  { "nome": "Geely", "url_logo": "https://www.autoo.com.br/img/geely.png", "tipo": "Carro" },
+  { "nome": "GWM", "url_logo": "https://www.autoo.com.br/img/gwm.png", "tipo": "Carro" },
+  { "nome": "Hitech-E", "url_logo": "https://www.autoo.com.br/img/hitech-e.png", "tipo": "Carro" },
+  { "nome": "Honda", "url_logo": "https://www.autoo.com.br/img/honda.png", "tipo": "Carro" },
+  { "nome": "Hyundai", "url_logo": "https://www.autoo.com.br/img/hyundai.png", "tipo": "Carro" },
+  { "nome": "Iveco", "url_logo": "https://www.autoo.com.br/img/iveco.png", "tipo": "Caminhao" },
+  { "nome": "JAC", "url_logo": "https://www.autoo.com.br/img/jac.png", "tipo": "Carro" },
+  { "nome": "Jaecoo", "url_logo": "https://www.autoo.com.br/img/jaecoo.png", "tipo": "Carro" },
+  { "nome": "Jaguar", "url_logo": "https://www.autoo.com.br/img/jaguar.png", "tipo": "Carro" },
+  { "nome": "Jeep", "url_logo": "https://www.autoo.com.br/img/jeep.png", "tipo": "Carro" },
+  { "nome": "Jetour", "url_logo": "https://www.autoo.com.br/img/jetour.png", "tipo": "Carro" },
+  { "nome": "Kia", "url_logo": "https://www.autoo.com.br/img/kia.png", "tipo": "Carro" },
+  { "nome": "Lamborghini", "url_logo": "https://www.autoo.com.br/img/lamborghini.png", "tipo": "Carro" },
+  { "nome": "Land Rover", "url_logo": "https://www.autoo.com.br/img/land-rover.png", "tipo": "Carro" },
+  { "nome": "LeapMotor", "url_logo": "https://www.autoo.com.br/img/leapMotor.png", "tipo": "Carro" },
+  { "nome": "Lexus", "url_logo": "https://www.autoo.com.br/img/lexus.png", "tipo": "Carro" },
+  { "nome": "Maserati", "url_logo": "https://www.autoo.com.br/img/maserati.png", "tipo": "Carro" },
+  { "nome": "McLaren", "url_logo": "https://www.autoo.com.br/img/mclaren.png", "tipo": "Carro" },
+  { "nome": "Mercedes-AMG", "url_logo": "https://www.autoo.com.br/img/mercedes-amg.png", "tipo": "Carro" },
+  { "nome": "Mercedes-Benz", "url_logo": "https://www.autoo.com.br/img/mercedes-benz.png", "tipo": "Carro" },
+  { "nome": "MG", "url_logo": "https://www.autoo.com.br/img/mg.png", "tipo": "Carro" },
+  { "nome": "Mini", "url_logo": "https://www.autoo.com.br/img/mini.png", "tipo": "Carro" },
+  { "nome": "Mitsubishi", "url_logo": "https://www.autoo.com.br/img/mitsubishi.png", "tipo": "Carro" },
+  { "nome": "Neta", "url_logo": "https://www.autoo.com.br/img/neta.png", "tipo": "Carro" },
+  { "nome": "Nissan", "url_logo": "https://www.autoo.com.br/img/nissan.png", "tipo": "Carro" },
+  { "nome": "Omoda", "url_logo": "https://www.autoo.com.br/img/omoda.png", "tipo": "Carro" },
+  { "nome": "Peugeot", "url_logo": "https://www.autoo.com.br/img/peugeot.png", "tipo": "Carro" },
+  { "nome": "Porsche", "url_logo": "https://www.autoo.com.br/img/porsche.png", "tipo": "Carro" },
+  { "nome": "RAM", "url_logo": "https://www.autoo.com.br/img/ram.png", "tipo": "Carro" },
+  { "nome": "Renault", "url_logo": "https://www.autoo.com.br/img/renault.png", "tipo": "Carro" },
+  { "nome": "Riddara", "url_logo": "https://www.autoo.com.br/img/riddara.png", "tipo": "Carro" },
+  { "nome": "Rolls-Royce", "url_logo": "https://www.autoo.com.br/img/rolls-royce.png", "tipo": "Carro" },
+  { "nome": "Seres", "url_logo": "https://www.autoo.com.br/img/seres.png", "tipo": "Carro" },
+  { "nome": "Subaru", "url_logo": "https://www.autoo.com.br/img/subaru.png", "tipo": "Carro" },
+  { "nome": "Suzuki", "url_logo": "https://www.autoo.com.br/img/suzuki.png", "tipo": "Carro" },
+  { "nome": "Toyota", "url_logo": "https://www.autoo.com.br/img/toyota.png", "tipo": "Carro" },
+  { "nome": "Volkswagen", "url_logo": "https://www.autoo.com.br/img/volkswagen.png", "tipo": "Carro" },
+  { "nome": "Volvo", "url_logo": "https://www.autoo.com.br/img/volvo.png", "tipo": "Carro" },
+  { "nome": "Zeekr", "url_logo": "https://www.autoo.com.br/img/zeekr.png", "tipo": "Carro" },
+  { "nome": "Amazon", "url_logo": "https://www.Motoo.com.br/img/amazon.png", "tipo": "Moto" },
+  { "nome": "Avelloz", "url_logo": "https://www.Motoo.com.br/img/avelloz.png", "tipo": "Moto" },
+  { "nome": "Bajaj", "url_logo": "https://www.Motoo.com.br/img/bajaj.png", "tipo": "Moto" },
+  { "nome": "BMW", "url_logo": "https://www.Motoo.com.br/img/bmw.png", "tipo": "Moto" },
+  { "nome": "Bull", "url_logo": "https://www.Motoo.com.br/img/bull.png", "tipo": "Moto" },
+  { "nome": "CFMoto", "url_logo": "https://www.Motoo.com.br/img/cfMoto.png", "tipo": "Moto" },
+  { "nome": "Dafra", "url_logo": "https://www.Motoo.com.br/img/dafra.png", "tipo": "Moto" },
+  { "nome": "Ducati", "url_logo": "https://www.Motoo.com.br/img/ducati.png", "tipo": "Moto" },
+  { "nome": "Fever", "url_logo": "https://www.Motoo.com.br/img/fever.png", "tipo": "Moto" },
+  { "nome": "Haojue", "url_logo": "https://www.Motoo.com.br/img/haojue.png", "tipo": "Moto" },
+  { "nome": "Harley-Davidson", "url_logo": "https://www.Motoo.com.br/img/harley-davidson.png", "tipo": "Moto" },
+  { "nome": "Honda", "url_logo": "https://www.Motoo.com.br/img/honda.png", "tipo": "Moto" },
+  { "nome": "Horwin", "url_logo": "https://www.Motoo.com.br/img/horwin.png", "tipo": "Moto" },
+  { "nome": "Husqvarna", "url_logo": "https://www.Motoo.com.br/img/husqvarna.png", "tipo": "Moto" },
+  { "nome": "Kawasaki", "url_logo": "https://www.Motoo.com.br/img/kawasaki.png", "tipo": "Moto" },
+  { "nome": "KTM", "url_logo": "https://www.Motoo.com.br/img/ktm.png", "tipo": "Moto" },
+  { "nome": "Kymco", "url_logo": "https://www.Motoo.com.br/img/kymco.png", "tipo": "Moto" },
+  { "nome": "Leva", "url_logo": "https://www.Motoo.com.br/img/leva.png", "tipo": "Moto" },
+  { "nome": "LL Motors", "url_logo": "https://www.Motoo.com.br/img/ll-Motors.png", "tipo": "Moto" },
+  { "nome": "Moto Morini", "url_logo": "https://www.Motoo.com.br/img/Moto-morini.png", "tipo": "Moto" },
+  { "nome": "Motocar", "url_logo": "https://www.Motoo.com.br/img/Motocar.png", "tipo": "Moto" },
+  { "nome": "Motorino", "url_logo": "https://www.Motoo.com.br/img/Motorino.png", "tipo": "Moto" },
+  { "nome": "Mottu", "url_logo": "https://www.Motoo.com.br/img/mottu.png", "tipo": "Moto" },
+  { "nome": "Niu", "url_logo": "https://www.Motoo.com.br/img/niu.png", "tipo": "Moto" },
+  { "nome": "Origem", "url_logo": "https://www.Motoo.com.br/img/origem.png", "tipo": "Moto" },
+  { "nome": "Piaggio", "url_logo": "https://www.Motoo.com.br/img/piaggio.png", "tipo": "Moto" },
+  { "nome": "Royal Enfield", "url_logo": "https://www.Motoo.com.br/img/royal-enfield.png", "tipo": "Moto" },
+  { "nome": "Shineray", "url_logo": "https://www.Motoo.com.br/img/shineray.png", "tipo": "Moto" },
+  { "nome": "Sousa", "url_logo": "https://www.Motoo.com.br/img/sousa.png", "tipo": "Moto" },
+  { "nome": "Suzuki", "url_logo": "https://www.Motoo.com.br/img/suzuki.png", "tipo": "Moto" },
+  { "nome": "Traxx", "url_logo": "https://www.Motoo.com.br/img/traxx.png", "tipo": "Moto" },
+  { "nome": "Triumph", "url_logo": "https://www.Motoo.com.br/img/triumph.png", "tipo": "Moto" },
+  { "nome": "Vespa", "url_logo": "https://www.Motoo.com.br/img/vespa.png", "tipo": "Moto" },
+  { "nome": "VMoto", "url_logo": "https://www.Motoo.com.br/img/vMoto.png", "tipo": "Moto" },
+  { "nome": "Voltz", "url_logo": "https://www.Motoo.com.br/img/voltz.png", "tipo": "Moto" },
+  { "nome": "Watts", "url_logo": "https://www.Motoo.com.br/img/watts.png", "tipo": "Moto" },
+  { "nome": "Yamaha", "url_logo": "https://www.Motoo.com.br/img/yamaha.png", "tipo": "Moto" },
+  { "nome": "Zontes", "url_logo": "https://www.Motoo.com.br/img/zontes.png", "tipo": "Moto" }
 ]
