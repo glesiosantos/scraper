@@ -1,278 +1,171 @@
-import puppeteer, { Browser, Page } from 'puppeteer'
-import { readFile, writeFile } from 'fs/promises'
+import fs from 'fs'
+import puppeteer from 'puppeteer'
+import cheerio from 'cheerio'
 
-const BASE_URL = 'https://www.mobiauto.com.br'
+/* =========================
+   CONFIGURAÇÕES
+========================= */
 
-/* =======================
-   TIPOS
-======================= */
+const BATCH_SIZE = 10
+const DATA_DIR = './data'
+const OUTPUT_FILE = `${DATA_DIR}/versoes-processadas.json`
+const PROGRESS_FILE = `${DATA_DIR}/progresso.json`
 
-type MarcaJson = {
-  nome: string
-  tipo: 'Carro' | 'Moto' | 'Caminhão'
+const URL_ANO =
+  'https://www.mobiauto.com.br/tabela-fipe/carros/audi/a3-sportback/2024'
+
+/* =========================
+   UTILS
+========================= */
+
+function sleep(ms: number) {
+  return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-type ModeloFinal = {
-  marca: string
-  tipo: 'Carro' | 'Moto' | 'Caminhão'
-  modelo: string
-  slug: string
-  link: string
-  imagem: string | null
-  anos: number[]
+function ensureDataDir() {
+  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR)
 }
 
-type ModeloBrowser = {
-  marca: string
-  modelo: string
-  slug: string
-  link: string
-  imagem: string | null
-}
-
-/* =======================
-   HELPERS
-======================= */
-
-function tipoToUrl(
-  tipo: MarcaJson['tipo']
-): 'carros' | 'motos' | 'caminhoes' {
-  if (tipo === 'Carro') return 'carros'
-  if (tipo === 'Moto') return 'motos'
-  return 'caminhoes'
-}
-
-function slugify(text: string): string {
-  return text
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)/g, '')
-}
-
-async function aceitarCookies(page: Page) {
-  try {
-    await page.waitForSelector('button', { timeout: 5000 })
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll('button')).find(b =>
-        b.textContent?.toLowerCase().includes('aceitar')
-      )
-      btn?.click()
-    })
-  } catch {
-    /* ignora */
+function loadProgress() {
+  if (!fs.existsSync(PROGRESS_FILE)) {
+    return { ultimaVersaoIndex: 0 }
   }
+  return JSON.parse(fs.readFileSync(PROGRESS_FILE, 'utf-8'))
 }
 
-/* =======================
-   MODELOS
-======================= */
+function saveProgress(data: any) {
+  fs.writeFileSync(PROGRESS_FILE, JSON.stringify(data, null, 2))
+}
 
-async function getModelos(
-  browser: Browser,
-  tipo: 'carros' | 'motos' | 'caminhoes',
-  marcaSlug: string,
-  marcaNome: string
-): Promise<ModeloBrowser[]> {
+function loadOutput(): any[] {
+  if (!fs.existsSync(OUTPUT_FILE)) return []
+  return JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'))
+}
+
+function saveOutput(data: any[]) {
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2))
+}
+
+/* =========================
+   SCRAPERS
+========================= */
+
+async function getVersoesPorAno(url: string) {
+  const browser = await puppeteer.launch({ headless: true })
   const page = await browser.newPage()
 
-  try {
-    const url = `${BASE_URL}/tabela-fipe/${tipo}/${marcaSlug}`
+  await page.goto(url, { waitUntil: 'networkidle2' })
 
-    await page.goto(url, {
-      waitUntil: 'domcontentloaded',
-      timeout: 45000
+  const html = await page.content()
+  const $ = cheerio.load(html)
+
+  const versoes: any[] = []
+
+  $('tbody tr').each((_, tr) => {
+    const tds = $(tr).find('td')
+    if (tds.length < 3) return
+
+    const linkEl = $(tds[0]).find('a')
+    const nome = linkEl.text().trim()
+    const urlVersao = linkEl.attr('href') || ''
+    const codigoFipe = $(tds[2]).text().trim()
+
+    versoes.push({
+      nome,
+      codigoFipe,
+      url: urlVersao,
+      slug: urlVersao.split('/').pop()
     })
-
-    await aceitarCookies(page)
-
-    await page.waitForFunction(
-      () => document.querySelectorAll('a[href*="/tabela-fipe"]').length > 0,
-      { timeout: 20000 }
-    )
-
-    const modelos = await page.evaluate(
-      (marca: string, tipo: string, marcaSlug: string) => {
-        return Array.from(
-          document.querySelectorAll<HTMLAnchorElement>('a[href]')
-        )
-          .map(a => {
-            const href = a.getAttribute('href')
-            if (!href) return null
-
-            const regex = new RegExp(
-              `/tabela-fipe/${tipo}/${marcaSlug}/[^/]+$`
-            )
-            if (!regex.test(href)) return null
-
-            const h3 = a.querySelector('h3')
-            if (!h3) return null
-
-            const slug = href.split('/').pop()
-            if (!slug) return null
-
-            const img =
-              a.querySelector('img')?.getAttribute('src') ??
-              a.querySelector('img')?.getAttribute('data-src') ??
-              null
-
-            return {
-              marca,
-              modelo: h3.textContent?.trim() ?? '',
-              slug,
-              link: href.startsWith('http')
-                ? href
-                : `https://www.mobiauto.com.br${href}`,
-              imagem: img
-            }
-          })
-          .filter(Boolean)
-      },
-      marcaNome,
-      tipo,
-      marcaSlug
-    )
-
-    return modelos as ModeloBrowser[]
-  } catch (err) {
-    console.warn(`⚠️ Falha ao carregar modelos → ${marcaSlug}`)
-    return []
-  } finally {
-    await page.close()
-  }
-}
-
-/* =======================
-   ANOS + IMAGEM GRANDE
-======================= */
-
-async function getAnosEImagemDoModelo(
-  browser: Browser,
-  tipo: 'carros' | 'motos' | 'caminhoes',
-  marcaSlug: string,
-  modeloSlug: string
-): Promise<{ anos: number[]; imagem: string | null }> {
-  const page = await browser.newPage()
-
-  try {
-    const url = `${BASE_URL}/tabela-fipe/${tipo}/${marcaSlug}/${modeloSlug}`
-
-    await page.goto(url, {
-      waitUntil: 'domcontentloaded',
-      timeout: 45000
-    })
-
-    await Promise.race([
-      page.waitForSelector('a[href$="/1990"], a[href$="/2000"], a[href$="/2010"]', {
-        timeout: 15000
-      }),
-      new Promise(res => setTimeout(res, 15000))
-    ])
-
-    return await page.evaluate(() => {
-      const anos = new Set<number>()
-
-      document.querySelectorAll<HTMLAnchorElement>('a[href]').forEach(a => {
-        const match = a.href.match(/\/(\d{4})$/)
-        if (match) {
-          const ano = Number(match[1])
-          if (ano > 1900 && ano < 2100) anos.add(ano)
-        }
-      })
-
-      // 🎯 imagem grande do modelo
-      const imagem =
-        document.querySelector<HTMLImageElement>(
-          'div.css-1vthgnu img'
-        )?.src ??
-        document.querySelector<HTMLMetaElement>(
-          'meta[property="og:image"]'
-        )?.content ??
-        null
-
-      return {
-        anos: Array.from(anos).sort(),
-        imagem
-      }
-    })
-  } catch {
-    console.warn(
-      `⚠️ Falha ao buscar anos/imagem → ${marcaSlug}/${modeloSlug}`
-    )
-    return { anos: [], imagem: null }
-  } finally {
-    await page.close()
-  }
-}
-
-/* =======================
-   MAIN
-======================= */
-
-async function main() {
-  const marcas: MarcaJson[] = JSON.parse(
-    await readFile('marcas-mobiauto.json', 'utf-8')
-  )
-
-  const browser = await puppeteer.launch({
-    headless: false,
-    defaultViewport: null
   })
 
-  const resultado: ModeloFinal[] = []
-
-  for (const marca of marcas) {
-    const tipoUrl = tipoToUrl(marca.tipo)
-    const marcaSlug = slugify(marca.nome)
-
-    console.log(`🔎 ${marca.tipo} | ${marca.nome}`)
-
-    const modelos = await getModelos(
-      browser,
-      tipoUrl,
-      marcaSlug,
-      marca.nome
-    )
-
-    console.log(` ➜ ${modelos.length} modelos`)
-
-    for (const modelo of modelos) {
-      const { anos, imagem } = await getAnosEImagemDoModelo(
-        browser,
-        tipoUrl,
-        marcaSlug,
-        modelo.slug
-      )
-
-      if (!anos.length) continue
-
-      resultado.push({
-        marca: marca.nome,
-        tipo: marca.tipo,
-        modelo: modelo.modelo,
-        slug: modelo.slug,
-        link: modelo.link,
-        imagem: imagem ?? modelo.imagem ?? null,
-        anos
-      })
-
-      console.log(`   📅 ${modelo.modelo}: [${anos.join(', ')}]`)
-    }
-  }
-
   await browser.close()
-
-  await writeFile(
-    'modelos-mobiauto.json',
-    JSON.stringify(resultado, null, 2),
-    'utf-8'
-  )
-
-  console.log(`✅ JSON final gerado com ${resultado.length} modelos`)
+  return versoes
 }
 
-main().catch(err => {
-  console.error(err)
-  process.exit(1)
+async function getFichaTecnica(url: string) {
+  const browser = await puppeteer.launch({ headless: true })
+  const page = await browser.newPage()
+
+  await page.goto(url, { waitUntil: 'networkidle2' })
+
+  const html = await page.content()
+  const $ = cheerio.load(html)
+
+  const ficha: Record<string, string> = {}
+
+  $('table tbody tr').each((_, tr) => {
+    $(tr)
+      .find('td')
+      .each((_, td) => {
+        const label = $(td)
+          .find('span')
+          .first()
+          .text()
+          .replace(':', '')
+          .trim()
+
+        const value = $(td).find('span').last().text().trim()
+
+        if (label && value) ficha[label] = value
+      })
+  })
+
+  await browser.close()
+  return ficha
+}
+
+/* =========================
+   RUNNER (10 EM 10)
+========================= */
+
+async function run() {
+  ensureDataDir()
+
+  const progress = loadProgress()
+  const output = loadOutput()
+
+  console.log('🔎 Buscando versões...')
+  const versoes = await getVersoesPorAno(URL_ANO)
+
+  const startIndex = progress.ultimaVersaoIndex || 0
+  const endIndex = Math.min(startIndex + BATCH_SIZE, versoes.length)
+
+  console.log(
+    `▶️ Processando versões ${startIndex + 1} até ${endIndex} de ${
+      versoes.length
+    }`
+  )
+
+  for (let i = startIndex; i < endIndex; i++) {
+    const versao = versoes[i]
+
+    console.log(`🚗 ${i + 1} - ${versao.nome}`)
+
+    const fichaTecnica = await getFichaTecnica(versao.url)
+
+    output.push({
+      ...versao,
+      fichaTecnica
+    })
+
+    saveOutput(output)
+    saveProgress({ ultimaVersaoIndex: i + 1 })
+
+    // delay anti-bot
+    await sleep(2000)
+  }
+
+  if (endIndex >= versoes.length) {
+    console.log('✅ Todas as versões deste ano foram processadas')
+  } else {
+    console.log('⏸️ Lote finalizado, pode rodar novamente para continuar')
+  }
+}
+
+/* =========================
+   START
+========================= */
+
+run().catch(err => {
+  console.error('❌ Erro no scraper:', err)
 })
