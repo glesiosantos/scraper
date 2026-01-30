@@ -1,0 +1,2214 @@
+[
+  {
+    "tipo": "carro",
+    "marca": "Audi",
+    "slug": "audi",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/audi",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089255/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "BMW",
+    "slug": "bmw",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/bmw",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089257/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Chevrolet",
+    "slug": "chevrolet",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/chevrolet",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089244/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Citroën",
+    "slug": "citroen",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/citroen",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089245/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Fiat",
+    "slug": "fiat",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/fiat",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089246/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Ford",
+    "slug": "ford",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/ford",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089247/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Honda",
+    "slug": "honda",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/honda",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089248/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Hyundai",
+    "slug": "hyundai",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/hyundai",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089249/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Jeep",
+    "slug": "jeep",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089250/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Kia",
+    "slug": "kia",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089364/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Kubota",
+    "slug": "kubota",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kubota",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/611646661/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Mitsubishi",
+    "slug": "mitsubishi",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/mitsubishi",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089400/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Nissan",
+    "slug": "nissan",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089251/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Peugeot",
+    "slug": "peugeot",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/peugeot",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64195544/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Renault",
+    "slug": "renault",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/renault",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64195545/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Toyota",
+    "slug": "toyota",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/toyota",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Toyota_logo_%28Red%29.svg/960px-Toyota_logo_%28Red%29.svg.png"
+  },
+  {
+    "tipo": "carro",
+    "marca": "Volkswagen",
+    "slug": "volkswagen",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/volkswagen",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgweGS4usSvEDHSlCPXFUXhLlsCOs3kh5hGQ&s"
+  },
+  {
+    "tipo": "carro",
+    "marca": "AC Cars",
+    "slug": "ac-cars",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/ac-cars",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Acura",
+    "slug": "acura",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/acura",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Agrale",
+    "slug": "agrale",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/agrale",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Alfa Romeo",
+    "slug": "alfa-romeo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/alfa-romeo",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Asia Motors",
+    "slug": "asia-motors",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/asia-motors",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Aston Martin",
+    "slug": "aston-martin",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/aston-martin",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Baby",
+    "slug": "baby",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/baby",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Bentley",
+    "slug": "bentley",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/bentley",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "BRM",
+    "slug": "brm",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/brm",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Bugre",
+    "slug": "bugre",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/bugre",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Buick",
+    "slug": "buick",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/buick",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "BYD",
+    "slug": "byd",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "CAB",
+    "slug": "cab",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/cab",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Cadillac",
+    "slug": "cadillac",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/cadillac",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "CAOA Chery",
+    "slug": "caoa-chery",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Carver",
+    "slug": "carver",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/carver",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Chamonix",
+    "slug": "chamonix",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/chamonix",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Chana",
+    "slug": "chana",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/chana",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Changan",
+    "slug": "changan",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/changan",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Chrysler",
+    "slug": "chrysler",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/chrysler",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "CN Auto",
+    "slug": "cn-auto",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/cn-auto",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Crosslander",
+    "slug": "crosslander",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/crosslander",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "D2D",
+    "slug": "d2d",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/d2d",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Daewoo",
+    "slug": "daewoo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/daewoo",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Daihatsu",
+    "slug": "daihatsu",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/daihatsu",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Denza",
+    "slug": "denza",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/denza",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "DFSK",
+    "slug": "dfsk",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/dfsk",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Dodge",
+    "slug": "dodge",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/dodge",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "DS",
+    "slug": "ds",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/ds",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Effa",
+    "slug": "effa",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Engesa",
+    "slug": "engesa",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/engesa",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Envemo",
+    "slug": "envemo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/envemo",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Fargo",
+    "slug": "fargo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/fargo",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Ferrari",
+    "slug": "ferrari",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/ferrari",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Fibravan",
+    "slug": "fibravan",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/fibravan",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Foton",
+    "slug": "foton",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/foton",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Fyber",
+    "slug": "fyber",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/fyber",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "GAC",
+    "slug": "gac",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/gac",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Geely",
+    "slug": "geely",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "GMC",
+    "slug": "gmc",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/gmc",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Great Wall",
+    "slug": "great-wall",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/great-wall",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Gurgel",
+    "slug": "gurgel",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/gurgel",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "GWM",
+    "slug": "gwm",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/gwm",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Hafei",
+    "slug": "hafei",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/hafei",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Haima",
+    "slug": "haima",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/haima",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "HB",
+    "slug": "hb",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/hb",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Hitech Electric",
+    "slug": "hitech-electric",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/hitech-electric",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Hummer",
+    "slug": "hummer",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/hummer",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Infiniti",
+    "slug": "infiniti",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/infiniti",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Isuzu",
+    "slug": "isuzu",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/isuzu",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Iveco",
+    "slug": "iveco",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/iveco",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "JAC",
+    "slug": "jac",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jac",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Jaecoo",
+    "slug": "jaecoo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jaecoo",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Jaguar",
+    "slug": "jaguar",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jaguar",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Jinbei",
+    "slug": "jinbei",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jinbei",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Jonway",
+    "slug": "jonway",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jonway",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "JPX",
+    "slug": "jpx",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jpx",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Lada",
+    "slug": "lada",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lada",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Lafer",
+    "slug": "lafer",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lafer",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Lamborghini",
+    "slug": "lamborghini",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lamborghini",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Land Rover",
+    "slug": "land-rover",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/land-rover",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Landwind",
+    "slug": "landwind",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/landwind",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Leapmotor",
+    "slug": "leapmotor",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/leapmotor",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Lexus",
+    "slug": "lexus",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lexus",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Lifan",
+    "slug": "lifan",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lifan",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Lincoln",
+    "slug": "lincoln",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lincoln",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Lobini",
+    "slug": "lobini",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lobini",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Lotus",
+    "slug": "lotus",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Mahindra",
+    "slug": "mahindra",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/mahindra",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Maserati",
+    "slug": "maserati",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/maserati",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Matra",
+    "slug": "matra",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/matra",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Mazda",
+    "slug": "mazda",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/mazda",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "McLaren",
+    "slug": "mclaren",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/mclaren",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Mercedes-Benz",
+    "slug": "mercedes-benz",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/mercedes-benz",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "MG",
+    "slug": "mg",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/mg",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "MG Spaic",
+    "slug": "mg-spaic",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/mg-spaic",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "MINI",
+    "slug": "mini",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/mini",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Neta",
+    "slug": "neta",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/neta",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Oldsmobile",
+    "slug": "oldsmobile",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/oldsmobile",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Omoda",
+    "slug": "omoda",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/omoda",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Pagani",
+    "slug": "pagani",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/pagani",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Plymouth",
+    "slug": "plymouth",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/plymouth",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Pontiac",
+    "slug": "pontiac",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/pontiac",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Porsche",
+    "slug": "porsche",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/porsche",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "PUMA",
+    "slug": "puma",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/puma",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Ram",
+    "slug": "ram",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/ram",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "RDK",
+    "slug": "rdk",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/rdk",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Rely",
+    "slug": "rely",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/rely",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Rolls-Royce",
+    "slug": "rolls-royce",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/rolls-royce",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Saab",
+    "slug": "saab",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/saab",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Saturn",
+    "slug": "saturn",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/saturn",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Seat",
+    "slug": "seat",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/seat",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Seres",
+    "slug": "seres",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/seres",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Shineray",
+    "slug": "shineray",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/shineray",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Shuanghuan",
+    "slug": "shuanghuan",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/shuanghuan",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Smart",
+    "slug": "smart",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/smart",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Spyker",
+    "slug": "spyker",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/spyker",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "SsangYong",
+    "slug": "ssangyong",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/ssangyong",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Subaru",
+    "slug": "subaru",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/subaru",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Sunbeam",
+    "slug": "sunbeam",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/sunbeam",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Suzuki",
+    "slug": "suzuki",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/suzuki",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "TAC Motors",
+    "slug": "tac-motors",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/tac-motors",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Tesla",
+    "slug": "tesla",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/tesla",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Troller",
+    "slug": "troller",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/troller",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Volvo",
+    "slug": "volvo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/volvo",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Wake",
+    "slug": "wake",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/wake",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Walk",
+    "slug": "walk",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/walk",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Willys",
+    "slug": "willys",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/willys",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Zeekr",
+    "slug": "zeekr",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/zeekr",
+    "imagem": null
+  },
+  {
+    "tipo": "carro",
+    "marca": "Zeepo",
+    "slug": "zeepo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/carros/zeepo",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "BMW",
+    "slug": "bmw",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089343/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Dafra",
+    "slug": "dafra",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089261/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Ducati",
+    "slug": "ducati",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089370/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Haojue",
+    "slug": "haojue",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/haojue",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64143947/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Harley-Davidson",
+    "slug": "harley-davidson",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/harley-davidson",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64143948/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Honda",
+    "slug": "honda",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/honda",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/535755388/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Kawasaki",
+    "slug": "kawasaki",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/kawasaki",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144941/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "KTM",
+    "slug": "ktm",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ktm",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144950/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Shineray",
+    "slug": "shineray",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144304/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Suzuki",
+    "slug": "suzuki",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/suzuki",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089263/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Triumph",
+    "slug": "triumph",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/triumph",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144301/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Yamaha",
+    "slug": "yamaha",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/yamaha",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/398780464/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Agrale",
+    "slug": "agrale",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/agrale",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089265/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Aima",
+    "slug": "aima",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/aima",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/280719322/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Amazon Motors",
+    "slug": "amazon-motors",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/amazon-motors",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/77692795/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "moto",
+    "marca": "Amazonas",
+    "slug": "amazonas",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/amazonas",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Aprilia",
+    "slug": "aprilia",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/aprilia",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Asia",
+    "slug": "asia",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/asia",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Avelloz",
+    "slug": "avelloz",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/avelloz",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bajaj",
+    "slug": "bajaj",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bajaj",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bashan",
+    "slug": "bashan",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bashan",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bashi Motors",
+    "slug": "bashi-motors",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bashi-motors",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bee",
+    "slug": "bee",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bee",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Benelli",
+    "slug": "benelli",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/benelli",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bimota",
+    "slug": "bimota",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bimota",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Birelli",
+    "slug": "birelli",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/birelli",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Black Hawk",
+    "slug": "black-hawk",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/black-hawk",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bogussi",
+    "slug": "bogussi",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bogussi",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Brascycle",
+    "slug": "brascycle",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/brascycle",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Brava",
+    "slug": "brava",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/brava",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bravax",
+    "slug": "bravax",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bravax",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "BRP",
+    "slug": "brp",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/brp",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Buell",
+    "slug": "buell",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/buell",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bueno",
+    "slug": "bueno",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bueno",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Bull",
+    "slug": "bull",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bull",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "By Cristo",
+    "slug": "by-cristo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/by-cristo",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Cagiva",
+    "slug": "cagiva",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/cagiva",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Casadotriciclo",
+    "slug": "casadotriciclo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/casadotriciclo",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "CF Motos",
+    "slug": "cf-motos",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/cf-motos",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Chituma",
+    "slug": "chituma",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/chituma",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Dacuti",
+    "slug": "dacuti",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dacuti",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Dayang",
+    "slug": "dayang",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dayang",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Dayun",
+    "slug": "dayun",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dayun",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Dinli",
+    "slug": "dinli",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dinli",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Eagle",
+    "slug": "eagle",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/eagle",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Eletrick",
+    "slug": "eletrick",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/eletrick",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Fant One",
+    "slug": "fant-one",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/fant-one",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Fever",
+    "slug": "fever",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/fever",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Fox Racing",
+    "slug": "fox-racing",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/fox-racing",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Fusco Motosegura",
+    "slug": "fusco-motosegura",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/fusco-motosegura",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "FYM",
+    "slug": "fym",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/fym",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Garini",
+    "slug": "garini",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/garini",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Garinni",
+    "slug": "garinni",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/garinni",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Gas Gas",
+    "slug": "gas-gas",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/gas-gas",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "GLOOV",
+    "slug": "gloov",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/gloov",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Green Motos",
+    "slug": "green-motos",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/green-motos",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Gurgel",
+    "slug": "gurgel",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/gurgel",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Haobao",
+    "slug": "haobao",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/haobao",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Hartford",
+    "slug": "hartford",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/hartford",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Hebei",
+    "slug": "hebei",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/hebei",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Hisun",
+    "slug": "hisun",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/hisun",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Hot Snake",
+    "slug": "hot-snake",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/hot-snake",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Husqvarna",
+    "slug": "husqvarna",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/husqvarna",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Indian",
+    "slug": "indian",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/indian",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Iros",
+    "slug": "iros",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/iros",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "iRun",
+    "slug": "irun",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/irun",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Jialing",
+    "slug": "jialing",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/jialing",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Johnny",
+    "slug": "johnny",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/johnny",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Johnnypag",
+    "slug": "johnnypag",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/johnnypag",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Jonny",
+    "slug": "jonny",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/jonny",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Jonway",
+    "slug": "jonway",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/jonway",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Kahena",
+    "slug": "kahena",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/kahena",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Kappak",
+    "slug": "kappak",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/kappak",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Kasinski",
+    "slug": "kasinski",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/kasinski",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Kin",
+    "slug": "kin",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/kin",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Kingger",
+    "slug": "kingger",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/kingger",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Kymco",
+    "slug": "kymco",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/kymco",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Kzuki",
+    "slug": "kzuki",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/kzuki",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Leopard",
+    "slug": "leopard",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/leopard",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Leva Motors",
+    "slug": "leva-motors",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/leva-motors",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Lifan",
+    "slug": "lifan",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/lifan",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Linzhi",
+    "slug": "linzhi",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/linzhi",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "LML",
+    "slug": "lml",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/lml",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Lon-V",
+    "slug": "lon-v",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/lon-v",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Magrão Triciclos",
+    "slug": "magrao-triciclos",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/magrao-triciclos",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Malaguti",
+    "slug": "malaguti",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/malaguti",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Miza",
+    "slug": "miza",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/miza",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Mobyou",
+    "slug": "mobyou",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/mobyou",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Moto Bravia",
+    "slug": "moto-bravia",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/moto-bravia",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Moto Guzzi",
+    "slug": "moto-guzzi",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/moto-guzzi",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Moto Morini",
+    "slug": "moto-morini",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/moto-morini",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Motocar",
+    "slug": "motocar",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/motocar",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "MotoChefe",
+    "slug": "motochefe",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/motochefe",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Motor-Z",
+    "slug": "motor-z",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/motor-z",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Motorino",
+    "slug": "motorino",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/motorino",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Motostar",
+    "slug": "motostar",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/motostar",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Mottu",
+    "slug": "mottu",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/mottu",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Mrx",
+    "slug": "mrx",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/mrx",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "MS Eletric",
+    "slug": "ms-eletric",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ms-eletric",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Muller",
+    "slug": "muller",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/muller",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Mundial",
+    "slug": "mundial",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/mundial",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "MUODOU",
+    "slug": "muodou",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/muodou",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Mv Agusta",
+    "slug": "mv-agusta",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/mv-agusta",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Mvk",
+    "slug": "mvk",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/mvk",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "MXF",
+    "slug": "mxf",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/mxf",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Neon",
+    "slug": "neon",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/neon",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "NIU",
+    "slug": "niu",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/niu",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Omoto",
+    "slug": "omoto",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/omoto",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Panyu",
+    "slug": "panyu",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/panyu",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Pegassi",
+    "slug": "pegassi",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/pegassi",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Peugeot",
+    "slug": "peugeot",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/peugeot",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Piaggio",
+    "slug": "piaggio",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/piaggio",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Polaris",
+    "slug": "polaris",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/polaris",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "RDK",
+    "slug": "rdk",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/rdk",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Regal Raptor",
+    "slug": "regal-raptor",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/regal-raptor",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Riguete",
+    "slug": "riguete",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/riguete",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Royal Enfield",
+    "slug": "royal-enfield",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/royal-enfield",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Sachs",
+    "slug": "sachs",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/sachs",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Sangong Landun",
+    "slug": "sangong-landun",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/sangong-landun",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Sanyang",
+    "slug": "sanyang",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/sanyang",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Sazaki",
+    "slug": "sazaki",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/sazaki",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Smarda",
+    "slug": "smarda",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/smarda",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Sousa Motos",
+    "slug": "sousa-motos",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/sousa-motos",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Starvolt",
+    "slug": "starvolt",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/starvolt",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "StreetGo",
+    "slug": "streetgo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/streetgo",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Sudu",
+    "slug": "sudu",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/sudu",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Sundown",
+    "slug": "sundown",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/sundown",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Super Soco",
+    "slug": "super-soco",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/super-soco",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Targos",
+    "slug": "targos",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/targos",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Tecmoto",
+    "slug": "tecmoto",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/tecmoto",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Tiger",
+    "slug": "tiger",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/tiger",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "TM Racing",
+    "slug": "tm-racing",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/tm-racing",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Traxx",
+    "slug": "traxx",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/traxx",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Us1",
+    "slug": "us1",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/us1",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Ventane Motors",
+    "slug": "ventane-motors",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ventane-motors",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Vento",
+    "slug": "vento",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/vento",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Ventura",
+    "slug": "ventura",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ventura",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Volcano",
+    "slug": "volcano",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/volcano",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Voltz",
+    "slug": "voltz",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/voltz",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Watts",
+    "slug": "watts",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/watts",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Winner",
+    "slug": "winner",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/winner",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Wuyang",
+    "slug": "wuyang",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/wuyang",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Xara",
+    "slug": "xara",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/xara",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Xinling",
+    "slug": "xinling",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/xinling",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Yinxiang",
+    "slug": "yinxiang",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/yinxiang",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Yiying",
+    "slug": "yiying",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/yiying",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Zanella",
+    "slug": "zanella",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/zanella",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Zero",
+    "slug": "zero",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/zero",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Zhongyu",
+    "slug": "zhongyu",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/zhongyu",
+    "imagem": null
+  },
+  {
+    "tipo": "moto",
+    "marca": "Zontes",
+    "slug": "zontes",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/motos/zontes",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Agrale",
+    "slug": "agrale",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/agrale",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089302/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Ford",
+    "slug": "ford",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089269/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Iveco",
+    "slug": "iveco",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/iveco",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089276/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "MAN",
+    "slug": "man",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/man",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089283/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Mercedes-Benz",
+    "slug": "mercedes-benz",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/mercedes-benz",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089285/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Scania",
+    "slug": "scania",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/scania",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089286/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Sinotruk",
+    "slug": "sinotruk",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/sinotruk",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089299/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Volkswagen",
+    "slug": "volkswagen",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/volkswagen",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089300/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Volvo",
+    "slug": "volvo",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/volvo",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089301/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Chevrolet",
+    "slug": "chevrolet",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089303/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "DAF",
+    "slug": "daf",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089304/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Effa (Jiangling)",
+    "slug": "effa-jiangling",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/effa-jiangling",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089305/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Facchini",
+    "slug": "facchini",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/facchini",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/77692795/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Fiat",
+    "slug": "fiat",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/fiat",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/527385112/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Foton Motors",
+    "slug": "foton-motors",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/foton-motors",
+    "imagem": "https://image1.mobiauto.com.br/images/api/images/v1.0/77692795/transform/fl_progressive,f_webp,q_70,w_96"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Gmc",
+    "slug": "gmc",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/gmc",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Guerra",
+    "slug": "guerra",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/guerra",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Hyundai",
+    "slug": "hyundai",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "International",
+    "slug": "international",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/international",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "JAC",
+    "slug": "jac",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/jac",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Kia",
+    "slug": "kia",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Librelato",
+    "slug": "librelato",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/librelato",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Marcopolo-Volare",
+    "slug": "marcopolo-volare",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/marcopolo-volare",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Navistar",
+    "slug": "navistar",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/navistar",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Niju",
+    "slug": "niju",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/niju",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Noma",
+    "slug": "noma",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/noma",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Nostra",
+    "slug": "nostra",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/nostra",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Pastre",
+    "slug": "pastre",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/pastre",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Puma-Alfa Metais",
+    "slug": "puma-alfa-metais",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/puma-alfa-metais",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Randon",
+    "slug": "randon",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/randon",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Recrusul",
+    "slug": "recrusul",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/recrusul",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VoYMAJ7Zw2AVhKOZx3H634Pc8VPlZIcYoA&s"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Renault",
+    "slug": "renault",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/renault",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgFD4axLWaHuQMv6806FwTdy9hZEI8RWienA&s"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Rodofort",
+    "slug": "rodofort",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/rodofort",
+    "imagem": "https://cdn.awsli.com.br/2711/2711064/marca/21097821-uujjdq27zk.jpg"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Saab-Scania",
+    "slug": "saab-scania",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/saab-scania",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxn46s1hJeqYvQQKUf6mQrMLvabSfoJ0Z7RRXP5u58lg&s"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Scania-Vabis",
+    "slug": "scania-vabis",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/scania-vabis",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3GCepB3DAh8OpFuInLAlby9flkj1loDd4YQ&s"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Selva",
+    "slug": "selva",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/selva",
+    "imagem": "https://images.seeklogo.com/logo-png/18/2/selva-marine-logo-png_seeklogo-189181.png"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Shacman",
+    "slug": "shacman",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/shacman",
+    "imagem": "data:image/png;base64,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"
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Truck",
+    "slug": "truck",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/truck",
+    "imagem": null
+  },
+  {
+    "tipo": "caminhao",
+    "marca": "Vivan",
+    "slug": "vivan",
+    "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/vivan",
+    "imagem": "data:image/jpeg;base64,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SOTebDy6eC8tATt2vhv5MnS3of8AbY5nkdHfHaP0qD3rFtio4bRB6/REVYyCIiAIiIAiIgC+OF8ivqIDjqHkywqKqFXHT2ka7WYwvcYmO2hzYzkLHYNg3AZLsURS3kBcfivJphdRVGrlhJlc4OkaJHiN7hvcwZG+/p3rsEUZB8AX1EQHL6U6A4fiEjZamI860W143uY5zRsa63hD+4W/w3D4qeJkEEbY4WCzGsFgB/u/eslEyDm9LNCKHETG6qjJkYLNfG8sdqk3LSRtF+nZms1mjtO2ljo4mmOnZbVbGejPMm5NybknMlbdEkupYfBKbTyjnPzMpemT2h8FnYTgcVO5xjc/ugAQ5wIy2HZt2/atqi0wtqUH1RikzbO4qzWJSbRyD+TbCzWdnGA88ZOcLdd3NF976/N7L3ztsvuWXpZoPQ4iY3VUbjJGCGPje5jtUm5abZEX6dma6RFvyzSYeD4XDSwR09OwMhjFmNBJ33JJOZJJJJPSsxEUA/mSMOBa4AtIIIIuCDtBG8Lj8O5McKgqm1ccBEjH68bTI8xscMw5rCbZHZuGVtgXZImQEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQH//2Q=="
+  }
+]
