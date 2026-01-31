@@ -161,10 +161,7 @@ async function getModelos(
 
   try {
     const url = `${BASE_URL}/tabela-fipe/${tipoUrl}/${marcaSlug}`
-    await page.goto(url, {
-      waitUntil: 'domcontentloaded',
-      timeout: 45000
-    })
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 })
 
     const modelos = await page.evaluate(
       (marca: string, tipo: string, marcaSlug: string) => {
@@ -232,26 +229,30 @@ async function getDadosDoModelo(
 
   try {
     const url = `${BASE_URL}/tabela-fipe/${tipoUrl}/${marcaSlug}/${modeloSlug}`
+
     await page.goto(url, {
-      waitUntil: 'domcontentloaded',
+      waitUntil: 'networkidle2',
       timeout: 45000
     })
 
+    await page.waitForSelector(
+      'img[src*="image1.mobiauto.com.br/images/api/images"]',
+      { timeout: 15000 }
+    )
+
     return await page.evaluate(() => {
-      /* ========= IMAGEM DO MODELO ========= */
       let imagem: string | null = null
 
-      const imagens = Array.from(
+      const imgs = Array.from(
         document.querySelectorAll<HTMLImageElement>(
           'img[src*="image1.mobiauto.com.br/images/api/images"]'
         )
       )
 
-      for (const img of imagens) {
-        const alt = img.getAttribute('alt')?.toLowerCase() ?? ''
-        const src = img.getAttribute('src')
+      for (const img of imgs) {
+        const alt = img.alt?.toLowerCase() ?? ''
+        const src = img.src
 
-        // ignora logos e ícones
         if (
           src &&
           alt &&
@@ -263,7 +264,6 @@ async function getDadosDoModelo(
         }
       }
 
-      /* ========= ANOS ========= */
       const anos = new Set<number>()
 
       document
@@ -287,6 +287,7 @@ async function getDadosDoModelo(
     await page.close()
   }
 }
+
 
 async function main() {
 
