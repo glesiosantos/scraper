@@ -9,9 +9,15 @@ import { existsSync } from 'fs'
 ======================= */
 
 const BASE_URL = 'https://www.mobiauto.com.br'
-const DATA_DIR = path.resolve(__dirname, '../data')
+
+
+const ROOT_DIR = path.resolve(__dirname, '..')
+const DATA_DIR = path.join(ROOT_DIR, 'data')
+
+const MARCAS_FILE = path.join(DATA_DIR, 'marcas.json')
 const OUTPUT_FILE = path.join(DATA_DIR, 'modelos.json')
 const STATE_FILE = path.join(DATA_DIR, 'modelos.state.json')
+
 const CHECKPOINT_INTERVAL = 50
 
 const IMAGEM_PADRAO = {
@@ -78,6 +84,10 @@ function isModeloBrowser(
 /* =======================
    HELPERS
 ======================= */
+
+async function garantirDataDir() {
+  await mkdir(DATA_DIR, { recursive: true })
+}
 
 function normalizarTipo(
   tipo: MarcaJson['tipo']
@@ -293,8 +303,10 @@ async function main() {
 
   await garantirPastaData()
 
+  await garantirDataDir()
+
   const marcas: MarcaJson[] = JSON.parse(
-    await readFile('../data/marcas.json', 'utf-8')
+    await readFile(MARCAS_FILE, 'utf-8')
   )
 
   const browser = await puppeteer.launch({
