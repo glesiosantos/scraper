@@ -29,6 +29,26 @@ function ensureDir() {
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 
+async function autoScroll(page: puppeteer.Page) {
+  await page.evaluate(async () => {
+    await new Promise<void>((resolve) => {
+      let totalHeight = 0
+      const distance = 500
+
+      const timer = setInterval(() => {
+        const scrollHeight = document.body.scrollHeight
+        window.scrollBy(0, distance)
+        totalHeight += distance
+
+        if (totalHeight >= scrollHeight) {
+          clearInterval(timer)
+          resolve()
+        }
+      }, 200)
+    })
+  })
+}
+
 /* =========================
    SCRAPER
 ========================= */
@@ -48,6 +68,15 @@ async function getMarcasPorTipo(
 
   await page.waitForSelector('ul li a', { timeout: 30000 })
 
+  // força carregar lazy
+  await autoScroll(page)
+  await sleep(2000)
+
+  // espera imagens aparecerem
+  await page.waitForFunction(() => {
+    return document.querySelectorAll('ul li img').length > 20
+  })
+
   const marcas = await page.$$eval('ul li a', (links, tipo) => {
     return links
       .map(a => {
@@ -61,10 +90,12 @@ async function getMarcasPorTipo(
         const slugMarca = href.split('/').pop() || ''
 
         const img = a.querySelector('img') as HTMLImageElement | null
+
+        // prioridade atributos lazy
         const imagem =
-          img?.src ||
           img?.getAttribute('data-src') ||
           img?.getAttribute('data-lazy') ||
+          img?.getAttribute('src') ||
           null
 
         return {
@@ -77,6 +108,8 @@ async function getMarcasPorTipo(
       })
       .filter(Boolean)
   }, tipo)
+
+  console.log(`✅ ${marcas.length} marcas encontradas em ${tipo}`)
 
   return marcas
 }
@@ -94,6 +127,7 @@ async function run() {
   })
 
   const page = await browser.newPage()
+
   await page.setUserAgent(
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36'
   )
@@ -101,16 +135,20 @@ async function run() {
   const resultado: any[] = []
 
   for (const t of TIPOS) {
-    const marcas = await getMarcasPorTipo(page, t.tipo, t.slug)
-    resultado.push(...marcas)
-    await sleep(3000)
+    try {
+      const marcas = await getMarcasPorTipo(page, t.tipo, t.slug)
+      resultado.push(...marcas)
+      await sleep(2000)
+    } catch (err) {
+      console.error(`❌ erro ao buscar ${t.tipo}`, err)
+    }
   }
 
   await browser.close()
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultado, null, 2))
 
-  console.log(`\n✅ ${resultado.length} marcas salvas em:`)
+  console.log(`\n🎉 ${resultado.length} marcas salvas em:`)
   console.log(`📁 ${OUTPUT_FILE}`)
 }
 

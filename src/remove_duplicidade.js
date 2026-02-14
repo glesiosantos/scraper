@@ -1,9 +1,15 @@
 import fs from 'fs'
 import path from 'path'
+import { fileURLToPath } from 'url'
 
-// ===== CONFIG =====
-const INPUT_FILE = path.resolve('../modelos-mobiauto.json')
-const OUTPUT_FILE = path.resolve('../data/modelos.json')
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+const INPUT_FILE = path.join(__dirname, '../data/versoes-processadas.json')
+const OUTPUT_FILE = path.join(__dirname, '../data/versoes-limpo.json')
+
+console.log('📥 INPUT:', INPUT_FILE)
+console.log('📤 OUTPUT:', OUTPUT_FILE)
 
 // ===== LEITURA =====
 const raw = fs.readFileSync(INPUT_FILE, 'utf-8')
@@ -18,27 +24,53 @@ for (const item of data) {
   if (!map.has(chave)) {
     map.set(chave, {
       ...item,
-      anos: [...new Set(item.anos)]
+      anos: [...new Set(item.anos ?? [])].sort((a, b) => a - b)
     })
   } else {
     const existente = map.get(chave)
 
+    // une anos
     existente.anos = Array.from(
-      new Set([...existente.anos, ...item.anos])
+      new Set([...(existente.anos ?? []), ...(item.anos ?? [])])
     ).sort((a, b) => a - b)
+
+    // 🧠 mantém a melhor imagem
+    if (!existente.imagem && item.imagem) {
+      existente.imagem = item.imagem
+    }
+
+    // mantém link se faltar
+    if (!existente.link && item.link) {
+      existente.link = item.link
+    }
+
+    // mantém modelo se faltar
+    if (!existente.modelo && item.modelo) {
+      existente.modelo = item.modelo
+    }
+
+    // mantém marca se faltar
+    if (!existente.marca && item.marca) {
+      existente.marca = item.marca
+    }
+
+    // mantém tipo se faltar
+    if (!existente.tipo && item.tipo) {
+      existente.tipo = item.tipo
+    }
   }
 }
 
 // ===== RESULTADO =====
 const resultado = Array.from(map.values())
 
-// ===== SALVAR ARQUIVO =====
+// ===== SALVAR =====
 fs.writeFileSync(
   OUTPUT_FILE,
   JSON.stringify(resultado, null, 2),
   'utf-8'
 )
 
-console.log(`✅ Arquivo gerado com sucesso: ${OUTPUT_FILE}`)
-console.log(`📊 Antes: ${data.length} registros`)
-console.log(`📊 Depois: ${resultado.length} registros`)
+console.log(`\n✅ Arquivo gerado com sucesso`)
+console.log(`📊 Antes: ${data.length}`)
+console.log(`📊 Depois: ${resultado.length}`)
