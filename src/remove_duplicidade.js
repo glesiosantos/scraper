@@ -5,8 +5,8 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const INPUT_FILE = path.join(__dirname, '../data/versoes-processadas.json')
-const OUTPUT_FILE = path.join(__dirname, '../data/versoes-limpo.json')
+const INPUT_FILE = path.join(__dirname, '../data/modelos.json')
+const OUTPUT_FILE = path.join(__dirname, '../data/modelos-limpo.json')
 
 console.log('📥 INPUT:', INPUT_FILE)
 console.log('📤 OUTPUT:', OUTPUT_FILE)

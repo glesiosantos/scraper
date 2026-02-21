@@ -1,10 +1,10 @@
 import path from 'path'
 import fs from 'fs'
-import puppeteer from 'puppeteer'
+import puppeteer, { Browser, Page } from 'puppeteer'
 import * as cheerio from 'cheerio'
 
 /* =========================
-   CONFIGURAÇÕES
+   CONFIG
 ========================= */
 
 const DATA_DIR = path.resolve(__dirname, '../data')
@@ -14,6 +14,7 @@ const OUTPUT_FILE = path.join(DATA_DIR, 'versoes-processadas.json')
 const PROGRESS_FILE = path.join(DATA_DIR, 'progresso.json')
 
 const BATCH_SIZE = 10
+const DELAY_BETWEEN_REQUESTS = 1500
 
 /* =========================
    UTILS
@@ -25,13 +26,13 @@ function ensureDir() {
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR)
 }
 
-function loadJSON(path: string, fallback: any) {
-  if (!fs.existsSync(path)) return fallback
-  return JSON.parse(fs.readFileSync(path, 'utf-8'))
+function loadJSON(pathFile: string, fallback: any) {
+  if (!fs.existsSync(pathFile)) return fallback
+  return JSON.parse(fs.readFileSync(pathFile, 'utf-8'))
 }
 
-function saveJSON(path: string, data: any) {
-  fs.writeFileSync(path, JSON.stringify(data, null, 2))
+function saveJSON(pathFile: string, data: any) {
+  fs.writeFileSync(pathFile, JSON.stringify(data, null, 2))
 }
 
 async function withRetry<T>(
@@ -53,16 +54,15 @@ async function withRetry<T>(
    SCRAPERS
 ========================= */
 
-async function getVersoesPorAno(url: string) {
-  const browser = await puppeteer.launch({ headless: true })
-  const page = await browser.newPage()
-
+async function getVersoesPorAno(page: Page, url: string) {
   await page.goto(url, {
-    waitUntil: 'domcontentloaded',
+    waitUntil: 'networkidle2',
     timeout: 60000
   })
 
-  const $ = cheerio.load(await page.content())
+  const html = await page.content()
+  const $ = cheerio.load(html)
+
   const versoes: any[] = []
 
   $('tbody tr').each((_, tr) => {
@@ -80,76 +80,81 @@ async function getVersoesPorAno(url: string) {
     })
   })
 
-  await browser.close()
   return versoes
 }
 
-async function getFichaTecnica(url: string) {
-  const browser = await puppeteer.launch({ headless: true })
-  const page = await browser.newPage()
-
+async function getFichaTecnica(page: Page, url: string) {
   await page.goto(url, {
-    waitUntil: 'domcontentloaded',
+    waitUntil: 'networkidle2',
     timeout: 60000
   })
 
-  const $ = cheerio.load(await page.content())
+  const html = await page.content()
+  const $ = cheerio.load(html)
+
   const ficha: Record<string, string> = {}
 
   $('table tbody tr').each((_, tr) => {
-    $(tr).find('td').each((_, td) => {
-      const label = $(td)
-        .find('span')
-        .first()
-        .text()
-        .replace(':', '')
-        .trim()
+    const tds = $(tr).find('td')
 
-      const value = $(td).find('span').last().text().trim()
+    if (tds.length >= 2) {
+      const label = $(tds[0]).text().replace(':', '').trim()
+      const value = $(tds[1]).text().trim()
 
       if (label && value) ficha[label] = value
-    })
+    }
   })
 
-  await browser.close()
   return ficha
 }
 
 /* =========================
-   RUNNER GLOBAL
+   RUNNER POR TIPO
 ========================= */
 
-async function run() {
+async function runPorTipo(tipo: 'carro' | 'moto' | 'caminhao') {
   ensureDir()
 
   const rawModelos = loadJSON(MODELOS_FILE, [])
-  // 🔥 NORMALIZAÇÃO
-  const modelos = Array.isArray(rawModelos) ? rawModelos : [rawModelos]
+  const modelos = rawModelos.filter((m: any) => m.tipo === tipo)
+
+  if (!modelos.length) {
+    console.log(`❌ Nenhum modelo encontrado para tipo: ${tipo}`)
+    return
+  }
 
   const output = loadJSON(OUTPUT_FILE, [])
-
-  console.log('📦 MODELOS CARREGADOS:', modelos.length)
-  console.log('📁 Caminho modelos.json:', MODELOS_FILE)
-
   const progress = loadJSON(PROGRESS_FILE, {
+    tipo,
     modeloIndex: 0,
     anoIndex: 0,
     versaoIndex: 0
   })
+
+  console.log(`\n🚀 PROCESSANDO TIPO: ${tipo.toUpperCase()}`)
+  console.log(`📦 Modelos encontrados: ${modelos.length}`)
+
+  const browser: Browser = await puppeteer.launch({
+    headless: true
+  })
+
+  const page = await browser.newPage()
 
   for (let m = progress.modeloIndex; m < modelos.length; m++) {
     const modelo = modelos[m]
 
     for (let a = progress.anoIndex; a < modelo.anos.length; a++) {
       const ano = modelo.anos[a]
-
-      // 🔴 CORREÇÃO PRINCIPAL: usar o link base do JSON
       const urlAno = `${modelo.link}/${ano}`
 
       console.log(`\n🚘 ${modelo.marca} ${modelo.modelo} ${ano}`)
       console.log(`🔗 ${urlAno}`)
 
-      const versoes = await getVersoesPorAno(urlAno)
+      const versoes = await withRetry(
+        () => getVersoesPorAno(page, urlAno),
+        3,
+        5000
+      )
 
       const start = progress.versaoIndex
       const end = Math.min(start + BATCH_SIZE, versoes.length)
@@ -160,55 +165,70 @@ async function run() {
         console.log(`  ▶️ ${v + 1}/${versoes.length} - ${versao.nome}`)
 
         const fichaTecnica = await withRetry(
-          () => getFichaTecnica(versao.url),
+          () => getFichaTecnica(page, versao.url),
           3,
           5000
         )
 
         output.push({
+          tipo,
           marca: modelo.marca,
-          tipo: modelo.tipo,
           modelo: modelo.modelo,
-          slugModelo: modelo.slug,
-          imagemModelo: modelo.imagem,
           ano,
           ...versao,
           fichaTecnica
         })
 
         saveJSON(OUTPUT_FILE, output)
+
         saveJSON(PROGRESS_FILE, {
+          tipo,
           modeloIndex: m,
           anoIndex: a,
           versaoIndex: v + 1
         })
 
-        await sleep(2000)
+        await sleep(DELAY_BETWEEN_REQUESTS)
       }
 
       // terminou o ano
+      progress.versaoIndex = 0
       saveJSON(PROGRESS_FILE, {
+        tipo,
         modeloIndex: m,
         anoIndex: a + 1,
         versaoIndex: 0
       })
     }
 
-    // terminou o modelo
+    // terminou modelo
     saveJSON(PROGRESS_FILE, {
+      tipo,
       modeloIndex: m + 1,
       anoIndex: 0,
       versaoIndex: 0
     })
   }
 
-  console.log('\n✅ TODOS OS MODELOS PROCESSADOS')
+  await browser.close()
+
+  console.log(`\n✅ TIPO ${tipo.toUpperCase()} FINALIZADO`)
 }
 
 /* =========================
    START
 ========================= */
 
-run().catch(err => {
+const tipoArg = process.argv[2] as 'carro' | 'moto' | 'caminhao'
+
+if (!tipoArg) {
+  console.log('❌ Informe o tipo:')
+  console.log('   node scraper.js carro')
+  console.log('   node scraper.js moto')
+  console.log('   node scraper.js caminhao')
+  process.exit(1)
+}
+
+runPorTipo(tipoArg).catch(err => {
   console.error('❌ Erro no scraper:', err)
 })
