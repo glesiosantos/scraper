@@ -1,12 +1,21 @@
-export interface MarcaJson {
-  nome: string
-  slug: string
-  tipo: 'Carro' | 'Moto' | 'Caminhão'
+export interface AnoModelo {
+  ano: string
 }
 
-export interface ModeloAnoJson {
-  marca: string
-  modelo: string
-  imagem?: string
-  ano_versao: number[]
+export interface Resultado {
+  marca: {
+    nome: string
+    logo: string
+  }
+  modelo: {
+    nome: string
+    imagem: string
+    anos: AnoModelo[]
+  }
 }
+
+export const TIPOS = [
+  "carros",
+  "motos",
+  "caminhoes"
+]

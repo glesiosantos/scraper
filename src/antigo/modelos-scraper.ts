@@ -1,6 +1,6 @@
 import { mkdir } from 'fs/promises'
 import path from 'path'
-import puppeteer, { Browser, Page } from 'puppeteer'
+import puppeteer, { Browser } from 'puppeteer'
 import { readFile, writeFile } from 'fs/promises'
 import { existsSync } from 'fs'
 
@@ -10,13 +10,10 @@ import { existsSync } from 'fs'
 
 const BASE_URL = 'https://www.mobiauto.com.br'
 
-
 const ROOT_DIR = path.resolve(__dirname, '..')
 const DATA_DIR = path.join(ROOT_DIR, 'data')
 
 const MARCAS_FILE = path.join(DATA_DIR, 'marcas.json')
-const OUTPUT_FILE = path.join(DATA_DIR, 'modelos.json')
-const STATE_FILE = path.join(DATA_DIR, 'modelos.state.json')
 
 const CHECKPOINT_INTERVAL = 50
 
@@ -64,34 +61,18 @@ type ModeloFinal = {
   anos: number[]
 }
 
-async function garantirPastaData() {
+/* =======================
+   HELPERS
+======================= */
+
+async function garantirDataDir() {
   if (!existsSync(DATA_DIR)) {
     await mkdir(DATA_DIR, { recursive: true })
     console.log(`📁 Pasta criada: ${DATA_DIR}`)
   }
 }
 
-/* =======================
-   TYPE GUARD
-======================= */
-
-function isModeloBrowser(
-  item: ModeloBrowser | null
-): item is ModeloBrowser {
-  return item !== null
-}
-
-/* =======================
-   HELPERS
-======================= */
-
-async function garantirDataDir() {
-  await mkdir(DATA_DIR, { recursive: true })
-}
-
-function normalizarTipo(
-  tipo: MarcaJson['tipo']
-): TipoNormalizado {
+function normalizarTipo(tipo: MarcaJson['tipo']): TipoNormalizado {
   if (tipo === 'carro') return 'Carro'
   if (tipo === 'moto') return 'Moto'
   return 'Caminhão'
@@ -114,47 +95,14 @@ function slugify(text: string): string {
     .replace(/(^-|-$)/g, '')
 }
 
-async function carregarEstado(): Promise<ScraperState> {
-  if (!existsSync(STATE_FILE)) {
-    return { marcaIndex: 0, modeloIndex: 0 }
-  }
-
-  try {
-    return JSON.parse(await readFile(STATE_FILE, 'utf-8'))
-  } catch {
-    return { marcaIndex: 0, modeloIndex: 0 }
-  }
-}
-
-async function salvarEstado(state: ScraperState) {
-  await writeFile(
-    STATE_FILE,
-    JSON.stringify(state, null, 2),
-    'utf-8'
-  )
-}
-
-
 /* =======================
-   CHECKPOINT
+   TYPE GUARD
 ======================= */
 
-async function carregarResultadoParcial(): Promise<ModeloFinal[]> {
-  if (!existsSync(OUTPUT_FILE)) return []
-  try {
-    return JSON.parse(await readFile(OUTPUT_FILE, 'utf-8'))
-  } catch {
-    return []
-  }
-}
-
-async function salvarCheckpoint(resultado: ModeloFinal[]) {
-  await writeFile(
-    OUTPUT_FILE,
-    JSON.stringify(resultado, null, 2),
-    'utf-8'
-  )
-  console.log(`💾 Checkpoint salvo (${resultado.length} modelos)`)
+function isModeloBrowser(
+  item: ModeloBrowser | null
+): item is ModeloBrowser {
+  return item !== null
 }
 
 /* =======================
@@ -182,9 +130,7 @@ async function getModelos(
           if (
             !href ||
             !href.match(
-              new RegExp(
-                `/tabela-fipe/${tipo}/${marcaSlug}/[^/]+$`
-              )
+              new RegExp(`/tabela-fipe/${tipo}/${marcaSlug}/[^/]+$`)
             )
           ) {
             return null
@@ -224,10 +170,6 @@ async function getModelos(
     await page.close()
   }
 }
-
-/* =======================
-   MAIN
-======================= */
 
 async function getDadosDoModelo(
   browser: Browser,
@@ -298,96 +240,152 @@ async function getDadosDoModelo(
   }
 }
 
+/* =======================
+   MAIN
+======================= */
 
 async function main() {
-
-  await garantirPastaData()
-
   await garantirDataDir()
 
-  const marcas: MarcaJson[] = JSON.parse(
-    await readFile(MARCAS_FILE, 'utf-8')
+  const tipoArg = process.argv[2]?.toLowerCase()
+  const tiposValidos = ['carros', 'motos', 'caminhoes']
+
+  if (!tipoArg || !tiposValidos.includes(tipoArg)) {
+    console.log('❌ Informe o tipo:')
+    console.log('   carros | motos | caminhoes')
+    process.exit(1)
+  }
+
+  console.log(`🚀 PROCESSANDO TIPO: ${tipoArg.toUpperCase()}`)
+
+  const OUTPUT_FILE = path.join(
+    DATA_DIR,
+    `modelos.${tipoArg}.json`
   )
 
-  const browser = await puppeteer.launch({
-    headless: true
-  })
-
-  const resultado = await carregarResultadoParcial()
-  const slugsProcessados = new Set(
-    resultado.map(r => `${r.marca}-${r.slug}`)
+  const STATE_FILE = path.join(
+    DATA_DIR,
+    `modelos.${tipoArg}.state.json`
   )
 
-  let contador = 0
-
-  const estado = await carregarEstado()
-
-for (let i = estado.marcaIndex; i < marcas.length; i++) {
-  const marca = marcas[i]
-
-  const tipo = normalizarTipo(marca.tipo)
-  const marcaNome = marca.marca
-  const marcaSlug = marca.slug ?? slugify(marcaNome)
-  const tipoUrl = tipoToUrl(tipo)
-
-  console.log(`🔎 ${tipo} | ${marcaNome}`)
-
-  const modelos = await getModelos(
-    browser,
-    tipoUrl,
-    marcaSlug,
-    marcaNome
-  )
-
-  for (
-    let j = i === estado.marcaIndex ? estado.modeloIndex : 0;
-    j < modelos.length;
-    j++
-  ) {
-    const modelo = modelos[j]
-
-    const { anos, imagem } = await getDadosDoModelo(
-      browser,
-      tipoUrl,
-      marcaSlug,
-      modelo.slug
-    )
-
-    if (!anos.length) continue
-
-    resultado.push({
-      marca: marcaNome,
-      tipo,
-      modelo: modelo.modelo,
-      slug: modelo.slug,
-      link: modelo.link,
-      imagem:
-        imagem ?? IMAGEM_PADRAO[tipo],
-      anos
-    })
-
-    await salvarEstado({
-      marcaIndex: i,
-      modeloIndex: j + 1
-    })
-
-    contador++
-
-    if (contador >= CHECKPOINT_INTERVAL) {
-      await salvarCheckpoint(resultado)
-      contador = 0
+  async function carregarEstado(): Promise<ScraperState> {
+    if (!existsSync(STATE_FILE)) {
+      return { marcaIndex: 0, modeloIndex: 0 }
+    }
+    try {
+      return JSON.parse(await readFile(STATE_FILE, 'utf-8'))
+    } catch {
+      return { marcaIndex: 0, modeloIndex: 0 }
     }
   }
 
-  // terminou a marca → reseta modeloIndex
-  await salvarEstado({
-    marcaIndex: i + 1,
-    modeloIndex: 0
+  async function salvarEstado(state: ScraperState) {
+    await writeFile(
+      STATE_FILE,
+      JSON.stringify(state, null, 2),
+      'utf-8'
+    )
+  }
+
+  async function carregarResultadoParcial(): Promise<ModeloFinal[]> {
+    if (!existsSync(OUTPUT_FILE)) return []
+    try {
+      return JSON.parse(await readFile(OUTPUT_FILE, 'utf-8'))
+    } catch {
+      return []
+    }
+  }
+
+  async function salvarCheckpoint(resultado: ModeloFinal[]) {
+    await writeFile(
+      OUTPUT_FILE,
+      JSON.stringify(resultado, null, 2),
+      'utf-8'
+    )
+    console.log(`💾 Checkpoint salvo (${resultado.length} modelos)`)
+  }
+
+  const todasMarcas: MarcaJson[] = JSON.parse(
+    await readFile(MARCAS_FILE, 'utf-8')
+  )
+
+  const marcas = todasMarcas.filter(m => {
+    if (tipoArg === 'carros') return m.tipo === 'carro'
+    if (tipoArg === 'motos') return m.tipo === 'moto'
+    if (tipoArg === 'caminhoes') return m.tipo === 'caminhao'
+    return false
   })
 
-  await salvarCheckpoint(resultado)
-}
+  const browser = await puppeteer.launch({ headless: true })
 
+  const resultado = await carregarResultadoParcial()
+  const estado = await carregarEstado()
+
+  let contador = 0
+
+  for (let i = estado.marcaIndex; i < marcas.length; i++) {
+    const marca = marcas[i]
+
+    const tipo = normalizarTipo(marca.tipo)
+    const marcaNome = marca.marca
+    const marcaSlug = marca.slug ?? slugify(marcaNome)
+    const tipoUrl = tipoToUrl(tipo)
+
+    console.log(`🔎 ${tipo} | ${marcaNome}`)
+
+    const modelos = await getModelos(
+      browser,
+      tipoUrl,
+      marcaSlug,
+      marcaNome
+    )
+
+    for (
+      let j = i === estado.marcaIndex ? estado.modeloIndex : 0;
+      j < modelos.length;
+      j++
+    ) {
+      const modelo = modelos[j]
+
+      const { anos, imagem } = await getDadosDoModelo(
+        browser,
+        tipoUrl,
+        marcaSlug,
+        modelo.slug
+      )
+
+      if (!anos.length) continue
+
+      resultado.push({
+        marca: marcaNome,
+        tipo,
+        modelo: modelo.modelo,
+        slug: modelo.slug,
+        link: modelo.link,
+        imagem: imagem ?? IMAGEM_PADRAO[tipo],
+        anos
+      })
+
+      await salvarEstado({
+        marcaIndex: i,
+        modeloIndex: j + 1
+      })
+
+      contador++
+
+      if (contador >= CHECKPOINT_INTERVAL) {
+        await salvarCheckpoint(resultado)
+        contador = 0
+      }
+    }
+
+    await salvarEstado({
+      marcaIndex: i + 1,
+      modeloIndex: 0
+    })
+
+    await salvarCheckpoint(resultado)
+  }
 
   await browser.close()
   console.log(`✅ Finalizado com ${resultado.length} modelos`)

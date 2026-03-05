@@ -4,9 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "modelo:scraper": "ts-node src/modelos-scraper.ts",
-    "marca:scraper": "ts-node src/marcas-scraper.ts",
-    "versoes:scraper": "ts-node src/versoes-scraper.ts",
+    "scraper": "ts-node src/scraper.ts",
+    "teste": "ts-node src/teste.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
