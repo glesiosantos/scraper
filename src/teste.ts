@@ -4,8 +4,8 @@ import fs from "fs"
 import puppeteer from "puppeteer"
 
 const BASE = "https://www.mobiauto.com.br"
-const MARCA = "volkswagen"
-const MODELO = "amarok"
+const MARCA = "toyota"
+const MODELO = "sw4"
 
 const URL_MODELO = `${BASE}/tabela-fipe/carros/${MARCA}/${MODELO}`
 const URL_MARCA = `${BASE}/tabela-fipe/carros/${MARCA}`
@@ -30,9 +30,9 @@ function capitalize(text: string) {
   return text.charAt(0).toUpperCase() + text.slice(1)
 }
 
-/* =========================
-   LOGO DA MARCA (PUPPETEER)
-========================= */
+////////////////////////////////////////////////////////
+//// LOGO DA MARCA
+////////////////////////////////////////////////////////
 
 async function obterLogoMarca() {
   const browser = await puppeteer.launch({
@@ -60,9 +60,9 @@ async function obterLogoMarca() {
   return logo
 }
 
-/* =========================
-   ANOS DO MODELO
-========================= */
+////////////////////////////////////////////////////////
+//// ANOS DO MODELO
+////////////////////////////////////////////////////////
 
 async function obterAnos() {
   const $ = await fetchHTML(URL_MODELO)
@@ -91,9 +91,9 @@ async function obterAnos() {
   return anos
 }
 
-/* =========================
-   VERSÕES
-========================= */
+////////////////////////////////////////////////////////
+//// VERSÕES
+////////////////////////////////////////////////////////
 
 async function obterVersoes(ano: string, link: string) {
   const $ = await fetchHTML(link)
@@ -115,12 +115,11 @@ async function obterVersoes(ano: string, link: string) {
   return versoes
 }
 
-/* =========================
-   IMAGEM DO VEÍCULO
-========================= */
+////////////////////////////////////////////////////////
+//// IMAGEM DO VEÍCULO
+////////////////////////////////////////////////////////
 
 function obterImagemVeiculo($: cheerio.CheerioAPI) {
-  // 1️⃣ tenta pegar imagem real do veículo
   let img =
     $("img[alt*='Imagem do veículo']").attr("src") ||
     $("img[alt*='Imagem do veículo']").attr("data-src") ||
@@ -130,7 +129,6 @@ function obterImagemVeiculo($: cheerio.CheerioAPI) {
     return img
   }
 
-  // 2️⃣ se não existir, pega imagem da categoria
   const categoria =
     $("img[alt*='Image da categoria']").attr("src") ||
     $("img[alt*='Image da categoria']").attr("data-src") ||
@@ -143,40 +141,154 @@ function obterImagemVeiculo($: cheerio.CheerioAPI) {
   return null
 }
 
-/* =========================
-   DETALHES DA VERSÃO
-========================= */
+////////////////////////////////////////////////////////
+//// FICHA TÉCNICA
+////////////////////////////////////////////////////////
+
+function obterFichaTecnica($: cheerio.CheerioAPI) {
+  const ficha = {
+    mecanica: [] as string[],
+    dimensoes: [] as string[]
+  }
+
+  $("section:contains('Ficha técnica') table tbody").each((_, tbody) => {
+    const categoria = $(tbody)
+      .find("tr")
+      .first()
+      .text()
+      .trim()
+      .toUpperCase()
+
+    const itens: string[] = []
+
+    $(tbody)
+      .find("tr")
+      .slice(1)
+      .each((_, tr) => {
+        $(tr)
+          .find("span")
+          .each((_, span) => {
+            const texto = $(span).text().trim()
+            if (texto) itens.push(texto)
+          })
+      })
+
+    if (categoria.includes("MECÂNICA") || categoria.includes("MECANICA")) {
+      ficha.mecanica.push(...itens)
+    }
+
+    if (categoria.includes("DIMENS")) {
+      ficha.dimensoes.push(...itens)
+    }
+  })
+
+  return ficha
+}
+
+////////////////////////////////////////////////////////
+//// DETALHES DA VERSÃO
+////////////////////////////////////////////////////////
 
 async function obterDetalhesVersao(
   modelo: string,
   ano: string,
   link: string
 ) {
-  const $ = await fetchHTML(link)
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox"]
+  })
+
+  const page = await browser.newPage()
+
+  await page.goto(link, {
+    waitUntil: "networkidle2"
+  })
+
+  // espera a ficha técnica aparecer
+  await page.waitForSelector("section")
+
+  const html = await page.content()
+
+  const $ = cheerio.load(html)
 
   const descricao = $(".trim-name").first().text().trim()
 
   const imagem = obterImagemVeiculo($)
 
+  const fichaTecnica = {
+    mecanica: [] as string[],
+    dimensoes: [] as string[]
+  }
+
+  //////////////////////////////////////////////////////
+  // MECÂNICA
+  //////////////////////////////////////////////////////
+
+  try {
+    await page.evaluate(() => {
+      const btn = Array.from(document.querySelectorAll("button"))
+        .find(b => b.textContent?.includes("Mecânica")) as HTMLElement
+
+      btn?.click()
+    })
+
+    await new Promise(resolve => setTimeout(resolve, 800))
+
+    const mecanica = await page.$$eval(
+      "table span",
+      spans => spans.map(s => s.textContent?.trim())
+    )
+
+    fichaTecnica.mecanica = mecanica.filter(Boolean) as string[]
+  } catch (e) {}
+
+  //////////////////////////////////////////////////////
+  // DIMENSÕES
+  //////////////////////////////////////////////////////
+
+  try {
+    await page.evaluate(() => {
+      const btn = Array.from(document.querySelectorAll("button"))
+        .find(b => b.textContent?.includes("Dimens")) as HTMLElement
+
+      btn?.click()
+    })
+
+    await new Promise(resolve => setTimeout(resolve, 800))
+
+    const dimensoes = await page.$$eval(
+      "table span",
+      spans => spans.map(s => s.textContent?.trim())
+    )
+
+    fichaTecnica.dimensoes = dimensoes.filter(Boolean) as string[]
+  } catch (e) {}
+
+  await browser.close()
+
   console.log(`Ano: ${ano}`)
   console.log(`Descrição: ${descricao}`)
   console.log(`Imagem: ${imagem}`)
+  console.log(`Itens Mecânica: ${fichaTecnica.mecanica.length}`)
+  console.log(`Itens Dimensões: ${fichaTecnica.dimensoes.length}`)
   console.log("")
 
   return {
     modelo,
     descricao,
     imagem,
-    ano
+    ano,
+    fichaTecnica
   }
 }
 
-/* =========================
-   RUN
-========================= */
+////////////////////////////////////////////////////////
+//// RUN
+////////////////////////////////////////////////////////
 
 async function run() {
-  console.log("Testando Amarok...\n")
+  console.log("Testando SW4...\n")
 
   const logo = await obterLogoMarca()
 
@@ -207,11 +319,11 @@ async function run() {
   }
 
   fs.writeFileSync(
-    "amarok-teste.json",
+    "sw4-teste.json",
     JSON.stringify(resultado, null, 2)
   )
 
-  console.log("Arquivo gerado: amarok-teste.json")
+  console.log("Arquivo gerado: sw4-teste.json")
 }
 
 run()

@@ -41,11 +41,12 @@ function capitalize(text: string) {
   return text.charAt(0).toUpperCase() + text.slice(1)
 }
 
-/* =========================
-   LOGO DA MARCA
-========================= */
+////////////////////////////////////////////////////////
+//// LOGO DA MARCA
+////////////////////////////////////////////////////////
 
 async function obterLogoMarca() {
+
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox"]
@@ -53,8 +54,10 @@ async function obterLogoMarca() {
 
   const page = await browser.newPage()
 
+  page.setDefaultNavigationTimeout(60000)
+
   await page.goto(URL_MARCA, {
-    waitUntil: "networkidle2"
+    waitUntil: "domcontentloaded"
   })
 
   await page.waitForSelector("img[alt*='Logo da']")
@@ -71,21 +74,20 @@ async function obterLogoMarca() {
   return logo
 }
 
-/* =========================
-   MODELOS DA MARCA
-========================= */
+////////////////////////////////////////////////////////
+//// MODELOS DA MARCA
+////////////////////////////////////////////////////////
 
 async function obterModelos() {
+
   const $ = await fetchHTML(URL_MARCA)
 
   if (!$) return []
 
   const modelos: { nome: string; link: string }[] = []
 
-  // encontra o título da seção
   const secao = $("h2:contains('Modelos em ordem alfabética')")
 
-  // pega os elementos após o título
   secao.nextAll("ul").first().find("li a").each((_, el) => {
 
     const nomeModelo = $(el).find("h3").text().trim()
@@ -105,11 +107,12 @@ async function obterModelos() {
   return modelos
 }
 
-/* =========================
-   ANOS DO MODELO
-========================= */
+////////////////////////////////////////////////////////
+//// ANOS DO MODELO
+////////////////////////////////////////////////////////
 
 async function obterAnos(linkModelo: string) {
+
   const $ = await fetchHTML(linkModelo)
 
   if (!$) return []
@@ -141,9 +144,9 @@ async function obterAnos(linkModelo: string) {
   return anos
 }
 
-/* =========================
-   VERSÕES
-========================= */
+////////////////////////////////////////////////////////
+//// VERSÕES
+////////////////////////////////////////////////////////
 
 async function obterVersoes(ano: string, link: string) {
 
@@ -170,9 +173,9 @@ async function obterVersoes(ano: string, link: string) {
   return versoes
 }
 
-/* =========================
-   IMAGEM DO VEÍCULO
-========================= */
+////////////////////////////////////////////////////////
+//// IMAGEM DO VEÍCULO
+////////////////////////////////////////////////////////
 
 function obterImagemVeiculo($: cheerio.CheerioAPI) {
 
@@ -197,9 +200,9 @@ function obterImagemVeiculo($: cheerio.CheerioAPI) {
   return null
 }
 
-/* =========================
-   DETALHES DA VERSÃO
-========================= */
+////////////////////////////////////////////////////////
+//// DETALHES DA VERSÃO + FICHA TÉCNICA
+////////////////////////////////////////////////////////
 
 async function obterDetalhesVersao(
   modelo: string,
@@ -207,13 +210,75 @@ async function obterDetalhesVersao(
   link: string
 ) {
 
-  const $ = await fetchHTML(link)
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox"]
+  })
 
-  if (!$) return null
+  const page = await browser.newPage()
+
+  page.setDefaultNavigationTimeout(60000)
+
+  await page.goto(link, {
+    waitUntil: "domcontentloaded"
+  })
+
+  await page.waitForSelector("body")
+
+  const html = await page.content()
+
+  const $ = cheerio.load(html)
 
   const descricao = $(".trim-name").first().text().trim()
 
   const imagem = obterImagemVeiculo($)
+
+  const fichaTecnica = {
+    mecanica: [] as string[],
+    dimensoes: [] as string[]
+  }
+
+  try {
+
+    await page.evaluate(() => {
+      const btn = Array.from(document.querySelectorAll("button"))
+        .find(b => b.textContent?.includes("Mecânica")) as HTMLElement
+
+      btn?.click()
+    })
+
+    await new Promise(resolve => setTimeout(resolve, 800))
+
+    const mecanica = await page.$$eval(
+      "table span",
+      spans => spans.map(s => s.textContent?.trim())
+    )
+
+    fichaTecnica.mecanica = mecanica.filter(Boolean) as string[]
+
+  } catch { }
+
+  try {
+
+    await page.evaluate(() => {
+      const btn = Array.from(document.querySelectorAll("button"))
+        .find(b => b.textContent?.includes("Dimens")) as HTMLElement
+
+      btn?.click()
+    })
+
+    await new Promise(resolve => setTimeout(resolve, 800))
+
+    const dimensoes = await page.$$eval(
+      "table span",
+      spans => spans.map(s => s.textContent?.trim())
+    )
+
+    fichaTecnica.dimensoes = dimensoes.filter(Boolean) as string[]
+
+  } catch { }
+
+  await browser.close()
 
   console.log(`   ✔ ${modelo} ${ano} - ${descricao}`)
 
@@ -221,13 +286,14 @@ async function obterDetalhesVersao(
     modelo,
     descricao,
     imagem,
-    ano
+    ano,
+    fichaTecnica
   }
 }
 
-/* =========================
-   RUN
-========================= */
+////////////////////////////////////////////////////////
+//// RUN
+////////////////////////////////////////////////////////
 
 async function run() {
 
@@ -273,11 +339,11 @@ async function run() {
   }
 
   fs.writeFileSync(
-    `${MARCA}.json`,
+    `./jsons/${MARCA.toLocaleLowerCase()}-${TIPO.toLocaleLowerCase()}.json`,
     JSON.stringify(resultado, null, 2)
   )
 
-  console.log(`\n🎉 Arquivo gerado: ${MARCA}.json`)
+  console.log(`\n🎉 Arquivo gerado: ${MARCA.toLocaleLowerCase()}-${TIPO.toLocaleLowerCase()}.json`)
 }
 
 run()

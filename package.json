@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "scraper": "ts-node src/scraper.ts",
+    "scraper:test": "ts-node src/teste.ts",
     "convert": "ts-node src/convert-json-to-sql.ts",
     "build": "tsc",
     "start": "node dist/index.js"
