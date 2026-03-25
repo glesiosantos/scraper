@@ -297,6 +297,10 @@ async function obterDetalhesVersao(
 
 async function run() {
 
+  if (!fs.existsSync("./jsons")) {
+    fs.mkdirSync("./jsons")
+  }
+
   console.log(`🚗 Buscando modelos da marca ${MARCA}\n`)
 
   const logo = await obterLogoMarca()
