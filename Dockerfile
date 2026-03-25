@@ -2,7 +2,6 @@ FROM node:22-slim
 
 WORKDIR /app
 
-# Dependências do Puppeteer
 RUN apt-get update && apt-get install -y \
     chromium \
     libnss3 \
@@ -21,19 +20,14 @@ RUN apt-get update && apt-get install -y \
 ENV PUPPETEER_SKIP_DOWNLOAD=true
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
-# deps
 COPY package.json ./
 RUN npm install --omit=dev
 
-# typescript
 RUN npm install typescript
 
-# código
 COPY tsconfig.json ./
 COPY src ./src
 
-# build
 RUN npx tsc
 
-# run
 CMD ["node", "dist/scraper.js"]
