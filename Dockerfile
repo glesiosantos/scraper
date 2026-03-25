@@ -18,13 +18,21 @@ RUN apt-get update && apt-get install -y \
     libxss1 \
     && rm -rf /var/lib/apt/lists/*
 
-# Evita baixar Chromium novamente
 ENV PUPPETEER_SKIP_DOWNLOAD=true
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
-COPY package.json ./
-RUN npm install
+# Copia só o necessário
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
 
-COPY . .
+# Copia apenas o scraper
+COPY src/scraper.ts ./src/
 
-CMD ["node", "index.js", "carros", "volkswagen"]
+# Instala TypeScript só para build
+RUN npm install typescript
+
+# Compila
+RUN npx tsc src/scraper.ts --outDir dist
+
+# Roda o JS compilado
+CMD ["node", "dist/scraper.js"]
