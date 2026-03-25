@@ -30,5 +30,5 @@ COPY src ./src
 
 RUN npx tsc
 
-ENTRYPOINT ["node", "dist/scraper.js"]
+# ENTRYPOINT ["node", "dist/scraper.js"]
 CMD []
