@@ -21,18 +21,19 @@ RUN apt-get update && apt-get install -y \
 ENV PUPPETEER_SKIP_DOWNLOAD=true
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
-# Copia só o necessário
+# deps
 COPY package.json ./
 RUN npm install --omit=dev
 
-# Copia apenas o scraper
-COPY src/scraper.ts ./src/
-
-# Instala TypeScript só para build
+# typescript
 RUN npm install typescript
 
-# Compila
-RUN npx tsc src/scraper.ts --outDir dist
+# código
+COPY tsconfig.json ./
+COPY src ./src
 
-# Roda o JS compilado
+# build
+RUN npx tsc
+
+# run
 CMD ["node", "dist/scraper.js"]
