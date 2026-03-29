@@ -1,0 +1,80 @@
+{
+  "marca": {
+    "nome": "Fiat",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/527385112/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Ducato",
+      "descricao": "Chassi Longo",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/caminhoes/leve.png",
+      "ano": "2020",
+      "fichaTecnica": {
+        "mecanica": [
+          "Motorização:",
+          "2.3 turbodiesel",
+          "Combustível:",
+          "Diesel",
+          "Potência (cv):",
+          "N/C",
+          "Torque (kgf.m):",
+          "N/C",
+          "Velocidade máxima (km/h):",
+          "N/C",
+          "Tempo 0-100 (s):",
+          "N/C",
+          "Consumo cidade (km/l):",
+          "N/C",
+          "Consumo estrada (km/l):",
+          "N/C",
+          "Câmbio:",
+          "Automática",
+          "Tração:",
+          "N/C",
+          "Direção:",
+          "N/C",
+          "Suspensão dianteira:",
+          "N/C",
+          "Suspensão traseira:",
+          "N/C",
+          "Freios dianteiros:",
+          "N/C",
+          "Freios traseiros:",
+          "N/C"
+        ],
+        "dimensoes": [
+          "Motorização:",
+          "2.3 turbodiesel",
+          "Combustível:",
+          "Diesel",
+          "Potência (cv):",
+          "N/C",
+          "Torque (kgf.m):",
+          "N/C",
+          "Velocidade máxima (km/h):",
+          "N/C",
+          "Tempo 0-100 (s):",
+          "N/C",
+          "Consumo cidade (km/l):",
+          "N/C",
+          "Consumo estrada (km/l):",
+          "N/C",
+          "Câmbio:",
+          "Automática",
+          "Tração:",
+          "N/C",
+          "Direção:",
+          "N/C",
+          "Suspensão dianteira:",
+          "N/C",
+          "Suspensão traseira:",
+          "N/C",
+          "Freios dianteiros:",
+          "N/C",
+          "Freios traseiros:",
+          "N/C"
+        ]
+      }
+    }
+  ]
+}
