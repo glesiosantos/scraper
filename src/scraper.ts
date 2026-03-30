@@ -41,6 +41,14 @@ function capitalize(text: string) {
   return text.charAt(0).toUpperCase() + text.slice(1)
 }
 
+function salvarCheckpoint(dados: any[], marca: string, tipo: string) {
+  const path = `./jsons/${marca}-${tipo}-checkpoint.json`
+
+  fs.writeFileSync(path, JSON.stringify(dados, null, 2))
+
+  console.log(`💾 Checkpoint salvo (${dados.length} registros)`)
+}
+
 ////////////////////////////////////////////////////////
 //// LOGO DA MARCA
 ////////////////////////////////////////////////////////
@@ -49,7 +57,11 @@ async function obterLogoMarca() {
 
   const browser = await puppeteer.launch({
     headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox", "--ignore-certificate-errors"]
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--ignore-certificate-errors"
+    ]
   })
 
   const page = await browser.newPage()
@@ -94,10 +106,7 @@ async function obterModelos() {
     const link = buildURL($(el).attr("href") || "")
 
     if (nomeModelo && link) {
-      modelos.push({
-        nome: nomeModelo,
-        link
-      })
+      modelos.push({ nome: nomeModelo, link })
     }
 
   })
@@ -162,10 +171,7 @@ async function obterVersoes(ano: string, link: string) {
     const linkVersao = buildURL(a.attr("href") || "")
 
     if (linkVersao) {
-      versoes.push({
-        ano,
-        link: linkVersao
-      })
+      versoes.push({ ano, link: linkVersao })
     }
 
   })
@@ -193,15 +199,13 @@ function obterImagemVeiculo($: cheerio.CheerioAPI) {
     $("img[alt*='Image da categoria']").attr("data-src") ||
     ""
 
-  if (categoria) {
-    return categoria
-  }
+  if (categoria) return categoria
 
   return null
 }
 
 ////////////////////////////////////////////////////////
-//// DETALHES DA VERSÃO + FICHA TÉCNICA
+//// DETALHES DA VERSÃO
 ////////////////////////////////////////////////////////
 
 async function obterDetalhesVersao(
@@ -209,85 +213,87 @@ async function obterDetalhesVersao(
   ano: string,
   link: string
 ) {
-
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox"]
-  })
-
-  const page = await browser.newPage()
-
-  page.setDefaultNavigationTimeout(60000)
-
-  await page.goto(link, {
-    waitUntil: "domcontentloaded"
-  })
-
-  await page.waitForSelector("body")
-
-  const html = await page.content()
-
-  const $ = cheerio.load(html)
-
-  const descricao = $(".trim-name").first().text().trim()
-
-  const imagem = obterImagemVeiculo($)
-
-  const fichaTecnica = {
-    mecanica: [] as string[],
-    dimensoes: [] as string[]
-  }
+  let browser
 
   try {
-
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button"))
-        .find(b => b.textContent?.includes("Mecânica")) as HTMLElement
-
-      btn?.click()
+    browser = await puppeteer.launch({
+      headless: true,
+      args: [
+        "--no-sandbox",
+        "--ignore-certificate-errors",
+        "--disable-setuid-sandbox"
+      ]
     })
 
-    await new Promise(resolve => setTimeout(resolve, 800))
+    const page = await browser.newPage()
+    page.setDefaultNavigationTimeout(60000)
 
-    const mecanica = await page.$$eval(
-      "table span",
-      spans => spans.map(s => s.textContent?.trim())
-    )
-
-    fichaTecnica.mecanica = mecanica.filter(Boolean) as string[]
-
-  } catch { }
-
-  try {
-
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button"))
-        .find(b => b.textContent?.includes("Dimens")) as HTMLElement
-
-      btn?.click()
+    await page.goto(link, {
+      waitUntil: "domcontentloaded"
     })
 
-    await new Promise(resolve => setTimeout(resolve, 800))
+    await page.waitForSelector("body")
 
-    const dimensoes = await page.$$eval(
-      "table span",
-      spans => spans.map(s => s.textContent?.trim())
-    )
+    const html = await page.content()
+    const $ = cheerio.load(html)
 
-    fichaTecnica.dimensoes = dimensoes.filter(Boolean) as string[]
+    const descricao = $(".trim-name").first().text().trim()
+    const imagem = obterImagemVeiculo($)
 
-  } catch { }
+    const fichaTecnica = {
+      mecanica: [] as string[],
+      dimensoes: [] as string[]
+    }
 
-  await browser.close()
+    try {
+      await page.evaluate(() => {
+        const btn = Array.from(document.querySelectorAll("button"))
+          .find(b => b.textContent?.includes("Mecânica")) as HTMLElement
+        btn?.click()
+      })
 
-  console.log(`   ✔ ${modelo} ${ano} - ${descricao}`)
+      await new Promise(r => setTimeout(r, 800))
 
-  return {
-    modelo,
-    descricao,
-    imagem,
-    ano,
-    fichaTecnica
+      const mecanica = await page.$$eval("table span", spans =>
+        spans.map(s => s.textContent?.trim())
+      )
+
+      fichaTecnica.mecanica = mecanica.filter(Boolean) as string[]
+    } catch { }
+
+    try {
+      await page.evaluate(() => {
+        const btn = Array.from(document.querySelectorAll("button"))
+          .find(b => b.textContent?.includes("Dimens")) as HTMLElement
+        btn?.click()
+      })
+
+      await new Promise(r => setTimeout(r, 800))
+
+      const dimensoes = await page.$$eval("table span", spans =>
+        spans.map(s => s.textContent?.trim())
+      )
+
+      fichaTecnica.dimensoes = dimensoes.filter(Boolean) as string[]
+    } catch { }
+
+    console.log(`   ✔ ${modelo} ${ano} - ${descricao}`)
+
+    return {
+      modelo,
+      descricao,
+      imagem,
+      ano,
+      fichaTecnica
+    }
+
+  } catch (error: any) {
+    console.log(`❌ Erro em ${link}`)
+    console.log(error.message)
+    return null
+
+  } finally {
+    if (browser) await browser.close()
   }
 }
 
@@ -304,10 +310,18 @@ async function run() {
   console.log(`🚗 Buscando modelos da marca ${MARCA}\n`)
 
   const logo = await obterLogoMarca()
-
   const modelos = await obterModelos()
 
-  const todasVersoes: any[] = []
+  const checkpointPath = `./jsons/${MARCA}-${TIPO}-checkpoint.json`
+
+  let todasVersoes: any[] = []
+
+  if (fs.existsSync(checkpointPath)) {
+    todasVersoes = JSON.parse(fs.readFileSync(checkpointPath, "utf-8"))
+    console.log(`♻️ Retomando de ${todasVersoes.length} registros`)
+  }
+
+  let contador = todasVersoes.length
 
   for (const modelo of modelos) {
 
@@ -329,6 +343,15 @@ async function run() {
 
         if (detalhe) {
           todasVersoes.push(detalhe)
+          contador++
+        }
+
+        if (contador % 10 === 0) {
+          salvarCheckpoint(
+            todasVersoes,
+            MARCA.toLowerCase(),
+            TIPO.toLowerCase()
+          )
         }
       }
     }
@@ -343,11 +366,11 @@ async function run() {
   }
 
   fs.writeFileSync(
-    `./jsons/${MARCA.toLocaleLowerCase()}-${TIPO.toLocaleLowerCase()}.json`,
+    `./jsons/${MARCA}-${TIPO}.json`,
     JSON.stringify(resultado, null, 2)
   )
 
-  console.log(`\n🎉 Arquivo gerado: ${MARCA.toLocaleLowerCase()}-${TIPO.toLocaleLowerCase()}.json`)
+  console.log(`\n🎉 Finalizado com ${todasVersoes.length} registros`)
 }
 
 run()
