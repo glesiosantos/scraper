@@ -18,20 +18,14 @@ function buildURL(link: string) {
 async function fetchHTML(url: string) {
   try {
     const { data } = await axios.get(url, {
-      headers: {
-        "User-Agent": "Mozilla/5.0"
-      }
+      headers: { "User-Agent": "Mozilla/5.0" }
     })
-
     return cheerio.load(data)
-
   } catch (error: any) {
-
     if (error.response?.status === 404) {
       console.log(`⚠️ Página não encontrada: ${url}`)
       return null
     }
-
     console.log(`❌ Erro ao acessar ${url}`)
     return null
   }
@@ -41,36 +35,47 @@ function capitalize(text: string) {
   return text.charAt(0).toUpperCase() + text.slice(1)
 }
 
-function salvarCheckpoint(dados: any[], marca: string, tipo: string) {
-  const path = `./jsons/${marca}-${tipo}-checkpoint.json`
+function salvarCheckpoint(
+  dados: any[],
+  marca: string,
+  tipo: string,
+  logo: string
+) {
+  const checkpointPath = `./jsons/${marca}-${tipo}-checkpoint.json`
+  const finalPath = `./jsons/${marca}-${tipo}.json`
 
-  fs.writeFileSync(path, JSON.stringify(dados, null, 2))
+  fs.writeFileSync(checkpointPath, JSON.stringify(dados, null, 2))
 
-  console.log(`💾 Checkpoint salvo (${dados.length} registros)`)
+  fs.writeFileSync(
+    finalPath,
+    JSON.stringify(
+      {
+        marca: {
+          nome: capitalize(marca),
+          logo
+        },
+        versoes: dados
+      },
+      null,
+      2
+    )
+  )
+
+  console.log(`💾 Checkpoint + parcial salvos (${dados.length} registros)`)
 }
 
 ////////////////////////////////////////////////////////
-//// LOGO DA MARCA
+// LOGO
 ////////////////////////////////////////////////////////
 
 async function obterLogoMarca() {
-
   const browser = await puppeteer.launch({
     headless: true,
-    args: [
-      "--no-sandbox",
-      "--disable-setuid-sandbox",
-      "--ignore-certificate-errors"
-    ]
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
   })
 
   const page = await browser.newPage()
-
-  page.setDefaultNavigationTimeout(60000)
-
-  await page.goto(URL_MARCA, {
-    waitUntil: "domcontentloaded"
-  })
+  await page.goto(URL_MARCA, { waitUntil: "domcontentloaded" })
 
   await page.waitForSelector("img[alt*='Logo da']")
 
@@ -80,68 +85,54 @@ async function obterLogoMarca() {
   )
 
   await browser.close()
-
   console.log("✔ Logo encontrada:", logo)
 
   return logo
 }
 
 ////////////////////////////////////////////////////////
-//// MODELOS DA MARCA
+// MODELOS
 ////////////////////////////////////////////////////////
 
 async function obterModelos() {
-
   const $ = await fetchHTML(URL_MARCA)
-
   if (!$) return []
 
   const modelos: { nome: string; link: string }[] = []
 
-  const secao = $("h2:contains('Modelos em ordem alfabética')")
-
-  secao.nextAll("ul").first().find("li a").each((_, el) => {
-
-    const nomeModelo = $(el).find("h3").text().trim()
-    const link = buildURL($(el).attr("href") || "")
-
-    if (nomeModelo && link) {
-      modelos.push({ nome: nomeModelo, link })
-    }
-
-  })
+  $("h2:contains('ordem alfabética')")
+    .nextAll("ul")
+    .first()
+    .find("li a")
+    .each((_, el) => {
+      const nome = $(el).find("h3").text().trim()
+      const link = buildURL($(el).attr("href") || "")
+      if (nome && link) modelos.push({ nome, link })
+    })
 
   console.log(`✔ ${modelos.length} modelos encontrados`)
-
   return modelos
 }
 
 ////////////////////////////////////////////////////////
-//// ANOS DO MODELO
+// ANOS
 ////////////////////////////////////////////////////////
 
 async function obterAnos(linkModelo: string) {
-
   const $ = await fetchHTML(linkModelo)
-
   if (!$) return []
 
-  const anos: { ano: string; link: string }[] = []
-  const anosUnicos = new Set()
+  const anos: any[] = []
+  const set = new Set()
 
   $("ul li a").each((_, el) => {
-
     const texto = $(el).find("p").first().text()
     const match = texto.match(/\d{4}/)
 
     if (match) {
-
       const ano = match[0]
-
-      if (!anosUnicos.has(ano)) {
-
-        anosUnicos.add(ano)
-
+      if (!set.has(ano)) {
+        set.add(ano)
         anos.push({
           ano,
           link: buildURL($(el).attr("href") || "")
@@ -154,160 +145,71 @@ async function obterAnos(linkModelo: string) {
 }
 
 ////////////////////////////////////////////////////////
-//// VERSÕES
+// VERSÕES
 ////////////////////////////////////////////////////////
 
 async function obterVersoes(ano: string, link: string) {
-
   const $ = await fetchHTML(link)
-
   if (!$) return []
 
-  const versoes: { ano: string; link: string }[] = []
+  const versoes: any[] = []
 
   $("tbody tr").each((_, tr) => {
-
     const a = $(tr).find("td a").first()
     const linkVersao = buildURL(a.attr("href") || "")
 
     if (linkVersao) {
       versoes.push({ ano, link: linkVersao })
     }
-
   })
 
   return versoes
 }
 
 ////////////////////////////////////////////////////////
-//// IMAGEM DO VEÍCULO
+// DETALHES
 ////////////////////////////////////////////////////////
 
-function obterImagemVeiculo($: cheerio.CheerioAPI) {
-
-  let img =
-    $("img[alt*='Imagem do veículo']").attr("src") ||
-    $("img[alt*='Imagem do veículo']").attr("data-src") ||
-    ""
-
-  if (img && !img.includes("statics.mobiauto.com.br")) {
-    return img
-  }
-
-  const categoria =
-    $("img[alt*='Image da categoria']").attr("src") ||
-    $("img[alt*='Image da categoria']").attr("data-src") ||
-    ""
-
-  if (categoria) return categoria
-
-  return null
-}
-
-////////////////////////////////////////////////////////
-//// DETALHES DA VERSÃO
-////////////////////////////////////////////////////////
-
-async function obterDetalhesVersao(
-  modelo: string,
-  ano: string,
-  link: string
-) {
+async function obterDetalhesVersao(modelo: string, ano: string, link: string) {
   let browser
 
   try {
     browser = await puppeteer.launch({
       headless: true,
-      args: [
-        "--no-sandbox",
-        "--ignore-certificate-errors",
-        "--disable-setuid-sandbox"
-      ]
+      args: ["--no-sandbox"]
     })
 
     const page = await browser.newPage()
-    page.setDefaultNavigationTimeout(60000)
-
-    await page.goto(link, {
-      waitUntil: "domcontentloaded"
-    })
-
-    await page.waitForSelector("body")
+    await page.goto(link, { waitUntil: "domcontentloaded" })
 
     const html = await page.content()
     const $ = cheerio.load(html)
 
     const descricao = $(".trim-name").first().text().trim()
-    const imagem = obterImagemVeiculo($)
-
-    const fichaTecnica = {
-      mecanica: [] as string[],
-      dimensoes: [] as string[]
-    }
-
-    try {
-      await page.evaluate(() => {
-        const btn = Array.from(document.querySelectorAll("button"))
-          .find(b => b.textContent?.includes("Mecânica")) as HTMLElement
-        btn?.click()
-      })
-
-      await new Promise(r => setTimeout(r, 800))
-
-      const mecanica = await page.$$eval("table span", spans =>
-        spans.map(s => s.textContent?.trim())
-      )
-
-      fichaTecnica.mecanica = mecanica.filter(Boolean) as string[]
-    } catch { }
-
-    try {
-      await page.evaluate(() => {
-        const btn = Array.from(document.querySelectorAll("button"))
-          .find(b => b.textContent?.includes("Dimens")) as HTMLElement
-        btn?.click()
-      })
-
-      await new Promise(r => setTimeout(r, 800))
-
-      const dimensoes = await page.$$eval("table span", spans =>
-        spans.map(s => s.textContent?.trim())
-      )
-
-      fichaTecnica.dimensoes = dimensoes.filter(Boolean) as string[]
-    } catch { }
 
     console.log(`   ✔ ${modelo} ${ano} - ${descricao}`)
 
     return {
       modelo,
       descricao,
-      imagem,
       ano,
-      fichaTecnica
+      link
     }
-
-  } catch (error: any) {
-    console.log(`❌ Erro em ${link}`)
-    console.log(error.message)
+  } catch {
     return null
-
   } finally {
     if (browser) await browser.close()
   }
 }
 
 ////////////////////////////////////////////////////////
-//// RUN
+// RUN
 ////////////////////////////////////////////////////////
 
 async function run() {
-
   if (!fs.existsSync("./jsons")) {
     fs.mkdirSync("./jsons")
   }
-
-  console.log(`🚗 Buscando modelos da marca ${MARCA}\n`)
 
   const logo = await obterLogoMarca()
   const modelos = await obterModelos()
@@ -315,25 +217,36 @@ async function run() {
   const checkpointPath = `./jsons/${MARCA}-${TIPO}-checkpoint.json`
 
   let todasVersoes: any[] = []
+  let processados = new Set<string>()
 
   if (fs.existsSync(checkpointPath)) {
     todasVersoes = JSON.parse(fs.readFileSync(checkpointPath, "utf-8"))
-    console.log(`♻️ Retomando de ${todasVersoes.length} registros`)
+
+    todasVersoes.forEach(v => {
+      const id = `${v.modelo}-${v.ano}-${v.link}`
+      processados.add(id)
+    })
+
+    console.log(`♻️ Retomando de ${todasVersoes.length}`)
   }
 
   let contador = todasVersoes.length
 
   for (const modelo of modelos) {
-
     console.log(`\n🔎 Modelo: ${modelo.nome}`)
 
     const anos = await obterAnos(modelo.link)
 
     for (const ano of anos) {
-
       const versoes = await obterVersoes(ano.ano, ano.link)
 
       for (const versao of versoes) {
+        const id = `${modelo.nome}-${versao.ano}-${versao.link}`
+
+        if (processados.has(id)) {
+          console.log("⏭️ Pulando já processado")
+          continue
+        }
 
         const detalhe = await obterDetalhesVersao(
           modelo.nome,
@@ -343,6 +256,7 @@ async function run() {
 
         if (detalhe) {
           todasVersoes.push(detalhe)
+          processados.add(id)
           contador++
         }
 
@@ -350,24 +264,19 @@ async function run() {
           salvarCheckpoint(
             todasVersoes,
             MARCA.toLowerCase(),
-            TIPO.toLowerCase()
+            TIPO.toLowerCase(),
+            logo
           )
         }
       }
     }
   }
 
-  const resultado = {
-    marca: {
-      nome: capitalize(MARCA),
-      logo
-    },
-    versoes: todasVersoes
-  }
-
-  fs.writeFileSync(
-    `./jsons/${MARCA}-${TIPO}.json`,
-    JSON.stringify(resultado, null, 2)
+  salvarCheckpoint(
+    todasVersoes,
+    MARCA.toLowerCase(),
+    TIPO.toLowerCase(),
+    logo
   )
 
   console.log(`\n🎉 Finalizado com ${todasVersoes.length} registros`)
