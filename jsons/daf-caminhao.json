@@ -1,0 +1,362 @@
+{
+  "marca": {
+    "nome": "Daf",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089304/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "CF",
+      "descricao": "FAS 310 6x2 Day Cab",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2024/fas-310-6x2-day-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "FAT 310",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2024/fat-310"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "FAC 300 8X2 SPLEEP. CAB MEC (DIE)(E5)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2022/fac-300-8x2-spleep-cab-mec-diee5"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "85 FT 360 4x2 (Sleeper Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2016/85-ft-360-4x2-sleeper-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "85 FTS 360 6x2 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2016/85-fts-360-6x2-space-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "85 FT 360 4x2 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2016/85-ft-360-4x2-space-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "85 FT 410 4x2 (Sleeper Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2016/85-ft-410-4x2-sleeper-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "85 FTS 410 6x2 (Sleeper Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2016/85-fts-410-6x2-sleeper-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "85 FT 410 4x2 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2016/85-ft-410-4x2-space-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "85 FTS 360 6x2 (Sleeper Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2016/85-fts-360-6x2-sleeper-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "85 FTS 410 6x2 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2016/85-fts-410-6x2-space-cab"
+    },
+    {
+      "modelo": "CF",
+      "descricao": "Serie",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/cf/2014/serie"
+    },
+    {
+      "modelo": "LF",
+      "descricao": "Serie",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/lf/2014/serie"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 480 6x2",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2025/fts-480-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS480 6x2 Space Cab (Diesel)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2024/fts480-6x2-space-cab-diesel"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 480 6x2",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2024/fts-480-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 530 6x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2024/ftt-530-6x4"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS480 6x2 Space Cab (Diesel)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2023/fts480-6x2-space-cab-diesel"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 480 6x2",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2023/fts-480-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT530 6X4 SPACE CAB (DIE)(E5)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2022/ftt530-6x4-space-cab-diee5"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 480 6x2",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2022/fts-480-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 530 6x4 Space Cab",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2021/ftt-530-6x4-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS480 6x2 Space Cab (Diesel)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2021/fts480-6x2-space-cab-diesel"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "105 FT 460 4x2",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2020/105-ft-460-4x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "105 FTS 460A 6x2",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2020/105-fts-460a-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 510 A 6x4",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2020/ftt-510-a-6x4"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "105 FTS 460A 6x2",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2019/105-fts-460a-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 510 A 6x4",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2019/ftt-510-a-6x4"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 460 6x2 (diesel) (E5)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2019/fts-460-6x2-diesel-e5"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "105 FTS 460A 6x2",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2018/105-fts-460a-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 510 6x4 (diesel) (E5)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2018/ftt-510-6x4-diesel-e5"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "105 FTS 460A 6x2",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2017/105-fts-460a-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 460 6x2 (diesel)(E5)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2017/fts-460-6x2-diesele5"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 510 6x2 (Space Cab)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2017/fts-510-6x2-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 510 6x4 (diesel) (E5)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2017/ftt-510-6x4-diesel-e5"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 510 6x4 (Comfort Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/ftt-510-6x4-comfort-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 460 6x4 (Confort Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/ftt-460-6x4-confort-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 460 6x4 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/ftt-460-6x4-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 460 6x4 (Super Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/ftt-460-6x4-super-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 510 6x4 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/ftt-510-6x4-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 510 6x4 (Super Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/ftt-510-6x4-super-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 410 6x2 (Comfort Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-410-6x2-comfort-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 410 6x2 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-410-6x2-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 410 6x2 (Super Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-410-6x2-super-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 460 6x2 (Comfort Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-460-6x2-comfort-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 460 6x2 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-460-6x2-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 460 6x2 (Super Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-460-6x2-super-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 510 6x2 (Comfort Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-510-6x2-comfort-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 510 6x2 (Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-510-6x2-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 510 6x2 (Super Space Cab)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2016/fts-510-6x2-super-space-cab"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 410 6x2",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2015/fts-410-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 460 6x2",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2015/fts-460-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 460 6x4",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2015/ftt-460-6x4"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 410 6x2",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2014/fts-410-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 460 6x2",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2014/fts-460-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 460 6x4",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2014/ftt-460-6x4"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "105 FTT 460A 6x4",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2014/105-ftt-460a-6x4"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTS 410 6x2",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2013/fts-410-6x2"
+    },
+    {
+      "modelo": "XF",
+      "descricao": "FTT 460 6x4",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/daf/xf/2013/ftt-460-6x4"
+    }
+  ]
+}

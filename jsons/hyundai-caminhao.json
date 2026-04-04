@@ -1,0 +1,392 @@
+{
+  "marca": {
+    "nome": "Hyundai",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089344/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GL 2.6",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/2003/gl-2-6"
+    },
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GLS 2.6",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/2003/gls-2-6"
+    },
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GL 2.6",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/2002/gl-2-6"
+    },
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GLS 2.6",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/2002/gls-2-6"
+    },
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GL 2.6",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/2001/gl-2-6"
+    },
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GLS 2.6",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/2001/gls-2-6"
+    },
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GL 2.6",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/2000/gl-2-6"
+    },
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GLS 2.6",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/2000/gls-2-6"
+    },
+    {
+      "modelo": "H 100 Porter",
+      "descricao": "GL 2.6",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/h-100-porter/1999/gl-2-6"
+    },
+    {
+      "modelo": "HD 78",
+      "descricao": "HD78 3.0 16V",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hd-78/2012/hd78-3-0-16v"
+    },
+    {
+      "modelo": "HD80",
+      "descricao": "3.0 Turbodiesel E6141",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hd80/2022/3-0-turbodiesel-e6141"
+    },
+    {
+      "modelo": "HD80",
+      "descricao": "3.0 Turbodiesel E6141",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hd80/2021/3-0-turbodiesel-e6141"
+    },
+    {
+      "modelo": "HD80",
+      "descricao": "3.0 Turbodiesel E6141",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hd80/2020/3-0-turbodiesel-e6141"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo sem Cacamba DA10A",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2022/2-5-crdi-longo-sem-cacamba-da10a"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo sem Cacamba DA12A",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2022/2-5-crdi-longo-sem-cacamba-da12a"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo sem Cacamba DA10A",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2021/2-5-crdi-longo-sem-cacamba-da10a"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo sem Cacamba DA12A",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2021/2-5-crdi-longo-sem-cacamba-da12a"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo com Caçamba",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2021/2-5-crdi-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo sem Cacamba",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2020/2-5-crdi-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo sem Cacamba",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2019/2-5-crdi-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo sem Caçamba",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2018/2-5-crdi-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo com Caçamba",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2018/2-5-crdi-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo sem Caçamba",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2017/2-5-crdi-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi Longo com Caçamba",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2017/2-5-crdi-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi HD Longo sem Caçamba",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2016/2-5-crdi-hd-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi HD Longo sem Caçamba",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2015/2-5-crdi-hd-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 TCI HD Longo com Caçamba",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2014/2-5-tci-hd-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 CRDi HD Longo sem Caçamba",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2014/2-5-crdi-hd-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD 2.5 TCI Longo sem Cacamba",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2013/hd-2-5-tci-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD 2.5 TCI (Cab Curta)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2012/hd-2-5-tci-cab-curta"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD 2.5 TCI Longo sem Cacamba",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2012/hd-2-5-tci-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "LD 2.5 TCI Extra-Longo (sem Caçamba)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2012/ld-2-5-tci-extra-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD 2.5 (sem caçamba)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2011/hd-2-5-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD 2.5 (sem caçamba)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2010/hd-2-5-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD Longo com Caçamba TURBO",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2010/hd-longo-com-cacamba-turbo"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "LD 2.5 (sem caçamba)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2010/ld-2-5-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD 2.5 (sem caçamba)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2009/hd-2-5-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "LD 2.5 (sem caçamba)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2009/ld-2-5-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD Longo com Caçamba TURBO",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2009/hd-longo-com-cacamba-turbo"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "2.5 TCI HD Extra-Longo com Caçamba",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2009/2-5-tci-hd-extra-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD 2.5 TCI Longo (Sem Caçamba)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2008/hd-2-5-tci-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "HD 2.5 TCI Longo (Com Caçamba)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2008/hd-2-5-tci-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "LD 2.5 TCI Extra Longo (Com Caçamba)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2008/ld-2-5-tci-extra-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "LD 2.5 TCI Extra Longo (Sem Caçamba)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2008/ld-2-5-tci-extra-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo com Caçamba",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2007/2-5-tci-hd-extra-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo sem Caçamba",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2007/2-5-tci-hd-extra-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo com Caçamba",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2007/2-5-tci-hd-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo sem Caçamba",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2007/2-5-tci-hd-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo sem Caçamba",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2006/2-5-tci-hd-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo com Caçamba",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2006/2-5-tci-hd-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo sem Caçamba",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2006/2-5-tci-hd-extra-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo com Caçamba",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2006/2-5-tci-hd-extra-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo com Caçamba",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2005/2-5-tci-hd-extra-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo sem Caçamba",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2005/2-5-tci-hd-extra-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo com Caçamba",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2005/2-5-tci-hd-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo sem Caçamba",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2005/2-5-tci-hd-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo com Caçamba",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2004/2-5-tci-hd-extra-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo sem Caçamba",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2004/2-5-tci-hd-extra-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo com Caçamba",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2004/2-5-tci-hd-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo sem Caçamba",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2004/2-5-tci-hd-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo com Caçamba",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2003/2-5-tci-hd-extra-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Extra-Longo sem Caçamba",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2003/2-5-tci-hd-extra-longo-sem-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo com Caçamba",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2003/2-5-tci-hd-longo-com-cacamba"
+    },
+    {
+      "modelo": "HR",
+      "descricao": "- 2.5 TCI HD Longo sem Caçamba",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/hyundai/hr/2003/2-5-tci-hd-longo-sem-cacamba"
+    }
+  ]
+}

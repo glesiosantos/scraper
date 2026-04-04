@@ -1,0 +1,1322 @@
+{
+  "marca": {
+    "nome": "Ford",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089269/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Cargo",
+      "descricao": "C-3031",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo/2019/c-3031"
+    },
+    {
+      "modelo": "Cargo",
+      "descricao": "C-3031",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo/2018/c-3031"
+    },
+    {
+      "modelo": "Cargo",
+      "descricao": "C-3133",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo/2012/c-3133"
+    },
+    {
+      "modelo": "Cargo 1113",
+      "descricao": "(3 Eixos)",
+      "ano": "1113",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1113/1989/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1113",
+      "descricao": "CARGO 1113 2p (diesel)",
+      "ano": "1113",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1113/1989/cargo-1113-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1114",
+      "descricao": "(3 Eixos)",
+      "ano": "1114",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1114/1989/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1114",
+      "descricao": "CARGO 1114 2p (diesel)",
+      "ano": "1114",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1114/1989/cargo-1114-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1117",
+      "descricao": "Turbo",
+      "ano": "1117",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1117/1989/turbo"
+    },
+    {
+      "modelo": "Cargo 1117",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1117",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1117/1989/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1119",
+      "descricao": "Cargo 1119",
+      "ano": "1119",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1119/2019/cargo-1119"
+    },
+    {
+      "modelo": "Cargo 1215",
+      "descricao": "(3 Eixos)",
+      "ano": "1215",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1215/2000/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1215",
+      "descricao": "CARGO 1215 2p (diesel)",
+      "ano": "1215",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1215/2000/cargo-1215-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1217",
+      "descricao": "(3 Eixos)",
+      "ano": "1217",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1217/2003/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1217",
+      "descricao": "CARGO 1217 2p (diesel)",
+      "ano": "1217",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1217/2003/cargo-1217-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1218",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1218",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1218/1991/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1218",
+      "descricao": "Turbo",
+      "ano": "1218",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1218/1991/turbo"
+    },
+    {
+      "modelo": "Cargo 1313",
+      "descricao": "(3 Eixos)",
+      "ano": "1313",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1313/1989/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1313",
+      "descricao": "CARGO 1313 2p (diesel)",
+      "ano": "1313",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1313/1989/cargo-1313-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1314",
+      "descricao": "(3 Eixos)",
+      "ano": "1314",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1314/1989/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1314",
+      "descricao": "CARGO 1314 2p (diesel)",
+      "ano": "1314",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1314/1989/cargo-1314-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1317",
+      "descricao": "E T 2p (diesel)",
+      "ano": "1317",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1317/2011/e-t-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1317 T",
+      "descricao": "Novo Cargo 1317 4X2",
+      "ano": "1317",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1317-t/2012/novo-cargo-1317-4x2"
+    },
+    {
+      "modelo": "Cargo 1319",
+      "descricao": "CARGO 1319 E Turbo 2p (diesel)(E5)",
+      "ano": "1319",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1319/2017/cargo-1319-e-turbo-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 1415",
+      "descricao": "(3 Eixos)",
+      "ano": "1415",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1415/2000/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1415",
+      "descricao": "CARGO 1415 2p (diesel)",
+      "ano": "1415",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1415/2000/cargo-1415-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1417",
+      "descricao": "CARGO 1417 2p (diesel)",
+      "ano": "1417",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1417/2003/cargo-1417-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1417",
+      "descricao": "(3 Eixos)",
+      "ano": "1417",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1417/2003/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1418",
+      "descricao": "(3 Eixos)",
+      "ano": "1418",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1418/1990/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1418",
+      "descricao": "CARGO 1418 2p (diesel)",
+      "ano": "1418",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1418/1990/cargo-1418-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1419",
+      "descricao": "Turbo",
+      "ano": "1419",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1419/2019/turbo"
+    },
+    {
+      "modelo": "Cargo 1421",
+      "descricao": "Turbo",
+      "ano": "1421",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1421/2002/turbo"
+    },
+    {
+      "modelo": "Cargo 1421",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1421",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1421/2002/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1422",
+      "descricao": "CARGO 1422 2p (diesel)",
+      "ano": "1422",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1422/2000/cargo-1422-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1422",
+      "descricao": "(3 Eixos)",
+      "ano": "1422",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1422/2000/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1514",
+      "descricao": "(3 Eixos)",
+      "ano": "1514",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1514/1987/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1514",
+      "descricao": "Ford Cargo 1514",
+      "ano": "1514",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1514/1987/ford-cargo-1514"
+    },
+    {
+      "modelo": "Cargo 1517",
+      "descricao": "CARGO 1517 Turbo 2p (diesel)",
+      "ano": "1517",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1517/2010/cargo-1517-turbo-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1517 T",
+      "descricao": "Novo Cargo 1517 4X2",
+      "ano": "1517",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1517-t/2012/novo-cargo-1517-4x2"
+    },
+    {
+      "modelo": "Cargo 1519",
+      "descricao": "Turbo",
+      "ano": "1519",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1519/2019/turbo"
+    },
+    {
+      "modelo": "Cargo 1521",
+      "descricao": "Turbo",
+      "ano": "1521",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1521/2006/turbo"
+    },
+    {
+      "modelo": "Cargo 1521",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1521",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1521/2006/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1615",
+      "descricao": "(3 Eixos)",
+      "ano": "1615",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1615/1990/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1615",
+      "descricao": "CARGO 1615 2p (diesel)",
+      "ano": "1615",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1615/1990/cargo-1615-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1617",
+      "descricao": "(3 Eixos)",
+      "ano": "1617",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1617/2002/3-eixos"
+    },
+    {
+      "modelo": "Cargo 1617",
+      "descricao": "CARGO 1617 2p (diesel)",
+      "ano": "1617",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1617/2002/cargo-1617-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 1618",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1618",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1618/1990/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1618",
+      "descricao": "Turbo",
+      "ano": "1618",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1618/1990/turbo"
+    },
+    {
+      "modelo": "Cargo 1619",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1619",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1619/1991/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1619",
+      "descricao": "Turbo",
+      "ano": "1619",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1619/1991/turbo"
+    },
+    {
+      "modelo": "Cargo 1621",
+      "descricao": "Turbo",
+      "ano": "1621",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1621/2002/turbo"
+    },
+    {
+      "modelo": "Cargo 1621",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1621",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1621/2002/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1622",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1622",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1622/2002/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1622",
+      "descricao": "Turbo",
+      "ano": "1622",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1622/2002/turbo"
+    },
+    {
+      "modelo": "Cargo 1630",
+      "descricao": "T 4X2",
+      "ano": "1630",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1630/2002/t-4x2"
+    },
+    {
+      "modelo": "Cargo 1630",
+      "descricao": "T (3 Eixos)",
+      "ano": "1630",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1630/2002/t-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1717",
+      "descricao": "Novo  (4X2)",
+      "ano": "1717",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1717/2012/novo-4x2"
+    },
+    {
+      "modelo": "Cargo 1719",
+      "descricao": "CARGO 1719 Turbo 2p (diesel)(E5)",
+      "ano": "1719",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1719/2019/cargo-1719-turbo-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 1721",
+      "descricao": "T 6X2 (3 Eixos)",
+      "ano": "1721",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1721/2006/t-6x2-3-eixos"
+    },
+    {
+      "modelo": "Cargo 1721",
+      "descricao": "T 4X2",
+      "ano": "1721",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1721/2006/t-4x2"
+    },
+    {
+      "modelo": "Cargo 1722",
+      "descricao": "Novo  (4X2)",
+      "ano": "1722",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1722/2012/novo-4x2"
+    },
+    {
+      "modelo": "Cargo 1723",
+      "descricao": "Turbo",
+      "ano": "1723",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1723/2019/turbo"
+    },
+    {
+      "modelo": "Cargo 1729",
+      "descricao": "Turbo",
+      "ano": "1729",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1729/2018/turbo"
+    },
+    {
+      "modelo": "Cargo 1731",
+      "descricao": "Tractor",
+      "ano": "1731",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1731/2019/tractor"
+    },
+    {
+      "modelo": "Cargo 1731",
+      "descricao": "R 4X2",
+      "ano": "1731",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1731/2019/r-4x2"
+    },
+    {
+      "modelo": "Cargo 1832",
+      "descricao": "E 4X2",
+      "ano": "1832",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1832/2011/e-4x2"
+    },
+    {
+      "modelo": "Cargo 1932",
+      "descricao": "Novo  (Rigido)",
+      "ano": "1932",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1932/2012/novo-rigido"
+    },
+    {
+      "modelo": "Cargo 1933",
+      "descricao": "Turbo",
+      "ano": "1933",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-1933/2019/turbo"
+    },
+    {
+      "modelo": "Cargo 2042",
+      "descricao": "CARGO 2042 E Turbo 4x2 2p (diesel)(E5)",
+      "ano": "2042",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2042/2019/cargo-2042-e-turbo-4x2-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 2217",
+      "descricao": "6X2 (3 Eixos)",
+      "ano": "2217",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2217/1990/6x2-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2218",
+      "descricao": "(3 Eixos)",
+      "ano": "2218",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2218/1990/3-eixos"
+    },
+    {
+      "modelo": "Cargo 2319",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "2319",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2319/1990/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2322",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "2322",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2322/1996/turbo-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2324",
+      "descricao": "(3 Eixos)",
+      "ano": "2324",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2324/1997/3-eixos"
+    },
+    {
+      "modelo": "Cargo 2421",
+      "descricao": "6X2 (3 Eixos)",
+      "ano": "2421",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2421/2006/6x2-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2422",
+      "descricao": "Novo",
+      "ano": "2422",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2422/2012/novo"
+    },
+    {
+      "modelo": "Cargo 2423",
+      "descricao": "CARGO 2423 E 6x2 Turbo 2p (diesel)(E5)",
+      "ano": "2423",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2423/2019/cargo-2423-e-6x2-turbo-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 2425",
+      "descricao": "(3 Eixos)",
+      "ano": "2425",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2425/2002/3-eixos"
+    },
+    {
+      "modelo": "Cargo 2428",
+      "descricao": "Novo",
+      "ano": "2428",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2428/2012/novo"
+    },
+    {
+      "modelo": "Cargo 2429",
+      "descricao": "6x2",
+      "ano": "2429",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2429/2019/6x2"
+    },
+    {
+      "modelo": "Cargo 2431",
+      "descricao": "E 6x2",
+      "ano": "2431",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2431/2019/e-6x2"
+    },
+    {
+      "modelo": "Cargo 2622",
+      "descricao": "Novo  (6X4)",
+      "ano": "2622",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2622/2012/novo-6x4"
+    },
+    {
+      "modelo": "Cargo 2623",
+      "descricao": "CARGO 2623 E 6x4 Turbo 2p (diesel)(E5)",
+      "ano": "2623",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2623/2019/cargo-2623-e-6x4-turbo-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 2626",
+      "descricao": "6X4 (3 Eixos)",
+      "ano": "2626",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2626/2006/6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2628",
+      "descricao": "Novo  (6X4)",
+      "ano": "2628",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2628/2012/novo-6x4"
+    },
+    {
+      "modelo": "Cargo 2629",
+      "descricao": "CARGO 2629 E 6x4 Turbo 2p (diesel)(E5)",
+      "ano": "2629",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2629/2019/cargo-2629-e-6x4-turbo-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 2630",
+      "descricao": "6X4 (3 Eixos)",
+      "ano": "2630",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2630/2002/6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2631",
+      "descricao": "6X4 (3 Eixos)",
+      "ano": "2631",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2631/2019/6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2632",
+      "descricao": "E 6X4 (3 Eixos)",
+      "ano": "2632",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2632/2008/e-6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2831",
+      "descricao": "6X4 (3 Eixos)",
+      "ano": "2831",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2831/2006/6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 2842",
+      "descricao": "CARGO 2042 E Turbo 4x2 2p (diesel)(E5)",
+      "ano": "2842",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2842/2019/cargo-2042-e-turbo-4x2-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 2932",
+      "descricao": "E 6X4 (3 Eixos)",
+      "ano": "2932",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-2932/2008/e-6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 3129",
+      "descricao": "CARGO 3129 6x4 Turbo 2p (diesel)(E5)",
+      "ano": "3129",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-3129/2018/cargo-3129-6x4-turbo-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 3132",
+      "descricao": "Novo  (6X4)",
+      "ano": "3132",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-3132/2012/novo-6x4"
+    },
+    {
+      "modelo": "Cargo 3133",
+      "descricao": "CARGO 3133 E 6x4 Turbo 2p (diesel)(E5)",
+      "ano": "3133",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-3133/2019/cargo-3133-e-6x4-turbo-2p-diesele5"
+    },
+    {
+      "modelo": "Cargo 3222",
+      "descricao": "Turbo",
+      "ano": "3222",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-3222/2006/turbo"
+    },
+    {
+      "modelo": "Cargo 3224",
+      "descricao": "CARGO 3224 2p (diesel)",
+      "ano": "3224",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-3224/1997/cargo-3224-2p-diesel"
+    },
+    {
+      "modelo": "Cargo 3530",
+      "descricao": "Turbo",
+      "ano": "3530",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-3530/1997/turbo"
+    },
+    {
+      "modelo": "Cargo 4030",
+      "descricao": "Nova Serie",
+      "ano": "4030",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-4030/2002/nova-serie"
+    },
+    {
+      "modelo": "Cargo 4031",
+      "descricao": "4X2",
+      "ano": "4031",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-4031/2005/4x2"
+    },
+    {
+      "modelo": "Cargo 4331",
+      "descricao": "Maxton T 4X2",
+      "ano": "4331",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-4331/2006/maxton-t-4x2"
+    },
+    {
+      "modelo": "Cargo 4331",
+      "descricao": "Maxton S 4X2",
+      "ano": "4331",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-4331/2006/maxton-s-4x2"
+    },
+    {
+      "modelo": "Cargo 4432",
+      "descricao": "E 4X2",
+      "ano": "4432",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-4432/2007/e-4x2"
+    },
+    {
+      "modelo": "Cargo 4532",
+      "descricao": "E 4X2",
+      "ano": "4532",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-4532/2011/e-4x2"
+    },
+    {
+      "modelo": "Cargo 5031",
+      "descricao": "T 6X4 (3 Eixos)",
+      "ano": "5031",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-5031/2006/t-6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 5032",
+      "descricao": "E 6X4 (3 Eixos)",
+      "ano": "5032",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-5032/2008/e-6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 6332",
+      "descricao": "E 6X4 (3 Eixos)",
+      "ano": "6332",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-6332/2011/e-6x4-3-eixos"
+    },
+    {
+      "modelo": "Cargo 712",
+      "descricao": "-T 4X2",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-712/2012/t-4x2"
+    },
+    {
+      "modelo": "Cargo 712",
+      "descricao": "-T 4X2",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-712/2011/t-4x2"
+    },
+    {
+      "modelo": "Cargo 712",
+      "descricao": "-T 4X2",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-712/2010/t-4x2"
+    },
+    {
+      "modelo": "Cargo 712",
+      "descricao": "-T 4X2",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-712/2009/t-4x2"
+    },
+    {
+      "modelo": "Cargo 712",
+      "descricao": "-T 4X2",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-712/2008/t-4x2"
+    },
+    {
+      "modelo": "Cargo 712",
+      "descricao": "-T 4X2",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-712/2007/t-4x2"
+    },
+    {
+      "modelo": "Cargo 814",
+      "descricao": "Turbo",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-814/2000/turbo"
+    },
+    {
+      "modelo": "Cargo 814",
+      "descricao": "Turbo VUC",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-814/2000/turbo-vuc"
+    },
+    {
+      "modelo": "Cargo 814",
+      "descricao": "Turbo",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-814/1999/turbo"
+    },
+    {
+      "modelo": "Cargo 814",
+      "descricao": "Turbo",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-814/1998/turbo"
+    },
+    {
+      "modelo": "Cargo 814",
+      "descricao": "Turbo",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-814/1997/turbo"
+    },
+    {
+      "modelo": "Cargo 814",
+      "descricao": "Turbo",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-814/1996/turbo"
+    },
+    {
+      "modelo": "Cargo 815",
+      "descricao": "815 TRV FMAXX",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815/2012/815-trv-fmaxx"
+    },
+    {
+      "modelo": "Cargo 815",
+      "descricao": "815 TRV FMAXX",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815/2011/815-trv-fmaxx"
+    },
+    {
+      "modelo": "Cargo 815",
+      "descricao": "815 TRV FMAXX",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815/2010/815-trv-fmaxx"
+    },
+    {
+      "modelo": "Cargo 815",
+      "descricao": "815 TRV FMAXX",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815/2009/815-trv-fmaxx"
+    },
+    {
+      "modelo": "Cargo 815",
+      "descricao": "S 4X2 VUC",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815/2006/s-4x2-vuc"
+    },
+    {
+      "modelo": "Cargo 815",
+      "descricao": "S 4X2 VUC",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815/2005/s-4x2-vuc"
+    },
+    {
+      "modelo": "Cargo 815",
+      "descricao": "Turbo",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815/2001/turbo"
+    },
+    {
+      "modelo": "Cargo 815 t",
+      "descricao": "Cargo 815-T 4X2 (Eletronico)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815-t/2012/cargo-815-t-4x2-eletronico"
+    },
+    {
+      "modelo": "Cargo 815 t",
+      "descricao": "Cargo 815-T 4X2 (Eletronico)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815-t/2011/cargo-815-t-4x2-eletronico"
+    },
+    {
+      "modelo": "Cargo 815 t",
+      "descricao": "Cargo 815-T 4X2 (Eletronico)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815-t/2010/cargo-815-t-4x2-eletronico"
+    },
+    {
+      "modelo": "Cargo 815 t",
+      "descricao": "Cargo 815-T 4X2 (Eletronico)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815-t/2009/cargo-815-t-4x2-eletronico"
+    },
+    {
+      "modelo": "Cargo 815 t",
+      "descricao": "Cargo 815-T 4X2 (Eletronico)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815-t/2008/cargo-815-t-4x2-eletronico"
+    },
+    {
+      "modelo": "Cargo 815 t",
+      "descricao": "Cargo 815-T 4X2 (Eletronico)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815-t/2007/cargo-815-t-4x2-eletronico"
+    },
+    {
+      "modelo": "Cargo 815 t",
+      "descricao": "Cargo 815-T 4X2 (Eletronico)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815-t/2006/cargo-815-t-4x2-eletronico"
+    },
+    {
+      "modelo": "Cargo 815 t",
+      "descricao": "Cargo 815-T 4X2 (Eletronico)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-815-t/2005/cargo-815-t-4x2-eletronico"
+    },
+    {
+      "modelo": "Cargo 816",
+      "descricao": "816",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-816/2019/816"
+    },
+    {
+      "modelo": "Cargo 816",
+      "descricao": "816",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-816/2018/816"
+    },
+    {
+      "modelo": "Cargo 816",
+      "descricao": "816",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-816/2017/816"
+    },
+    {
+      "modelo": "Cargo 816",
+      "descricao": "816",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-816/2016/816"
+    },
+    {
+      "modelo": "Cargo 816",
+      "descricao": "816",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-816/2015/816"
+    },
+    {
+      "modelo": "Cargo 816",
+      "descricao": "816",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-816/2014/816"
+    },
+    {
+      "modelo": "Cargo 816",
+      "descricao": "816",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-816/2013/816"
+    },
+    {
+      "modelo": "Cargo 816",
+      "descricao": "816",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/cargo-816/2012/816"
+    },
+    {
+      "modelo": "F 11000",
+      "descricao": "F-11000 (3 Eixos)",
+      "ano": "1100",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-11000/1992/f-11000-3-eixos"
+    },
+    {
+      "modelo": "F 11000",
+      "descricao": "F-11000",
+      "ano": "1100",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-11000/1992/f-11000"
+    },
+    {
+      "modelo": "F 12000",
+      "descricao": "F-12000 (3 Eixos N.Serie)",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-12000/2006/f-12000-3-eixos-n-serie"
+    },
+    {
+      "modelo": "F 12000",
+      "descricao": "F-12000 (N.Serie)",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-12000/2006/f-12000-n-serie"
+    },
+    {
+      "modelo": "F 13000",
+      "descricao": "F-13000",
+      "ano": "1300",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-13000/1989/f-13000"
+    },
+    {
+      "modelo": "F 13000",
+      "descricao": "F-13000 (3 Eixos)",
+      "ano": "1300",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-13000/1989/f-13000-3-eixos"
+    },
+    {
+      "modelo": "F 14000",
+      "descricao": "F-14000 (N.Serie)",
+      "ano": "1400",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-14000/2006/f-14000-n-serie"
+    },
+    {
+      "modelo": "F 14000",
+      "descricao": "F-14000 (3 Eixos N.Serie)",
+      "ano": "1400",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-14000/2006/f-14000-3-eixos-n-serie"
+    },
+    {
+      "modelo": "F 16000",
+      "descricao": "F-16000 (3 Eixos)",
+      "ano": "1600",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-16000/2004/f-16000-3-eixos"
+    },
+    {
+      "modelo": "F 16000",
+      "descricao": "F-16000",
+      "ano": "1600",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-16000/2004/f-16000"
+    },
+    {
+      "modelo": "F 19000",
+      "descricao": "F-19000",
+      "ano": "1900",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-19000/1982/f-19000"
+    },
+    {
+      "modelo": "F 19000",
+      "descricao": "F-19000 (3 Eixos)",
+      "ano": "1900",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-19000/1982/f-19000-3-eixos"
+    },
+    {
+      "modelo": "F 2000",
+      "descricao": "F-2000",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-2000/1989/f-2000"
+    },
+    {
+      "modelo": "F 21000",
+      "descricao": "F-21000",
+      "ano": "2100",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-21000/1989/f-21000"
+    },
+    {
+      "modelo": "F 22000",
+      "descricao": "F-22000",
+      "ano": "2200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-22000/1992/f-22000"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Trompicampo 2.8 CD 4X2",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2019/trompicampo-2-8-cd-4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2019/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Trompicampo 2.8 CD 4X2",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2018/trompicampo-2-8-cd-4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2018/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Trompicampo 2.8 CD 4X2",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2017/trompicampo-2-8-cd-4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2017/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2016/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)(E5)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2015/f-350-2p-diesele5"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2015/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2014/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2013/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2012/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2011/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2011/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2010/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2010/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2009/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2009/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2009/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2008/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2008/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2008/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2007/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2007/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2007/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2006/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2006/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2006/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2005/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2005/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2005/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2004/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2004/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "4X2",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2004/4x2"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2003/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2003/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2002/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2002/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2001/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2001/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2000/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/2000/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "Nogueira 4X2 (C.Dupla)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/1999/nogueira-4x2-c-dupla"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/1999/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "F-350 2p (diesel)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/1998/f-350-2p-diesel"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "7.3 V-8",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/1992/7-3-v-8"
+    },
+    {
+      "modelo": "F 350",
+      "descricao": "7.3 V-8",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-350/1991/7-3-v-8"
+    },
+    {
+      "modelo": "F 400",
+      "descricao": "F-400",
+      "ano": "1977",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-400/1977/f-400"
+    },
+    {
+      "modelo": "F 400",
+      "descricao": "F-400",
+      "ano": "1976",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-400/1976/f-400"
+    },
+    {
+      "modelo": "F 400",
+      "descricao": "F-400",
+      "ano": "1975",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-400/1975/f-400"
+    },
+    {
+      "modelo": "F 4000",
+      "descricao": "Trompicampo 2.8 CD",
+      "ano": "4000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-4000/2019/trompicampo-2-8-cd"
+    },
+    {
+      "modelo": "F 4000",
+      "descricao": "Trompicampo Multi CD 2.8 4x4",
+      "ano": "4000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-4000/2019/trompicampo-multi-cd-2-8-4x4"
+    },
+    {
+      "modelo": "F 4000",
+      "descricao": "Trompicampo Multi CT 2.8 4x4",
+      "ano": "4000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-4000/2019/trompicampo-multi-ct-2-8-4x4"
+    },
+    {
+      "modelo": "F 4000",
+      "descricao": "Trompicampo Multi CT 2.8 4x2",
+      "ano": "4000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-4000/2019/trompicampo-multi-ct-2-8-4x2"
+    },
+    {
+      "modelo": "F 4000",
+      "descricao": "4x2",
+      "ano": "4000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-4000/2019/4x2"
+    },
+    {
+      "modelo": "F 4000",
+      "descricao": "4x4",
+      "ano": "4000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-4000/2019/4x4"
+    },
+    {
+      "modelo": "F 600",
+      "descricao": "F-600 4X2",
+      "ano": "1980",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-600/1980/f-600-4x2"
+    },
+    {
+      "modelo": "F 600",
+      "descricao": "F-600 4X2",
+      "ano": "1979",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-600/1979/f-600-4x2"
+    },
+    {
+      "modelo": "F 600",
+      "descricao": "F-600 4X2",
+      "ano": "1978",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-600/1978/f-600-4x2"
+    },
+    {
+      "modelo": "F 600",
+      "descricao": "F-600 4X2",
+      "ano": "1977",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-600/1977/f-600-4x2"
+    },
+    {
+      "modelo": "F 600",
+      "descricao": "F-600 4X2",
+      "ano": "1976",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-600/1976/f-600-4x2"
+    },
+    {
+      "modelo": "F 600",
+      "descricao": "F-600 4X2",
+      "ano": "1975",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-600/1975/f-600-4x2"
+    },
+    {
+      "modelo": "F 7000",
+      "descricao": "F-7000",
+      "ano": "7000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/ford/f-7000/1989/f-7000"
+    }
+  ]
+}

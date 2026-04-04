@@ -1,0 +1,1280 @@
+{
+  "marca": {
+    "nome": "Dafra",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089261/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Apache",
+      "descricao": "RTR 200 tmp",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2024/rtr-200-tmp"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "RTR 200",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2024/rtr-200"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "200 (ABS)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2024/200-abs"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "200 (ABS)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2023/200-abs"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "RTR 200",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2023/rtr-200"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "RTR 200",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2022/rtr-200"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "RTR 200",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2021/rtr-200"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "RTR 200",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2020/rtr-200"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "RTR 200",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2019/rtr-200"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "150cc",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2015/150cc"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "150cc",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2014/150cc"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "150cc",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2013/150cc"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "150cc",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2012/150cc"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "150cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2011/150cc"
+    },
+    {
+      "modelo": "Apache",
+      "descricao": "150cc",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/apache/2010/150cc"
+    },
+    {
+      "modelo": "Cityclass 200i",
+      "descricao": "200i",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cityclass-200i/2020/200i"
+    },
+    {
+      "modelo": "Cityclass 200i",
+      "descricao": "200i",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cityclass-200i/2019/200i"
+    },
+    {
+      "modelo": "Cityclass 200i",
+      "descricao": "CITYCLASS 200i",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cityclass-200i/2018/cityclass-200i"
+    },
+    {
+      "modelo": "Cityclass 200i",
+      "descricao": "CITYCLASS 200i",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cityclass-200i/2017/cityclass-200i"
+    },
+    {
+      "modelo": "Cityclass 200i",
+      "descricao": "200cc",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cityclass-200i/2016/200cc"
+    },
+    {
+      "modelo": "Cityclass 200i",
+      "descricao": "CITYCLASS 200i",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cityclass-200i/2015/cityclass-200i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "S 300i",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2024/s-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "HD 300i",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2024/hd-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "S 300i",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2023/s-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "HD 300i",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2023/hd-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "S 300i",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2022/s-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "HD 300i",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2022/hd-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "300i",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2021/300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "HD 300i",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2021/hd-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "S 300i",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2020/s-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "HD 300i",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2020/hd-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "S 300i",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2019/s-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "S 300i",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2018/s-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "S 300i",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2017/s-300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "300i",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2016/300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "300i",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2015/300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "300i",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2014/300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "300i",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2013/300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "300i",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2012/300i"
+    },
+    {
+      "modelo": "Citycom",
+      "descricao": "300i",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/citycom/2011/300i"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "150 CBS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2026/150-cbs"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "150 ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2026/150-abs"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "300 ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2026/300-abs"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "150 ABS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2025/150-abs"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "150 CBS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2025/150-cbs"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "300",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2025/300"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "150 CBS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2024/150-cbs"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "300",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2024/300"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "150 CBS",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2023/150-cbs"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "300",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2023/300"
+    },
+    {
+      "modelo": "Cruisym",
+      "descricao": "150 CBS",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/cruisym/2022/150-cbs"
+    },
+    {
+      "modelo": "Fiddle",
+      "descricao": "III",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/fiddle/2018/iii"
+    },
+    {
+      "modelo": "Fiddle",
+      "descricao": "III",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/fiddle/2017/iii"
+    },
+    {
+      "modelo": "Fiddle",
+      "descricao": "III",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/fiddle/2016/iii"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "150",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2022/150"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "150",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2021/150"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "150",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2020/150"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "150",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2019/150"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "150",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2018/150"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "150",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2017/150"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "250",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2017/250"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "150",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2016/150"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "250",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2016/250"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "250",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2015/250"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "250",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2014/250"
+    },
+    {
+      "modelo": "Horizon",
+      "descricao": "250",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/horizon/2013/250"
+    },
+    {
+      "modelo": "Joyride",
+      "descricao": "300 ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/joyride/2026/300-abs"
+    },
+    {
+      "modelo": "Joyride",
+      "descricao": "300 ABS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/joyride/2025/300-abs"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(150cc)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2015/150cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(150cc)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2014/150cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(150cc)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2013/150cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(150cc)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2012/150cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(150cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2011/150cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(150cc)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2010/150cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(250cc)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2009/250cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(150cc)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2009/150cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(250cc)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2008/250cc"
+    },
+    {
+      "modelo": "Kansas",
+      "descricao": "(150cc)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/kansas/2008/150cc"
+    },
+    {
+      "modelo": "Laser",
+      "descricao": "(150cc)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/laser/2010/150cc"
+    },
+    {
+      "modelo": "Laser",
+      "descricao": "(150cc)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/laser/2009/150cc"
+    },
+    {
+      "modelo": "Laser",
+      "descricao": "(150cc)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/laser/2008/150cc"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "GT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2026/gt"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "MAXSYM 400i",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2025/maxsym-400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "400i",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2024/400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "400i",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2023/400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "400i",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2022/400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "MAXSYM 400i",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2021/maxsym-400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "400i",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2020/400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "MAXSYM 400i",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2019/maxsym-400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "400i",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2019/400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "MAXSYM 400i",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2018/maxsym-400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "MAXSYM 400i",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2017/maxsym-400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "400i",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2016/400i"
+    },
+    {
+      "modelo": "Maxsym 400i",
+      "descricao": "400i",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/maxsym-400i/2015/400i"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "190",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2026/190"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "300",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2026/300"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "190",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2025/190"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "300",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2025/300"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "190",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2024/190"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "300",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2024/300"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "190",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2023/190"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "190",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2022/190"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "190",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2021/190"
+    },
+    {
+      "modelo": "NH",
+      "descricao": "190",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nh/2020/190"
+    },
+    {
+      "modelo": "NHX",
+      "descricao": "190 (ABS)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nhx/2026/190-abs"
+    },
+    {
+      "modelo": "NHX",
+      "descricao": "190 (ABS)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/nhx/2025/190-abs"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "300cc",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2020/300cc"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "300cc",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2019/300cc"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "250",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2017/250"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "250",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2016/250"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "250",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2015/250"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "250",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2014/250"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "250",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2013/250"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "250",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2012/250"
+    },
+    {
+      "modelo": "Next",
+      "descricao": "250",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/next/2011/250"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2017/150"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2016/150"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150 (Cargo)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2016/150-cargo"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2015/150"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150 (Cargo)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2015/150-cargo"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2014/150"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150 (Cargo)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2014/150-cargo"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2013/150"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150 (Cargo)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2013/150-cargo"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2012/150"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150 (Cargo)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2012/150-cargo"
+    },
+    {
+      "modelo": "Riva",
+      "descricao": "150",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/riva/2011/150"
+    },
+    {
+      "modelo": "Roadwin",
+      "descricao": "250R",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/roadwin/2015/250r"
+    },
+    {
+      "modelo": "Roadwin",
+      "descricao": "250R",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/roadwin/2014/250r"
+    },
+    {
+      "modelo": "Roadwin",
+      "descricao": "250R",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/roadwin/2013/250r"
+    },
+    {
+      "modelo": "Roadwin",
+      "descricao": "250R",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/roadwin/2012/250r"
+    },
+    {
+      "modelo": "Roadwin",
+      "descricao": "250R",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/roadwin/2011/250r"
+    },
+    {
+      "modelo": "SYM ADXTG",
+      "descricao": "150 ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-adxtg/2026/150-abs"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "(125cc)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2015/125cc"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "Joy",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2015/joy"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "(125cc)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2014/125cc"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "Joy",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2014/joy"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "(125cc)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2013/125cc"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "Joy",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2013/joy"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "(125cc)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2012/125cc"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "Joy",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2012/joy"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "(125cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2011/125cc"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "(125cc)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2010/125cc"
+    },
+    {
+      "modelo": "Smart",
+      "descricao": "(125cc)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/smart/2009/125cc"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "(150cc)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2015/150cc"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "(150cc)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2014/150cc"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "(150cc)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2013/150cc"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "Cargo 150",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2012/cargo-150"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "Cargo (150cc)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2012/cargo-150cc"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "Cargo 150",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2011/cargo-150"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "Cargo (150cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2011/cargo-150cc"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "(150cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2011/150cc"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "Cargo 150",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2010/cargo-150"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "(150cc)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2010/150cc"
+    },
+    {
+      "modelo": "Speed",
+      "descricao": "(150cc)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/speed/2008/150cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(50cc)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2017/50cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(50cc)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2016/50cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(50cc)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2015/50cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(100cc)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2015/100cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(50cc)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2014/50cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(100cc)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2014/100cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(50cc)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2013/50cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(100cc)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2013/100cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(50cc)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2012/50cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(100cc)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2012/100cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(50cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2011/50cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(100cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2011/100cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(50cc)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2010/50cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(100cc)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2010/100cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(100cc)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2009/100cc"
+    },
+    {
+      "modelo": "Super",
+      "descricao": "(100cc)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/super/2008/100cc"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "Citycom HD 300",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2024/citycom-hd-300"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "Citycom 300 CBS",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2023/citycom-300-cbs"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "Citycom HD 300",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2023/citycom-hd-300"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i S",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2022/300i-s"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "Citycom HD 300",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2022/citycom-hd-300"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "Citycom HD 300",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2021/citycom-hd-300"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i S tmp",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2019/300i-s-tmp"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i S",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2019/300i-s"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i S ABS",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2019/300i-s-abs"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i S",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2018/300i-s"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i S",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2017/300i-s"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2016/300i"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i S",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2016/300i-s"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2015/300i"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2014/300i"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2013/300i"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2012/300i"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2011/300i"
+    },
+    {
+      "modelo": "Sym Citycom",
+      "descricao": "300i",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/sym-citycom/2010/300i"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(50cc)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2017/50cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(50cc)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2016/50cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "+ (100cc)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2016/100cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "100+",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2016/100"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(50cc)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2015/50cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "100+",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2015/100"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "+ (100cc)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2015/100cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(50cc)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2014/50cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "100+",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2014/100"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "+ (100cc)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2014/100cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(50cc)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2013/50cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "+ (100cc)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2013/100cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "100+",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2013/100"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(100cc)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2012/100cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(50cc)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2012/50cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "100+",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2012/100"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "100",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2011/100"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(100cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2011/100cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(50cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2011/50cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "100",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2010/100"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(100cc)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2010/100cc"
+    },
+    {
+      "modelo": "Zig",
+      "descricao": "(100cc)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/dafra/zig/2009/100cc"
+    }
+  ]
+}

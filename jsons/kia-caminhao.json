@@ -1,0 +1,86 @@
+{
+  "marca": {
+    "nome": "Kia",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/527300191/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2026/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-487 4x4",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2026/k-487-4x4"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-487 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2025/k-487-4x4"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2025/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2024/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2023/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2022/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2021/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2020/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2019/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2018/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2017/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/kia/bongo/2016/k-2500-4x2"
+    }
+  ]
+}

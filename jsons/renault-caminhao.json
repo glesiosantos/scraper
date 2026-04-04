@@ -1,0 +1,14 @@
+{
+  "marca": {
+    "nome": "Renault",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/527284666/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Master Chassi",
+      "descricao": "Cabine 2.3 dCi",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/renault/master-chassi/2021/cabine-2-3-dci"
+    }
+  ]
+}

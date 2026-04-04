@@ -1,0 +1,44 @@
+{
+  "marca": {
+    "nome": "Effa-jiangling",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089305/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "JBC",
+      "descricao": "SY1040DVA",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/effa-jiangling/jbc/2012/sy1040dva"
+    },
+    {
+      "modelo": "JBC",
+      "descricao": "SY1040DVA",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/effa-jiangling/jbc/2011/sy1040dva"
+    },
+    {
+      "modelo": "JMC",
+      "descricao": "N601",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/effa-jiangling/jmc/2012/n601"
+    },
+    {
+      "modelo": "JMC",
+      "descricao": "N900",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/effa-jiangling/jmc/2012/n900"
+    },
+    {
+      "modelo": "JMC",
+      "descricao": "N601",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/effa-jiangling/jmc/2011/n601"
+    },
+    {
+      "modelo": "JMC",
+      "descricao": "N900",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/effa-jiangling/jmc/2011/n900"
+    }
+  ]
+}

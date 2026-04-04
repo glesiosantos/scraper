@@ -1,0 +1,14 @@
+{
+  "marca": {
+    "nome": "Fiat",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/527385112/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Ducato",
+      "descricao": "Chassi Longo",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/fiat/ducato/2020/chassi-longo"
+    }
+  ]
+}

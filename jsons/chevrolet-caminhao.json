@@ -1,0 +1,398 @@
+{
+  "marca": {
+    "nome": "Chevrolet",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089303/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1984",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1984/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1983",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1983/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1982",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1982/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1981",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1981/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1980",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1980/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1979",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1979/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1978",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1978/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1977",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1977/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1976",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1976/c-60"
+    },
+    {
+      "modelo": "C 60",
+      "descricao": "C-60",
+      "ano": "1975",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/c-60/1975/c-60"
+    },
+    {
+      "modelo": "D 11000",
+      "descricao": "6X2 (3 Eixos)",
+      "ano": "1100",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-11000/1989/6x2-3-eixos"
+    },
+    {
+      "modelo": "D 11000",
+      "descricao": "4X2",
+      "ano": "1100",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-11000/1989/4x2"
+    },
+    {
+      "modelo": "D 12000",
+      "descricao": "4X2",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-12000/1996/4x2"
+    },
+    {
+      "modelo": "D 12000",
+      "descricao": "6X2 (3 Eixos)",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-12000/1996/6x2-3-eixos"
+    },
+    {
+      "modelo": "D 13000",
+      "descricao": "13000 2p (diesel)",
+      "ano": "1300",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-13000/1989/13000-2p-diesel"
+    },
+    {
+      "modelo": "D 13000",
+      "descricao": "(3 Eixos)",
+      "ano": "1300",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-13000/1989/3-eixos"
+    },
+    {
+      "modelo": "D 14000",
+      "descricao": "Turbo",
+      "ano": "1400",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-14000/1996/turbo"
+    },
+    {
+      "modelo": "D 14000",
+      "descricao": "Turbo (3 Eixos)",
+      "ano": "1400",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-14000/1996/turbo-3-eixos"
+    },
+    {
+      "modelo": "D 19000",
+      "descricao": "4X2",
+      "ano": "1900",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-19000/1989/4x2"
+    },
+    {
+      "modelo": "D 19000",
+      "descricao": "6X2 (3 Eixos)",
+      "ano": "1900",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-19000/1989/6x2-3-eixos"
+    },
+    {
+      "modelo": "D 21000",
+      "descricao": "6X2 (3 Eixos)",
+      "ano": "2100",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-21000/1989/6x2-3-eixos"
+    },
+    {
+      "modelo": "D 22000",
+      "descricao": "6X2 (3 Eixos)",
+      "ano": "2200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-22000/1990/6x2-3-eixos"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1994/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1993/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1992/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1991/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1990",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1990/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1989",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1989/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1988",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1988/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1987",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1987/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1986",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1986/d-40-4x2"
+    },
+    {
+      "modelo": "D 40",
+      "descricao": "D-40 4X2",
+      "ano": "1985",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-40/1985/d-40-4x2"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1990",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1990/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1989",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1989/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1988",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1988/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1987",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1987/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1986",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1986/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1985",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1985/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1984",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1984/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1983",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1983/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1982",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1982/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1981",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1981/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1980",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1980/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1979",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1979/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1978",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1978/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1977",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1977/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1976",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1976/d-60"
+    },
+    {
+      "modelo": "D 60",
+      "descricao": "D-60",
+      "ano": "1975",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-60/1975/d-60"
+    },
+    {
+      "modelo": "D 6000",
+      "descricao": "4X2",
+      "ano": "6000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-6000/1996/4x2"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1990",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1990/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1989",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1989/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1988",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1988/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1987",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1987/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1986",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1986/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1985",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1985/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1984",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1984/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1983",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1983/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1982",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1982/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1981",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1981/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1980",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1980/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1979",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1979/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1978",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1978/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1977",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1977/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1976",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1976/d-70"
+    },
+    {
+      "modelo": "D 70",
+      "descricao": "D-70",
+      "ano": "1975",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/chevrolet/d-70/1975/d-70"
+    }
+  ]
+}

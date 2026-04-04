@@ -1,0 +1,4976 @@
+{
+  "marca": {
+    "nome": "Nissan",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089251/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "100NX",
+      "descricao": "2.0",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/100nx/1993/2-0"
+    },
+    {
+      "modelo": "100NX",
+      "descricao": "Targa 2.0",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/100nx/1993/targa-2-0"
+    },
+    {
+      "modelo": "100NX",
+      "descricao": "2.0",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/100nx/1992/2-0"
+    },
+    {
+      "modelo": "100NX",
+      "descricao": "Targa 2.0",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/100nx/1992/targa-2-0"
+    },
+    {
+      "modelo": "240SX",
+      "descricao": "240 2.4",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/240sx/1993/240-2-4"
+    },
+    {
+      "modelo": "240SX",
+      "descricao": "240 2.4",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/240sx/1992/240-2-4"
+    },
+    {
+      "modelo": "240SX",
+      "descricao": "240 2.4",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/240sx/1991/240-2-4"
+    },
+    {
+      "modelo": "300ZX",
+      "descricao": "300 3.0 Bi Turbo",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/300zx/1995/300-3-0-bi-turbo"
+    },
+    {
+      "modelo": "300ZX",
+      "descricao": "300 3.0 Bi Turbo",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/300zx/1993/300-3-0-bi-turbo"
+    },
+    {
+      "modelo": "300ZX",
+      "descricao": "300 3.0 Bi Turbo",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/300zx/1992/300-3-0-bi-turbo"
+    },
+    {
+      "modelo": "300ZX",
+      "descricao": "300 3.0 Bi Turbo",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/300zx/1991/300-3-0-bi-turbo"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Coupe",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2009/350-z-coupe"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Coupe (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2009/350-z-coupe-aut"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Coupe",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2008/350-z-coupe"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Coupe (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2008/350-z-coupe-aut"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Coupe",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2007/350-z-coupe"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Coupe (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2007/350-z-coupe-aut"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Coupe",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2006/350-z-coupe"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Coupe (aut)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2006/350-z-coupe-aut"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Roadster",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2005/350-z-roadster"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z 3.5 V6 24V",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2005/350-z-3-5-v6-24v"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z Roadster",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2004/350-z-roadster"
+    },
+    {
+      "modelo": "350Z",
+      "descricao": "350 Z 3.5 V6 24V",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/350z/2004/350-z-3-5-v6-24v"
+    },
+    {
+      "modelo": "370Z",
+      "descricao": "350Z 3.5 V6 280cv/ 312cv 2p",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/370z/2013/350z-3-5-v6-280cv-312cv-2p"
+    },
+    {
+      "modelo": "370Z",
+      "descricao": "350Z 3.5 V6 280cv/ 312cv 2p",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/370z/2012/350z-3-5-v6-280cv-312cv-2p"
+    },
+    {
+      "modelo": "370Z",
+      "descricao": "350Z 3.5 V6 280cv/ 312cv 2p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/370z/2011/350z-3-5-v6-280cv-312cv-2p"
+    },
+    {
+      "modelo": "370Z",
+      "descricao": "350Z 3.5 V6 280cv/ 312cv 2p",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/370z/2010/350z-3-5-v6-280cv-312cv-2p"
+    },
+    {
+      "modelo": "370Z",
+      "descricao": "Cabriolet 3.7 V6 (Aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/370z/2010/cabriolet-3-7-v6-aut"
+    },
+    {
+      "modelo": "370Z",
+      "descricao": "350Z 3.5 V6 280cv/ 312cv 2p",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/370z/2009/350z-3-5-v6-280cv-312cv-2p"
+    },
+    {
+      "modelo": "370Z",
+      "descricao": "Coupe 3.7 V6 (Aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/370z/2009/coupe-3-7-v6-aut"
+    },
+    {
+      "modelo": "370Z",
+      "descricao": "350Z 3.5 V6 280cv/ 312cv 2p",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/370z/2008/350z-3-5-v6-280cv-312cv-2p"
+    },
+    {
+      "modelo": "AX",
+      "descricao": "6.5",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/ax/1996/6-5"
+    },
+    {
+      "modelo": "AX",
+      "descricao": "6.5",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/ax/1995/6-5"
+    },
+    {
+      "modelo": "AX",
+      "descricao": "6.5",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/ax/1994/6-5"
+    },
+    {
+      "modelo": "Altima",
+      "descricao": "SL 2.5 X-Tronic CVT",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/altima/2014/sl-2-5-x-tronic-cvt"
+    },
+    {
+      "modelo": "Altima",
+      "descricao": "SL 2.5 X-Tronic CVT",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/altima/2013/sl-2-5-x-tronic-cvt"
+    },
+    {
+      "modelo": "Altima",
+      "descricao": "SE 2.4 16V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/altima/1995/se-2-4-16v"
+    },
+    {
+      "modelo": "Altima",
+      "descricao": "GXE 2.4 16V",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/altima/1994/gxe-2-4-16v"
+    },
+    {
+      "modelo": "Altima",
+      "descricao": "SE 2.4 16V",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/altima/1994/se-2-4-16v"
+    },
+    {
+      "modelo": "Altima",
+      "descricao": "GXE 2.4 16V",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/altima/1993/gxe-2-4-16v"
+    },
+    {
+      "modelo": "Altima",
+      "descricao": "SE 2.4 16V",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/altima/1993/se-2-4-16v"
+    },
+    {
+      "modelo": "Armada",
+      "descricao": "5.6 SE 4X4 V8 32V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/armada/2011/5-6-se-4x4-v8-32v"
+    },
+    {
+      "modelo": "Armada",
+      "descricao": "5.6 SE 4X4 V8 32V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/armada/2010/5-6-se-4x4-v8-32v"
+    },
+    {
+      "modelo": "Armada",
+      "descricao": "5.6 SE 4X4 V8 32V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/armada/2009/5-6-se-4x4-v8-32v"
+    },
+    {
+      "modelo": "Armada",
+      "descricao": "5.6 SE 4X4 V8 32V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/armada/2008/5-6-se-4x4-v8-32v"
+    },
+    {
+      "modelo": "Armada",
+      "descricao": "5.6 LE 4x4 V8",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/armada/2006/5-6-le-4x4-v8"
+    },
+    {
+      "modelo": "D21",
+      "descricao": "Pick Up D 21 4x2 2.7 (cab. simples)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d21/1998/pick-up-d-21-4x2-2-7-cab-simples"
+    },
+    {
+      "modelo": "D21",
+      "descricao": "Pick Up D 21 4x4 2.7 (cab. simples)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d21/1998/pick-up-d-21-4x4-2-7-cab-simples"
+    },
+    {
+      "modelo": "D21",
+      "descricao": "Pick Up D 21 4x4 2.7 (cab.dupla)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d21/1998/pick-up-d-21-4x4-2-7-cab-dupla"
+    },
+    {
+      "modelo": "D21",
+      "descricao": "Pick Up D 21 4x2 2.7 (cab.dupla)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d21/1998/pick-up-d-21-4x2-2-7-cab-dupla"
+    },
+    {
+      "modelo": "D21",
+      "descricao": "Pick Up D 21 DX 2.7",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d21/1997/pick-up-d-21-dx-2-7"
+    },
+    {
+      "modelo": "D21",
+      "descricao": "Pick Up D 21 AX 2.7",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d21/1997/pick-up-d-21-ax-2-7"
+    },
+    {
+      "modelo": "D22",
+      "descricao": "Pick Up D 22 Frontier 4x4 2.5 (cab.dupla)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d22/2001/pick-up-d-22-frontier-4x4-2-5-cab-dupla"
+    },
+    {
+      "modelo": "D22",
+      "descricao": "Pick Up D 22 Frontier 4x4 2.5 (cab.dupla)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d22/2000/pick-up-d-22-frontier-4x4-2-5-cab-dupla"
+    },
+    {
+      "modelo": "D22",
+      "descricao": "Pick Up D 22 AX 4x4 3.2 (cab.dupla)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d22/2000/pick-up-d-22-ax-4x4-3-2-cab-dupla"
+    },
+    {
+      "modelo": "D22",
+      "descricao": "Pick Up D 22 DX 4x4 3.2 (cab.dupla)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d22/1999/pick-up-d-22-dx-4x4-3-2-cab-dupla"
+    },
+    {
+      "modelo": "D22",
+      "descricao": "Pick Up D 22 AX 4x4 3.2 (cab.dupla)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d22/1999/pick-up-d-22-ax-4x4-3-2-cab-dupla"
+    },
+    {
+      "modelo": "D22",
+      "descricao": "Pick Up D 22 DX 4x4 3.2 (cab.dupla)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d22/1998/pick-up-d-22-dx-4x4-3-2-cab-dupla"
+    },
+    {
+      "modelo": "D22",
+      "descricao": "Pick Up D 22 AX 4x4 3.2 (cab.dupla)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/d22/1998/pick-up-d-22-ax-4x4-3-2-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Attack 2.3 Turbo 4x4 AT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2026/attack-2-3-turbo-4x4-at"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Pro-4X 2.3 Turbo 4x4 AT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2026/pro-4x-2-3-turbo-4x4-at"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Platinum 2.3 Turbo 4x4 AT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2026/platinum-2-3-turbo-4x4-at"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "S 2.3 Turbo 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2025/s-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 2.3 Turbo 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2025/se-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Attack 2.3 Turbo 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2025/attack-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 2.3 Turbo 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2025/xe-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Pro-4X 2.3 Turbo 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2025/pro-4x-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Platinum 2.3 Turbo 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2025/platinum-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "S 2.3 Turbo 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2024/s-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 2.3 Turbo 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2024/se-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Attack 2.3 Turbo 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2024/attack-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 2.3 Turbo 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2024/xe-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Platinum 2.3 Turbo 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2024/platinum-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Pro-4X 2.3 Turbo 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2024/pro-4x-2-3-turbo-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD S 4x4",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2023/2-3-td-cd-s-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE CD 4x4 2.3 Bi-TB Diesel Aut.",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2023/se-cd-4x4-2-3-bi-tb-diesel-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD Attack 4x4",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2023/2-3-td-cd-attack-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 CD Turbo Attack TDI (Aut) 4x4",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2023/2-3-cd-turbo-attack-tdi-aut-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE CD 4x4 2.3 Bi-TB Diesel Aut.",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2023/xe-cd-4x4-2-3-bi-tb-diesel-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD Platinum 4x4",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2023/2-3-td-cd-platinum-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD PRO-4X 4x4",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2023/2-3-td-cd-pro-4x-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD S 4x4",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2022/2-3-td-cd-s-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 CD Turbo Attack TDI Auto 4x4",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2022/2-3-cd-turbo-attack-tdi-auto-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE CD 4x4 2.3 Bi-TB Diesel Aut.",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2022/xe-cd-4x4-2-3-bi-tb-diesel-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "X-Gear 2.3 TD CD 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2022/x-gear-2-3-td-cd-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD LE 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2022/2-3-td-cd-le-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD S 4x4",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2021/2-3-td-cd-s-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 CD Turbo Attack TDI Auto 4x4",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2021/2-3-cd-turbo-attack-tdi-auto-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD XE 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2021/2-3-td-cd-xe-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "X-Gear 2.3 TD CD 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2021/x-gear-2-3-td-cd-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD LE 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2021/2-3-td-cd-le-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD SE 4x4 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2020/2-3-td-cd-se-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD S 4x4",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2020/2-3-td-cd-s-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD LE 4x4 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2020/2-3-td-cd-le-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 CD Turbo Attack TDI Auto 4x4",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2020/2-3-cd-turbo-attack-tdi-auto-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD XE 4x4 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2020/2-3-td-cd-xe-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TB CD S 4x4 Diesel Mec",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2019/2-3-tb-cd-s-4x4-diesel-mec"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD SE 4x4 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2019/2-3-td-cd-se-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD S 4x4",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2019/2-3-td-cd-s-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD LE 4x4 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2019/2-3-td-cd-le-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 CD Turbo Attack TDI Auto 4x4",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2019/2-3-cd-turbo-attack-tdi-auto-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD XE 4x4 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2019/2-3-td-cd-xe-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD S 4x4",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2018/2-3-td-cd-s-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD SE 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2018/2-3-td-cd-se-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD LE 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2018/2-3-td-cd-le-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD SE 4x4 (Aut)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2017/2-3-td-cd-se-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.3 TD CD LE 4x4 (Aut)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2017/2-3-td-cd-le-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD S 4x4",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2016/2-5-td-cd-s-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 SV Attack",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2016/2-5-td-cd-4x4-sv-attack"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 SV Attack (Aut)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2016/2-5-td-cd-4x4-sv-attack-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD SL 4x4 (Aut)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2016/2-5-td-cd-sl-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "S 2.5 TD CD 4x2",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2015/s-2-5-td-cd-4x2"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x2 SV Attack",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2015/2-5-td-cd-4x2-sv-attack"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 S",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2015/2-5-td-cd-4x4-s"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 SV Attack",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2015/2-5-td-cd-4x4-sv-attack"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 SV Attack (Aut)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2015/2-5-td-cd-4x4-sv-attack-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 SL (Aut)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2015/2-5-td-cd-4x4-sl-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "S 2.5 TD CD 4x2",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2014/s-2-5-td-cd-4x2"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x2 SV Attack",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2014/2-5-td-cd-4x2-sv-attack"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 S",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2014/2-5-td-cd-4x4-s"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 SV Attack",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2014/2-5-td-cd-4x4-sv-attack"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Platinum 2.5 TD CD 4x4",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2014/platinum-2-5-td-cd-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 SL (Aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2014/2-5-td-cd-4x4-sl-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/xe-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Attack 2.5 4x2 (Cab.Dupla)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/se-attack-2-5-4x2-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x2 SV Attack",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/2-5-td-cd-4x2-sv-attack"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/xe-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Attack 2.5 4X4 (Cab.Dupla)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/se-attack-2-5-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "2.5 TD CD 4x4 SV Attack",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/2-5-td-cd-4x4-sv-attack"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/le-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla) (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/le-4x4-2-5-16v-cab-dupla-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE Attack 2.5 4X4 (Cab.Dupla) (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/le-attack-2-5-4x4-cab-dupla-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SL 2.5 TD CD 4x4 (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2013/sl-2-5-td-cd-4x4-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/xe-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Strike 2.5 4X2",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/strike-2-5-4x2"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/se-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Attack 2.5 4x2 (Cab.Dupla)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/se-attack-2-5-4x2-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/xe-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Strike 2.5 4X4",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/strike-2-5-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/se-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Attack 2.5 4X4 (Cab.Dupla)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/se-attack-2-5-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/le-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla) (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/le-4x4-2-5-16v-cab-dupla-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE Attack 2.5 4X4 (Cab.Dupla) (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2012/le-attack-2-5-4x4-cab-dupla-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2011/xe-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2011/se-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2011/xe-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Strike 2.5 4X2",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2011/strike-2-5-4x2"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2011/se-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Strike 2.5 4X4",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2011/strike-2-5-4x4"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2011/le-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla) (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2011/le-4x4-2-5-16v-cab-dupla-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2010/xe-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2010/xe-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2010/se-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2010/se-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2010/le-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2010/le-4x4-2-5-16v-cab-dupla-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2009/xe-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2009/xe-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.5 16V (cab. dupla)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2009/se-4x2-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2009/se-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2009/le-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2009/le-4x4-2-5-16v-cab-dupla-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Vibe 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/se-vibe-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Serrana 4x4 2.8 (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/se-serrana-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/xe-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Strike 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/se-strike-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 Eletronic (cab. simples)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/xe-4x2-2-8-eletronic-cab-simples"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE Attack 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/xe-attack-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE Attack 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/xe-attack-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SEL 4x4 2.5 16V (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/sel-4x4-2-5-16v-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SEL 4x4 2.5 16V (cab. dupla) (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2008/sel-4x4-2-5-16v-cab-dupla-aut"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/se-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/se-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Limited Edition 4x4 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/limited-edition-4x4-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 Eletronic (cab. simples)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/xe-4x2-2-8-eletronic-cab-simples"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/xe-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE Attack 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/xe-attack-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/xe-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Vibe 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/se-vibe-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE Attack 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/xe-attack-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Serrana 4x4 2.8 (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/se-serrana-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Strike 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/se-strike-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "LE 4x4 2.5 16V (cab. dupla) (importada)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2007/le-4x4-2-5-16v-cab-dupla-importada"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 Eletronic (cab. simples)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2006/xe-4x2-2-8-eletronic-cab-simples"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2006/xe-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE Attack 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2006/xe-attack-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2006/xe-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.8 Eletronic (cab. dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2006/se-4x2-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE Attack 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2006/xe-attack-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2006/se-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Strike 4x4 2.8 Eletronic (cab. dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2006/se-strike-4x4-2-8-eletronic-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE One 4x2 2.8 (cab.dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2005/se-one-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 (cab. simples)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2005/xe-4x2-2-8-cab-simples"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 (cab. dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2005/xe-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.8 (cab. dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2005/xe-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.8 (cab.dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2005/se-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Serrana 4x4 2.8 (cab.dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2005/se-serrana-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.8 (cab.dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2005/se-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Strike 4x4 2.8 (cab. dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2005/se-strike-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE One 4x2 2.8 (cab.dupla)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2004/se-one-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Serrana 4x4 2.8 (cab.dupla)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2004/se-serrana-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 (cab. simples)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2004/xe-4x2-2-8-cab-simples"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 (cab. dupla)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2004/xe-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.8 (cab. dupla)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2004/xe-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.8 (cab.dupla)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2004/se-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.8 (cab.dupla)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2004/se-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Strike 4x4 2.8 (cab. dupla)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2004/se-strike-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE Strike 4x4 2.8 (cab. dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/se-strike-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 (cab. simples)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/xe-4x2-2-8-cab-simples"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 (cab. dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/xe-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Titanium 4x2 2.8 (cab.dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/titanium-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.8 (cab. dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/xe-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Titanium 4x4 2.8 (cab.dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/titanium-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE One 4x2 2.8 (cab.dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/se-one-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.8 (cab.dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/se-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.8 (cab.dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/se-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE One 4x4 2.8 (cab.dupla)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2003/se-one-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x2 2.8 (cab.dupla)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2002/se-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "SE 4x4 2.8 (cab.dupla)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2002/se-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x2 2.8 (cab. dupla)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2002/xe-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "XE 4x4 2.8 (cab. dupla)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2002/xe-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Titanium 4x2 2.8 (cab.dupla)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2002/titanium-4x2-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "Titanium 4x4 2.8 (cab.dupla)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2002/titanium-4x4-2-8-cab-dupla"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "AX 4x4  2.5",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2002/ax-4x4-2-5"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "AX 4x4 2.5",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2001/ax-4x4-2-5"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "AX 4x4 3.2",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2000/ax-4x4-3-2"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "AX 4x4  2.5",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/2000/ax-4x4-2-5"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "DX 4x4 3.2",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/1999/dx-4x4-3-2"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "AX 4x4 3.2",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/1999/ax-4x4-3-2"
+    },
+    {
+      "modelo": "Frontier",
+      "descricao": "AX 4x4 3.2",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/frontier/1998/ax-4x4-3-2"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "3.8 V6 Premium 4WD",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2022/3-8-v6-premium-4wd"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "3.8 V6 Premium 4WD",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2021/3-8-v6-premium-4wd"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "3.8 V6 BiTurbo Aut.",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2019/3-8-v6-biturbo-aut"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "3.8 V6 Premium 4WD",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2017/3-8-v6-premium-4wd"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "3.8 V6 BiTurbo Aut.",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2016/3-8-v6-biturbo-aut"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Black Edition",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2013/black-edition"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Premium",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2012/premium"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Bi-Turbo",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2012/bi-turbo"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Premium",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2011/premium"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Bi-Turbo",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2011/bi-turbo"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Premium",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2010/premium"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Bi-Turbo",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2010/bi-turbo"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Premium",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2009/premium"
+    },
+    {
+      "modelo": "GT-R",
+      "descricao": "Premium",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/gt-r/2008/premium"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "S 1.8 16V (flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2014/s-1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V (flex) (aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2014/sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "S 1.8 16V (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2013/s-1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V Flex Fuel Aut.",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2013/sl-1-8-16v-flex-fuel-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V (flex) (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2013/sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "S 1.8 16V (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2012/s-1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V (flex) (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2012/sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "S 1.8 16V (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2011/s-1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "S 1.8 16V Flex Fuel Aut.",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2011/s-1-8-16v-flex-fuel-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V (flex) (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2011/sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "1.8 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2010/1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "S 1.8 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2010/s-1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "1.8 16V (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2010/1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "S 1.8 16V (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2010/s-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2010/sl-1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2010/sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "1.8 16V (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2009/1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "1.8 16V (flex) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2009/1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2009/sl-1-8-16v-flex"
+    },
+    {
+      "modelo": "Grand Livina",
+      "descricao": "SL 1.8 16V (flex) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/grand-livina/2009/sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Juke",
+      "descricao": "AWD",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/juke/2011/awd"
+    },
+    {
+      "modelo": "Kait",
+      "descricao": "Active 1.6 CVT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kait/2026/active-1-6-cvt"
+    },
+    {
+      "modelo": "Kait",
+      "descricao": "Advance Plus 1.6 CVT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kait/2026/advance-plus-1-6-cvt"
+    },
+    {
+      "modelo": "Kait",
+      "descricao": "Exclusive 1.6 CVT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kait/2026/exclusive-1-6-cvt"
+    },
+    {
+      "modelo": "Kait",
+      "descricao": "Sense Plus 1.6 CVT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kait/2026/sense-plus-1-6-cvt"
+    },
+    {
+      "modelo": "Kait",
+      "descricao": "Active 1.6 CVT",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kait/2025/active-1-6-cvt"
+    },
+    {
+      "modelo": "Kait",
+      "descricao": "Sense Plus 1.6 CVT",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kait/2025/sense-plus-1-6-cvt"
+    },
+    {
+      "modelo": "Kait",
+      "descricao": "Advance Plus 1.6 CVT",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kait/2025/advance-plus-1-6-cvt"
+    },
+    {
+      "modelo": "Kait",
+      "descricao": "Exclusive 1.6 CVT",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kait/2025/exclusive-1-6-cvt"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive 1.0",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2026/exclusive-1-0"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Platinum 1.0",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2026/platinum-1-0"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense 1.0",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2026/sense-1-0"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance 1.0",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2026/advance-1-0"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Active CVT 1.6 (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/active-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive 1.0",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/exclusive-1-0"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Platinum 1.0",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/platinum-1-0"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense CVT 1.6 (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/sense-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense 1.0",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/sense-1-0"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance CVT 1.6 (Flex) (Pack Plus)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/advance-cvt-1-6-flex-pack-plus"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance 1.0",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/advance-1-0"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive CVT 1.6 (Flex) (Pack Tech)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/exclusive-cvt-1-6-flex-pack-tech"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive CVT 1.6 (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2025/exclusive-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Active 1.6 (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2024/active-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance CVT 1.6 (Flex) (Pack Plus)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2024/advance-cvt-1-6-flex-pack-plus"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense CVT 1.6 (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2024/sense-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive CVT 1.6 (Flex) (Pack Tech)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2024/exclusive-cvt-1-6-flex-pack-tech"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance CVT 1.6 (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2024/advance-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "XPlay 1.6 (Aut.)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2024/xplay-1-6-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive CVT 1.6 (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2024/exclusive-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense 1.6 (Flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2023/sense-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 Active CVT (flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2023/1-6-active-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2023/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance 1.6 CVT (Flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2023/advance-1-6-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance 1.6 CVT (Flex) (Pack Plus)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2023/advance-1-6-cvt-flex-pack-plus"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "XPlay 1.6 (Flex) (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2023/xplay-1-6-flex-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive 1.6 CVT (Flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2023/exclusive-1-6-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive 1.6 CVT (Flex) (Pack Tech)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2023/exclusive-1-6-cvt-flex-pack-tech"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 UCL CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/1-6-ucl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/1-6-s-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense 1.6",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/sense-1-6"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Active 1.6 16V Flex Aut. PCD",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/active-1-6-16v-flex-aut-pcd"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 Active S (Aut.)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/1-6-active-s-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 Active S (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/1-6-active-s-aut-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance 1.6",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/advance-1-6"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SV CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/1-6-sv-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SV CVT Pack Plus (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/1-6-sv-cvt-pack-plus-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Active 1.6 (Aut.)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/active-1-6-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive 1.6 CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/exclusive-1-6-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SL CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/1-6-sl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "XPlay 1.6 16V Flex Aut.",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2022/xplay-1-6-16v-flex-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Active PCD 1.6 CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/active-pcd-1-6-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 UCL CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/1-6-ucl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 Active (Aut) (Flex) (PCD)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/1-6-active-aut-flex-pcd"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense 1.6 (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/sense-1-6-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/1-6-s-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/1-6-s-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Advance 1.6 CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/advance-1-6-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SV CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/1-6-sv-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SV CVT Pack Plus (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/1-6-sv-cvt-pack-plus-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "Exclusive 1.6 CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/exclusive-1-6-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "SL 1.6",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/sl-1-6"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SL Pack Tech CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/1-6-sl-pack-tech-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "XPlay 1.6 (Flex) (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2021/xplay-1-6-flex-aut"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/1-6-s-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/1-6-s-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 UCL CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/1-6-ucl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "S Direct 1.6",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/s-direct-1-6"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SV CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/1-6-sv-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S Direct CVT (Flex) (PCD)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/1-6-s-direct-cvt-flex-pcd"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 Special Edition CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/1-6-special-edition-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 Special Edition (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/1-6-special-edition-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SL CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2020/1-6-sl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2019/1-6-s-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2019/1-6-s-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SV CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2019/1-6-sv-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S Direct CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2019/1-6-s-direct-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 UCL CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2019/1-6-ucl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SL CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2019/1-6-sl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2018/1-6-s-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2018/1-6-s-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SV CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2018/1-6-sv-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 S Direct CVT (Flex) (PCD)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2018/1-6-s-direct-cvt-flex-pcd"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 UCL CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2018/1-6-ucl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SL CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2018/1-6-sl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SV Limited CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2017/1-6-sv-limited-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SL CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2017/1-6-sl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 Rio CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2017/1-6-rio-cvt-flex"
+    },
+    {
+      "modelo": "Kicks",
+      "descricao": "1.6 SL CVT (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks/2016/1-6-sl-cvt-flex"
+    },
+    {
+      "modelo": "Kicks Play",
+      "descricao": "Active Plus CVT 1.6 (Flex)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks-play/2026/active-plus-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks Play",
+      "descricao": "Active CVT 1.6 (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks-play/2025/active-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks Play",
+      "descricao": "Sense CVT 1.6 (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks-play/2025/sense-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks Play",
+      "descricao": "Advance CVT 1.6 (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks-play/2025/advance-cvt-1-6-flex"
+    },
+    {
+      "modelo": "Kicks Play",
+      "descricao": "Advance Plus CVT 1.6 (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/kicks-play/2025/advance-plus-cvt-1-6-flex"
+    },
+    {
+      "modelo": "King Cab",
+      "descricao": "SE 4x4 3.0",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/king-cab/1995/se-4x4-3-0"
+    },
+    {
+      "modelo": "King Cab",
+      "descricao": "4x2 2.7",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/king-cab/1995/4x2-2-7"
+    },
+    {
+      "modelo": "King Cab",
+      "descricao": "SE 4x4 3.0",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/king-cab/1994/se-4x4-3-0"
+    },
+    {
+      "modelo": "King Cab",
+      "descricao": "4x2 2.7",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/king-cab/1994/4x2-2-7"
+    },
+    {
+      "modelo": "King Cab",
+      "descricao": "SE 4x4 3.0",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/king-cab/1993/se-4x4-3-0"
+    },
+    {
+      "modelo": "King Cab",
+      "descricao": "4x2 2.7",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/king-cab/1993/4x2-2-7"
+    },
+    {
+      "modelo": "King Cab",
+      "descricao": "SE 4x4 3.0",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/king-cab/1992/se-4x4-3-0"
+    },
+    {
+      "modelo": "King Cab",
+      "descricao": "4x2 2.7",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/king-cab/1992/4x2-2-7"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "40 kWh Tekna",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2023/40-kwh-tekna"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "EV",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2022/ev"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "40 kWh Tekna",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2022/40-kwh-tekna"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "EV",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2021/ev"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "40 kWh Tekna",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2020/40-kwh-tekna"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "30 kWh Visia",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2020/30-kwh-visia"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "30 kWh Visia",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2019/30-kwh-visia"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "30 kWh Visia",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2018/30-kwh-visia"
+    },
+    {
+      "modelo": "Leaf",
+      "descricao": "30 kWh Visia",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/leaf/2017/30-kwh-visia"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "1.6 16V (flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2014/1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.6 16V (flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2014/s-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.8 16V (flex) (aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2014/s-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.8 16V (flex) (aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2014/x-gear-sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "1.6 16V (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2013/1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.6 16V (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2013/s-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.8 16V (flex) (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2013/s-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "Night & Day 1.6 16V (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2013/night-day-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.6 16V (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2013/sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.8 16V (flex) (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2013/sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.8 16V (flex) (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2013/x-gear-sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.6 16V (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2013/x-gear-sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "1.6 16V (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2012/1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.6 16V (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2012/s-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "Night & Day 1.6 16V (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2012/night-day-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.6 16V (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2012/sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.6 16V (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2012/x-gear-sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.8 16V (flex) (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2012/sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.8 16V (flex) (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2012/x-gear-sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "1.6 16V (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.6 16V (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/s-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-GEAR S 1.6 16V Flex Fuel",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/x-gear-s-1-6-16v-flex-fuel"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-GEAR SL/X-GEAR 1.8 Flex F. Aut.",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/x-gear-sl-x-gear-1-8-flex-f-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "Night & Day 1.6 16V (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/night-day-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.6 16V (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.8 16V (flex) (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/s-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.6 16V (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/x-gear-sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.8 16V aut. (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2011/sl-1-8-16v-aut-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "1.6 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.8 16V Flex Fuel Aut.",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/s-1-8-16v-flex-fuel-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.6 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/s-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "1.8 16V (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear 1.6 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/x-gear-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear S 1.6 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/x-gear-s-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.6 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "S 1.8 16V (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/s-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.6 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/x-gear-sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.8 16V aut. (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/sl-1-8-16v-aut-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.8 16V (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2010/x-gear-sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "1.8 16V (flex) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2009/1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "1.6 16V (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2009/1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.6 16V (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2009/sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "SL 1.8 16V aut. (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2009/sl-1-8-16v-aut-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear 1.6 16V (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2009/x-gear-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.6 16V (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2009/x-gear-sl-1-6-16v-flex"
+    },
+    {
+      "modelo": "Livina",
+      "descricao": "X-Gear SL 1.8 16V (flex) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/livina/2009/x-gear-sl-1-8-16v-flex-aut"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2020/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V SV (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2020/1-0-12v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2020/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2020/1-6-16v-sv-cvt-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SL CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2020/1-6-16v-sl-cvt-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2019/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V SV (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2019/1-0-12v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2019/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2019/1-6-16v-sv-cvt-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SL CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2019/1-6-16v-sl-cvt-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2018/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V SV (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2018/1-0-12v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2018/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2018/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2018/1-6-16v-sv-cvt-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SL CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2018/1-6-16v-sl-cvt-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-0-12v-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V Flexstart (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-0-12v-flexstart-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V SV (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-0-12v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SL (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-6-16v-sl-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-6-16v-sv-cvt-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SL CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2017/1-6-16v-sl-cvt-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2016/1-0-12v-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2016/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V SV (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2016/1-0-12v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2016/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2016/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SL (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2016/1-6-16v-sl-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V Rio 2016 (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2016/1-6-16v-rio-2016-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-0-16v-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V S (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-0-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-0-12v-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V SV (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-0-12v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SL (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-6-16v-sl-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 12V SV Flex Fuel (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2015/1-0-12v-sv-flex-fuel-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2014/1-0-16v-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V S (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2014/1-0-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2014/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2014/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SR (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2014/1-6-16v-sr-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2013/1-0-16v-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V S (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2013/1-0-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V Rio 2016 (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2013/1-0-16v-rio-2016-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2013/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V Rio 2016 (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2013/1-6-16v-rio-2016-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2013/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SR (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2013/1-6-16v-sr-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2012/1-0-16v-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.0 16V S (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2012/1-0-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2012/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2012/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "March",
+      "descricao": "1.6 16V SR (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/march/2012/1-6-16v-sr-flex"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6 (nova série)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/2002/30-gv-3-0-v6-nova-serie"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV Limited 3.0 V6 (nova série)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/2002/30-gv-limited-3-0-v6-nova-serie"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6 (nova série)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/2001/30-gv-3-0-v6-nova-serie"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV Limited 3.0 V6 (nova série)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/2001/30-gv-limited-3-0-v6-nova-serie"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV Limited 3.0 V6 (nova série)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/2000/30-gv-limited-3-0-v6-nova-serie"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6 (nova série)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/2000/30-gv-3-0-v6-nova-serie"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV Limited 3.0 V6",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/2000/30-gv-limited-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/2000/30-gv-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 G 3.0 V6",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1999/30-g-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1999/30-gv-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 G 3.0 V6",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1998/30-g-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1998/30-gv-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 J 3.0 V6",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1997/30-j-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 G 3.0 V6",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1997/30-g-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1997/30-gv-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV Aero 3.0",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1997/30-gv-aero-3-0"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 G 3.0 V6",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1996/30-g-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1996/30-gv-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV Aero 3.0",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1996/30-gv-aero-3-0"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 J 3.0 V6",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1995/30-j-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "GLE 3.0 24V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1995/gle-3-0-24v"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "GV 3.0 V6",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1995/gv-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "GXE 3.0 12V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1995/gxe-3-0-12v"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 G 3.0 V6",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1995/30-g-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "30 GV 3.0 V6",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1995/30-gv-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "GXE 3.0 12V",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1994/gxe-3-0-12v"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "GXE 3.0 12V",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1993/gxe-3-0-12v"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "SE 3.0 V6",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1993/se-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "GXE 3.0 12V",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1992/gxe-3-0-12v"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "SE 3.0 V6",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1992/se-3-0-v6"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "GXE 3.0 12V",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1991/gxe-3-0-12v"
+    },
+    {
+      "modelo": "Maxima",
+      "descricao": "SE 3.0 V6",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/maxima/1991/se-3-0-v6"
+    },
+    {
+      "modelo": "Micra",
+      "descricao": "1.0 16V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/micra/1995/1-0-16v"
+    },
+    {
+      "modelo": "Murano",
+      "descricao": "SV 3.5 V6",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/murano/2011/sv-3-5-v6"
+    },
+    {
+      "modelo": "Murano",
+      "descricao": "LE 3.5 (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/murano/2009/le-3-5-aut"
+    },
+    {
+      "modelo": "Murano",
+      "descricao": "SE 3.5 V6",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/murano/2009/se-3-5-v6"
+    },
+    {
+      "modelo": "Murano",
+      "descricao": "SE 3.5 V6",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/murano/2008/se-3-5-v6"
+    },
+    {
+      "modelo": "Murano",
+      "descricao": "LE 3.5 (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/murano/2008/le-3-5-aut"
+    },
+    {
+      "modelo": "Murano",
+      "descricao": "SE 3.5",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/murano/2007/se-3-5"
+    },
+    {
+      "modelo": "Murano",
+      "descricao": "LE 3.5 (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/murano/2007/le-3-5-aut"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 2.5",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2009/se-4x4-2-5"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "LE 4x4 2.5",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2009/le-4x4-2-5"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "DCI 4x4 2.5",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2008/dci-4x4-2-5"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 4.0 24V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2008/se-4x4-4-0-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 2.5",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2008/se-4x4-2-5"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "LE 4x4 2.5",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2008/le-4x4-2-5"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "LE 4x4 4.0 24V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2008/le-4x4-4-0-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "LE 4x4 4.0 24V",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2007/le-4x4-4-0-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "LE 4x4 2.5",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2007/le-4x4-2-5"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "LE 4x4 4.0 24V",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2006/le-4x4-4-0-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "LE 4x4 2.5",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2006/le-4x4-2-5"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.5 24V",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2005/se-4x4-3-5-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.5 24V",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2004/se-4x4-3-5-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.5 24V",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2003/se-4x4-3-5-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.5 24V",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2002/se-4x4-3-5-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.5 24V",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2001/se-4x4-3-5-24v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.3 12V",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2001/se-4x4-3-3-12v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.0 12V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2000/se-4x4-3-0-12v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE Titanium 4x4 3.3 12V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2000/se-titanium-4x4-3-3-12v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.3 12V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/2000/se-4x4-3-3-12v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "R50 4x4 3.3 12V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1999/r50-4x4-3-3-12v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "R50 4x4 3.3 12V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1998/r50-4x4-3-3-12v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "R50 4x4 3.3 12V",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1997/r50-4x4-3-3-12v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 2.7",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1996/se-4x4-2-7"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "SE 4x4 3.0 12V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1995/se-4x4-3-0-12v"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "XE 4x4 2.7",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1995/xe-4x4-2-7"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "XE 4x4 3.0 V6",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1995/xe-4x4-3-0-v6"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "XE 4x4 3.0 V6",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1994/xe-4x4-3-0-v6"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "XE 4x4 3.0 V6",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1993/xe-4x4-3-0-v6"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "XE 4x4 3.0 V6",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1992/xe-4x4-3-0-v6"
+    },
+    {
+      "modelo": "Pathfinder",
+      "descricao": "XE 4x4 3.0 V6",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/pathfinder/1991/xe-4x4-3-0-v6"
+    },
+    {
+      "modelo": "Primera",
+      "descricao": "GXE 2.0 16V (Aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/primera/2000/gxe-2-0-16v-aut"
+    },
+    {
+      "modelo": "Primera",
+      "descricao": "GXE 2.0 16V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/primera/2000/gxe-2-0-16v"
+    },
+    {
+      "modelo": "Primera",
+      "descricao": "GXE 2.0 16V (Aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/primera/1999/gxe-2-0-16v-aut"
+    },
+    {
+      "modelo": "Primera",
+      "descricao": "GXE 2.0 16V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/primera/1999/gxe-2-0-16v"
+    },
+    {
+      "modelo": "Primera",
+      "descricao": "GXE 2.0 16V (Aut)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/primera/1998/gxe-2-0-16v-aut"
+    },
+    {
+      "modelo": "Primera",
+      "descricao": "GXE 2.0 16V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/primera/1998/gxe-2-0-16v"
+    },
+    {
+      "modelo": "Primera",
+      "descricao": "GXE 2.0 16V (Aut)",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/primera/1997/gxe-2-0-16v-aut"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "SER 3.5 V6",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/2008/ser-3-5-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "SER 3.5 V6",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/2007/ser-3-5-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "SER 3.5 V6",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/2006/ser-3-5-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "SER 3.5 V6",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/2005/ser-3-5-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "SER 3.5 V6",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/2004/ser-3-5-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "GXE 3.0 V6",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/1997/gxe-3-0-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "GXE 3.0 V6",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/1996/gxe-3-0-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "GXE 3.0 V6",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/1995/gxe-3-0-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "XE 3.0 V6",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/1995/xe-3-0-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "GXE 3.0 V6",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/1994/gxe-3-0-v6"
+    },
+    {
+      "modelo": "Quest",
+      "descricao": "GXE 3.0 V6",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/quest/1993/gxe-3-0-v6"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Exclusive 2.0 16V Aut.",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2026/exclusive-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Advance 2.0 16V Aut.",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2026/advance-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Exclusive 2.0 16V Aut.",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2025/exclusive-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Exclu. Int. Premium 2.0 16V Aut.",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2025/exclu-int-premium-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Advance 2.0 16V Aut.",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2025/advance-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Exclu. Int. Premium 2.0 16V Aut.",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2024/exclu-int-premium-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Exclusive 2.0 16V Aut.",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2024/exclusive-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Advance 2.0 16V Aut.",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2024/advance-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Advance 2.0 16V Aut.",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2023/advance-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Exclusive 2.0 16V Aut.",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2023/exclusive-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Exclu. Int. Premium 2.0 16V Aut.",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2023/exclu-int-premium-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2022/s-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2022/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2022/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2021/s-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2021/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2021/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2020/s-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2020/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2020/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2019/s-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2019/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2019/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2018/s-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2018/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2018/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2017/s-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2017/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2017/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2016/s-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2016/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2016/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Unique 2.0 16V CVT (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2016/unique-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2015/s-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2015/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2015/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2014/s-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SV 2.0 16V CVT (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2014/sv-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2014/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V CVT (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SR 2.0 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/sr-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SR 2.0 16V CVT (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/sr-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "Special Edition 2.0 16V CVT (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/special-edition-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V Unique CVT (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/2-0-16v-unique-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0/ 2.0 Flex Fuel 16V Mec.",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/s-2-0-2-0-flex-fuel-16v-mec"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SE 2.0 Flex 16V Aut.",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2013/se-2-0-flex-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2012/2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SR 2.0 16V (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2012/sr-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V CVT (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2012/2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V CVT (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2012/s-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SR 2.0 16V CVT (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2012/sr-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V CVT (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2012/sl-2-0-16v-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V Unique CVT (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2012/2-0-16v-unique-cvt-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0/ 2.0 Flex Fuel 16V Mec.",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2012/s-2-0-2-0-flex-fuel-16v-mec"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2011/2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (flex) (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2011/2-0-16v-flex-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (Aut) (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2011/s-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V (flex) (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2011/sl-2-0-16v-flex-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0/ 2.0 Flex Fuel 16V Aut.",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2011/2-0-2-0-flex-fuel-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2010/2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2010/s-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2010/s-2-0-16v-flex-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2010/sl-2-0-16v-flex-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0/ 2.0 Flex Fuel 16V Aut.",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2010/2-0-2-0-flex-fuel-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/2-0-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/sl-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (flex) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/s-2-0-16v-flex-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/s-2-0-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/s-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/s-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V (flex) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2009/sl-2-0-16v-flex-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "3 Americas 2.0 16V (Aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2008/3-americas-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2008/s-2-0-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2008/2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2008/2-0-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2008/s-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2008/sl-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2007/2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2007/s-2-0-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "2.0 16V (flex)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2007/2-0-16v-flex"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "S 2.0 16V (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2007/s-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SL 2.0 16V (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2007/sl-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SE-R (200CV)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2007/se-r-200cv"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.8 16V",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2007/gxe-1-8-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.8 16V",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2006/gxe-1-8-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.8 16V",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2005/gxe-1-8-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.8 16V",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/2004/gxe-1-8-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.6 16V",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1997/gxe-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.6 16V",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1996/gxe-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GLE 1.6 16V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1995/gle-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.6 16V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1995/gxe-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GSX 1.6 16V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1995/gsx-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.6 16V",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1994/gxe-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "EX 1.6 16V",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1993/ex-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.6 16V",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1993/gxe-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SER 2.0 16V",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1993/ser-2-0-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "EX 1.6 16V",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1992/ex-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.6 16V",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1992/gxe-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "SER 2.0 16V",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1992/ser-2-0-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "EX 1.6 16V",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1991/ex-1-6-16v"
+    },
+    {
+      "modelo": "Sentra",
+      "descricao": "GXE 1.6 16V",
+      "ano": "1991",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/sentra/1991/gxe-1-6-16v"
+    },
+    {
+      "modelo": "Stanza",
+      "descricao": "XE 2.4 12V",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/stanza/1993/xe-2-4-12v"
+    },
+    {
+      "modelo": "Stanza",
+      "descricao": "XE 2.4 12V",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/stanza/1992/xe-2-4-12v"
+    },
+    {
+      "modelo": "Terrano",
+      "descricao": "4x4 SE 2.7",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/terrano/1996/4x4-se-2-7"
+    },
+    {
+      "modelo": "Terrano",
+      "descricao": "4x4 SLX 2.7",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/terrano/1996/4x4-slx-2-7"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8 (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2013/s-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2013/sl-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex) (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2013/sl-1-8-flex-aut"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8 (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2012/s-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2012/sl-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex) (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2012/sl-1-8-flex-aut"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8 (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2011/s-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2011/sl-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex) (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2011/sl-1-8-flex-aut"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8 (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2010/s-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8 (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2010/s-1-8-flex-aut"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2010/sl-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex) (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2010/sl-1-8-flex-aut"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8 (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2009/s-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8 (flex) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2009/s-1-8-flex-aut"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2009/sl-1-8-flex"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (flex) (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2009/sl-1-8-flex-aut"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2008/s-1-8"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "S 1.8 (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2008/s-1-8-aut"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2008/sl-1-8"
+    },
+    {
+      "modelo": "Tiida",
+      "descricao": "SL 1.8 (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida/2008/sl-1-8-aut"
+    },
+    {
+      "modelo": "Tiida Sedan",
+      "descricao": "1.8 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida-sedan/2013/1-8-16v-flex"
+    },
+    {
+      "modelo": "Tiida Sedan",
+      "descricao": "1.8 16V (Flex)(Aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida-sedan/2013/1-8-16v-flexaut"
+    },
+    {
+      "modelo": "Tiida Sedan",
+      "descricao": "1.8 16V (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida-sedan/2012/1-8-16v-flex"
+    },
+    {
+      "modelo": "Tiida Sedan",
+      "descricao": "1.8 16V (Flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida-sedan/2011/1-8-16v-flex"
+    },
+    {
+      "modelo": "Tiida Sedan",
+      "descricao": "1.8 16V (Flex)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/tiida-sedan/2008/1-8-16v-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Advance",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2026/advance"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Exclusive",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2026/exclusive"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Advance 1.6 (Flex) (Aut)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2025/advance-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "SR 1.6 16V Flex (Aut.)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2025/sr-1-6-16v-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Exclusive 1.6 (Flex) (Aut)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2025/exclusive-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2025/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "SR 1.6 16V Flex (Aut.)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2024/sr-1-6-16v-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Advance 1.6 (Flex) (Aut)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2024/advance-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Exclusive 1.6 (Flex) (Aut)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2024/exclusive-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2024/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Exclusive 1.6 16V Flex Aut.",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2023/exclusive-1-6-16v-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2023/sense-1-6-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2023/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Advance 1.6 (Flex) (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2023/advance-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V V-Drive (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/1-0-12v-v-drive-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V V-Drive (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/1-6-16v-v-drive-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V V-Drive Special Edition CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/1-6-16v-v-drive-special-edition-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V V-Drive Plus CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/1-6-16v-v-drive-plus-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V V-Drive Premium CVT (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/1-6-16v-v-drive-premium-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/sense-1-6-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Advance 1.6 (Flex) (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/advance-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Exclusive 1.6 (Flex) (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2022/exclusive-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V V-Drive (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/1-0-12v-v-drive-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V V-Drive (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/1-6-16v-v-drive-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V V-Drive Special Edition CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/1-6-16v-v-drive-special-edition-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V V-Drive Plus CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/1-6-16v-v-drive-plus-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V V-Drive Premium CVT (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/1-6-16v-v-drive-premium-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/sense-1-6-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Advance 1.6 (Flex) (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/advance-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Exclusive 1.6 (Flex) (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2021/exclusive-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/1-0-12v-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V S FlexStart (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/1-6-16v-s-flexstart-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV FlexStart CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/1-6-16v-sv-flexstart-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V Special Edition CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/1-6-16v-special-edition-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL FlexStart CVT (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/1-6-16v-sl-flexstart-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 SL Direct CVT (Flex) (PCD)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/1-6-sl-direct-cvt-flex-pcd"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/sense-1-6-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Sense 1.6 (Flex) (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/sense-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Advance 1.6 (Flex) (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/advance-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "Exclusive 1.6 (Flex) (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2020/exclusive-1-6-flex-aut"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2019/1-0-12v-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V S FlexStart (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2019/1-6-16v-s-flexstart-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2019/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV FlexStart CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2019/1-6-16v-sv-flexstart-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL FlexStart (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2019/1-6-16v-sl-flexstart-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 SL Direct CVT (Flex) (PCD)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2019/1-6-sl-direct-cvt-flex-pcd"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL FlexStart CVT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2019/1-6-16v-sl-flexstart-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2018/1-0-12v-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2018/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V S FlexStart (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2018/1-6-16v-s-flexstart-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2018/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV FlexStart CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2018/1-6-16v-sv-flexstart-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL FlexStart (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2018/1-6-16v-sl-flexstart-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL FlexStart CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2018/1-6-16v-sl-flexstart-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V Unique CVT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2018/1-6-16v-unique-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2017/1-0-12v-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2017/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V S FlexStart (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2017/1-6-16v-s-flexstart-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2017/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV FlexStart CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2017/1-6-16v-sv-flexstart-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL FlexStart (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2017/1-6-16v-sl-flexstart-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL FlexStart CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2017/1-6-16v-sl-flexstart-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V Unique CVT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2017/1-6-16v-unique-cvt-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2016/1-0-12v-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2016/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2016/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "SV 1.6 16V Flex Fuel 4p Mec.",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2016/sv-1-6-16v-flex-fuel-4p-mec"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL FlexStart (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2016/1-6-16v-sl-flexstart-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2016/1-6-16v-sl-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V Unique (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2016/1-6-16v-unique-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2015/1-0-12v-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.0 12V S (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2015/1-0-12v-s-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2015/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2015/1-6-16v-sl-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V Unique (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2015/1-6-16v-unique-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2014/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2014/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2014/1-6-16v-sl-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2013/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2013/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2013/1-6-16v-sl-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V S (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2012/1-6-16v-s-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SV (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2012/1-6-16v-sv-flex"
+    },
+    {
+      "modelo": "Versa",
+      "descricao": "1.6 16V SL (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa/2012/1-6-16v-sl-flex"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.0 Drive (flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2022/1-0-drive-flex"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Drive (flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2022/1-6-drive-flex"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Special Edition (flex) (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2022/1-6-special-edition-flex-aut"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Plus (flex) (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2022/1-6-plus-flex-aut"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Premium (flex) (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2022/1-6-premium-flex-aut"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.0 Drive (flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2021/1-0-drive-flex"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Drive (flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2021/1-6-drive-flex"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Special Edition (flex) (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2021/1-6-special-edition-flex-aut"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Plus (flex) (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2021/1-6-plus-flex-aut"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Premium (flex) (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2021/1-6-premium-flex-aut"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.0 Drive (flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2020/1-0-drive-flex"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Drive (flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2020/1-6-drive-flex"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Special Edition (flex) (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2020/1-6-special-edition-flex-aut"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Plus (flex) (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2020/1-6-plus-flex-aut"
+    },
+    {
+      "modelo": "Versa V-Drive",
+      "descricao": "1.6 Premium (flex) (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/versa-v-drive/2020/1-6-premium-flex-aut"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "e-Power",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2025/e-power"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "X-Trail 2.4",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2012/x-trail-2-4"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "X-Trail 2.4",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2011/x-trail-2-4"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "X-Trail SE 2.0 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2009/x-trail-se-2-0-16v"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "X-Trail LE 2.0 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2009/x-trail-le-2-0-16v"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "X-Trail GX",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2008/x-trail-gx"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "X-Trail GX",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2007/x-trail-gx"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "X-Trail GX",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2006/x-trail-gx"
+    },
+    {
+      "modelo": "X-Trail",
+      "descricao": "X-Trail GX",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/x-trail/2005/x-trail-gx"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra SE 4x4 2.8 Eletronic",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2008/x-terra-se-4x4-2-8-eletronic"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra XE 4X4 2.8 Eletronic",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2007/x-terra-xe-4x4-2-8-eletronic"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra SE 4x4 2.8 Eletronic",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2007/x-terra-se-4x4-2-8-eletronic"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra SE Ecotrip 4x4 2.8 Eletronic",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2007/x-terra-se-ecotrip-4x4-2-8-eletronic"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra XE 4X4 2.8 Eletronic",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2006/x-terra-xe-4x4-2-8-eletronic"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra SE 4x4 2.8 Eletronic",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2006/x-terra-se-4x4-2-8-eletronic"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra SE Ecotrip 4x4 2.8 Eletronic",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2006/x-terra-se-ecotrip-4x4-2-8-eletronic"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra XE 4X4 2.8",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2005/x-terra-xe-4x4-2-8"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra SE 4x4 2.8",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2005/x-terra-se-4x4-2-8"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra XE 4X4 2.8",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2004/x-terra-xe-4x4-2-8"
+    },
+    {
+      "modelo": "Xterra",
+      "descricao": "X-Terra SE 4x4 2.8",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/nissan/xterra/2004/x-terra-se-4x4-2-8"
+    }
+  ]
+}

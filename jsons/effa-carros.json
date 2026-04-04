@@ -1,0 +1,704 @@
+{
+  "marca": {
+    "nome": "Effa",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144066/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "K01",
+      "descricao": "1.0 8V Picape simples",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k01/2019/1-0-8v-picape-simples"
+    },
+    {
+      "modelo": "K01",
+      "descricao": "1.0 8V Picape Simples Bau",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k01/2019/1-0-8v-picape-simples-bau"
+    },
+    {
+      "modelo": "K01",
+      "descricao": "1.0 8V Picape simples",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k01/2018/1-0-8v-picape-simples"
+    },
+    {
+      "modelo": "K01",
+      "descricao": "1.0 8V Picape Simples Bau",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k01/2018/1-0-8v-picape-simples-bau"
+    },
+    {
+      "modelo": "K01",
+      "descricao": "1.0 8V Picape simples",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k01/2017/1-0-8v-picape-simples"
+    },
+    {
+      "modelo": "K01",
+      "descricao": "1.0 8V Picape simples",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k01/2016/1-0-8v-picape-simples"
+    },
+    {
+      "modelo": "K01",
+      "descricao": "1.0 8V Picape simples",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k01/2015/1-0-8v-picape-simples"
+    },
+    {
+      "modelo": "K02",
+      "descricao": "Pick-up CD 1.0 8V 4p",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k02/2019/pick-up-cd-1-0-8v-4p"
+    },
+    {
+      "modelo": "K02",
+      "descricao": "1.0 8V Picape Dupla",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k02/2018/1-0-8v-picape-dupla"
+    },
+    {
+      "modelo": "K02",
+      "descricao": "1.0 8V Picape Dupla Bau",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k02/2018/1-0-8v-picape-dupla-bau"
+    },
+    {
+      "modelo": "K02",
+      "descricao": "1.0 8V Picape Dupla",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k02/2017/1-0-8v-picape-dupla"
+    },
+    {
+      "modelo": "K02",
+      "descricao": "1.0 8V Picape Dupla",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k02/2016/1-0-8v-picape-dupla"
+    },
+    {
+      "modelo": "K02",
+      "descricao": "1.0 8V Picape Dupla",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/k02/2015/1-0-8v-picape-dupla"
+    },
+    {
+      "modelo": "M100",
+      "descricao": "1.0",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/m100/2012/1-0"
+    },
+    {
+      "modelo": "M100",
+      "descricao": "1.0",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/m100/2011/1-0"
+    },
+    {
+      "modelo": "M100",
+      "descricao": "1.0",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/m100/2010/1-0"
+    },
+    {
+      "modelo": "M100",
+      "descricao": "1.0",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/m100/2009/1-0"
+    },
+    {
+      "modelo": "M100",
+      "descricao": "1.0",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/m100/2008/1-0"
+    },
+    {
+      "modelo": "M100",
+      "descricao": "1.0",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/m100/2007/1-0"
+    },
+    {
+      "modelo": "M100",
+      "descricao": "1.0",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/m100/1997/1-0"
+    },
+    {
+      "modelo": "Plutus",
+      "descricao": "3.2",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/plutus/2012/3-2"
+    },
+    {
+      "modelo": "Plutus",
+      "descricao": "3.2 8V 4x2 CD Turbo Diesel",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/plutus/2011/3-2-8v-4x2-cd-turbo-diesel"
+    },
+    {
+      "modelo": "Plutus",
+      "descricao": "3.2",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/plutus/2010/3-2"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "Picape",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2014/picape"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "Picape (Cab.Dupla)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2014/picape-cab-dupla"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "Picape 1.0(Cab Simples) L",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2012/picape-1-0cab-simples-l"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "Start Picape CD 1.0 8V 5p",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2012/start-picape-cd-1-0-8v-5p"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "L 1.0 8V 2p",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2012/l-1-0-8v-2p"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "Picape 1.0(Cab Dupla) L",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2012/picape-1-0cab-dupla-l"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "Picape 1.0(Cab Simples) L",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2011/picape-1-0cab-simples-l"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "Picape 1.0(Cab Dupla) L",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2011/picape-1-0cab-dupla-l"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "Start Picape CD 1.0 8V 5p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2011/start-picape-cd-1-0-8v-5p"
+    },
+    {
+      "modelo": "Start Picape",
+      "descricao": "L 1.0 8V 2p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-picape/2011/l-1-0-8v-2p"
+    },
+    {
+      "modelo": "Start Van",
+      "descricao": "1.0 8V 4p",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-van/2012/1-0-8v-4p"
+    },
+    {
+      "modelo": "Start Van",
+      "descricao": "1.0 Van",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-van/2012/1-0-van"
+    },
+    {
+      "modelo": "Start Van",
+      "descricao": "1.0 Van",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-van/2011/1-0-van"
+    },
+    {
+      "modelo": "Start Van",
+      "descricao": "1.0 8V 4p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/start-van/2011/1-0-8v-4p"
+    },
+    {
+      "modelo": "ULC Furgão",
+      "descricao": "ULC FURG�O 1.0 8V 5p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-furgao/2011/ulc-furg-o-1-0-8v-5p"
+    },
+    {
+      "modelo": "ULC Furgão",
+      "descricao": "ULC FURG�O 1.0 8V 5p",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-furgao/2010/ulc-furg-o-1-0-8v-5p"
+    },
+    {
+      "modelo": "ULC Furgão",
+      "descricao": "ULC FURG�O 1.0 8V 5p",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-furgao/2009/ulc-furg-o-1-0-8v-5p"
+    },
+    {
+      "modelo": "ULC Furgão",
+      "descricao": "ULC FURG�O 1.0 8V 5p",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-furgao/2008/ulc-furg-o-1-0-8v-5p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "Longa 1.0 8V 2p",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2012/longa-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "ULC PICAPE 1.0 8V 2p",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2012/ulc-picape-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "(carroc. estendida)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2012/carroc-estendida"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "(Cab.Dupla)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2012/cab-dupla"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "ULC PICAPE 1.0 8V 2p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2011/ulc-picape-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "Longa 1.0 8V 2p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2011/longa-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "Longa Bau 1.0 8V 2p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2011/longa-bau-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "(carroc. estendida)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2011/carroc-estendida"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "Bau",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2011/bau"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "Bau (estendida)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2011/bau-estendida"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "(Cab.Dupla)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2011/cab-dupla"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "ULC PICAPE 1.0 8V 2p",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2010/ulc-picape-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "Longa 1.0 8V 2p",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2010/longa-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "(carroc. estendida)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2010/carroc-estendida"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "Bau",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2010/bau"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "Bau (estendida)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2010/bau-estendida"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "(Cab.Dupla)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2010/cab-dupla"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "ULC PICAPE 1.0 8V 2p",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2009/ulc-picape-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "(carroc. estendida)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2009/carroc-estendida"
+    },
+    {
+      "modelo": "ULC Picape",
+      "descricao": "ULC PICAPE 1.0 8V 2p",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-picape/2008/ulc-picape-1-0-8v-2p"
+    },
+    {
+      "modelo": "ULC Van",
+      "descricao": "ULC VAN 1.0 8V 5p",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-van/2012/ulc-van-1-0-8v-5p"
+    },
+    {
+      "modelo": "ULC Van",
+      "descricao": "ULC VAN 1.0 8V 5p",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-van/2011/ulc-van-1-0-8v-5p"
+    },
+    {
+      "modelo": "ULC Van",
+      "descricao": "ULC VAN 1.0 8V 5p",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-van/2010/ulc-van-1-0-8v-5p"
+    },
+    {
+      "modelo": "ULC Van",
+      "descricao": "ULC VAN 1.0 8V 5p",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-van/2009/ulc-van-1-0-8v-5p"
+    },
+    {
+      "modelo": "ULC Van",
+      "descricao": "(ar condicionado)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-van/2009/ar-condicionado"
+    },
+    {
+      "modelo": "ULC Van",
+      "descricao": "ULC VAN 1.0 8V 5p",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/ulc-van/2008/ulc-van-1-0-8v-5p"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 Pick-up CS",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2027/1-3-pick-up-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.5 Pick-up CS",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2027/1-5-pick-up-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.5 Baú CS",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2027/1-5-bau-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 Pick-up CS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2026/1-3-pick-up-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.5 Pick-up CS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2026/1-5-pick-up-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.5 Baú CS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2026/1-5-bau-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.5 Baú CS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2025/1-5-bau-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 Pick-up CS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2025/1-3-pick-up-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 Pick-up CS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2024/1-3-pick-up-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2023/1-3"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 Baú CS",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2023/1-3-bau-cs"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 16V Picape simples",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2022/1-3-16v-picape-simples"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 16V Picape simples",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2021/1-3-16v-picape-simples"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "Pick-up 1.3",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2020/pick-up-1-3"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 16V Picape simples",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2019/1-3-16v-picape-simples"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 16V Picape simples",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2018/1-3-16v-picape-simples"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 16V Picape simples Bau",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2018/1-3-16v-picape-simples-bau"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 16V Picape simples",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2017/1-3-16v-picape-simples"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 16V Picape simples",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2016/1-3-16v-picape-simples"
+    },
+    {
+      "modelo": "V21",
+      "descricao": "1.3 16V Picape simples",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v21/2015/1-3-16v-picape-simples"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.5 Pick-up CD",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2027/1-5-pick-up-cd"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 Pick-up CD",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2027/1-3-pick-up-cd"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.5 Baú CD",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2027/1-5-bau-cd"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 Pick-up CD",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2026/1-3-pick-up-cd"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.5 Baú CD",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2026/1-5-bau-cd"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.5 Pick-up CD",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2026/1-5-pick-up-cd"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2025/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2024/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2023/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2022/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2021/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2020/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2019/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2018/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla Bau",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2018/1-3-16v-picape-dupla-bau"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2017/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2016/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V22",
+      "descricao": "1.3 16V Picape Dupla",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v22/2015/1-3-16v-picape-dupla"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 Furgão",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2027/1-3-furgao"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.5 Furgão",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2027/1-5-furgao"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 Furgão",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2026/1-3-furgao"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.5 Furgão",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2026/1-5-furgao"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 16V",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2026/1-3-16v"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 16V",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2025/1-3-16v"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 16V",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2024/1-3-16v"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 16V",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2023/1-3-16v"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 16V",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2022/1-3-16v"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 16V",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2021/1-3-16v"
+    },
+    {
+      "modelo": "V25",
+      "descricao": "1.3 16V",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/effa/v25/2020/1-3-16v"
+    }
+  ]
+}

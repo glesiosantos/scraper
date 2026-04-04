@@ -1,0 +1,32 @@
+{
+  "marca": {
+    "nome": "Randon",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/undefined/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Reboque",
+      "descricao": "Dolly",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/randon/reboque/2022/dolly"
+    },
+    {
+      "modelo": "Semirreboque",
+      "descricao": "Dolly",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/randon/semirreboque/2022/dolly"
+    },
+    {
+      "modelo": "Semirreboque",
+      "descricao": "SR CA",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/randon/semirreboque/2022/sr-ca"
+    },
+    {
+      "modelo": "Semirreboque",
+      "descricao": "SR BS CO 03E",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/caminhoes/randon/semirreboque/2022/sr-bs-co-03e"
+    }
+  ]
+}

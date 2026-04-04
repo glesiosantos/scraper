@@ -1,0 +1,38 @@
+{
+  "marca": {
+    "nome": "Cfmotos",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/undefined/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "CFORCE",
+      "descricao": "450L",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/cfmotos/cforce/2024/450l"
+    },
+    {
+      "modelo": "CFORCE",
+      "descricao": "450L",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/cfmotos/cforce/2023/450l"
+    },
+    {
+      "modelo": "CFORCE",
+      "descricao": "520L",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/cfmotos/cforce/2023/520l"
+    },
+    {
+      "modelo": "CFORCE",
+      "descricao": "450L",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/cfmotos/cforce/2022/450l"
+    },
+    {
+      "modelo": "CFORCE",
+      "descricao": "520L",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/cfmotos/cforce/2022/520l"
+    }
+  ]
+}

@@ -1,0 +1,2648 @@
+{
+  "marca": {
+    "nome": "Jeep",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089250/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Cherokee",
+      "descricao": "Longitude 3.2 V6",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2015/longitude-3-2-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Limited 3.2 V6",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2015/limited-3-2-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Trailhawk 3.2 V6",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2015/trailhawk-3-2-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Limited 3.2 V6",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2014/limited-3-2-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Longitude 3.2 V6",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2014/longitude-3-2-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Trailhawk 3.2 V6",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2014/trailhawk-3-2-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6 4WD",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2012/sport-3-7-v6-4wd"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Limited 3.7 V6 4WD",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2012/limited-3-7-v6-4wd"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Limited 3.7 V6 4WD",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2011/limited-3-7-v6-4wd"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2010/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Limited 3.7 V6",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2010/limited-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Limited 3.7 V6 (Aut.)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2010/limited-3-7-v6-aut"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2009/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2008/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2007/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport Plus 3.7 V6",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2006/sport-plus-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2006/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2005/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2004/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2003/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2002/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 2.5 Turbo",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2001/sport-2-5-turbo"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7 V6",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2001/sport-3-7-v6"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 4.0",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2000/sport-4-0"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 2.5 Turbo",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2000/sport-2-5-turbo"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 3.7",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/2000/sport-3-7"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 4.0",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1999/sport-4-0"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 4.0 (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1999/sport-4-0-aut"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Rubicon 4.0",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1999/rubicon-4-0"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Rubicon 4.0 (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1999/rubicon-4-0-aut"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 2.5 Turbo",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1999/sport-2-5-turbo"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 4.0 (aut)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1998/sport-4-0-aut"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 4.0",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1998/sport-4-0"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Rubicon 4.0",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1998/rubicon-4-0"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 4.0",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1997/sport-4-0"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Sport 4.0 (aut)",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1997/sport-4-0-aut"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Country 4.0",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1993/country-4-0"
+    },
+    {
+      "modelo": "Cherokee",
+      "descricao": "Country 4.0",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/cherokee/1992/country-4-0"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Longitude 1.3 T270",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2027/longitude-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 1.3 T270",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2027/limited-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 1.3 T270",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2027/overland-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.2 Turbodiesel",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2027/overland-2-2-turbodiesel"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Longitude 1.3 T270",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2026/longitude-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 1.3 T270",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2026/limited-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 1.3 T270",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2026/overland-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.0 TD380",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2026/overland-2-0-td380"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.0 Hurricane",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2026/overland-2-0-hurricane"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Blackhawk 2.0 Hurricane",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2026/blackhawk-2-0-hurricane"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.2 Turbodiesel",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2026/overland-2-2-turbodiesel"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Longitude 1.3 T270",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2025/longitude-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 1.3 T270",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2025/limited-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 1.3 T270",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2025/overland-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.2 Turbodiesel",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2025/overland-2-2-turbodiesel"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.0 TD380",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2025/overland-2-0-td380"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.0 Hurricane",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2025/overland-2-0-hurricane"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Blackhawk 2.0 Hurricane",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2025/blackhawk-2-0-hurricane"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Longitude 1.3 T270",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2024/longitude-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 1.3 T270",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2024/limited-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 1.3 T270",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2024/overland-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 2.0 TD380",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2024/limited-2-0-td380"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.0 TD380",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2024/overland-2-0-td380"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Longitude 1.3 T270",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2023/longitude-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 1.3 T270",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2023/limited-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 1.3 T270",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2023/overland-1-3-t270"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 2.0 TD380",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2023/limited-2-0-td380"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland 2.0 TD380",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2023/overland-2-0-td380"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited T270 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2022/limited-t270-aut"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland T270 Flex (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2022/overland-t270-flex-aut"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited TD380 Diesel 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2022/limited-td380-diesel-4x4-aut"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland TD380 Diesel 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2022/overland-td380-diesel-4x4-aut"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited T270 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2021/limited-t270-aut"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland T270 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2021/overland-t270-aut"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited TD380 Diesel 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2021/limited-td380-diesel-4x4-aut"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Overland TD380 Diesel 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2021/overland-td380-diesel-4x4-aut"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 5.7 V8 Hemi",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2007/limited-5-7-v8-hemi"
+    },
+    {
+      "modelo": "Commander",
+      "descricao": "Limited 5.7 V8 Hemi",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/commander/2006/limited-5-7-v8-hemi"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude Night Eagle T270 1.3 AT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2026/longitude-night-eagle-t270-1-3-at"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Sport",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2026/sport"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2026/longitude"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Série S",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2026/serie-s"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Blackhawk",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2026/blackhawk"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude Night Eagle 1.3 (Aut) (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2025/longitude-night-eagle-1-3-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Sport 1.3 T270 (Aut) (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2025/sport-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude 1.3 T270 (Aut) (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2025/longitude-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Limited 1.3 T270 (Aut) (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2025/limited-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Série S 1.3 T270 (Aut) (Flex)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2025/serie-s-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Limited 2.0 TD350 4x4 (Aut)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2025/limited-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Overland 2.0 Hurricane 4x4 (Aut.)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2025/overland-2-0-hurricane-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Blackhawk",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2025/blackhawk"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude Night Eagle 1.3 (Aut) (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/longitude-night-eagle-1-3-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Sport 1.3 T270 (Aut) (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/sport-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude 1.3 T270 (Aut) (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/longitude-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Limited 1.3 T270 (Aut) (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/limited-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude 2.0 TD350 4x4 (Aut)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/longitude-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Série S 1.3 T270 (Aut) (Flex)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/serie-s-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Limited 2.0 TD350 4x4 (Aut)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/limited-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Trailhawk 2.0 TD350 4x4 (Aut)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/trailhawk-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "TRAILHAWK 2.0 4x4 Die. Aut",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2024/trailhawk-2-0-4x4-die-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Sport 1.3 T270 (Aut) (Flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/sport-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude 1.3 T270 (Aut) (Flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/longitude-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Limited 1.3 T270 (Aut) (Flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/limited-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude 2.0 TD350 4x4 (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/longitude-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Série S 1.3 T270 (Aut) (Flex)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/serie-s-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Limited 2.0 TD350 4x4 (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/limited-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Trailhawk 2.0 TD350 4x4 (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/trailhawk-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "S 1.3 TB 4XE Aut. (Híbrido)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/s-1-3-tb-4xe-aut-hibrido"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "TRAILHAWK 2.0 4x4 Die. Aut",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2023/trailhawk-2-0-4x4-die-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Sport 4x2 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/2-0-sport-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "80 anos 1.3 T270 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/80-anos-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Sport 1.3 T270 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/sport-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Longitude 4x2 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/2-0-longitude-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude 1.3 T270 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/longitude-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Limited (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/2-0-limited-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Limited 1.3 T270 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/limited-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "TD 350 80 Anos 2.0 4x4 Die. Aut.",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/td-350-80-anos-2-0-4x4-die-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Série S Auto 4x4",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/2-0-tdi-serie-s-auto-4x4"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Série S 1.3 T270 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/serie-s-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Longitude 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/2-0-tdi-longitude-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude 2.0 TD350 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/longitude-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Limited 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/2-0-tdi-limited-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TD Trailhawk 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/2-0-td-trailhawk-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Limited 2.0 TD350 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/limited-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Trailhawk 2.0 TD350 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/trailhawk-2-0-td350-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "S 1.3 TB 4XE Aut. (Híbrido)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2022/s-1-3-tb-4xe-aut-hibrido"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude Night Eagle 2.0 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/longitude-night-eagle-2-0-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Sport 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/2-0-sport-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Longitude 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/2-0-longitude-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "Longitude 1.3 T270 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/longitude-1-3-t270-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Limited (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/2-0-limited-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Longitude 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/2-0-tdi-longitude-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Trailhawk 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/2-0-tdi-trailhawk-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Limited 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/2-0-tdi-limited-4x4-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Série S Auto 4x4",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2021/2-0-tdi-serie-s-auto-4x4"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Sport 4x2 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2020/2-0-sport-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Longitude 4x2 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2020/2-0-longitude-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Limited",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2020/2-0-limited"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Longitude 4WD (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2020/2-0-tdi-longitude-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Trailhawk 4WD (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2020/2-0-tdi-trailhawk-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Limited 4WD (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2020/2-0-tdi-limited-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Série S Auto 4WD",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2020/2-0-tdi-serie-s-auto-4wd"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Sport 4x2 (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2019/2-0-sport-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Longitude 4x2 (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2019/2-0-longitude-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Limited (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2019/2-0-limited-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Longitude 4WD (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2019/2-0-tdi-longitude-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Trailhawk 4WD (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2019/2-0-tdi-trailhawk-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Limited 4WD (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2019/2-0-tdi-limited-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Série S Auto 4WD",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2019/2-0-tdi-serie-s-auto-4wd"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Sport 4x2 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-sport-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Longitude 4x2 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-longitude-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Sport 4WD (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-sport-4wd-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Night Eagle (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-night-eagle-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Limited (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-limited-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Longitude 4x4 Diesel",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-longitude-4x4-diesel"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 4x4 Dies. 16V Aut. - D",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-4x4-dies-16v-aut-d"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Limited High Tech (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-limited-high-tech-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Night Eagle 4WD (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-tdi-night-eagle-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Limited 4WD (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-tdi-limited-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Trailhawk 4WD (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2018/2-0-tdi-trailhawk-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Sport 4x2 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2017/2-0-sport-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Longitude 4x2 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2017/2-0-longitude-4x2-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Limited (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2017/2-0-limited-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Longitude 4WD (Aut)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2017/2-0-tdi-longitude-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Trailhawk 4WD (Aut)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2017/2-0-tdi-trailhawk-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 Limited (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2016/2-0-limited-aut-flex"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 TDI Longitude 4WD (Aut)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2016/2-0-tdi-longitude-4wd-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "TRAILHAWK 2.0 4x4 Dies Aut.",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2016/trailhawk-2-0-4x4-dies-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 (Aut)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2015/2-0-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 (Aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2014/2-0-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 (Aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2013/2-0-aut"
+    },
+    {
+      "modelo": "Compass",
+      "descricao": "2.0 (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/compass/2012/2-0-aut"
+    },
+    {
+      "modelo": "Gladiator",
+      "descricao": "Rubicon",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/gladiator/2023/rubicon"
+    },
+    {
+      "modelo": "Gladiator",
+      "descricao": "Rubicon",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/gladiator/2022/rubicon"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "4Xe",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2025/4xe"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "4XE 2.0 T. Aut. (Híbrido)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2024/4xe-2-0-t-aut-hibrido"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "4xe 2.0",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2023/4xe-2-0"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "4XE 2.0 T. Aut. (Híbrido)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2023/4xe-2-0-t-aut-hibrido"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Edição Especial 80 anos 3.0 Turbodiesel (Aut.)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2021/edicao-especial-80-anos-3-0-turbodiesel-aut"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 3.0 V6 diesel 4WD (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2021/limited-3-0-v6-diesel-4wd-aut"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 V6 CRD Limited 4WD",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2020/3-0-v6-crd-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 V6 Limited 4WD",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2020/3-0-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 4WD",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2019/3-6-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 V6 CRD Limited 4WD",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2019/3-0-v6-crd-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 4WD",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2018/3-6-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 V6 CRD Limited 4WD",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2018/3-0-v6-crd-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 4WD",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2017/3-6-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 75 Anos 4WD",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2016/3-6-v6-limited-75-anos-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Lim. 75 anos 3.6 (Aut.)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2016/lim-75-anos-3-6-aut"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Laredo 4WD",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2015/3-6-v6-laredo-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 4WD",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2015/3-6-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 V6 CRD Limited 4WD",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2015/3-0-v6-crd-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "SRT8 6.1 V8",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2015/srt8-6-1-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Laredo 4WD",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2014/3-6-v6-laredo-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 4WD",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2014/3-6-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 CRD V6 Limited 4WD",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2014/3-0-crd-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 CRD V6 Limited 4WD",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2013/3-0-crd-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 3.6 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2012/laredo-3-6-aut"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 4WD",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2012/3-6-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 CRD V6 Limited 4WD",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2012/3-0-crd-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "SRT8 6.1 V8",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2012/srt8-6-1-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 3.6 (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2011/laredo-3-6-aut"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 4WD",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2011/3-6-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.6 V6 Limited 4WD",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2010/3-6-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 CRD V6 Limited 4WD",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2010/3-0-crd-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "SRT8 6.1 V8 Hemi",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2010/srt8-6-1-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2009/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "3.0 CRD V6 Limited 4WD",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2009/3-0-crd-v6-limited-4wd"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Overland 5.7 V8 Hemi",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2009/overland-5-7-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "SRT8 6.1 V8 Hemi",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2009/srt8-6-1-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2008/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Overland 5.7 V8 Hemi",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2008/overland-5-7-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "SRT8 6.1 V8 Hemi",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2008/srt8-6-1-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2007/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Overland 5.7 V8 Hemi",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2007/overland-5-7-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "SRT8 6.1 V8 Hemi",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2007/srt8-6-1-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2006/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.7 V8 Hemi",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2006/limited-5-7-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Overland 5.7 V8 Hemi",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2006/overland-5-7-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "SRT8 6.1 V8",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2006/srt8-6-1-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "SRT8 6.1 V8 Hemi",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2006/srt8-6-1-v8-hemi"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 3.1 Turbo",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2005/laredo-3-1-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2005/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 2.7 Turbo",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2005/laredo-2-7-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.7 V8",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2005/limited-5-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 3.1 Turbo",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2004/laredo-3-1-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 2.7 Turbo",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2004/laredo-2-7-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2004/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 2.7 Turbo",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2003/laredo-2-7-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 3.1 Turbo",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2003/laredo-3-1-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2003/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 3.1 Turbo",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2002/laredo-3-1-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 2.7 Turbo",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2002/laredo-2-7-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2002/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 2.7 Turbo",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2001/laredo-2-7-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2001/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 3.1 Turbo",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2001/laredo-3-1-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2001/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2000/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Quadra Track 4.7 V8",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2000/quadra-track-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2000/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 3.1 Turbo",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2000/laredo-3-1-turbo"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2000/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Quadra Drive 4.7 V8",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/2000/quadra-drive-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Quadra Track 4.7 V8",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1999/quadra-track-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited LX 5.9 V8",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1999/limited-lx-5-9-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Quadra Drive 4.7 V8",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1999/quadra-drive-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1999/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1999/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1999/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited LX 5.9 V8",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1998/limited-lx-5-9-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1998/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1998/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1997/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited LX 5.9 V8",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1997/limited-lx-5-9-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1997/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 4.7 V8",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1997/limited-4-7-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1996/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1996/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 5.2 V8",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1996/laredo-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1995/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1995/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 5.2 V8",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1995/laredo-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1994/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1994/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 5.2 V8",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1994/laredo-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1993/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Limited 5.2 V8",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1993/limited-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 5.2 V8",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1993/laredo-5-2-v8"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo  4.0 V6",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1992/laredo-4-0-v6"
+    },
+    {
+      "modelo": "Grand Cherokee",
+      "descricao": "Laredo 5.2 V8",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/grand-cherokee/1992/laredo-5-2-v8"
+    },
+    {
+      "modelo": "Liberty",
+      "descricao": "Limited Edition 3.7 V6",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/liberty/2002/limited-edition-3-7-v6"
+    },
+    {
+      "modelo": "Liberty",
+      "descricao": "Limited Edition 3.7 V6",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/liberty/2001/limited-edition-3-7-v6"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude T270 1.3 AT",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2027/longitude-t270-1-3-at"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sahara T270 1.3 Turbo 4x2",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2027/sahara-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Willys T270 1.3 4x4 AT",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2027/willys-t270-1-3-4x4-at"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2026/sport"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "T270 1.3 4x2 AT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2026/t270-1-3-4x2-at"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Altitude T270 1.3 Turbo 4x2",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2026/altitude-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude T270 1.3 AT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2026/longitude-t270-1-3-at"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude Night Eagle T270 AT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2026/longitude-night-eagle-t270-at"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sahara T270 1.3 Turbo 4x2",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2026/sahara-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Willys T270 1.3 4x4 AT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2026/willys-t270-1-3-4x4-at"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "T270 1.3 Turbo 4x2",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/sport"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude T270 1.3 Turbo 4x2",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/longitude-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Altitude T270 1.3 Turbo 4x2",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/altitude-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/longitude"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude Night Eagle 270 1.3 Turbo 4x2",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/longitude-night-eagle-270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk T270 1.3 Turbo 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/trailhawk-t270-1-3-turbo-4x4"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sahara T270 1.3 Turbo 4x2",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/sahara-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Willys T270 1.3 Turbo 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2025/willys-t270-1-3-turbo-4x4"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport T270 1.3 Turbo 4x2",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2024/sport-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "T270 1.3 Turbo 4x2",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2024/t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude T270 1.3 Turbo 4x2",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2024/longitude-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Série S T270 1.3 Turbo 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2024/serie-s-t270-1-3-turbo-4x4"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk T270 1.3 Turbo 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2024/trailhawk-t270-1-3-turbo-4x4"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sahara T270 1.3 Turbo 4x2",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2024/sahara-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Série S T270 1.3 Turbo 4x4 (com Teto Solar)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2024/serie-s-t270-1-3-turbo-4x4-com-teto-solar"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "T270 1.3 Turbo 4x2",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2023/t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport T270 1.3 Turbo 4x2",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2023/sport-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude T270 1.3 Turbo 4x2",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2023/longitude-t270-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Série S T270 1.3 Turbo 4x4",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2023/serie-s-t270-1-3-turbo-4x4"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk T270 1.3 Turbo 4x4",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2023/trailhawk-t270-1-3-turbo-4x4"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Série S T270 1.3 Turbo 4x4 (com Teto Solar)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2023/serie-s-t270-1-3-turbo-4x4-com-teto-solar"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport T270 4x2 AT6",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2022/sport-t270-4x2-at6"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 1.3 Turbo 4x2",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2022/longitude-1-3-turbo-4x2"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Série S T270 4x4 AT9",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2022/serie-s-t270-4x4-at9"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk T270 4x4 AT9",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2022/trailhawk-t270-4x4-at9"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/sport-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "STD 1.8 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/std-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude Night Eagle 1.8 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/longitude-night-eagle-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 1.8 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/longitude-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited 1.8 4x2 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/limited-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Moab 2.0 TDI 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/moab-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 2.0 TDI 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/longitude-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk 2.0 TDI 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2021/trailhawk-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Aut) (Flex) (PCD)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2020/1-8-4x2-aut-flex-pcd"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2020/1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "STD 1.8 4x2 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2020/std-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2020/sport-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 1.8 4x2 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2020/longitude-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited 1.8 4x2 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2020/limited-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 2.0 TDI 4x4 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2020/longitude-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk 2.0 TDI 4x4 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2020/trailhawk-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/1-8-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Aut) (Flex) (PCD)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/1-8-4x2-aut-flex-pcd"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/sport-1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/sport-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited 1.8 4x2 (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/limited-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 1.8 4x2 (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/longitude-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Willys 2.0 TDI 4x4 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/willys-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 2.0 TDI 4x4 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/longitude-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk 2.0 TDI 4x4 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/trailhawk-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk 2.0 TDI 4x4 (Auto)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2019/trailhawk-2-0-tdi-4x4-auto"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/1-8-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Aut) (Flex) (PCD)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/1-8-4x2-aut-flex-pcd"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Custom 1.8 4x2 (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/custom-1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/sport-1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/sport-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 1.8 4x2 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/longitude-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Night Eagle 1.8 4x2 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/night-eagle-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited 1.8 4x2 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/limited-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude Teto 1.8 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/longitude-teto-1-8-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited Teto 1.8 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/limited-teto-1-8-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Custom 2.0 TDI 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/custom-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 2.0 TDI 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/sport-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 2.0 TDI 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/longitude-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Night Eagle 2.0 TDI 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/night-eagle-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited 2.0 TDI 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/limited-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk 2.0 TDI 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2018/trailhawk-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/1-8-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Aut) (Flex) (PCD)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/1-8-4x2-aut-flex-pcd"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "75 anos 1.8 4x2 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/75-anos-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/sport-1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/sport-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 1.8 4x2 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/longitude-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "75 anos 2.0 4x4 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/75-anos-2-0-4x4-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude Teto 1.8 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/longitude-teto-1-8-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited 1.8 4x2 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/limited-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited Edition 1.8 4x2 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/limited-edition-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited Teto 1.8 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/limited-teto-1-8-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 2.0 TDI 4x4 (Aut)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/sport-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 2.0 TDI 4x4 (Aut)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/longitude-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk 2.0 TDI 4x4 (Aut)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2017/trailhawk-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/1-8-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Aut) (Flex) (PCD)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/1-8-4x2-aut-flex-pcd"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "75 anos 1.8 4x2 (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/75-anos-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "1.8 4x2 (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/sport-1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/sport-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "75 anos 2.0 4x4 (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/75-anos-2-0-4x4-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 1.8 4x2 (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/longitude-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Limited Edition 1.8 4x2 (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/limited-edition-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 2.0 TDI 4x4 (Aut)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/sport-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 2.0 TDI 4x4 (Aut)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/longitude-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk 2.0 TDI 4x4 (Aut)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2016/trailhawk-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Sport 1.8 4x2 (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2015/sport-1-8-4x2-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Longitude 1.8 4x2 (Aut) (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2015/longitude-1-8-4x2-aut-flex"
+    },
+    {
+      "modelo": "Renegade",
+      "descricao": "Trailhawk 2.0 TDI 4x4 (Aut)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/renegade/2015/trailhawk-2-0-tdi-4x4-aut"
+    },
+    {
+      "modelo": "Willys",
+      "descricao": "4x4",
+      "ano": "1979",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/willys/1979/4x4"
+    },
+    {
+      "modelo": "Willys",
+      "descricao": "4x4",
+      "ano": "1974",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/willys/1974/4x4"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "2.0 Rubicon (Aut) 4x4",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2026/2-0-rubicon-aut-4x4"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Rubicon 2.0 Turbo 4x4 (Aut)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2025/rubicon-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sahara 2P 2.0 Turbo 4x4 (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2023/sahara-2p-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sahara 4P 2.0 Turbo 4x4 (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2023/sahara-4p-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Rubicon 2.0 Turbo 4x4 (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2023/rubicon-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sahara 2P 2.0 Turbo 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2022/sahara-2p-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sahara 4P 2.0 Turbo 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2022/sahara-4p-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Rubicon 2.0 Turbo 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2022/rubicon-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sahara 2P 2.0 Turbo 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2021/sahara-2p-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Unlimited Edição Especial 80 anos 2.0 Turbo 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2021/unlimited-edicao-especial-80-anos-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sahara Unlimited Overland 2.0 Turbo 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2021/sahara-unlimited-overland-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Rubicon 2.0 Turbo 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2021/rubicon-2-0-turbo-4x4-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Unlimited 80 Anos 2.0 TB",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2021/unlimited-80-anos-2-0-tb"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "2.0 Sahara (Aut) 4x4",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2020/2-0-sahara-aut-4x4"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "2.0 Sahara Overland (Aut) 4x4",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2020/2-0-sahara-overland-aut-4x4"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "2.0 Rubicon (Aut) 4x4",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2020/2-0-rubicon-aut-4x4"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "2.0 Sahara Auto 4WD",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2019/2-0-sahara-auto-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "2.0 Sahara Overland Auto 4WD",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2019/2-0-sahara-overland-auto-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "2.0 Rubicon Auto 4WD",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2019/2-0-rubicon-auto-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Sport 4WD",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2018/3-6-v6-sport-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Unlimited Sahara 4WD",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2018/3-6-v6-unlimited-sahara-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "2.0 Sahara (Aut) 4x4",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2018/2-0-sahara-aut-4x4"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Sport 4WD",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2017/3-6-v6-sport-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Unlimited 4WD",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2017/3-6-v6-unlimited-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Sport 4WD",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2016/3-6-v6-sport-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Unlimited 4WD",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2016/3-6-v6-unlimited-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Unlimited 75 Anos 4WD",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2016/3-6-v6-unlimited-75-anos-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Sport 4WD",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2015/3-6-v6-sport-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Unlimited 4WD",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2015/3-6-v6-unlimited-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Sport 4WD",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2014/3-6-v6-sport-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Unlimited Sport 4WD",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2014/3-6-v6-unlimited-sport-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Sport 4WD",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2013/3-6-v6-sport-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 V6 Unlimited Sport 4WD",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2013/3-6-v6-unlimited-sport-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 4WD Sport (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2012/3-6-4wd-sport-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.6 4WD Unlimited Sport (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2012/3-6-4wd-unlimited-sport-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sahara 3.8 4WD",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2011/sahara-3-8-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Unlimited Sahara 3.8 4WD",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2011/unlimited-sahara-3-8-4wd"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.8 V6 (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2011/3-8-v6-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Unlimited 3.8 V6",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2011/unlimited-3-8-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "SAHARA 3.8 V6",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2011/sahara-3-8-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.8 V6",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2010/3-8-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Unlimited 3.8 V6",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2010/unlimited-3-8-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.8 V6",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2009/3-8-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.8 V6",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2008/3-8-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "3.8 V6",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2007/3-8-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sport 4.0 V6",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2001/sport-4-0-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sport 4.0 V6",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/2000/sport-4-0-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sport 4.0 V6 (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1999/sport-4-0-v6-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sport 4.0 V6",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1999/sport-4-0-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sport 4.0 V6 (aut)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1998/sport-4-0-v6-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sport 4.0 V6",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1998/sport-4-0-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sport 4.0 V6",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1997/sport-4-0-v6"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "Sport 4.0 V6 (aut)",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1997/sport-4-0-v6-aut"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "4.0 V6 (teto lona)",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1993/4-0-v6-teto-lona"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "4.0 V6 (teto rígido)",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1993/4-0-v6-teto-rigido"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "4.0 V6 (teto lona)",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1992/4-0-v6-teto-lona"
+    },
+    {
+      "modelo": "Wrangler",
+      "descricao": "4.0 V6 (teto rígido)",
+      "ano": "1992",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/jeep/wrangler/1992/4-0-v6-teto-rigido"
+    }
+  ]
+}

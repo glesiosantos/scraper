@@ -1,0 +1,4562 @@
+{
+  "marca": {
+    "nome": "Kia",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/629207011/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao Sv Grand 3.0",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2005/furgao-sv-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao 2.7",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2005/furgao-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "3.0 GS Grand 606",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2005/3-0-gs-grand-606"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2005/gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS Grand 3.0",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2005/gs-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao Sv Grand 3.0",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2004/furgao-sv-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "3.0 GS Grand 606",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2004/3-0-gs-grand-606"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS Grand 3.0",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2004/gs-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao 2.7",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2003/furgao-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS Grand 3.0",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2003/gs-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7 (aut)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2002/gs-2-7-aut"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao GS 2.7",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2002/furgao-gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2002/gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "3.0 GS Grand 606",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2002/3-0-gs-grand-606"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS Grand 3.0",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2002/gs-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "3.0 GS Grand 606",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2001/3-0-gs-grand-606"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao GS 2.7",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2001/furgao-gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2001/gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao Sv Grand 3.0",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2001/furgao-sv-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS Grand 3.0",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2001/gs-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7 (aut)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2001/gs-2-7-aut"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao GS 2.7",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2000/furgao-gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2000/gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS Grand 3.0",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2000/gs-grand-3-0"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7 (aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/2000/gs-2-7-aut"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7 (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1999/gs-2-7-aut"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao GS 2.7",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1999/furgao-gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1999/gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van Full 2.7",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1998/super-van-full-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao RS 2.7",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1998/furgao-rs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao 2.2",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1998/furgao-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao GS 2.7",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1998/furgao-gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1998/gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7 (aut)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1998/gs-2-7-aut"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van St 2.2",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1998/super-van-st-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van Est 2.7",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1998/super-van-est-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "GS 2.7",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1997/gs-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao 2.2",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1997/furgao-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van Est 2.7",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1997/super-van-est-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao 2.2",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1996/furgao-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van St 2.2",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1996/super-van-st-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van Est 2.7",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1996/super-van-est-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao 2.2",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1995/furgao-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van St 2.2",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1995/super-van-st-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van Est 2.7",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1995/super-van-est-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao 2.2",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1994/furgao-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van St 2.2",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1994/super-van-st-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van Est 2.7",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1994/super-van-est-2-7"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Furgao 2.2",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1993/furgao-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van St 2.2",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1993/super-van-st-2-2"
+    },
+    {
+      "modelo": "Besta",
+      "descricao": "Super Van Est 2.7",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/besta/1993/super-van-est-2-7"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K2500 2.5 4x4",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2026/k2500-2-5-4x4"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K.287 2.5 4x4 MT",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2026/k-287-2-5-4x4-mt"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K2500 2.5 4x4",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2025/k2500-2-5-4x4"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K.287 2.5 4x4 MT",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2025/k-287-2-5-4x4-mt"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K2500 2.5 4x4",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2024/k2500-2-5-4x4"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K2500 2.5 4x2",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2023/k2500-2-5-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K2500 2.5 4x4",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2023/k2500-2-5-4x4"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 2.5 Turbo",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2022/k-2500-2-5-turbo"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K.788",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2022/k-788"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K.798",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2022/k-798"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K.788",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2021/k-788"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K.789",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2021/k-789"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD RS Sem Carroceria",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2020/2-5-std-rs-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2020/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD RS Sem Carroceria",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2019/2-5-std-rs-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD RS Sem Carroceria",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2018/2-5-std-rs-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2018/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 4x2",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2017/k-2500-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD RS Sem Carroceria",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2016/2-5-std-rs-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K2500 2.5 4x2",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2016/k2500-2-5-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD RS K788",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2015/2-5-std-rs-k788"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K2500 2.5 4x2",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2015/k2500-2-5-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 STD 4x2 RS (cab. simples)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2014/k-2500-std-4x2-rs-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K2500 2.5 STD RS",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2014/k2500-2-5-std-rs"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 STD 4x2 RS (cab. simples)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2013/k-2500-std-4x2-rs-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD RS Sem Carroceria K.782",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2013/2-5-std-rs-sem-carroceria-k-782"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD RS Sem Carroceria K.785",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2013/2-5-std-rs-sem-carroceria-k-785"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD RS Com Carroceria K183",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2013/2-5-std-rs-com-carroceria-k183"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD 4X2 c simples RS sem carroceria",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2012/2-5-std-4x2-c-simples-rs-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RD sem carroceria",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2012/2-5-dlx-4x2-c-simples-rd-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD 4X2 c simples RS com carroceria",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2012/2-5-std-4x2-c-simples-rs-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RD com carroceria",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2012/2-5-dlx-4x2-c-simples-rd-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RS com carroceria",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2012/2-5-dlx-4x2-c-simples-rs-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.7 STD 4X4 cab simples RS com carroceria",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2012/2-7-std-4x4-cab-simples-rs-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.7 STD 4X4 cab dupla RS com carroceria",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2012/2-7-std-4x4-cab-dupla-rs-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.7 DLX 4X4 cab dupla RS com carroceria",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2012/2-7-dlx-4x4-cab-dupla-rs-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 STD 4x2 RS (cab. simples)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/k-2500-std-4x2-rs-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD 4X2 c simples RS sem carroceria",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/2-5-std-4x2-c-simples-rs-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 DLX 4x2 RD (cab. simples)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/k-2500-dlx-4x2-rd-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD 4X2 c simples RS TURBO",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/2-5-std-4x2-c-simples-rs-turbo"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RD TURBO",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/2-5-dlx-4x2-c-simples-rd-turbo"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 DLX 4x2 RS (cab. simples)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/k-2500-dlx-4x2-rs-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x4 (cab. simples)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/k-2700-std-rs-4x4-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x4 (cab. dupla)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/k-2700-std-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RS 4x4 (cab. dupla)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2011/k-2700-dlx-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 STD 4x2 RS (cab. simples)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2010/k-2500-std-4x2-rs-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 DLX 4x2 RD (cab. simples)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2010/k-2500-dlx-4x2-rd-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD 4X2 c simples RS TURBO",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2010/2-5-std-4x2-c-simples-rs-turbo"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RD TURBO",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2010/2-5-dlx-4x2-c-simples-rd-turbo"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 DLX 4x2 RS (cab. simples)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2010/k-2500-dlx-4x2-rs-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x4 (cab. simples)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2010/k-2700-std-rs-4x4-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x4 (cab. dupla)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2010/k-2700-std-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RS 4x4 (cab. dupla)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2010/k-2700-dlx-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD 4X2 c simples RS sem carroceria",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/2-5-std-4x2-c-simples-rs-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD 4X2 c simples RS com carroceria",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/2-5-std-4x2-c-simples-rs-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x2 (cab. simples)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/k-2700-std-rs-4x2-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RD 4x2 (cab. simples)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/k-2700-dlx-rd-4x2-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RD com carroceria",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/2-5-dlx-4x2-c-simples-rd-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RD sem carroceria",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/2-5-dlx-4x2-c-simples-rd-sem-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RS com carroceria",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/2-5-dlx-4x2-c-simples-rs-com-carroceria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x4 (cab. simples)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/k-2700-std-rs-4x4-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RS 4x2 (cab. simples)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/k-2700-dlx-rs-4x2-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x4 (cab. dupla)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/k-2700-std-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RS 4x4 (cab. dupla)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2009/k-2700-dlx-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2500 STD 4x2 RS (cab. simples)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2500-std-4x2-rs-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RD sem carrocaria",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/2-5-dlx-4x2-c-simples-rd-sem-carrocaria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x2 (cab. simples)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2700-std-rs-4x2-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x2 (cab. simples) com carrocaria",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2700-std-rs-4x2-cab-simples-com-carrocaria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 STD 4X2 c simples RS com carrocaria",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/2-5-std-4x2-c-simples-rs-com-carrocaria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "2.5 DLX 4X2 c simples RD com carrocaria",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/2-5-dlx-4x2-c-simples-rd-com-carrocaria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RD 4x2 (cab. simples) com carrocaria",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2700-dlx-rd-4x2-cab-simples-com-carrocaria"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RD 4x2 (cab. simples)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2700-dlx-rd-4x2-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RS 4x2 (cab. simples)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2700-dlx-rs-4x2-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x4 (cab. simples)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2700-std-rs-4x4-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD RS 4x4 (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2700-std-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 DLX RS 4x4 (cab. dupla)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2008/k-2700-dlx-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RS 4x2 (cab. simples)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2007/k-2700-rs-4x2-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RD 4x2 (cab. simples)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2007/k-2700-rd-4x2-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RS 4x4 (cab. dupla)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2007/k-2700-rs-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RS 4x4 Basculhante (cab. simples)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2007/k-2700-rs-4x4-basculhante-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RS 4x4 Basculhante (cab. simples)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2006/k-2700-rs-4x4-basculhante-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4X2 RS sem carrocaria (cab. simples)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2006/k-2700-4x2-rs-sem-carrocaria-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4X2 RS com carrocaria (cab. simples)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2006/k-2700-4x2-rs-com-carrocaria-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4X2 RD sem carrocaria (cab. simples)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2006/k-2700-4x2-rd-sem-carrocaria-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x4 RS sem carrocaria (cab. simples)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2006/k-2700-4x4-rs-sem-carrocaria-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x4 RS com carrocaria (cab. simples)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2006/k-2700-4x4-rs-com-carrocaria-cab-simples"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x4 RS com carrocaria (cab. dupla)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2006/k-2700-4x4-rs-com-carrocaria-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 curto",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2005/k-2700-curto"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2005/k-2700-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x4",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2005/k-2700-4x4"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 STD 4x4 (cab. dupla)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2005/k-2700-std-4x4-cab-dupla"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RS 4x2 Curto",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2004/k-2700-rs-4x2-curto"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RD 4x2",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2004/k-2700-rd-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RS 4x4 Curto",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2004/k-2700-rs-4x4-curto"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RS 4x4 Curto (Cab.Estendida)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2004/k-2700-rs-4x4-curto-cab-estendida"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2003/k-2700-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2 Curto",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2003/k-2700-4x2-curto"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 RS 4x4 Curto",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2002/k-2700-rs-4x4-curto"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2002/k-2700-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2 Curto",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2002/k-2700-4x2-curto"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2001/k-2700-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2 Curto",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2001/k-2700-4x2-curto"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/2000/k-2700-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3500",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1999/k-3500"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1999/k-2700-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3600",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1999/k-3600"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3500",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1998/k-3500"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1998/k-2700-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3600",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1998/k-3600"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3500",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1997/k-3500"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2700 4x2",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1997/k-2700-4x2"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2400",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1997/k-2400"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3600",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1997/k-3600"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3500",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1996/k-3500"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3600",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1996/k-3600"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2400",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1996/k-2400"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3500",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1995/k-3500"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3600",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1995/k-3600"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2400",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1995/k-2400"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3600",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1994/k-3600"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2400",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1994/k-2400"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3500",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1994/k-3500"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3500",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1993/k-3500"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-3600",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1993/k-3600"
+    },
+    {
+      "modelo": "Bongo",
+      "descricao": "K-2400",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/bongo/1993/k-2400"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "Ex 3.5 V6 24V (Automático)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2017/ex-3-5-v6-24v-automatico"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6 (Aut) Z558",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2016/ex-3-5-v6-aut-z558"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6 (Aut) Z558",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2015/ex-3-5-v6-aut-z558"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "3.5 V6 EX  Z557",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2014/3-5-v6-ex-z557"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6  Z555",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2013/ex-3-5-v6-z555"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6 Z.555(Teto)(aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2012/ex-3-5-v6-z-555tetoaut"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6 Z.554 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2012/ex-3-5-v6-z-554-aut"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6 Z.556 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2012/ex-3-5-v6-z-556-aut"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6 Z.556 (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2011/ex-3-5-v6-z-556-aut"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6 Z.555(Teto)(aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2011/ex-3-5-v6-z-555tetoaut"
+    },
+    {
+      "modelo": "Cadenza",
+      "descricao": "EX 3.5 V6 Z.554 (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cadenza/2011/ex-3-5-v6-z-554-aut"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "2.0 EX C.162 (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2013/2-0-ex-c-162-aut"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "2.0 EX C.167 (aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2013/2-0-ex-c-167-aut"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "2.0 EX C.162 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2012/2-0-ex-c-162-aut"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "2.0 EX C.167 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2012/2-0-ex-c-167-aut"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 2.0 16V (aut.)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2011/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 2.0 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2011/ex-2-0-16v"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 2.0 16V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2010/ex-2-0-16v"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 2.0 16V (aut.)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2010/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 2.0 16V (aut.)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2009/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 2.0 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2009/ex-2-0-16v"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 2.0 16V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2008/ex-2-0-16v"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 1.8 16V",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2003/ex-1-8-16v"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "EX 1.8 16V",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2002/ex-1-8-16v"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "LS 1.8 16V",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2001/ls-1-8-16v"
+    },
+    {
+      "modelo": "Carens",
+      "descricao": "LS 1.8 16V (aut)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carens/2001/ls-1-8-16v-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "Carnival EX 3.5 V6 24V 276cv Aut.",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2025/carnival-ex-3-5-v6-24v-276cv-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "Carnival EX 3.5 V6 24V 276cv Aut.",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2024/carnival-ex-3-5-v6-24v-276cv-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "Carnival EX 3.5 V6 24V 276cv Aut.",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2022/carnival-ex-3-5-v6-24v-276cv-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "Carnival EX 3.5 V6 24V 276cv Aut.",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2021/carnival-ex-3-5-v6-24v-276cv-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "3.5 V6 EX V295",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2015/3-5-v6-ex-v295"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "3.5 V6 EX V451",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2015/3-5-v6-ex-v451"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "3.5 V6 EX V295",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2014/3-5-v6-ex-v295"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "3.5 V6 EX V295",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2013/3-5-v6-ex-v295"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "3.5 V6 EX V.291 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2012/3-5-v6-ex-v-291-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "3.5 V6 EX V.295 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2012/3-5-v6-ex-v-295-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "EX 3.8 (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2011/ex-3-8-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "Carnival EX 3.5 V6 24V 276cv Aut.",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2011/carnival-ex-3-5-v6-24v-276cv-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "EX 3.8 (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2010/ex-3-8-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "EX 3.8 (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2009/ex-3-8-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "EX 3.8 (aut) (Teto)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2009/ex-3-8-aut-teto"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "EX 3.8 (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2008/ex-3-8-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "2.5 V6",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2007/2-5-v6"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "EX 3.8 (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2007/ex-3-8-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "2.5 V6",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2006/2-5-v6"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "2.5 V6",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2005/2-5-v6"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.9 16V",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2005/gs-2-9-16v"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V (aut)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2004/gs-2-5-24v-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.9 16V",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2004/gs-2-9-16v"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V (aut)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2003/gs-2-5-24v-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.9 16V",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2003/gs-2-9-16v"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V (aut)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2002/gs-2-5-24v-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.9 16V",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2002/gs-2-9-16v"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2001/gs-2-5-24v"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V (aut)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2001/gs-2-5-24v-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.9 16V",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2001/gs-2-9-16v"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2000/gs-2-5-24v"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V (aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/2000/gs-2-5-24v-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/1999/gs-2-5-24v"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/1999/gs-2-5-24v-aut"
+    },
+    {
+      "modelo": "Carnival",
+      "descricao": "GS 2.5 24V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/carnival/1998/gs-2-5-24v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "2.0 16V EX (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2022/2-0-16v-ex-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "2.0 16V SX (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2022/2-0-16v-sx-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "2.0 16V EX (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2021/2-0-16v-ex-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "2.0 16V SX (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2021/2-0-16v-sx-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "2.0 16V EX (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2020/2-0-16v-ex-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "2.0 16V SX (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2020/2-0-16v-sx-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2019/sx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 AT E.395",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2019/1-6-at-e-395"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2018/sx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2017/sx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2016/sx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 (Aut) (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2015/sx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2014/1-6-16v-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 (Aut) (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2014/sx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2013/1-6-16v-flex"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2013/1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 16V E.234",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2013/sx-1-6-16v-e-234"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 16V (Aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2013/sx-1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 16V E.284(aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2013/sx-1-6-16v-e-284aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2013/1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "Koup 2.0 16V (Aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2013/koup-2-0-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V  Flex (Automatico)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2013/1-6-16v-flex-automatico"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V E.221",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2012/ex-1-6-16v-e-221"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2012/1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V E.222",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2012/ex-1-6-16v-e-222"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2012/1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V E.273(aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2012/ex-1-6-16v-e-273aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 2.0 16V Koup E.387 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2012/sx-2-0-16v-koup-e-387-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "Koup 2.0 16V (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2012/koup-2-0-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V 6vel",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/ex-1-6-16v-6vel"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V ABS",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/ex-1-6-16v-abs"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V 6vel (ABS)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/ex-1-6-16v-6vel-abs"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/sx-1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/ex-1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V 6vel (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/ex-1-6-16v-6vel-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 16V 6vel",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/sx-1-6-16v-6vel"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 16V (Aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/sx-1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 16V (aut) Smart Key",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/sx-1-6-16v-aut-smart-key"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "2.0 16V Koup SX",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/2-0-16v-koup-sx"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "Koup 2.0 16V (Aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2011/koup-2-0-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2010/ex-1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "EX 1.6 16V ABS",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2010/ex-1-6-16v-abs"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "SX 1.6 16V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2010/sx-1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2010/1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2010/1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2009/1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2009/1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2008/1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2008/1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V (Aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2007/1-6-16v-aut"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2007/1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "1.6 16V",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2006/1-6-16v"
+    },
+    {
+      "modelo": "Cerato",
+      "descricao": "2.0 16V (Aut)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/cerato/2006/2-0-16v-aut"
+    },
+    {
+      "modelo": "Ceres",
+      "descricao": "Pick Up 2.2",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/ceres/1996/pick-up-2-2"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Wagon GLX 2.0 16V (aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/2000/wagon-glx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V (aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/2000/sedan-glx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/2000/sedan-glx-2-0-16v"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Wagon GLX 2.0 16V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/2000/wagon-glx-2-0-16v"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1999/sedan-glx-2-0-16v"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1999/sedan-glx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Wagon GLX 2.0 16V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1999/wagon-glx-2-0-16v"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Wagon GLX 2.0 16V (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1999/wagon-glx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Wagon GLX 2.0 16V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1998/wagon-glx-2-0-16v"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1998/sedan-glx-2-0-16v"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V (aut)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1998/sedan-glx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1997/sedan-glx-2-0-16v"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V (aut)",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1997/sedan-glx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Clarus",
+      "descricao": "Sedan GLX 2.0 16V",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/clarus/1996/sedan-glx-2-0-16v"
+    },
+    {
+      "modelo": "Grand Carnival",
+      "descricao": "EX 3.5 V6 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/grand-carnival/2022/ex-3-5-v6-aut"
+    },
+    {
+      "modelo": "Grand Carnival",
+      "descricao": "EX 3.3 V6 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/grand-carnival/2021/ex-3-3-v6-aut"
+    },
+    {
+      "modelo": "Grand Carnival",
+      "descricao": "EX 3.3 V6 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/grand-carnival/2020/ex-3-3-v6-aut"
+    },
+    {
+      "modelo": "Grand Carnival",
+      "descricao": "EX 3.3 V6 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/grand-carnival/2019/ex-3-3-v6-aut"
+    },
+    {
+      "modelo": "Grand Carnival",
+      "descricao": "EX 3.3 V6 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/grand-carnival/2018/ex-3-3-v6-aut"
+    },
+    {
+      "modelo": "Grand Carnival",
+      "descricao": "EX 3.3 V6 (Aut)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/grand-carnival/2016/ex-3-3-v6-aut"
+    },
+    {
+      "modelo": "Magentis",
+      "descricao": "EX 2.0 16V (aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/magentis/2011/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Magentis",
+      "descricao": "EX 2.0 16V (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/magentis/2010/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Magentis",
+      "descricao": "EX 2.0 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/magentis/2009/ex-2-0-16v"
+    },
+    {
+      "modelo": "Magentis",
+      "descricao": "EX 2.0 16V (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/magentis/2009/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Magentis",
+      "descricao": "EX 2.0 16V (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/magentis/2008/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Magentis",
+      "descricao": "EX 2.0 16V",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/magentis/2007/ex-2-0-16v"
+    },
+    {
+      "modelo": "Magentis",
+      "descricao": "EX 2.0 16V",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/magentis/2006/ex-2-0-16v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "EX 3.0 H573",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2017/ex-3-0-h573"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "EX 3.0 VGT H572",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2016/ex-3-0-vgt-h572"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "EX 3.0 VGT (Aut) H570",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2015/ex-3-0-vgt-aut-h570"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.8 V6 EX H670",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2014/3-8-v6-ex-h670"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.0 VGT H.570(aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2014/3-0-vgt-h-570aut"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.8 V6 EX H670",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2013/3-8-v6-ex-h670"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.0 VGT H.570(aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2013/3-0-vgt-h-570aut"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.8 V6 EX H.670 (aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2012/3-8-v6-ex-h-670-aut"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.0 VGT H.558(aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2012/3-0-vgt-h-558aut"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "4.6 V8 H.858(aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2012/4-6-v8-h-858aut"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.8 V6 24V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2011/3-8-v6-24v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "4.6 V8 32V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2011/4-6-v8-32v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.0 VGT V6 24V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2011/3-0-vgt-v6-24v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.8 V6 24V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2010/3-8-v6-24v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "4.6 V8 32V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2010/4-6-v8-32v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.0 VGT V6 24V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2010/3-0-vgt-v6-24v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.8 V6 24V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2009/3-8-v6-24v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "4.6 V8 32V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2009/4-6-v8-32v"
+    },
+    {
+      "modelo": "Mohave",
+      "descricao": "3.0 VGT V6 24V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/mohave/2009/3-0-vgt-v6-24v"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "EX 1.6 HEV",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2026/ex-1-6-hev"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "SX Prestige 1.6 HEV",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2026/sx-prestige-1-6-hev"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "EX 1.6 HEV",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2025/ex-1-6-hev"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "SX Prestige 1.6 HEV",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2025/sx-prestige-1-6-hev"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "EX 1.6",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2024/ex-1-6"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "SX Prestige 1.6",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2024/sx-prestige-1-6"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "SX Rio Limited Edt 1.6 GDI (Híb.)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2024/sx-rio-limited-edt-1-6-gdi-hib"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "EX 1.6 (Híbrido)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2024/ex-1-6-hibrido"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "EX 1.6 (Híbrido)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2023/ex-1-6-hibrido"
+    },
+    {
+      "modelo": "Niro",
+      "descricao": "SX Prestige 1.6 (Híbrido)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/niro/2023/sx-prestige-1-6-hibrido"
+    },
+    {
+      "modelo": "Opirus",
+      "descricao": "3.8 V6 (Teto)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/opirus/2009/3-8-v6-teto"
+    },
+    {
+      "modelo": "Opirus",
+      "descricao": "GL 3.8 V6",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/opirus/2009/gl-3-8-v6"
+    },
+    {
+      "modelo": "Opirus",
+      "descricao": "GL 3.8 V6",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/opirus/2008/gl-3-8-v6"
+    },
+    {
+      "modelo": "Opirus",
+      "descricao": "GL 3.8 V6",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/opirus/2007/gl-3-8-v6"
+    },
+    {
+      "modelo": "Opirus",
+      "descricao": "GL 3.5 24V",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/opirus/2007/gl-3-5-24v"
+    },
+    {
+      "modelo": "Opirus",
+      "descricao": "GL 3.5 24V",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/opirus/2006/gl-3-5-24v"
+    },
+    {
+      "modelo": "Opirus",
+      "descricao": "GL 3.5 24V",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/opirus/2005/gl-3-5-24v"
+    },
+    {
+      "modelo": "Optima",
+      "descricao": "2.0 EX (Aut) Y254",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/optima/2016/2-0-ex-aut-y254"
+    },
+    {
+      "modelo": "Optima",
+      "descricao": "2.0 EX (Aut) Y254",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/optima/2015/2-0-ex-aut-y254"
+    },
+    {
+      "modelo": "Optima",
+      "descricao": "2.4 EX Y555",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/optima/2014/2-4-ex-y555"
+    },
+    {
+      "modelo": "Optima",
+      "descricao": "2.4 EX (Aut) Y556",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/optima/2014/2-4-ex-aut-y556"
+    },
+    {
+      "modelo": "Optima",
+      "descricao": "2.0 16V (Automático)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/optima/2014/2-0-16v-automatico"
+    },
+    {
+      "modelo": "Optima",
+      "descricao": "2.4 EX Y555",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/optima/2013/2-4-ex-y555"
+    },
+    {
+      "modelo": "Optima",
+      "descricao": "2.4 EX Y557",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/optima/2013/2-4-ex-y557"
+    },
+    {
+      "modelo": "Optima",
+      "descricao": "2.4 EX (Aut) Y556",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/optima/2013/2-4-ex-aut-y556"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 GT (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2020/1-0-gt-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 GT (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2018/1-0-gt-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2017/1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2017/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2016/1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2016/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2015/1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2015/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2014/1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Aut) (Flex) J368",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2014/1-0-aut-flex-j368"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Aut) (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2014/1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2013/ex-1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Aut) (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2013/1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex) J320",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2013/1-0-flex-j320"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2013/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2012/ex-1-0"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2012/1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex) J319",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2012/1-0-flex-j319"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2012/ex-1-0-aut"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex) J320",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2012/1-0-flex-j320"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Aut) (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2012/1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2012/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2011/ex-1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2011/1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2011/ex-1-0"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2011/ex-1-0-aut"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Flex) J320",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2011/1-0-flex-j320"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "1.0 (Aut) (Flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2011/1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2011/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2010/ex-1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2010/ex-1-0"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2010/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2010/ex-1-0-aut"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2009/ex-1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2009/ex-1-0"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2009/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2009/ex-1-0-aut"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.1 (Flex)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2008/ex-1-1-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Flex)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2008/ex-1-0-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2008/ex-1-0"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2008/ex-1-0-aut"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.0 (Aut) (Flex)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2008/ex-1-0-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.1 (Flex)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2007/ex-1-1-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.1 (Aut) (Flex)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2007/ex-1-1-aut-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.1 L",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2006/ex-1-1-l"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.1 (Flex)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2006/ex-1-1-flex"
+    },
+    {
+      "modelo": "Picanto",
+      "descricao": "EX 1.1 (Aut) (Flex)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/picanto/2006/ex-1-1-aut-flex"
+    },
+    {
+      "modelo": "Quoris",
+      "descricao": "EX 3.8 V6 MPi X554",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/quoris/2016/ex-3-8-v6-mpi-x554"
+    },
+    {
+      "modelo": "Quoris",
+      "descricao": "EX 3.8 V6 X554",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/quoris/2015/ex-3-8-v6-x554"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "LX 1.6 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2022/lx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.6 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2022/ex-1-6-aut-flex"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.6 (Aut) (Flex) R255",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2022/ex-1-6-aut-flex-r255"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "LX 1.6 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2021/lx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.6 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2021/ex-1-6-aut-flex"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.6 (Aut) (Flex) R255",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2021/ex-1-6-aut-flex-r255"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "LX 1.6 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2020/lx-1-6-aut-flex"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.6 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2020/ex-1-6-aut-flex"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.6 (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2019/ex-1-6-aut-flex"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.4",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2012/ex-1-4"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.4",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2011/ex-1-4"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.4",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2010/ex-1-4"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.4",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2009/ex-1-4"
+    },
+    {
+      "modelo": "Rio",
+      "descricao": "EX 1.4 (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/rio/2009/ex-1-4-aut"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "LS 1.5 i 16V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/2000/ls-1-5-i-16v"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "LS 1.5 i 16V (aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/2000/ls-1-5-i-16v-aut"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "LS 1.5 i 16V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1999/ls-1-5-i-16v"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "LS 1.5 i 16V (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1999/ls-1-5-i-16v-aut"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "GTX 16V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1998/gtx-16v"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "GTX 16V (aut)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1998/gtx-16v-aut"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "GTX 16V",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1997/gtx-16v"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "SLX 8V",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1997/slx-8v"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "GTX 16V (aut)",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1997/gtx-16v-aut"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "GTX 1.6 i 8V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1995/gtx-1-6-i-8v"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "SLX 1.6 i 8V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1995/slx-1-6-i-8v"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "SLX 1.6 i 8V",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1994/slx-1-6-i-8v"
+    },
+    {
+      "modelo": "Sephia",
+      "descricao": "SLX 1.6 i 8V",
+      "ano": "1993",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sephia/1993/slx-1-6-i-8v"
+    },
+    {
+      "modelo": "Shuma",
+      "descricao": "1.5 16V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/shuma/2000/1-5-16v"
+    },
+    {
+      "modelo": "Shuma",
+      "descricao": "1.5 16V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/shuma/1999/1-5-16v"
+    },
+    {
+      "modelo": "Shuma",
+      "descricao": "1.5 16V (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/shuma/1999/1-5-16v-aut"
+    },
+    {
+      "modelo": "Shuma",
+      "descricao": "1.5 16V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/shuma/1998/1-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2022/2-4-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2022/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2022/3-5-v6-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2022/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2021/2-4-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2021/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2021/3-5-v6-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2021/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x4 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2020/2-4-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2020/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2020/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2019/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2019/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x4 (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2019/2-4-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x2 (Aut.)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2019/3-5-v6-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2018/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2018/2-4-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 EX (Aut) S254",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2018/3-5-v6-ex-aut-s254"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.3 V6 EX (Aut) S556",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2018/3-3-v6-ex-aut-s556"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2018/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.3 V6 EX S556",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2017/3-3-v6-ex-s556"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.3 V6 EX (Aut) S555",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2016/3-3-v6-ex-aut-s555"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2015/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 EX 4WD (Aut) S670",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2015/3-5-v6-ex-4wd-aut-s670"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.3 V6 24V 4x2 Automatico (270cv)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2015/3-3-v6-24v-4x2-automatico-270cv"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2014/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "New  2.4 EX (Aut) (S263)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2014/new-2-4-ex-aut-s263"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2014/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "New  EX 3.5 V6 4WD S670",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2014/new-ex-3-5-v6-4wd-s670"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 (aut) (S.570)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2014/3-5-v6-aut-s-570"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2013/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 (aut)(S.263)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2013/ex-2-4-auts-263"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut)(S.558)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2013/ex-3-5-v6-auts-558"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4WD EX (S.660)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2013/3-5-v6-4wd-ex-s-660"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut) (S.560)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2013/ex-3-5-v6-aut-s-560"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4WD (aut)(S.658)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2013/ex-3-5-v6-4wd-auts-658"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2013/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut)(S.558)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-3-5-v6-auts-558"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 16V (aut)(S.357)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-2-4-16v-auts-357"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 16V (aut)(S.356)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-2-4-16v-auts-356"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4WD (aut)(S.658)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-3-5-v6-4wd-auts-658"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut)(S.554)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-3-5-v6-auts-554"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut)(S.555)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-3-5-v6-auts-555"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4WD (aut)(S.660)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-3-5-v6-4wd-auts-660"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x4 (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/2-4-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut) (S.559)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-3-5-v6-aut-s-559"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 4WD (aut)(S.456)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-2-4-4wd-auts-456"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4WD (aut)(S.655)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-3-5-v6-4wd-auts-655"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4WD (aut)(S.659)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2012/ex-3-5-v6-4wd-auts-659"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x2 (Aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/2-4-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 16V (aut)(S.357) (7lug)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-2-4-16v-auts-357-7lug"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 16V (aut)(S.356)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-2-4-16v-auts-356"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut) (S.559)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-3-5-v6-aut-s-559"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut)(S.558)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-3-5-v6-auts-558"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut)(S.554)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-3-5-v6-auts-554"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 (aut)(S.555)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-3-5-v6-auts-555"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.4 16V 4x4 (Aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/2-4-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 4WD (aut)(S.456)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-2-4-4wd-auts-456"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4WD (aut)(S.658)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-3-5-v6-4wd-auts-658"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4WD (aut)(S.655)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2011/ex-3-5-v6-4wd-auts-655"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 16V (aut) (7 lug.)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2010/ex-2-4-16v-aut-7-lug"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 16V (aut) S.253",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2010/ex-2-4-16v-aut-s-253"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 24V (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2010/ex-3-5-v6-24v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.4 16V 4x4 (aut) (7 lug.)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2010/ex-2-4-16v-4x4-aut-7-lug"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4x4 (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2010/ex-3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "3.5 V6 4x4 (Aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2010/3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.8 V6 (aut) (teto)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2009/ex-3-8-v6-aut-teto"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.8 V6 (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2009/ex-3-8-v6-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2009/ex-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2009/ex-2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V (aut) (teto)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2009/ex-2-5-16v-aut-teto"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "LX 2.5 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2009/lx-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "LX 2.5 16V (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2009/lx-2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.8 V6 (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2008/ex-3-8-v6-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2008/ex-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.8 V6 (aut) (teto)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2008/ex-3-8-v6-aut-teto"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2008/ex-2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V (aut) (teto)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2008/ex-2-5-16v-aut-teto"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "LX 2.5 16V",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2008/lx-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "LX 2.5 16V (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2008/lx-2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "LX 2.5 16V",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2007/lx-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4X4 (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2007/ex-3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2007/ex-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2007/ex-2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.8 V6 (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2007/ex-3-8-v6-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V (aut) (teto)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2007/ex-2-5-16v-aut-teto"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2006/ex-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "LX 2.5 16V",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2006/lx-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "LX 2.5 16V (aut)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2006/lx-2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.5 16V (aut)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2006/2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4X4 (aut)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2006/ex-3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V (aut) (teto)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2006/ex-2-5-16v-aut-teto"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "LX 2.5 16V",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2005/lx-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.5 16V (aut)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2005/2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4X4 (aut)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2005/ex-3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2005/ex-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "2.5 16V (aut)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2004/2-5-16v-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4X4 (aut)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2004/ex-3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 2.5 16V",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2004/ex-2-5-16v"
+    },
+    {
+      "modelo": "Sorento",
+      "descricao": "EX 3.5 V6 4X4 (aut)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sorento/2003/ex-3-5-v6-4x4-aut"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U265",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2019/ex-1-6-flex-aut-u265"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U261",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2018/ex-1-6-flex-aut-u261"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U259",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2017/ex-1-6-flex-aut-u259"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U259",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2016/ex-1-6-flex-aut-u259"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U260",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2016/ex-1-6-flex-aut-u260"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U259",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2015/ex-1-6-flex-aut-u259"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U260",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2015/ex-1-6-flex-aut-u260"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) U124",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2014/ex-1-6-flex-u124"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U174",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2014/ex-1-6-flex-aut-u174"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 (Flex) (Aut) U173",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2014/ex-1-6-flex-aut-u173"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V U.121",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2013/1-6-16v-u-121"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.124",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2013/ex-1-6-16v-u-124"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.174",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2013/1-6-16v-aut-u-174"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.173",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2013/1-6-16v-aut-u-173"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 U.163",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/ex-1-6-u-163"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V U.111",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/1-6-16v-u-111"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.114",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/ex-1-6-16v-u-114"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V U.121",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/1-6-16v-u-121"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.124",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/ex-1-6-16v-u-124"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut)U166",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/1-6-16v-autu166"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V U.123",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/1-6-16v-u-123"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V U126",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/1-6-16v-u126"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.174",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/1-6-16v-aut-u-174"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.173",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2012/1-6-16v-aut-u-173"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V (Flex) U.163",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2011/ex-1-6-16v-flex-u-163"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V U.111",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2011/1-6-16v-u-111"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.114",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2011/ex-1-6-16v-u-114"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V U.113",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2011/1-6-16v-u-113"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.164",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2011/1-6-16v-aut-u-164"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.154",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2011/1-6-16v-aut-u-154"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.163",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2011/1-6-16v-aut-u-163"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut) U.166",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2011/1-6-16v-aut-u-166"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.101",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2010/ex-1-6-16v-u-101"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.102",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2010/ex-1-6-16v-u-102"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.104",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2010/ex-1-6-16v-u-104"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.103",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2010/ex-1-6-16v-u-103"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V (aut.) U.152",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2010/ex-1-6-16v-aut-u-152"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V (flex) (aut.) U.152",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2010/ex-1-6-16v-flex-aut-u-152"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.154",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2010/1-6-16v-aut-u-154"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V (aut.) U.153",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2010/ex-1-6-16v-aut-u-153"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.152",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2009/1-6-16v-aut-u-152"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "EX 1.6 16V U.104",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2009/ex-1-6-16v-u-104"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V U.101",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2009/1-6-16v-u-101"
+    },
+    {
+      "modelo": "Soul",
+      "descricao": "1.6 16V (aut.) U.153",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/soul/2009/1-6-16v-aut-u-153"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX Prestige MHEV 1.6",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2026/ex-prestige-mhev-1-6"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX MHEV 1.6",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2026/ex-mhev-1-6"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX Prestige MHEV 1.6",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2025/ex-prestige-mhev-1-6"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX MHEV 1.6",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2025/ex-mhev-1-6"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX Prestige 1.6",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2024/ex-prestige-1-6"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 1.6 T-GDI (Híbrido)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2024/ex-1-6-t-gdi-hibrido"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 1.6",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2023/ex-1-6"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX Prestige 1.6",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2023/ex-prestige-1-6"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 1.6 T-GDI (Híbrido)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2023/ex-1-6-t-gdi-hibrido"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 P.265 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2022/lx-2-0-p-265-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 P.252 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2022/ex-2-0-p-252-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 P.265 (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2022/ex-2-0-p-265-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V/ 2.0 16V Flex Aut.",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2021/lx-2-0-16v-2-0-16v-flex-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 P.265 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2021/ex-2-0-p-265-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 P.265 (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2021/lx-2-0-p-265-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2020/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 (Flex) (Aut) P.161",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2020/lx-2-0-flex-aut-p-161"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 LX (Flex) (Aut) P.163",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2020/2-0-lx-flex-aut-p-163"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 EX (Flex) (Aut) P.263",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2020/2-0-ex-flex-aut-p-263"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 EX (Flex) (Aut) P.262",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2020/2-0-ex-flex-aut-p-262"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 P.266 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2020/lx-2-0-p-266-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 P.265 (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2020/lx-2-0-p-265-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2019/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 LX (Flex) (Aut) P.161",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2019/2-0-lx-flex-aut-p-161"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 LX (Flex) (Aut) P.163",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2019/2-0-lx-flex-aut-p-163"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 EX (Flex) (Aut) P.263",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2019/2-0-ex-flex-aut-p-263"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 EX (Flex) (Aut) P.262",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2019/2-0-ex-flex-aut-p-262"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 EX (Flex) (Aut) P.264",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2019/2-0-ex-flex-aut-p-264"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 EX (Flex) (Aut) P.265",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2019/2-0-ex-flex-aut-p-265"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2018/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 (Flex) (Aut) P254",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2018/ex-2-0-flex-aut-p254"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 (Flex) (Aut) P787",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2018/ex-2-0-flex-aut-p787"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 (Flex) (Aut) P255",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2018/ex-2-0-flex-aut-p255"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 EX (Flex) (Aut) P.264",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2018/2-0-ex-flex-aut-p-264"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 EX (Flex) (Aut) P.265",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2018/2-0-ex-flex-aut-p-265"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2017/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 (Flex) (Aut) P786",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2017/ex-2-0-flex-aut-p786"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2016/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 4x4 (Flex) (Aut) P674",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2016/lx-2-0-4x4-flex-aut-p674"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 (Flex) (Aut) P584",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2016/ex-2-0-flex-aut-p584"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 (Flex) (Aut) P578",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2015/lx-2-0-flex-aut-p578"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 (Flex) (Aut) P574",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2015/lx-2-0-flex-aut-p574"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2015/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 (Flex) (Aut) P584",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2015/ex-2-0-flex-aut-p584"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2014/lx-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 P577 (Flex) (Aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2014/lx-2-0-p577-flex-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2014/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X2 (Flex) P586",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2014/ex-2-0-4x2-flex-p586"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X2 (Aut)  (Flex) P589",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2014/ex-2-0-4x2-aut-flex-p589"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 4X2 (Flex) P525",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2013/lx-2-0-4x2-flex-p525"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2013/lx-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2013/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 P576 (Flex) (Aut)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2013/lx-2-0-p576-flex-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 Flex 4WD (Aut)  P676",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2013/lx-2-0-flex-4wd-aut-p676"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2013/ex-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X2 (Aut)  (Flex) P588",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2013/ex-2-0-4x2-aut-flex-p588"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2(P.324)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/lx-2-0-16v-4x2p-324"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/lx-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 4X2 (Flex) P525",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/lx-2-0-4x2-flex-p525"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut)(P.374)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/lx-2-0-16v-4x2-autp-374"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Aut) (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/lx-2-0-16v-aut-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 4X2 (Flex) P575",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/lx-2-0-4x2-flex-p575"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X2 (aut) (P.394)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/ex-2-0-4x2-aut-p-394"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X2 (Flex) P585",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/ex-2-0-4x2-flex-p585"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 16V (aut)(P.395)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/ex-2-0-16v-autp-395"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X2 (Flex) P586",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/ex-2-0-4x2-flex-p586"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX2 2.0 4X2 (aut)(P.396)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/ex2-2-0-4x2-autp-396"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X4 (Flex) (Aut) P685",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/ex-2-0-4x4-flex-aut-p685"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X4 (aut)(P.495)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/ex-2-0-4x4-autp-495"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 16V (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2012/ex-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2011/lx-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V (Flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2011/lx-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut)(P.374)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2011/lx-2-0-16v-4x2-autp-374"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 16V (Flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2011/ex-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4X4 (aut)(P.495)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2011/ex-2-0-4x4-autp-495"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX2 2.0 4X2 (aut)(P.396)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2011/ex2-2-0-4x2-autp-396"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2010/lx-2-0-16v-4x2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2010/lx-2-0-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 16V (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2010/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2010/lx-2-0-16v-4x4"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4 (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2010/lx-2-0-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.7 V6 4x4 (aut)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2010/ex-2-7-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 16V (Flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2010/ex-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 ABS",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/lx-2-0-16v-4x2-abs"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/lx-2-0-16v-4x2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 16V (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/ex-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/lx-2-0-16v-4x4"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 16V (Flex)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/ex-2-0-16v-flex"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4 (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/lx-2-0-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.7 V6 4x4 (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/ex-2-7-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/lx-2-0-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut) ABS",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2009/lx-2-0-16v-4x2-aut-abs"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 ABS",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2008/lx-2-0-16v-4x2-abs"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2008/lx-2-0-16v-4x2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2008/lx-2-0-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2008/lx-2-0-16v-4x4"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut) ABS",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2008/lx-2-0-16v-4x2-aut-abs"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.0 4x2 16V (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2008/ex-2-0-4x2-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4 (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2008/lx-2-0-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.7 V6 4x4 (aut)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2008/ex-2-7-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2007/lx-2-0-16v-4x2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 ABS",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2007/lx-2-0-16v-4x2-abs"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2007/lx-2-0-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2007/lx-2-0-16v-4x4"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4 (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2007/lx-2-0-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.7 V6 4x4 (aut)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2007/ex-2-7-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2006/lx-2-0-16v-4x2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 ABS",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2006/lx-2-0-16v-4x2-abs"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2006/lx-2-0-16v-4x4"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2 (aut)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2006/lx-2-0-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x4 (aut)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2006/lx-2-0-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.7 V6 4x4 (aut)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2006/ex-2-7-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V 4x2",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2005/grand-2-0-16v-4x2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "LX 2.0 16V 4x2",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2005/lx-2-0-16v-4x2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V 4x2 (aut)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2005/grand-2-0-16v-4x2-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V 4x4",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2005/grand-2-0-16v-4x4"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V 4x4 (aut)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2005/grand-2-0-16v-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "EX 2.7 V6 4x4 (aut)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2005/ex-2-7-v6-4x4-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 Grand",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2004/2-0-grand"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 16V (Aut)",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2003/2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 8V",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2003/grand-2-0-8v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 16V (Aut)",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2002/2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 8V",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2002/grand-2-0-8v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 8V",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2001/grand-2-0-8v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2001/dlx-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V (aut)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2001/dlx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 16V (Aut)",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2001/2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 Grand",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2001/2-0-grand"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2001/grand-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V (aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2000/dlx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2000/grand-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "2.0 16V (aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2000/2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2000/dlx-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V (aut)",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2000/grand-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 8V",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/2000/grand-2-0-8v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Targa 2.0 16V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1999/targa-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.2",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1999/dlx-2-2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1999/dlx-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1999/dlx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1999/grand-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V (aut)",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1999/grand-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 8V",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1999/grand-2-0-8v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "Grand 2.0 16V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1998/grand-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "MR 2.0",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1998/mr-2-0"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V (aut)",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1998/dlx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1998/dlx-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.2",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1998/dlx-2-2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "MR 2.0",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1997/mr-2-0"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1997/dlx-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.2",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1997/dlx-2-2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V (aut)",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1997/dlx-2-0-16v-aut"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1996/dlx-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.2",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1996/dlx-2-2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "GTE 2.2 4x4",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1996/gte-2-2-4x4"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.0 16V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1995/dlx-2-0-16v"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "DLX 2.2",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1995/dlx-2-2"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "MR 4x4",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1995/mr-4x4"
+    },
+    {
+      "modelo": "Sportage",
+      "descricao": "GTE 2.2 4x4",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/sportage/1995/gte-2-2-4x4"
+    },
+    {
+      "modelo": "Stinger",
+      "descricao": "3.3 T-GDI Auto 4WD GT",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stinger/2022/3-3-t-gdi-auto-4wd-gt"
+    },
+    {
+      "modelo": "Stinger",
+      "descricao": "3.3 T-GDI Auto 4WD GT",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stinger/2021/3-3-t-gdi-auto-4wd-gt"
+    },
+    {
+      "modelo": "Stinger",
+      "descricao": "3.3 T-GDI Auto 4WD GT",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stinger/2020/3-3-t-gdi-auto-4wd-gt"
+    },
+    {
+      "modelo": "Stinger",
+      "descricao": "3.3 T-GDI Auto 4WD GT",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stinger/2019/3-3-t-gdi-auto-4wd-gt"
+    },
+    {
+      "modelo": "Stinger",
+      "descricao": "GT 3.3 V6 Bi-Turbo (Automático)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stinger/2018/gt-3-3-v6-bi-turbo-automatico"
+    },
+    {
+      "modelo": "Stonic",
+      "descricao": "SX 1.0",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stonic/2025/sx-1-0"
+    },
+    {
+      "modelo": "Stonic",
+      "descricao": "SX 1.0",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stonic/2024/sx-1-0"
+    },
+    {
+      "modelo": "Stonic",
+      "descricao": "SX 1.0",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stonic/2023/sx-1-0"
+    },
+    {
+      "modelo": "Stonic",
+      "descricao": "SX 1.0",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stonic/2022/sx-1-0"
+    },
+    {
+      "modelo": "Stonic",
+      "descricao": "SX 1.0",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/kia/stonic/2021/sx-1-0"
+    }
+  ]
+}

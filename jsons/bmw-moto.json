@@ -1,0 +1,1490 @@
+{
+  "marca": {
+    "nome": "Bmw",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089343/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "C 400 X",
+      "descricao": "Plus",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-400-x/2026/plus"
+    },
+    {
+      "modelo": "C 400 X",
+      "descricao": "350cc",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-400-x/2025/350cc"
+    },
+    {
+      "modelo": "C 400 X",
+      "descricao": "Sport",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-400-x/2025/sport"
+    },
+    {
+      "modelo": "C 400 X",
+      "descricao": "350cc",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-400-x/2024/350cc"
+    },
+    {
+      "modelo": "C 400 X",
+      "descricao": "Sport",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-400-x/2024/sport"
+    },
+    {
+      "modelo": "C 600",
+      "descricao": "Sport",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-600/2015/sport"
+    },
+    {
+      "modelo": "C 600",
+      "descricao": "C 600 Sport",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-600/2015/c-600-sport"
+    },
+    {
+      "modelo": "C 600",
+      "descricao": "Sport",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-600/2014/sport"
+    },
+    {
+      "modelo": "C 600",
+      "descricao": "C 600 Sport",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-600/2014/c-600-sport"
+    },
+    {
+      "modelo": "C 600",
+      "descricao": "Sport",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-600/2013/sport"
+    },
+    {
+      "modelo": "C 650 GT",
+      "descricao": "C 650 GT",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-650-gt/2015/c-650-gt"
+    },
+    {
+      "modelo": "C 650 GT",
+      "descricao": "C 650 GT",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/c-650-gt/2014/c-650-gt"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2012/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs Dakar(Face Lift)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2011/gs-dakarface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2011/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs (Standard) (800cc)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2011/gs-standard-800cc"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs Dakar(Face Lift)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2010/gs-dakarface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2010/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "F 650 GS/Dakar",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2010/f-650-gs-dakar"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs (Standard) (800cc)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2010/gs-standard-800cc"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs Dakar(Face Lift)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2009/gs-dakarface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2009/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs (Standard) (800cc)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2009/gs-standard-800cc"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs(Face Lift)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2008/gsface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs Dakar(Face Lift)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2008/gs-dakarface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2008/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs (Standard) (800cc)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2008/gs-standard-800cc"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs(Face Lift)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2007/gsface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs Dakar(Face Lift)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2007/gs-dakarface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs(Face Lift)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2006/gsface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs Dakar(Face Lift)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2006/gs-dakarface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs(Face Lift)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2005/gsface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs Dakar(Face Lift)",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2005/gs-dakarface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2004/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs(Face Lift)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2004/gsface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Cs",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2004/cs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs Dakar(Face Lift)",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2004/gs-dakarface-lift"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2003/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Cs",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2003/cs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2002/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Cs",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2002/cs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2001/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Cs",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2001/cs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "GS Dakar",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2001/gs-dakar"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "Gs",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/2000/gs"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "F 650",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/1999/f-650"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "F 650",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/1998/f-650"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "F 650",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/1997/f-650"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "F 650",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/1996/f-650"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "F 650",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/1995/f-650"
+    },
+    {
+      "modelo": "F 650",
+      "descricao": "F 650",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-650/1994/f-650"
+    },
+    {
+      "modelo": "F 700",
+      "descricao": "GS",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-700/2018/gs"
+    },
+    {
+      "modelo": "F 700",
+      "descricao": "GS",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-700/2017/gs"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Premium",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2024/premium"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Sport",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2023/sport"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Premium",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2023/premium"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Sport",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2022/sport"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Premium",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2022/premium"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Sport",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2021/sport"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Premium",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2021/premium"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Premium 40 Anos",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2021/premium-40-anos"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Sport",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2020/sport"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "Premium",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2020/premium"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "GS Sport",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2019/gs-sport"
+    },
+    {
+      "modelo": "F 750 GS",
+      "descricao": "GS Premium",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-750-gs/2019/gs-premium"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2018/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Adventure",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2018/gs-adventure"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "F 800 GS Triple Black/trophy",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2018/f-800-gs-triple-black-trophy"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2017/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2017/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Adventure",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2017/gs-adventure"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2016/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2016/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Adventure",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2016/gs-adventure"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2015/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2015/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Adventure",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2015/gs-adventure"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2014/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2014/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Adventure",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2014/gs-adventure"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2013/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2013/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Triple Black",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2013/gs-triple-black"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Trophy",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2013/gs-trophy"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2012/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "F 800 GS 798cc",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2012/f-800-gs-798cc"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "F 800 GS Triple Black/trophy",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2012/f-800-gs-triple-black-trophy"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2012/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Triple Black",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2012/gs-triple-black"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS Trophy",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2012/gs-trophy"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2011/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "F 800 GS 798cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2011/f-800-gs-798cc"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2011/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R Top",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2010/r-top"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2010/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2010/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R (Standard)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2010/r-standard"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "Gs (Standard)(30Anos)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2010/gs-standard30anos"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R(Chris Pfeiffer)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2010/rchris-pfeiffer"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "Gs (Premium)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2010/gs-premium"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "Gs Top",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2009/gs-top"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R Top",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2009/r-top"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2009/r"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2009/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "R (Standard)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2009/r-standard"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "Gs (Premium)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2009/gs-premium"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "S Top",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2008/s-top"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "S (Standard)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2008/s-standard"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "Gs Top",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2008/gs-top"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "GS",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2008/gs"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "Gs (Premium)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2008/gs-premium"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "S Top",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2007/s-top"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "S (Standard)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2007/s-standard"
+    },
+    {
+      "modelo": "F 800",
+      "descricao": "S (Standard)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800/2006/s-standard"
+    },
+    {
+      "modelo": "F 800 GS",
+      "descricao": "Plus",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800-gs/2026/plus"
+    },
+    {
+      "modelo": "F 800 GS",
+      "descricao": "800 GS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800-gs/2026/800-gs"
+    },
+    {
+      "modelo": "F 800 GS",
+      "descricao": "800 GS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800-gs/2024/800-gs"
+    },
+    {
+      "modelo": "F 800 GS",
+      "descricao": "Plus",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-800-gs/2024/plus"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2024/premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Adventure Premium",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2024/adventure-premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium Plus",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2024/premium-plus"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2023/premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Adventure Premium",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2023/adventure-premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium Plus",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2023/premium-plus"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2022/premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium 40 Anos",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2022/premium-40-anos"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Adventure Premium",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2022/adventure-premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Adventure Premium 40 Anos",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2022/adventure-premium-40-anos"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2021/premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium 40 Anos",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2021/premium-40-anos"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Adventure Premium",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2021/adventure-premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Adventure Premium 40 Anos",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2021/adventure-premium-40-anos"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2020/premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Adventure Sport",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2020/adventure-sport"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Adventure Premium",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2020/adventure-premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium Plus",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2020/premium-plus"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "F 850 GS Sport",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2019/f-850-gs-sport"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "GS ADVENTURE",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2019/gs-adventure"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "GS Premium",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2019/gs-premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "GS Adventure Sport",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2019/gs-adventure-sport"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "GS ADVENTURE PREMIUM",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2019/gs-adventure-premium"
+    },
+    {
+      "modelo": "F 850 GS",
+      "descricao": "Premium Plus",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-850-gs/2019/premium-plus"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "900 GS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2025/900-gs"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "Plus",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2025/plus"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "Adventure",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2025/adventure"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "Adventure Plus",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2025/adventure-plus"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "Trophy Pro",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2025/trophy-pro"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "Adventure Plus",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2024/adventure-plus"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "900 GS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2024/900-gs"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "Plus",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2024/plus"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "Trophy Pro",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2024/trophy-pro"
+    },
+    {
+      "modelo": "F 900 GS",
+      "descricao": "Adventure",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-gs/2024/adventure"
+    },
+    {
+      "modelo": "F 900 R",
+      "descricao": "Sport",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-r/2025/sport"
+    },
+    {
+      "modelo": "F 900 R",
+      "descricao": "Sport Plus",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-r/2025/sport-plus"
+    },
+    {
+      "modelo": "F 900 R",
+      "descricao": "Sport",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-r/2024/sport"
+    },
+    {
+      "modelo": "F 900 R",
+      "descricao": "Sport Plus",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-r/2024/sport-plus"
+    },
+    {
+      "modelo": "F 900 R",
+      "descricao": "Sport",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-r/2023/sport"
+    },
+    {
+      "modelo": "F 900 R",
+      "descricao": "Sport Plus",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/f-900-r/2023/sport-plus"
+    },
+    {
+      "modelo": "G 310 GS",
+      "descricao": "ABS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-gs/2025/abs"
+    },
+    {
+      "modelo": "G 310 GS",
+      "descricao": "ABS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-gs/2024/abs"
+    },
+    {
+      "modelo": "G 310 GS",
+      "descricao": "ABS",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-gs/2023/abs"
+    },
+    {
+      "modelo": "G 310 GS",
+      "descricao": "ABS",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-gs/2022/abs"
+    },
+    {
+      "modelo": "G 310 GS",
+      "descricao": "ABS",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-gs/2021/abs"
+    },
+    {
+      "modelo": "G 310 GS",
+      "descricao": "ABS",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-gs/2020/abs"
+    },
+    {
+      "modelo": "G 310 GS",
+      "descricao": "GS",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-gs/2019/gs"
+    },
+    {
+      "modelo": "G 310 GS",
+      "descricao": "GS",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-gs/2018/gs"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "ABS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2025/abs"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "ABS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2024/abs"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "ABS",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2023/abs"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "ABS",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2022/abs"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "ABS",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2021/abs"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "ABS",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2020/abs"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "R",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2019/r"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "R",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2018/r"
+    },
+    {
+      "modelo": "G 310 R",
+      "descricao": "R",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-310-r/2017/r"
+    },
+    {
+      "modelo": "G 450",
+      "descricao": "X",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-450/2010/x"
+    },
+    {
+      "modelo": "G 450",
+      "descricao": "X",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-450/2009/x"
+    },
+    {
+      "modelo": "G 450",
+      "descricao": "X",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-450/2008/x"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "GS",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2016/gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "GS",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2015/gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "GS",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2014/gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "G 650 GS Sertão",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2013/g-650-gs-sertao"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "GS",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2013/gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "G 650 GS",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2012/g-650-gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "G 650 GS Sertão",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2012/g-650-gs-sertao"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "GS",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2012/gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "G 650 GS",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2011/g-650-gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "GS",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2011/gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "G 650 GS",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2010/g-650-gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "GS",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2010/gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X Country(Std.)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2009/x-countrystd"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X Country (Top)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2009/x-country-top"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "GS",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2009/gs"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X Country(Std.)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2008/x-countrystd"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X Challenge(Std.)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2008/x-challengestd"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X moto(Std.)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2008/x-motostd"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X Challenge (Top)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2008/x-challenge-top"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X Country (Top)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2008/x-country-top"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X moto(Top)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2008/x-mototop"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X Challenge(Std.)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2007/x-challengestd"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X moto(Top)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2007/x-mototop"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X moto(Std.)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2007/x-motostd"
+    },
+    {
+      "modelo": "G 650",
+      "descricao": "X Challenge (Top)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/g-650/2007/x-challenge-top"
+    },
+    {
+      "modelo": "K 1100",
+      "descricao": "RS",
+      "ano": "1100",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1100/1997/rs"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "S Sport",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/s-sport"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "R Top",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/r-top"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "S (Standard)",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/s-standard"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "R Special",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/r-special"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "LT(Face Lift)",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/ltface-lift"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "LT Top",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/lt-top"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "R Sport",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/r-sport"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "S Top",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/s-top"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "Gt",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/gt"
+    },
+    {
+      "modelo": "K 1200",
+      "descricao": "R (Standard)",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1200/2008/r-standard"
+    },
+    {
+      "modelo": "K 1300",
+      "descricao": "R",
+      "ano": "1300",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1300/2014/r"
+    },
+    {
+      "modelo": "K 1300",
+      "descricao": "S",
+      "ano": "1300",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1300/2014/s"
+    },
+    {
+      "modelo": "K 1600 Bagger",
+      "descricao": "ABS",
+      "ano": "1600",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1600-bagger/2025/abs"
+    },
+    {
+      "modelo": "K 1600 GT",
+      "descricao": "GT",
+      "ano": "1600",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1600-gt/2015/gt"
+    },
+    {
+      "modelo": "K 1600 GTL",
+      "descricao": "ABS",
+      "ano": "1600",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/k-1600-gtl/2025/abs"
+    },
+    {
+      "modelo": "R 1100",
+      "descricao": "S",
+      "ano": "1100",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1100/2006/s"
+    },
+    {
+      "modelo": "R 1150",
+      "descricao": "Gs Adventure",
+      "ano": "1150",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1150/2006/gs-adventure"
+    },
+    {
+      "modelo": "R 1150",
+      "descricao": "R",
+      "ano": "1150",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1150/2006/r"
+    },
+    {
+      "modelo": "R 1150",
+      "descricao": "R Sport",
+      "ano": "1150",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1150/2006/r-sport"
+    },
+    {
+      "modelo": "R 12",
+      "descricao": "Cruiser",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-12/2025/cruiser"
+    },
+    {
+      "modelo": "R 12",
+      "descricao": "R 12",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-12/2025/r-12"
+    },
+    {
+      "modelo": "R 12",
+      "descricao": "719",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-12/2025/719"
+    },
+    {
+      "modelo": "R 12",
+      "descricao": "R 12",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-12/2024/r-12"
+    },
+    {
+      "modelo": "R 1200",
+      "descricao": "R 1200 GS Exclusive",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1200/2019/r-1200-gs-exclusive"
+    },
+    {
+      "modelo": "R 1200",
+      "descricao": "R 1200 GS Adventure",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1200/2019/r-1200-gs-adventure"
+    },
+    {
+      "modelo": "R 1200",
+      "descricao": "R 1200 GS Rallye",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1200/2019/r-1200-gs-rallye"
+    },
+    {
+      "modelo": "R 1200",
+      "descricao": "R 1200 GS Adventure RALLYE",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1200/2019/r-1200-gs-adventure-rallye"
+    },
+    {
+      "modelo": "R 1200",
+      "descricao": "R 1200 GS Adventure Exclusive",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1200/2019/r-1200-gs-adventure-exclusive"
+    },
+    {
+      "modelo": "R 1200",
+      "descricao": "GS",
+      "ano": "1200",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1200/2019/gs"
+    },
+    {
+      "modelo": "R 1250 GS",
+      "descricao": "Premium Triple Black Option 719",
+      "ano": "1250",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1250-gs/2025/premium-triple-black-option-719"
+    },
+    {
+      "modelo": "R 1250 GS",
+      "descricao": "Adventure Premium Triple Black Option 719",
+      "ano": "1250",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1250-gs/2025/adventure-premium-triple-black-option-719"
+    },
+    {
+      "modelo": "R 1250 RT",
+      "descricao": "Premium",
+      "ano": "1250",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1250-rt/2025/premium"
+    },
+    {
+      "modelo": "R 1300 GS",
+      "descricao": "ABS",
+      "ano": "1300",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-1300-gs/2026/abs"
+    },
+    {
+      "modelo": "R 18",
+      "descricao": "ABS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-18/2025/abs"
+    },
+    {
+      "modelo": "R 18",
+      "descricao": "Limited Edition 100 Anos",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-18/2025/limited-edition-100-anos"
+    },
+    {
+      "modelo": "R 18",
+      "descricao": "ABS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-18/2024/abs"
+    },
+    {
+      "modelo": "R 18",
+      "descricao": "Limited Edition 100 Anos",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-18/2024/limited-edition-100-anos"
+    },
+    {
+      "modelo": "R 18",
+      "descricao": "ABS",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/r-18/2023/abs"
+    },
+    {
+      "modelo": "S 1000 R",
+      "descricao": "ABS",
+      "ano": "1000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/s-1000-r/2021/abs"
+    },
+    {
+      "modelo": "S 1000 RR",
+      "descricao": "Premium",
+      "ano": "1000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/s-1000-rr/2026/premium"
+    },
+    {
+      "modelo": "S 1000 RR",
+      "descricao": "M",
+      "ano": "1000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/s-1000-rr/2026/m"
+    },
+    {
+      "modelo": "S 1000 RR",
+      "descricao": "M Carbon",
+      "ano": "1000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/s-1000-rr/2026/m-carbon"
+    },
+    {
+      "modelo": "S 1000 XR",
+      "descricao": "ABS",
+      "ano": "1000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/bmw/s-1000-xr/2020/abs"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "marca": {
+    "nome": "Byd",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/82132405/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Atto 8",
+      "descricao": "DM-p",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/atto-8/2027/dm-p"
+    },
+    {
+      "modelo": "Atto 8",
+      "descricao": "DM-p",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/atto-8/2026/dm-p"
+    },
+    {
+      "modelo": "D1",
+      "descricao": "(Elétrico)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/d1/2023/eletrico"
+    },
+    {
+      "modelo": "D1",
+      "descricao": "EV (Elétrico)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/d1/2022/ev-eletrico"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "GS",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2027/gs"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "EV",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2027/ev"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "GS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2026/gs"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "EV",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2026/ev"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "EV",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2025/ev"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "GS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2025/gs"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "Plus",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2025/plus"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "Plus",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2024/plus"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "EV",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2024/ev"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "Diamond",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2024/diamond"
+    },
+    {
+      "modelo": "Dolphin",
+      "descricao": "Plus (Elétrico)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin/2024/plus-eletrico"
+    },
+    {
+      "modelo": "Dolphin Mini",
+      "descricao": "GS EV",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin-mini/2027/gs-ev"
+    },
+    {
+      "modelo": "Dolphin Mini",
+      "descricao": "EV",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin-mini/2026/ev"
+    },
+    {
+      "modelo": "Dolphin Mini",
+      "descricao": "EV",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin-mini/2025/ev"
+    },
+    {
+      "modelo": "Dolphin Mini",
+      "descricao": "Elétrico",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin-mini/2025/eletrico"
+    },
+    {
+      "modelo": "Dolphin Mini",
+      "descricao": "Cargo",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin-mini/2025/cargo"
+    },
+    {
+      "modelo": "Dolphin Mini",
+      "descricao": "EV",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin-mini/2024/ev"
+    },
+    {
+      "modelo": "Dolphin Mini",
+      "descricao": "Elétrico",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/dolphin-mini/2024/eletrico"
+    },
+    {
+      "modelo": "Han",
+      "descricao": "EV",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/han/2024/ev"
+    },
+    {
+      "modelo": "Han",
+      "descricao": "EV",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/han/2023/ev"
+    },
+    {
+      "modelo": "Han",
+      "descricao": "EV",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/han/2022/ev"
+    },
+    {
+      "modelo": "King",
+      "descricao": "DM-i GS",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/king/2027/dm-i-gs"
+    },
+    {
+      "modelo": "King",
+      "descricao": "DM-i GL",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/king/2026/dm-i-gl"
+    },
+    {
+      "modelo": "King",
+      "descricao": "DM-i GS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/king/2026/dm-i-gs"
+    },
+    {
+      "modelo": "King",
+      "descricao": "DM-i GL",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/king/2025/dm-i-gl"
+    },
+    {
+      "modelo": "King",
+      "descricao": "DM-i GS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/king/2025/dm-i-gs"
+    },
+    {
+      "modelo": "King",
+      "descricao": "DM-i GS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/king/2024/dm-i-gs"
+    },
+    {
+      "modelo": "King",
+      "descricao": "DM-i GL",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/king/2024/dm-i-gl"
+    },
+    {
+      "modelo": "Sea Lion 7",
+      "descricao": "231cv",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/sea-lion-7/2026/231cv"
+    },
+    {
+      "modelo": "Sea Lion 7",
+      "descricao": "312cv",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/sea-lion-7/2026/312cv"
+    },
+    {
+      "modelo": "Sea Lion 7",
+      "descricao": "530cv",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/sea-lion-7/2026/530cv"
+    },
+    {
+      "modelo": "Sea Lion 7",
+      "descricao": "231cv",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/sea-lion-7/2025/231cv"
+    },
+    {
+      "modelo": "Sea Lion 7",
+      "descricao": "312cv",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/sea-lion-7/2025/312cv"
+    },
+    {
+      "modelo": "Sea Lion 7",
+      "descricao": "530cv",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/sea-lion-7/2025/530cv"
+    },
+    {
+      "modelo": "Seal",
+      "descricao": "EV",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/seal/2025/ev"
+    },
+    {
+      "modelo": "Seal",
+      "descricao": "EV",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/seal/2024/ev"
+    },
+    {
+      "modelo": "Shark",
+      "descricao": "GS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/shark/2026/gs"
+    },
+    {
+      "modelo": "Shark",
+      "descricao": "Embaixador Edition",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/shark/2026/embaixador-edition"
+    },
+    {
+      "modelo": "Shark",
+      "descricao": "GS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/shark/2025/gs"
+    },
+    {
+      "modelo": "Shark",
+      "descricao": "GS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/shark/2024/gs"
+    },
+    {
+      "modelo": "Song Plus",
+      "descricao": "(Híbrido)",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-plus/2027/hibrido"
+    },
+    {
+      "modelo": "Song Plus",
+      "descricao": "Premium (Híb.)",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-plus/2027/premium-hib"
+    },
+    {
+      "modelo": "Song Plus",
+      "descricao": "(Híbrido)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-plus/2026/hibrido"
+    },
+    {
+      "modelo": "Song Plus",
+      "descricao": "Premium (Híb.)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-plus/2026/premium-hib"
+    },
+    {
+      "modelo": "Song Plus",
+      "descricao": "(Híbrido)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-plus/2025/hibrido"
+    },
+    {
+      "modelo": "Song Plus",
+      "descricao": "Premium (Híb.)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-plus/2025/premium-hib"
+    },
+    {
+      "modelo": "Song Plus",
+      "descricao": "(Híbrido)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-plus/2024/hibrido"
+    },
+    {
+      "modelo": "Song Plus",
+      "descricao": "(Híbrido)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-plus/2023/hibrido"
+    },
+    {
+      "modelo": "Song Pro",
+      "descricao": "DM-i GL (Híb.)",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-pro/2027/dm-i-gl-hib"
+    },
+    {
+      "modelo": "Song Pro",
+      "descricao": "DM-i GL (Híb.)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-pro/2026/dm-i-gl-hib"
+    },
+    {
+      "modelo": "Song Pro",
+      "descricao": "DM-i GS (Híb.)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-pro/2026/dm-i-gs-hib"
+    },
+    {
+      "modelo": "Song Pro",
+      "descricao": "DM-i GL (Híb.)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-pro/2025/dm-i-gl-hib"
+    },
+    {
+      "modelo": "Song Pro",
+      "descricao": "DM-i GS (Híb.)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/song-pro/2025/dm-i-gs-hib"
+    },
+    {
+      "modelo": "Tan",
+      "descricao": "EV",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tan/2025/ev"
+    },
+    {
+      "modelo": "Tan",
+      "descricao": "EV",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tan/2024/ev"
+    },
+    {
+      "modelo": "Tan",
+      "descricao": "EV",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tan/2023/ev"
+    },
+    {
+      "modelo": "Tan",
+      "descricao": "EV",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tan/2022/ev"
+    },
+    {
+      "modelo": "Tan",
+      "descricao": "EV",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tan/2021/ev"
+    },
+    {
+      "modelo": "Tang L",
+      "descricao": "PHEV",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tang-l/2026/phev"
+    },
+    {
+      "modelo": "Tang L",
+      "descricao": "Elétrico",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tang-l/2026/eletrico"
+    },
+    {
+      "modelo": "Tang L",
+      "descricao": "PHEV",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tang-l/2025/phev"
+    },
+    {
+      "modelo": "Tang L",
+      "descricao": "Elétrico",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/tang-l/2025/eletrico"
+    },
+    {
+      "modelo": "Yuan Plus",
+      "descricao": "EV",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/yuan-plus/2026/ev"
+    },
+    {
+      "modelo": "Yuan Plus",
+      "descricao": "EV",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/yuan-plus/2025/ev"
+    },
+    {
+      "modelo": "Yuan Plus",
+      "descricao": "EV",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/yuan-plus/2024/ev"
+    },
+    {
+      "modelo": "Yuan Plus",
+      "descricao": "EV",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/yuan-plus/2023/ev"
+    },
+    {
+      "modelo": "Yuan Pro",
+      "descricao": "Pro",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/yuan-pro/2026/pro"
+    },
+    {
+      "modelo": "Yuan Pro",
+      "descricao": "Pro",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/yuan-pro/2025/pro"
+    },
+    {
+      "modelo": "Yuan Pro",
+      "descricao": "Pro",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/yuan-pro/2024/pro"
+    },
+    {
+      "modelo": "eT3",
+      "descricao": "eT3  (Elétrico)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/et3/2023/et3-eletrico"
+    },
+    {
+      "modelo": "eT3",
+      "descricao": "eT3  (Elétrico)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/byd/et3/2022/et3-eletrico"
+    }
+  ]
+}

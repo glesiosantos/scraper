@@ -1,0 +1,1682 @@
+{
+  "marca": {
+    "nome": "Ducati",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089370/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "1199 Panigale",
+      "descricao": "959 Penigale",
+      "ano": "1199",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/1199-panigale/2021/959-penigale"
+    },
+    {
+      "modelo": "848",
+      "descricao": "848 Evo",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/848/2012/848-evo"
+    },
+    {
+      "modelo": "848",
+      "descricao": "848 Evo",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/848/2011/848-evo"
+    },
+    {
+      "modelo": "848",
+      "descricao": "848",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/848/2010/848"
+    },
+    {
+      "modelo": "DesertX",
+      "descricao": "DESERT X",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/desertx/2024/desert-x"
+    },
+    {
+      "modelo": "DesertX",
+      "descricao": "DESERT X",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/desertx/2023/desert-x"
+    },
+    {
+      "modelo": "Desmosedici",
+      "descricao": "RR D 16 989",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/desmosedici/2008/rr-d-16-989"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1260S",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2023/1260s"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1260S",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2022/1260s"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "X S 1262",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2022/x-s-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "XDIAVEL DARK 1262",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2021/xdiavel-dark-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1260S",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2021/1260s"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "X S 1262",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2021/x-s-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "XDIAVEL DARK 1262",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2020/xdiavel-dark-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1260S",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2020/1260s"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "X S 1262",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2020/x-s-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "XDIAVEL DARK 1262",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2019/xdiavel-dark-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1260S",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2019/1260s"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "X S 1262",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2019/x-s-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Dark",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2018/1198-dark"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "XDIAVEL DARK 1262",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2018/xdiavel-dark-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "X S 1262",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2018/x-s-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "X 1262",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2018/x-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "X 1262",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2017/x-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "XDIAVEL DARK 1262",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2017/xdiavel-dark-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "X S 1262",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2017/x-s-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "XDIAVEL S 1262",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2016/xdiavel-s-1262"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Dark",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2016/1198-dark"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Dark",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2015/1198-dark"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Carbon",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2015/1198-carbon"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Strada",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2014/1198-strada"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2014/1198"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Dark",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2014/1198-dark"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Carbon",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2014/1198-carbon"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Strada",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2013/1198-strada"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Black",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2013/1198-black"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Cromo",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2013/1198-cromo"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2013/1198"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Carbon",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2013/1198-carbon"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2012/1198"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Carbon",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2012/1198-carbon"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2011/1198"
+    },
+    {
+      "modelo": "Diavel",
+      "descricao": "1198 Carbon",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/diavel/2011/1198-carbon"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "821",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2022/821"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "821",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2021/821"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "821",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2016/821"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "821",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2015/821"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "821",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2014/821"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "821 SP",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2014/821-sp"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "821",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2013/821"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "821 SP",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2013/821-sp"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "796",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2012/796"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "1100 EVO",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2012/1100-evo"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "1100 EVO SP",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2012/1100-evo-sp"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "796",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2011/796"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "EVO 1078cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2011/evo-1078cc"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "EVO SP 1078cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2011/evo-sp-1078cc"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "1100 EVO",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2011/1100-evo"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "1100 EVO SP",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2011/1100-evo-sp"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "796",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2010/796"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "EVO 1078cc",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2010/evo-1078cc"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "1100 EVO",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2010/1100-evo"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "HyperMotard 1100",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2010/hypermotard-1100"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "HyperMotard 1100",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2009/hypermotard-1100"
+    },
+    {
+      "modelo": "Hypermotard",
+      "descricao": "HyperMotard 1100",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hypermotard/2008/hypermotard-1100"
+    },
+    {
+      "modelo": "Hyperstrada",
+      "descricao": "821",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hyperstrada/2016/821"
+    },
+    {
+      "modelo": "Hyperstrada",
+      "descricao": "821",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hyperstrada/2015/821"
+    },
+    {
+      "modelo": "Hyperstrada",
+      "descricao": "821",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hyperstrada/2014/821"
+    },
+    {
+      "modelo": "Hyperstrada",
+      "descricao": "821",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/hyperstrada/2013/821"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "937 cc",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2023/937-cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "937 cc",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2022/937-cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1200 S",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2022/1200-s"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1200 S",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2021/1200-s"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "797",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2020/797"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1200 S",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2020/1200-s"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "797",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2019/797"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1200 S",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2019/1200-s"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "797",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2018/797"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1200 S",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2018/1200-s"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1200 S",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2017/1200-s"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "821",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2016/821"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "Dark 821",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2016/dark-821"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "821",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2015/821"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1200",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2015/1200"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1200 S",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2015/1200-s"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "Dark 821",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2015/dark-821"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "796",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2014/796"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "796",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2013/796"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "696cc",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2012/696cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1100cc",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2012/1100cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "695",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2010/695"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1100 S 1078cc",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2010/1100-s-1078cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "696",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2010/696"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1100",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2010/1100"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "695",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2009/695"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "696",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2009/696"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "1100",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2009/1100"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "695",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2008/695"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "S2 R 1000",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2008/s2-r-1000"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "S4 RS TESTASTRETA",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2007/s4-rs-testastreta"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "695",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2007/695"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "S2 R 1000",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2007/s2-r-1000"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "S4 RS TESTASTRETA",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2006/s4-rs-testastreta"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "695",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2006/695"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "S2 R 1000",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2006/s2-r-1000"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "S4 R 996",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2005/s4-r-996"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "S4 R 996",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2004/s4-r-996"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "600cc",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2001/600cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "900cc",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2001/900cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "600cc",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2000/600cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "900cc",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/2000/900cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "600cc",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/1999/600cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "900cc",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/1999/900cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "900cc",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/1998/900cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "900cc",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/1997/900cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "900cc",
+      "ano": "1996",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/1996/900cc"
+    },
+    {
+      "modelo": "Monster",
+      "descricao": "900cc",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/monster/1995/900cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1160 V4 Rally",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2024/1160-v4-rally"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "V2S",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2023/v2s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1160 V4S",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2023/1160-v4s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2023/1200-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "V2S",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2022/v2s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1160 V4S",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2022/1160-v4s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "950",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2022/950"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2022/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "950 S",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2021/950-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1260 S",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2021/1260-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1160 V4S",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2021/1160-v4s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2021/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "950 S",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2020/950-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1260 S",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2020/1260-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "950",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2019/950"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1260 S",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2019/1260-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 Enduro",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2019/1200-enduro"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "950",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2018/950"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1260",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2018/1260"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1260 S",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2018/1260-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2018/1200"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 Enduro Limited Edition",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2018/1200-enduro-limited-edition"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2018/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 Enduro",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2018/1200-enduro"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "950",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2017/950"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 1198cc",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2017/1200-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2017/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 Enduro",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2017/1200-enduro"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2016/1200"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2016/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 Enduro",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2016/1200-enduro"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 G",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2015/1200-g"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2015/1200"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2015/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Pikes Pake",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2015/1200-s-pikes-pake"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 1198cc",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2014/1200-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S  Touring 1198cc",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2014/1200-s-touring-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Pikes Peak",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2014/1200-s-pikes-peak"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2014/1200"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2014/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Pikes Pake",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2014/1200-s-pikes-pake"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 1198cc",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2013/1200-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S  Touring 1198cc",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2013/1200-s-touring-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Pikes Peak",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2013/1200-s-pikes-peak"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2013/1200"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2013/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Pikes Pake",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2013/1200-s-pikes-pake"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 1198cc",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2012/1200-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1200 S",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2012/multstrada-1200-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S  Touring 1198cc",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2012/1200-s-touring-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2012/1200"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2012/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 1198cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2011/1200-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S 1198cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2011/1200-s-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S  Touring 1198cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2011/1200-s-touring-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1200 S",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2011/multstrada-1200-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2011/1200"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2011/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 1198cc",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2010/1200-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S 1198cc",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2010/1200-s-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S  Touring 1198cc",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2010/1200-s-touring-1198cc"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1200 S",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2010/multstrada-1200-s"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2010/1200"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "1200 S Touring",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2010/1200-s-touring"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1100",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2009/multstrada-1100"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1100",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2008/multstrada-1100"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 620",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2007/multstrada-620"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1100",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2007/multstrada-1100"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 620",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2006/multstrada-620"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1000 DS",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2005/multstrada-1000-ds"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1000 DS",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2004/multstrada-1000-ds"
+    },
+    {
+      "modelo": "Multistrada",
+      "descricao": "Multstrada 1000 DS",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/multistrada/2003/multstrada-1000-ds"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "V4 S",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2024/v4-s"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "V4 S",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2023/v4-s"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "V4 S",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2022/v4-s"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "V4 S",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2021/v4-s"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "V4 S",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2020/v4-s"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "V4 R",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2020/v4-r"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "959 Panigale",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2019/959-panigale"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "V4 S",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2019/v4-s"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "959 Panigale",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2018/959-panigale"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "959 cc",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2018/959-cc"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "1299 Panigale",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2018/1299-panigale"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "1299 Panigale S",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2018/1299-panigale-s"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "1299 Panigale",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2016/1299-panigale"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "SP 1198cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2011/sp-1198cc"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "S 1198cc",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2010/s-1198cc"
+    },
+    {
+      "modelo": "Panigale",
+      "descricao": "1198cc",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/panigale/2010/1198cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "ICON 800cc",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2023/icon-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Icon",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2022/icon"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Icon",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2021/icon"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "ICON 800cc",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2020/icon-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "CUSTOM 800cc",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2020/custom-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "CUSTOM 800cc",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2019/custom-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "ICON 800cc",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2019/icon-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Custom",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2018/custom"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Icon",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2018/icon"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "CLASSIC 800cc",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2018/classic-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "FULL THROTTLER 800cc",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2018/full-throttler-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Icon",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2017/icon"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "CLASSIC 800cc",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2017/classic-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "URBAN ENDURO 800cc",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2017/urban-enduro-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "FULL THROTTLER 800cc",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2017/full-throttler-800cc"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Icon",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2016/icon"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Full Throttle",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2016/full-throttle"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Classic",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2016/classic"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Urban Enduro",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2016/urban-enduro"
+    },
+    {
+      "modelo": "Scrambler",
+      "descricao": "Full Throttle",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/scrambler/2015/full-throttle"
+    },
+    {
+      "modelo": "Sportclassic",
+      "descricao": "PAUL SMART 1000 LE",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/sportclassic/2007/paul-smart-1000-le"
+    },
+    {
+      "modelo": "Sportclassic",
+      "descricao": "Sport 1000",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/sportclassic/2007/sport-1000"
+    },
+    {
+      "modelo": "Sportclassic",
+      "descricao": "PAUL SMART 1000 LE",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/sportclassic/2006/paul-smart-1000-le"
+    },
+    {
+      "modelo": "Sportclassic",
+      "descricao": "Sport 1000",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/sportclassic/2006/sport-1000"
+    },
+    {
+      "modelo": "Streetfighter",
+      "descricao": "V4 S",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/streetfighter/2023/v4-s"
+    },
+    {
+      "modelo": "Streetfighter",
+      "descricao": "V4 S",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/streetfighter/2022/v4-s"
+    },
+    {
+      "modelo": "Streetfighter",
+      "descricao": "V4 S 1103cc",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/streetfighter/2021/v4-s-1103cc"
+    },
+    {
+      "modelo": "Streetfighter",
+      "descricao": "848",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/streetfighter/2013/848"
+    },
+    {
+      "modelo": "Streetfighter",
+      "descricao": "1098cc",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/streetfighter/2012/1098cc"
+    },
+    {
+      "modelo": "Streetfighter",
+      "descricao": "1098cc",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/streetfighter/2011/1098cc"
+    },
+    {
+      "modelo": "Streetfighter",
+      "descricao": "StreetFighter 1098 S",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/streetfighter/2010/streetfighter-1098-s"
+    },
+    {
+      "modelo": "Streetfighter",
+      "descricao": "StreetFighter 1098 S",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/streetfighter/2009/streetfighter-1098-s"
+    },
+    {
+      "modelo": "Super Sport 900 ss",
+      "descricao": "S 937cc",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-sport-900-ss/2019/s-937cc"
+    },
+    {
+      "modelo": "Super Sport 900 ss",
+      "descricao": "S 937cc",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-sport-900-ss/2018/s-937cc"
+    },
+    {
+      "modelo": "Super Sport 900 ss",
+      "descricao": "Super Sport 900 SS 900cc",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-sport-900-ss/2000/super-sport-900-ss-900cc"
+    },
+    {
+      "modelo": "Super Sport 900 ss",
+      "descricao": "Super Sport 900 SS 900cc",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-sport-900-ss/1999/super-sport-900-ss-900cc"
+    },
+    {
+      "modelo": "Super Touring St 2 900",
+      "descricao": "Super Touring ST 2 900 900cc",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-touring-st-2-900/1998/super-touring-st-2-900-900cc"
+    },
+    {
+      "modelo": "Super Touring St 2 900",
+      "descricao": "Super Touring ST 2 900 900cc",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-touring-st-2-900/1997/super-touring-st-2-900-900cc"
+    },
+    {
+      "modelo": "Super Touring St 4 900",
+      "descricao": "Super Touring ST 4 900 900cc",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-touring-st-4-900/2000/super-touring-st-4-900-900cc"
+    },
+    {
+      "modelo": "Super Touring St 4 900",
+      "descricao": "Super Touring ST 4 900 900cc",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-touring-st-4-900/1999/super-touring-st-4-900-900cc"
+    },
+    {
+      "modelo": "Super Touring St 4 900",
+      "descricao": "Super Touring ST 4 900 900cc",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-touring-st-4-900/1998/super-touring-st-4-900-900cc"
+    },
+    {
+      "modelo": "Super Touring St 4 900",
+      "descricao": "Super Touring ST 4 900 900cc",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/super-touring-st-4-900/1997/super-touring-st-4-900-900cc"
+    },
+    {
+      "modelo": "Superbike 749",
+      "descricao": "749",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-749/2006/749"
+    },
+    {
+      "modelo": "Superbike 749",
+      "descricao": "DARK",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-749/2006/dark"
+    },
+    {
+      "modelo": "Superbike 749",
+      "descricao": "749",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-749/2005/749"
+    },
+    {
+      "modelo": "Superbike 749",
+      "descricao": "749",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-749/2004/749"
+    },
+    {
+      "modelo": "Superbike 848",
+      "descricao": "848",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-848/2011/848"
+    },
+    {
+      "modelo": "Superbike 848",
+      "descricao": "848",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-848/2010/848"
+    },
+    {
+      "modelo": "Superbike 848",
+      "descricao": "848",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-848/2009/848"
+    },
+    {
+      "modelo": "Superbike 848",
+      "descricao": "848",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-848/2008/848"
+    },
+    {
+      "modelo": "Superbike 916",
+      "descricao": "MONSTER S4 916",
+      "ano": "1998",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-916/1998/monster-s4-916"
+    },
+    {
+      "modelo": "Superbike 916",
+      "descricao": "MONSTER S4 916",
+      "ano": "1997",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-916/1997/monster-s4-916"
+    },
+    {
+      "modelo": "Superbike 959 Panigale",
+      "descricao": "959",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-959-panigale/2022/959"
+    },
+    {
+      "modelo": "Superbike 959 Panigale",
+      "descricao": "959",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-959-panigale/2021/959"
+    },
+    {
+      "modelo": "Superbike 996",
+      "descricao": "996",
+      "ano": "2001",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-996/2001/996"
+    },
+    {
+      "modelo": "Superbike 996",
+      "descricao": "996",
+      "ano": "2000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-996/2000/996"
+    },
+    {
+      "modelo": "Superbike 996",
+      "descricao": "996",
+      "ano": "1999",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-996/1999/996"
+    },
+    {
+      "modelo": "Superbike 998",
+      "descricao": "998 997cc",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-998/2003/998-997cc"
+    },
+    {
+      "modelo": "Superbike 998",
+      "descricao": "998 997cc",
+      "ano": "2002",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-998/2002/998-997cc"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "1098",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2009/1098"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "1098 S",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2009/1098-s"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "1098",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2008/1098"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "1098 S",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2008/1098-s"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "R XEROX",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2007/r-xerox"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "999 998cc",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2007/999-998cc"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "1098",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2007/1098"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "1098 S",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2007/1098-s"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "R XEROX",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2006/r-xerox"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "999 998cc",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2006/999-998cc"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "R XEROX",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2005/r-xerox"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "999 998cc",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2005/999-998cc"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "999 998cc",
+      "ano": "2004",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2004/999-998cc"
+    },
+    {
+      "modelo": "Superbike 999",
+      "descricao": "999 998cc",
+      "ano": "2003",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/superbike-999/2003/999-998cc"
+    },
+    {
+      "modelo": "XDiavel",
+      "descricao": "S 1262",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/ducati/xdiavel/2020/s-1262"
+    }
+  ]
+}

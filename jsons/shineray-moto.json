@@ -1,0 +1,1910 @@
+{
+  "marca": {
+    "nome": "Shineray",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144304/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "250F",
+      "descricao": "250F",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/250f/2025/250f"
+    },
+    {
+      "modelo": "ATV 125",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-125/2026/efi"
+    },
+    {
+      "modelo": "ATV 125",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-125/2025/efi"
+    },
+    {
+      "modelo": "ATV 125",
+      "descricao": "124 cc",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-125/2024/124-cc"
+    },
+    {
+      "modelo": "ATV 125",
+      "descricao": "124 cc",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-125/2023/124-cc"
+    },
+    {
+      "modelo": "ATV 200",
+      "descricao": "200",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-200/2026/200"
+    },
+    {
+      "modelo": "ATV 200",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-200/2026/efi"
+    },
+    {
+      "modelo": "ATV 200",
+      "descricao": "200",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-200/2025/200"
+    },
+    {
+      "modelo": "ATV 200",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-200/2025/efi"
+    },
+    {
+      "modelo": "ATV 200",
+      "descricao": "199 cc",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-200/2023/199-cc"
+    },
+    {
+      "modelo": "ATV 250",
+      "descricao": "250",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-250/2026/250"
+    },
+    {
+      "modelo": "ATV 250",
+      "descricao": "250",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/atv-250/2025/250"
+    },
+    {
+      "modelo": "Bolt",
+      "descricao": "BOLT 250",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/bolt/2018/bolt-250"
+    },
+    {
+      "modelo": "Bolt",
+      "descricao": "BOLT 250",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/bolt/2017/bolt-250"
+    },
+    {
+      "modelo": "Bolt",
+      "descricao": "BOLT 250",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/bolt/2016/bolt-250"
+    },
+    {
+      "modelo": "Bolt",
+      "descricao": "BOLT 250",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/bolt/2015/bolt-250"
+    },
+    {
+      "modelo": "Denver 250",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/denver-250/2026/efi"
+    },
+    {
+      "modelo": "Denver 250",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/denver-250/2025/efi"
+    },
+    {
+      "modelo": "Denver 400",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/denver-400/2026/abs"
+    },
+    {
+      "modelo": "Explorer 150",
+      "descricao": "XY 150-GY/EXPLORER",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/explorer-150/2018/xy-150-gy-explorer"
+    },
+    {
+      "modelo": "Explorer 150",
+      "descricao": "XY 150-GY/EXPLORER",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/explorer-150/2017/xy-150-gy-explorer"
+    },
+    {
+      "modelo": "Explorer 150",
+      "descricao": "XY 150-GY/EXPLORER",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/explorer-150/2016/xy-150-gy-explorer"
+    },
+    {
+      "modelo": "Explorer 150",
+      "descricao": "XY 150-GY/EXPLORER",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/explorer-150/2015/xy-150-gy-explorer"
+    },
+    {
+      "modelo": "Explorer 150",
+      "descricao": "XY 150-GY/EXPLORER",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/explorer-150/2014/xy-150-gy-explorer"
+    },
+    {
+      "modelo": "Explorer 150",
+      "descricao": "XY 150-GY/EXPLORER",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/explorer-150/2013/xy-150-gy-explorer"
+    },
+    {
+      "modelo": "Explorer 150",
+      "descricao": "XY 150-GY/EXPLORER",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/explorer-150/2012/xy-150-gy-explorer"
+    },
+    {
+      "modelo": "Explorer 150",
+      "descricao": "XY 150-GY/EXPLORER",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/explorer-150/2011/xy-150-gy-explorer"
+    },
+    {
+      "modelo": "FREE 150",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/free-150/2026/efi"
+    },
+    {
+      "modelo": "FREE 150",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/free-150/2025/efi"
+    },
+    {
+      "modelo": "FREE 150",
+      "descricao": "EFI",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/free-150/2024/efi"
+    },
+    {
+      "modelo": "Flash 250",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/flash-250/2026/efi"
+    },
+    {
+      "modelo": "Flash 250",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/flash-250/2025/efi"
+    },
+    {
+      "modelo": "Iron 250",
+      "descricao": "Carburada",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/iron-250/2026/carburada"
+    },
+    {
+      "modelo": "Iron 250",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/iron-250/2026/efi"
+    },
+    {
+      "modelo": "Iron 250",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/iron-250/2025/efi"
+    },
+    {
+      "modelo": "Iron 250",
+      "descricao": "Carburada",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/iron-250/2025/carburada"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "S",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2026/s"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "S EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2026/s-efi"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "S",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2025/s"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "S EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2025/s-efi"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "S",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2024/s"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "149 cc",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2024/149-cc"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "S EFI",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2024/s-efi"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "149 cc",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2023/149-cc"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "S",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2023/s"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "149 cc",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2021/149-cc"
+    },
+    {
+      "modelo": "JEF 150",
+      "descricao": "149 cc",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150/2020/149-cc"
+    },
+    {
+      "modelo": "JEF 150S",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jef-150s/2026/abs"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "2X",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2025/2x"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "2X",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2024/2x"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "2X",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2023/2x"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "2X",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2022/2x"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "2X",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2021/2x"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "2X",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2020/2x"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "Jet",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2018/jet"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "XY 125 JET",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2017/xy-125-jet"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "XY 125 JET",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2016/xy-125-jet"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "XY 125 JET",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2015/xy-125-jet"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "XY 125 JET",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2014/xy-125-jet"
+    },
+    {
+      "modelo": "JET 125",
+      "descricao": "XY 125 14",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125/2010/xy-125-14"
+    },
+    {
+      "modelo": "JET 125SS",
+      "descricao": "Carburada",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125ss/2026/carburada"
+    },
+    {
+      "modelo": "JET 125SS",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125ss/2026/efi"
+    },
+    {
+      "modelo": "JET 125SS",
+      "descricao": "Carburada",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125ss/2025/carburada"
+    },
+    {
+      "modelo": "JET 125SS",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125ss/2025/efi"
+    },
+    {
+      "modelo": "JET 125SS",
+      "descricao": "Carburada",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125ss/2024/carburada"
+    },
+    {
+      "modelo": "JET 125SS",
+      "descricao": "EFI",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125ss/2024/efi"
+    },
+    {
+      "modelo": "JET 125SS",
+      "descricao": "Carburada",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125ss/2023/carburada"
+    },
+    {
+      "modelo": "JET 125SS",
+      "descricao": "EFI",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-125ss/2023/efi"
+    },
+    {
+      "modelo": "JET 50S",
+      "descricao": "CBS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-50s/2026/cbs"
+    },
+    {
+      "modelo": "JET 50S",
+      "descricao": "CBS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-50s/2025/cbs"
+    },
+    {
+      "modelo": "JET 50S",
+      "descricao": "CBS",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-50s/2024/cbs"
+    },
+    {
+      "modelo": "JET 50S",
+      "descricao": "CBS",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-50s/2023/cbs"
+    },
+    {
+      "modelo": "JET 50S",
+      "descricao": "2X",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-50s/2022/2x"
+    },
+    {
+      "modelo": "JET 50S",
+      "descricao": "2X",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/jet-50s/2021/2x"
+    },
+    {
+      "modelo": "Kart Cross",
+      "descricao": "200S",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/kart-cross/2026/200s"
+    },
+    {
+      "modelo": "Kart Cross",
+      "descricao": "125S",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/kart-cross/2026/125s"
+    },
+    {
+      "modelo": "Kart Cross",
+      "descricao": "200S",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/kart-cross/2025/200s"
+    },
+    {
+      "modelo": "Kart Cross",
+      "descricao": "125S",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/kart-cross/2025/125s"
+    },
+    {
+      "modelo": "NEW JEF 150",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/new-jef-150/2026/abs"
+    },
+    {
+      "modelo": "NEW JEF 150",
+      "descricao": "ABS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/new-jef-150/2025/abs"
+    },
+    {
+      "modelo": "Omoto",
+      "descricao": "Htb 110",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/omoto/2007/htb-110"
+    },
+    {
+      "modelo": "PHOENIX 50S",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50s/2026/efi"
+    },
+    {
+      "modelo": "PHOENIX 50S",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50s/2026/abs"
+    },
+    {
+      "modelo": "PT1",
+      "descricao": "350W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt1/2025/350w"
+    },
+    {
+      "modelo": "PT1",
+      "descricao": "350W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt1/2024/350w"
+    },
+    {
+      "modelo": "PT1",
+      "descricao": "350W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt1/2023/350w"
+    },
+    {
+      "modelo": "PT2",
+      "descricao": "2000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2/2025/2000w"
+    },
+    {
+      "modelo": "PT2",
+      "descricao": "S",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2/2025/s"
+    },
+    {
+      "modelo": "PT2",
+      "descricao": "2000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2/2024/2000w"
+    },
+    {
+      "modelo": "PT2",
+      "descricao": "S",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2/2024/s"
+    },
+    {
+      "modelo": "PT2",
+      "descricao": "2000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2/2023/2000w"
+    },
+    {
+      "modelo": "PT2",
+      "descricao": "S",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2/2023/s"
+    },
+    {
+      "modelo": "PT2",
+      "descricao": "2000W",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2/2022/2000w"
+    },
+    {
+      "modelo": "PT2",
+      "descricao": "2000W",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2/2021/2000w"
+    },
+    {
+      "modelo": "PT2X",
+      "descricao": "1000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt2x/2023/1000w"
+    },
+    {
+      "modelo": "PT3",
+      "descricao": "2000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt3/2025/2000w"
+    },
+    {
+      "modelo": "PT3",
+      "descricao": "2000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt3/2024/2000w"
+    },
+    {
+      "modelo": "PT3",
+      "descricao": "2000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt3/2023/2000w"
+    },
+    {
+      "modelo": "PT3",
+      "descricao": "2000W",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt3/2022/2000w"
+    },
+    {
+      "modelo": "PT3 Triciclo",
+      "descricao": "2000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt3-triciclo/2023/2000w"
+    },
+    {
+      "modelo": "PT3S",
+      "descricao": "2000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt3s/2025/2000w"
+    },
+    {
+      "modelo": "PT3S",
+      "descricao": "2000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt3s/2024/2000w"
+    },
+    {
+      "modelo": "PT3S",
+      "descricao": "2000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt3s/2023/2000w"
+    },
+    {
+      "modelo": "PT4",
+      "descricao": "2000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4/2025/2000w"
+    },
+    {
+      "modelo": "PT4",
+      "descricao": "2000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4/2024/2000w"
+    },
+    {
+      "modelo": "PT4",
+      "descricao": "2000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4/2023/2000w"
+    },
+    {
+      "modelo": "PT4-Pro",
+      "descricao": "3000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4-pro/2025/3000w"
+    },
+    {
+      "modelo": "PT4-Pro",
+      "descricao": "3000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4-pro/2024/3000w"
+    },
+    {
+      "modelo": "PT4-Pro",
+      "descricao": "3000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4-pro/2023/3000w"
+    },
+    {
+      "modelo": "PT4S",
+      "descricao": "3000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4s/2025/3000w"
+    },
+    {
+      "modelo": "PT4S",
+      "descricao": "3000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4s/2024/3000w"
+    },
+    {
+      "modelo": "PT4S",
+      "descricao": "3000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/pt4s/2023/3000w"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "49 cc",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2026/49-cc"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "49 cc",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2025/49-cc"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "49 cc",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2024/49-cc"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "49 cc",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2023/49-cc"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "50",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2022/50"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "50",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2021/50"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2020/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2019/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2018/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2017/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2016/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2015/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2014/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2013/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2012/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50-Q PHOENIX",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2011/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50 Q2",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2010/xy-50-q2"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50 Q",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2010/xy-50-q"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50 Q Phoenix",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2010/xy-50-q-phoenix"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50 Q",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2009/xy-50-q"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50 Q",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2008/xy-50-q"
+    },
+    {
+      "modelo": "Phoenix 50",
+      "descricao": "XY 50 Q",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-50/2007/xy-50-q"
+    },
+    {
+      "modelo": "Phoenix S",
+      "descricao": "48 cc",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-s/2026/48-cc"
+    },
+    {
+      "modelo": "Phoenix S",
+      "descricao": "48 cc",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-s/2025/48-cc"
+    },
+    {
+      "modelo": "Phoenix S",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-s/2025/efi"
+    },
+    {
+      "modelo": "Phoenix S",
+      "descricao": "48 cc",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-s/2024/48-cc"
+    },
+    {
+      "modelo": "Phoenix S",
+      "descricao": "EFI",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-s/2024/efi"
+    },
+    {
+      "modelo": "Phoenix S",
+      "descricao": "48 cc",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-s/2023/48-cc"
+    },
+    {
+      "modelo": "Phoenix S",
+      "descricao": "EFI",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/phoenix-s/2023/efi"
+    },
+    {
+      "modelo": "Ray 50",
+      "descricao": "Turbo",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/ray-50/2023/turbo"
+    },
+    {
+      "modelo": "Retro EX",
+      "descricao": "RETRO EX 50",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/retro-ex/2020/retro-ex-50"
+    },
+    {
+      "modelo": "Retro EX",
+      "descricao": "RETRO EX 50",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/retro-ex/2019/retro-ex-50"
+    },
+    {
+      "modelo": "Retro EX",
+      "descricao": "RETRO EX 50",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/retro-ex/2018/retro-ex-50"
+    },
+    {
+      "modelo": "Retro EX",
+      "descricao": "RETRO EX 50",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/retro-ex/2017/retro-ex-50"
+    },
+    {
+      "modelo": "Rio 125",
+      "descricao": "Carburada",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/rio-125/2026/carburada"
+    },
+    {
+      "modelo": "Rio 125",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/rio-125/2026/efi"
+    },
+    {
+      "modelo": "Rio 125",
+      "descricao": "Carburada",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/rio-125/2025/carburada"
+    },
+    {
+      "modelo": "Rio 125",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/rio-125/2025/efi"
+    },
+    {
+      "modelo": "Rio 125",
+      "descricao": "Carburada",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/rio-125/2024/carburada"
+    },
+    {
+      "modelo": "SBM 150",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-150/2026/abs"
+    },
+    {
+      "modelo": "SBM 150S",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-150s/2026/abs"
+    },
+    {
+      "modelo": "SBM 250",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-250/2026/abs"
+    },
+    {
+      "modelo": "SBM 250S",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-250s/2026/abs"
+    },
+    {
+      "modelo": "SBM 400S",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-400s/2026/abs"
+    },
+    {
+      "modelo": "SBM 400SS",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-400ss/2026/abs"
+    },
+    {
+      "modelo": "SBM 600C",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-600c/2026/abs"
+    },
+    {
+      "modelo": "SBM 600R",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-600r/2026/abs"
+    },
+    {
+      "modelo": "SBM 600RC",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-600rc/2026/abs"
+    },
+    {
+      "modelo": "SBM 600S",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-600s/2026/abs"
+    },
+    {
+      "modelo": "SBM 600T",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-600t/2026/abs"
+    },
+    {
+      "modelo": "SBM 600V",
+      "descricao": "ABS",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sbm-600v/2026/abs"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2024/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2023/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2022/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2021/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2020/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2019/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2018/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2017/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2016/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2015/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2014/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE-Bike",
+      "descricao": "XY 50-Q2 RETRO/JET/BIKE",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se-bike/2013/xy-50-q2-retro-jet-bike"
+    },
+    {
+      "modelo": "SE1",
+      "descricao": "2000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se1/2025/2000w"
+    },
+    {
+      "modelo": "SE1",
+      "descricao": "2000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se1/2024/2000w"
+    },
+    {
+      "modelo": "SE1",
+      "descricao": "2000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se1/2023/2000w"
+    },
+    {
+      "modelo": "SE1",
+      "descricao": "SE1",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se1/2022/se1"
+    },
+    {
+      "modelo": "SE1",
+      "descricao": "SE1",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se1/2021/se1"
+    },
+    {
+      "modelo": "SE2",
+      "descricao": "2300W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se2/2025/2300w"
+    },
+    {
+      "modelo": "SE2",
+      "descricao": "2300W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se2/2024/2300w"
+    },
+    {
+      "modelo": "SE2",
+      "descricao": "2300W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se2/2023/2300w"
+    },
+    {
+      "modelo": "SE2",
+      "descricao": "SE2",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se2/2022/se2"
+    },
+    {
+      "modelo": "SE2",
+      "descricao": "SE2",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se2/2021/se2"
+    },
+    {
+      "modelo": "SE3",
+      "descricao": "2000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se3/2025/2000w"
+    },
+    {
+      "modelo": "SE3",
+      "descricao": "2000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se3/2024/2000w"
+    },
+    {
+      "modelo": "SE3",
+      "descricao": "2000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se3/2023/2000w"
+    },
+    {
+      "modelo": "SE3",
+      "descricao": "SE3",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se3/2022/se3"
+    },
+    {
+      "modelo": "SE3",
+      "descricao": "SE3",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/se3/2021/se3"
+    },
+    {
+      "modelo": "SHE-3000",
+      "descricao": "3000W",
+      "ano": "3000",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/she-3000/2025/3000w"
+    },
+    {
+      "modelo": "SHE-JEF",
+      "descricao": "3000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/she-jef/2023/3000w"
+    },
+    {
+      "modelo": "SHE-S",
+      "descricao": "3000W",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/she-s/2025/3000w"
+    },
+    {
+      "modelo": "SHE-S",
+      "descricao": "3000W",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/she-s/2024/3000w"
+    },
+    {
+      "modelo": "SHE-S",
+      "descricao": "3000W",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/she-s/2023/3000w"
+    },
+    {
+      "modelo": "SHI 150",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-150/2026/efi"
+    },
+    {
+      "modelo": "SHI 150",
+      "descricao": "S",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-150/2026/s"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "Carburada",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2026/carburada"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2026/efi"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "S EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2026/s-efi"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "Carburada",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2025/carburada"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2025/efi"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "S EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2025/s-efi"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "Carburada",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2024/carburada"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "EFI",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2024/efi"
+    },
+    {
+      "modelo": "SHI 175",
+      "descricao": "Carburada",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175/2023/carburada"
+    },
+    {
+      "modelo": "SHI 175S",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-175s/2026/efi"
+    },
+    {
+      "modelo": "SHI 250",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-250/2026/efi"
+    },
+    {
+      "modelo": "SHI 250",
+      "descricao": "S",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-250/2026/s"
+    },
+    {
+      "modelo": "SHI 250",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-250/2025/efi"
+    },
+    {
+      "modelo": "SHI 250",
+      "descricao": "S",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/shi-250/2025/s"
+    },
+    {
+      "modelo": "Speed 150",
+      "descricao": "XY 150-5 SPEED",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/speed-150/2011/xy-150-5-speed"
+    },
+    {
+      "modelo": "Storm 200",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/storm-200/2026/efi"
+    },
+    {
+      "modelo": "Storm 200",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/storm-200/2025/efi"
+    },
+    {
+      "modelo": "Sun",
+      "descricao": "SUN 150",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sun/2015/sun-150"
+    },
+    {
+      "modelo": "Sun",
+      "descricao": "SUN 150",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/sun/2014/sun-150"
+    },
+    {
+      "modelo": "Super Smart",
+      "descricao": "SUPER SMART 50",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/super-smart/2022/super-smart-50"
+    },
+    {
+      "modelo": "Super Smart",
+      "descricao": "SUPER SMART 50",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/super-smart/2021/super-smart-50"
+    },
+    {
+      "modelo": "Super Smart",
+      "descricao": "SUPER SMART 50",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/super-smart/2020/super-smart-50"
+    },
+    {
+      "modelo": "Super Smart",
+      "descricao": "SUPER SMART 50",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/super-smart/2019/super-smart-50"
+    },
+    {
+      "modelo": "Super Smart",
+      "descricao": "SUPER SMART 50",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/super-smart/2018/super-smart-50"
+    },
+    {
+      "modelo": "Super Smart",
+      "descricao": "SUPER SMART 50",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/super-smart/2017/super-smart-50"
+    },
+    {
+      "modelo": "Titanium 250",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/titanium-250/2026/efi"
+    },
+    {
+      "modelo": "Titanium 250",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/titanium-250/2025/efi"
+    },
+    {
+      "modelo": "URBAN 150",
+      "descricao": "EFI",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/urban-150/2026/efi"
+    },
+    {
+      "modelo": "URBAN 150",
+      "descricao": "EFI",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/urban-150/2025/efi"
+    },
+    {
+      "modelo": "URBAN 150",
+      "descricao": "EFI",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/urban-150/2024/efi"
+    },
+    {
+      "modelo": "VMV",
+      "descricao": "XY 50Q VMV",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/vmv/2013/xy-50q-vmv"
+    },
+    {
+      "modelo": "Venice",
+      "descricao": "XY 50Q-2 VENICE",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/venice/2015/xy-50q-2-venice"
+    },
+    {
+      "modelo": "Venice",
+      "descricao": "XY 50Q-2 VENICE",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/venice/2014/xy-50q-2-venice"
+    },
+    {
+      "modelo": "Wave 110",
+      "descricao": "XY 110V WAVE",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/wave-110/2012/xy-110v-wave"
+    },
+    {
+      "modelo": "Wave 110",
+      "descricao": "XY 110V WAVE",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/wave-110/2011/xy-110v-wave"
+    },
+    {
+      "modelo": "Wave 110",
+      "descricao": "XY 110 V WAVE",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/wave-110/2010/xy-110-v-wave"
+    },
+    {
+      "modelo": "Wave 110",
+      "descricao": "XY 110 V WAVE",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/wave-110/2009/xy-110-v-wave"
+    },
+    {
+      "modelo": "Wave 110",
+      "descricao": "XY 110 V WAVE",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/wave-110/2008/xy-110-v-wave"
+    },
+    {
+      "modelo": "Wave 110",
+      "descricao": "XY 110 V WAVE",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/wave-110/2007/xy-110-v-wave"
+    },
+    {
+      "modelo": "Wave 125",
+      "descricao": "XY 125 NEW WAVE",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/wave-125/2013/xy-125-new-wave"
+    },
+    {
+      "modelo": "Wave 125",
+      "descricao": "XY 125 NEW WAVE",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/wave-125/2012/xy-125-new-wave"
+    },
+    {
+      "modelo": "Worker 125",
+      "descricao": "124 cc",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/worker-125/2025/124-cc"
+    },
+    {
+      "modelo": "Worker 125",
+      "descricao": "124 cc",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/worker-125/2024/124-cc"
+    },
+    {
+      "modelo": "Worker 125",
+      "descricao": "124 cc",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/worker-125/2023/124-cc"
+    },
+    {
+      "modelo": "Worker 125",
+      "descricao": "WORKER 125",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/worker-125/2022/worker-125"
+    },
+    {
+      "modelo": "Worker 150",
+      "descricao": "Cross",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/worker-150/2025/cross"
+    },
+    {
+      "modelo": "Worker 150",
+      "descricao": "Cross",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/worker-150/2024/cross"
+    },
+    {
+      "modelo": "Worker 150",
+      "descricao": "Cross",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/worker-150/2023/cross"
+    },
+    {
+      "modelo": "XY 150-5",
+      "descricao": "XY 150-5 Fire/Maxi Fire",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-5/2018/xy-150-5-fire-maxi-fire"
+    },
+    {
+      "modelo": "XY 150-5",
+      "descricao": "XY 150-5 Fire/Maxi Fire",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-5/2017/xy-150-5-fire-maxi-fire"
+    },
+    {
+      "modelo": "XY 150-5",
+      "descricao": "XY 150-5 Fire/Maxi Fire",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-5/2016/xy-150-5-fire-maxi-fire"
+    },
+    {
+      "modelo": "XY 150-5",
+      "descricao": "XY 150-5 Fire/Maxi Fire",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-5/2015/xy-150-5-fire-maxi-fire"
+    },
+    {
+      "modelo": "XY 150-5",
+      "descricao": "XY 150-5 MAX",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-5/2013/xy-150-5-max"
+    },
+    {
+      "modelo": "XY 150-5",
+      "descricao": "XY 150-5 MAX",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-5/2012/xy-150-5-max"
+    },
+    {
+      "modelo": "XY 150-5",
+      "descricao": "XY 150-5 MAX",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-5/2011/xy-150-5-max"
+    },
+    {
+      "modelo": "XY 150-8",
+      "descricao": "JEF S",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-8/2025/jef-s"
+    },
+    {
+      "modelo": "XY 150-8",
+      "descricao": "JEF",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-8/2025/jef"
+    },
+    {
+      "modelo": "XY 150-8",
+      "descricao": "JEF",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150-8/2024/jef"
+    },
+    {
+      "modelo": "XY 200-5",
+      "descricao": "XY 200-5 A RACING",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200-5/2012/xy-200-5-a-racing"
+    },
+    {
+      "modelo": "XY 200-5",
+      "descricao": "XY 200-5 SPEED/ XY 200-5",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200-5/2011/xy-200-5-speed-xy-200-5"
+    },
+    {
+      "modelo": "XY 200-5",
+      "descricao": "XY 200-5 SPEED/ XY 200-5",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200-5/2010/xy-200-5-speed-xy-200-5"
+    },
+    {
+      "modelo": "XY 250 Discover",
+      "descricao": "XY 250-6B DISCOVER",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-discover/2018/xy-250-6b-discover"
+    },
+    {
+      "modelo": "XY 250 Discover",
+      "descricao": "XY 250-6B DISCOVER",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-discover/2017/xy-250-6b-discover"
+    },
+    {
+      "modelo": "XY 250 Discover",
+      "descricao": "XY 250-6B DISCOVER",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-discover/2016/xy-250-6b-discover"
+    },
+    {
+      "modelo": "XY 250 Discover",
+      "descricao": "XY 250-6B DISCOVER",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-discover/2015/xy-250-6b-discover"
+    },
+    {
+      "modelo": "XY 250 Discover",
+      "descricao": "XY 250-6B DISCOVER",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-discover/2014/xy-250-6b-discover"
+    },
+    {
+      "modelo": "XY 250-5",
+      "descricao": "XY 250-5",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-5/2025/xy-250-5"
+    },
+    {
+      "modelo": "XY 250-5",
+      "descricao": "XY 250-5",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-5/2016/xy-250-5"
+    },
+    {
+      "modelo": "XY 250-5",
+      "descricao": "XY 250-5",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-5/2015/xy-250-5"
+    },
+    {
+      "modelo": "XY 250-5",
+      "descricao": "XY 250-5",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-5/2014/xy-250-5"
+    },
+    {
+      "modelo": "XY 250-5",
+      "descricao": "XY 250-5",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-5/2013/xy-250-5"
+    },
+    {
+      "modelo": "XY 250-5",
+      "descricao": "XY 250-5",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-5/2012/xy-250-5"
+    },
+    {
+      "modelo": "XY 250-5",
+      "descricao": "XY 250-5",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-5/2011/xy-250-5"
+    },
+    {
+      "modelo": "XY 250-6B",
+      "descricao": "ABS",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250-6b/2025/abs"
+    },
+    {
+      "modelo": "XY50-Q",
+      "descricao": "XY 50-Q CROSS",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy50-q/2020/xy-50-q-cross"
+    },
+    {
+      "modelo": "XY50-Q",
+      "descricao": "XY 50-Q CROSS",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy50-q/2019/xy-50-q-cross"
+    },
+    {
+      "modelo": "XY50-Q",
+      "descricao": "XY 50-Q CROSS",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy50-q/2018/xy-50-q-cross"
+    },
+    {
+      "modelo": "XY50-Q",
+      "descricao": "XY 50-Q CROSS",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy50-q/2017/xy-50-q-cross"
+    },
+    {
+      "modelo": "XY50-Q",
+      "descricao": "XY 50-Q CROSS",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy50-q/2016/xy-50-q-cross"
+    },
+    {
+      "modelo": "XY50-Q",
+      "descricao": "XY 50-Q CROSS",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy50-q/2015/xy-50-q-cross"
+    },
+    {
+      "modelo": "XY50-Q",
+      "descricao": "XY 50-Q",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy50-q/2012/xy-50-q"
+    },
+    {
+      "modelo": "XY50-Q",
+      "descricao": "XY 50-Q",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy50-q/2011/xy-50-q"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "150-5 Fire/Maxi Fire",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2014/150-5-fire-maxi-fire"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 ZH",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2012/xy-150-zh"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 ZH",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2011/xy-150-zh"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 5",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2010/xy-150-5"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 GYI",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2010/xy-150-gyi"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 HZ(Triciclo)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2010/xy-150-hztriciclo"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 5",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2009/xy-150-5"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 GYI",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2009/xy-150-gyi"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 HZ(Triciclo)",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2009/xy-150-hztriciclo"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 5",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2008/xy-150-5"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 GYI",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2008/xy-150-gyi"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 HZ(Triciclo)",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2008/xy-150-hztriciclo"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 5",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2007/xy-150-5"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 GYI",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2007/xy-150-gyi"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 HZ(Triciclo)",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2007/xy-150-hztriciclo"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 5",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2006/xy-150-5"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 GYI",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2006/xy-150-gyi"
+    },
+    {
+      "modelo": "Xy 150",
+      "descricao": "XY 150 HZ(Triciclo)",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-150/2006/xy-150-hztriciclo"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200-III",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2012/xy-200-iii"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200-III",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2011/xy-200-iii"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5 Road Wind",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2011/xy-200-5-road-wind"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5 A Racing Sport",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2011/xy-200-5-a-racing-sport"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2010/xy-200-5"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 III",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2010/xy-200-iii"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5 Road Wind",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2010/xy-200-5-road-wind"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5 A Racing Sport",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2010/xy-200-5-a-racing-sport"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2009/xy-200-5"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 III",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2009/xy-200-iii"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2008/xy-200-5"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 III",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2008/xy-200-iii"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2007/xy-200-5"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 III",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2007/xy-200-iii"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 5",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2006/xy-200-5"
+    },
+    {
+      "modelo": "Xy 200",
+      "descricao": "XY 200 III",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-200/2006/xy-200-iii"
+    },
+    {
+      "modelo": "Xy 250",
+      "descricao": "XY 250 5",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250/2010/xy-250-5"
+    },
+    {
+      "modelo": "Xy 250",
+      "descricao": "XY 250 5",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250/2009/xy-250-5"
+    },
+    {
+      "modelo": "Xy 250",
+      "descricao": "XY 250 5",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250/2008/xy-250-5"
+    },
+    {
+      "modelo": "Xy 250",
+      "descricao": "XY 250 5",
+      "ano": "2007",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/motos/shineray/xy-250/2007/xy-250-5"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "marca": {
+    "nome": "Lotus",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089394/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Elan",
+      "descricao": "S1 1.6 16V",
+      "ano": "1995",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/elan/1995/s1-1-6-16v"
+    },
+    {
+      "modelo": "Elan",
+      "descricao": "S1 1.6 16V",
+      "ano": "1994",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/elan/1994/s1-1-6-16v"
+    },
+    {
+      "modelo": "Elise",
+      "descricao": "SuperCharger",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/elise/2010/supercharger"
+    },
+    {
+      "modelo": "Elise",
+      "descricao": "SuperCharger",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/elise/2009/supercharger"
+    },
+    {
+      "modelo": "Elise",
+      "descricao": "SuperCharger",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/elise/2008/supercharger"
+    },
+    {
+      "modelo": "Elise",
+      "descricao": "SuperLightweight Convertible",
+      "ano": "2006",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/elise/2006/superlightweight-convertible"
+    },
+    {
+      "modelo": "Elise",
+      "descricao": "SuperLightweight Convertible",
+      "ano": "2005",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/elise/2005/superlightweight-convertible"
+    },
+    {
+      "modelo": "Exige",
+      "descricao": "S240",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/exige/2010/s240"
+    },
+    {
+      "modelo": "Exige",
+      "descricao": "S ClubRacer",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/exige/2010/s-clubracer"
+    },
+    {
+      "modelo": "Exige",
+      "descricao": "S240",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/exige/2009/s240"
+    },
+    {
+      "modelo": "Exige",
+      "descricao": "S ClubRacer",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/exige/2009/s-clubracer"
+    },
+    {
+      "modelo": "Exige",
+      "descricao": "S",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/exige/2008/s"
+    },
+    {
+      "modelo": "Exige",
+      "descricao": "S240",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/exige/2008/s240"
+    },
+    {
+      "modelo": "Exige",
+      "descricao": "S ClubRacer",
+      "ano": "2008",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/lotus/exige/2008/s-clubracer"
+    }
+  ]
+}

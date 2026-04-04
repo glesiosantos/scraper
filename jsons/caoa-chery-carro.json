@@ -1,0 +1,1268 @@
+{
+  "marca": {
+    "nome": "Caoa-chery",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64089243/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5 RXS Turbo Flex (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2022/1-5-rxs-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5 RT Turbo Flex (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2021/1-5-rt-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5 RTS Turbo Flex (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2021/1-5-rts-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5 RXS Turbo Flex (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2021/1-5-rxs-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5 RXT Turbo Flex Automático",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2021/1-5-rxt-turbo-flex-automatico"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5T RX (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2020/1-5t-rx-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5T RXT (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2020/1-5t-rxt-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5 RT Turbo Flex (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2020/1-5-rt-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "Rts1.5 Turbo Flex (Automático)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2020/rts1-5-turbo-flex-automatico"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5T RX (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2019/1-5t-rx-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "1.5T RXT (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2019/1-5t-rxt-aut"
+    },
+    {
+      "modelo": "Arrizo 5",
+      "descricao": "Rts1.5 Turbo Flex (Automático)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5/2019/rts1-5-turbo-flex-automatico"
+    },
+    {
+      "modelo": "Arrizo 5e",
+      "descricao": "5e",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-5e/2019/5e"
+    },
+    {
+      "modelo": "Arrizo 6",
+      "descricao": "1.5 GSX Turbo Flex (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6/2022/1-5-gsx-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 6",
+      "descricao": "1.5 GSX Turbo Flex (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6/2021/1-5-gsx-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 6",
+      "descricao": "1.5 GSX Turbo Flex (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6/2020/1-5-gsx-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 6 Pro",
+      "descricao": "Hybrid 1.5",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6-pro/2026/hybrid-1-5"
+    },
+    {
+      "modelo": "Arrizo 6 Pro",
+      "descricao": "Hybrid 1.5",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6-pro/2025/hybrid-1-5"
+    },
+    {
+      "modelo": "Arrizo 6 Pro",
+      "descricao": "Hybrid 1.5",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6-pro/2024/hybrid-1-5"
+    },
+    {
+      "modelo": "Arrizo 6 Pro",
+      "descricao": "1.5 Turbo (Híbrido)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6-pro/2023/1-5-turbo-hibrido"
+    },
+    {
+      "modelo": "Arrizo 6 Pro",
+      "descricao": "1.5 Turbo Flex Aut.",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6-pro/2023/1-5-turbo-flex-aut"
+    },
+    {
+      "modelo": "Arrizo 6 Pro",
+      "descricao": "Pro 1.5 Turbo (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6-pro/2022/pro-1-5-turbo-aut"
+    },
+    {
+      "modelo": "Arrizo 6 Pro",
+      "descricao": "Pro 1.5 Turbo (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/arrizo-6-pro/2021/pro-1-5-turbo-aut"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2018/hatch-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2018/sedan-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V ACT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2018/hatch-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V ACT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2018/sedan-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2017/hatch-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2017/sedan-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V ACT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2017/hatch-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V ACT (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2017/sedan-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2016/hatch-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2016/sedan-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V ACT (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2016/hatch-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V ACT (Flex)",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2016/sedan-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch ACT 1.5 16V Flex",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2016/hatch-act-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2015/hatch-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2015/sedan-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V ACT (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2015/hatch-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V ACT (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2015/sedan-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch ACT 1.5 16V Flex",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2015/hatch-act-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2014/sedan-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2014/hatch-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Hatch 1.5 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2013/hatch-1-5-16v-flex"
+    },
+    {
+      "modelo": "Celer",
+      "descricao": "Sedan 1.5 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/celer/2013/sedan-1-5-16v-flex"
+    },
+    {
+      "modelo": "Cielo Hatch",
+      "descricao": "1.6 16V",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/cielo-hatch/2012/1-6-16v"
+    },
+    {
+      "modelo": "Cielo Hatch",
+      "descricao": "1.6 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/cielo-hatch/2011/1-6-16v"
+    },
+    {
+      "modelo": "Cielo Hatch",
+      "descricao": "1.6 16V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/cielo-hatch/2010/1-6-16v"
+    },
+    {
+      "modelo": "Cielo Sedan",
+      "descricao": "1.6 16V",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/cielo-sedan/2012/1-6-16v"
+    },
+    {
+      "modelo": "Cielo Sedan",
+      "descricao": "1.6 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/cielo-sedan/2011/1-6-16v"
+    },
+    {
+      "modelo": "Cielo Sedan",
+      "descricao": "1.6 16V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/cielo-sedan/2010/1-6-16v"
+    },
+    {
+      "modelo": "Face",
+      "descricao": "1.3 16V (Flex)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/face/2015/1-3-16v-flex"
+    },
+    {
+      "modelo": "Face",
+      "descricao": "1.3 16V (Flex)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/face/2014/1-3-16v-flex"
+    },
+    {
+      "modelo": "Face",
+      "descricao": "1.3 16V (Flex)",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/face/2013/1-3-16v-flex"
+    },
+    {
+      "modelo": "Face",
+      "descricao": "1.3 16V",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/face/2012/1-3-16v"
+    },
+    {
+      "modelo": "Face",
+      "descricao": "1.3 16V (Flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/face/2012/1-3-16v-flex"
+    },
+    {
+      "modelo": "Face",
+      "descricao": "1.3 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/face/2011/1-3-16v"
+    },
+    {
+      "modelo": "Face",
+      "descricao": "1.3 16V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/face/2010/1-3-16v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New Look 1.0 12V",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2020/new-look-1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New Act 1.0 (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2020/new-act-1-0-flex"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New  Smile 1.0 (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2019/new-smile-1-0-flex"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New Look 1.0 12V",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2019/new-look-1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New  Look 1.0 (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2019/new-look-1-0-flex"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New Act 1.0 (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2019/new-act-1-0-flex"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New  Smile 1.0 (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2018/new-smile-1-0-flex"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New  Look 1.0 (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2018/new-look-1-0-flex"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New Look 1.0 12V",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2018/new-look-1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New  Act 1.0 (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2018/new-act-1-0-flex"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New Look 1.0 12V",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2017/new-look-1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New Act 1.0 (Flex)",
+      "ano": "2017",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2017/new-act-1-0-flex"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New Look 1.0 12V",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2016/new-look-1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New  Act 1.0 12V",
+      "ano": "2016",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2016/new-act-1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "1.1 16V",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2015/1-1-16v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New  Look 1.0 12V",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2015/new-look-1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "1.0 12V",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2015/1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "New  Act 1.0 12V",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2015/new-act-1-0-12v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "1.0 12V Act",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2015/1-0-12v-act"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "1.1 16V",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2014/1-1-16v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "1.0 12V Act",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2014/1-0-12v-act"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "1.1 16V",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2013/1-1-16v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "1.1 16V",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2012/1-1-16v"
+    },
+    {
+      "modelo": "QQ",
+      "descricao": "1.1 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/qq/2011/1-1-16v"
+    },
+    {
+      "modelo": "S 18",
+      "descricao": "1.3 16V (flex)",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/s-18/2012/1-3-16v-flex"
+    },
+    {
+      "modelo": "S 18",
+      "descricao": "1.3 16V (flex)",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/s-18/2011/1-3-16v-flex"
+    },
+    {
+      "modelo": "S 18",
+      "descricao": "1.3 16V (flex)",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/s-18/2010/1-3-16v-flex"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2015/2-0-16v"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V (Aut)",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2015/2-0-16v-aut"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V Celebration",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2015/2-0-16v-celebration"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2014/2-0-16v"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V (Aut)",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2014/2-0-16v-aut"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2013/2-0-16v"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V Aut.",
+      "ano": "2013",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2013/2-0-16v-aut"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V",
+      "ano": "2012",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2012/2-0-16v"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V",
+      "ano": "2011",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2011/2-0-16v"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V",
+      "ano": "2010",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2010/2-0-16v"
+    },
+    {
+      "modelo": "Tiggo",
+      "descricao": "2.0 16V",
+      "ano": "2009",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo/2009/2-0-16v"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "SMILE 1.5 16V Flex Aut.",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2022/smile-1-5-16v-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Look 1.5 16V (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2022/look-1-5-16v-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Look 1.5 16V (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2022/look-1-5-16v-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "ACT 1.5 16V (Aut) (Flex)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2022/act-1-5-16v-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "EX 1.5 16V (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2021/ex-1-5-16v-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Smile 1.5 16V (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2021/smile-1-5-16v-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Look 1.5 16V (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2021/look-1-5-16v-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Look 1.5 16V (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2021/look-1-5-16v-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "ACT 1.5 16V (Aut) (Flex)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2021/act-1-5-16v-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "1.5 16V LOOK (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2020/1-5-16v-look-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "1.5 16V LOOK (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2020/1-5-16v-look-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "1.5 16V ACT (Aut) (Flex)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2020/1-5-16v-act-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Tiggo2 1.5 16V LOOK (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2019/tiggo2-1-5-16v-look-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Tiggo2 1.5 16V LOOK (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2019/tiggo2-1-5-16v-look-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Tiggo2 1.5 16V ACT (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2019/tiggo2-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Tiggo2 1.5 16V ACT (Aut) (Flex)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2019/tiggo2-1-5-16v-act-aut-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Tiggo2 1.5 16V LOOK (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2018/tiggo2-1-5-16v-look-flex"
+    },
+    {
+      "modelo": "Tiggo 2",
+      "descricao": "Tiggo2 1.5 16V ACT (Flex)",
+      "ano": "2018",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-2/2018/tiggo2-1-5-16v-act-flex"
+    },
+    {
+      "modelo": "Tiggo 3X",
+      "descricao": "Plus 1.0 Turbo (Aut.)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-3x/2023/plus-1-0-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 3X",
+      "descricao": "Pro 1.0 Turbo (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-3x/2023/pro-1-0-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 3X",
+      "descricao": "Plus 1.0 Turbo (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-3x/2022/plus-1-0-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 3X",
+      "descricao": "Pro 1.0 Turbo (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-3x/2022/pro-1-0-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 3X",
+      "descricao": "Plus 1.0 Turbo (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-3x/2021/plus-1-0-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 3X",
+      "descricao": "Pro 1.0 Turbo (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-3x/2021/pro-1-0-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Sport",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2027/sport"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Sport",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2026/sport"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Sport",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2025/sport"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Pro 1.5",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2025/pro-1-5"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Pro Hybrid",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2025/pro-hybrid"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Sport",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2024/sport"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Pro 1.5",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2024/pro-1-5"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Pro Hybrid",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2024/pro-hybrid"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "Pro Hybrid",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2023/pro-hybrid"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "1.5 T Turbo Flex (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2022/1-5-t-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "TXS 1.5 Turboflex (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2022/txs-1-5-turboflex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "1.5 T Turbo Flex (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2021/1-5-t-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "1.5 TXS Turbo Flex (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2021/1-5-txs-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "1.5 T Turbo Flex (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2020/1-5-t-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "1.5 TXS Turbo Flex (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2020/1-5-txs-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "1.5 T Turbo Flex (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2019/1-5-t-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X",
+      "descricao": "1.5 TXS Turbo Flex (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x/2019/1-5-txs-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "1.5 Turboflex (Aut.)",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2027/1-5-turboflex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "1.5 Turboflex (Aut.)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2026/1-5-turboflex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "Max Drive 1.5 TB (Híbrido)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2026/max-drive-1-5-tb-hibrido"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "1.5 Turboflex (Aut.)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2025/1-5-turboflex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "Max Drive 1.5 TB (Híbrido)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2025/max-drive-1-5-tb-hibrido"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "1.5 Turboflex (Aut)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2024/1-5-turboflex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "Max Drive 1.5 TB (Híbrido)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2024/max-drive-1-5-tb-hibrido"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "1.5 Hybrid",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2023/1-5-hybrid"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "1.5 Turboflex (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2023/1-5-turboflex-aut"
+    },
+    {
+      "modelo": "Tiggo 5X Pro",
+      "descricao": "1.5 Turboflex (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-5x-pro/2022/1-5-turboflex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "Sport 1.5 Turbo Flex Aut.",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2027/sport-1-5-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "Sport 1.5 Turbo Flex Aut.",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2026/sport-1-5-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "Sport 1.5",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2025/sport-1-5"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "SPORT 1.5 Turbo Flex Aut.",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2025/sport-1-5-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "Sport 1.5",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2024/sport-1-5"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "1.5T  T Turbo Flex (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2022/1-5t-t-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "TXS 1.5",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2022/txs-1-5"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "1.5T  T Turbo Flex (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2021/1-5t-t-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "1.5 TXS Turbo Flex (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2021/1-5-txs-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "1.5T  T Turbo Flex (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2020/1-5t-t-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "1.5 TXS Turbo Flex (Aut)",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2020/1-5-txs-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "1.5T  T Turbo Flex (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2019/1-5t-t-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7",
+      "descricao": "1.5 TXS Turbo Flex (Aut)",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7/2019/1-5-txs-turbo-flex-aut"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Max Drive 1.6",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2027/max-drive-1-6"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Max Drive 1.5 TB (Hibrido)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2026/max-drive-1-5-tb-hibrido"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Max Drive 1.6",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2026/max-drive-1-6"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Pro 1.5 Turbo (Híbrido)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2026/pro-1-5-turbo-hibrido"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Max Drive 1.6",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2025/max-drive-1-6"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Hybrid Max Drive 1.5",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2025/hybrid-max-drive-1-5"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Max Drive 1.5 TB (Hibrido)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2025/max-drive-1-5-tb-hibrido"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Pro 1.5 Turbo (Híbrido)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2025/pro-1-5-turbo-hibrido"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Hybrid Max Drive 1.5",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2024/hybrid-max-drive-1-5"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Max Drive 1.6",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2024/max-drive-1-6"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Hybrid 1.5",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2024/hybrid-1-5"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "PRO 1.5 Turbo (Híbrido)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2024/pro-1-5-turbo-hibrido"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Max Drive 1.5 TB (Hibrido)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2024/max-drive-1-5-tb-hibrido"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "PRO 1.5 Turbo (Híbrido)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2023/pro-1-5-turbo-hibrido"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "1.6 TGDI (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2023/1-6-tgdi-aut"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "Max Drive (Aut)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2023/max-drive-aut"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "1.6 TGDI (Aut)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2022/1-6-tgdi-aut"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "PRO 1.5 Turbo (Híbrido)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2022/pro-1-5-turbo-hibrido"
+    },
+    {
+      "modelo": "Tiggo 7 Pro",
+      "descricao": "1.6 TGDI (Aut)",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-7-pro/2021/1-6-tgdi-aut"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "Pro 1.6 Turbo",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2027/pro-1-6-turbo"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "Max Drive 1.6 Turbo Aut.",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2026/max-drive-1-6-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "Pro 1.6 Turbo",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2026/pro-1-6-turbo"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "Max Drive 1.6 Turbo Aut.",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2025/max-drive-1-6-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "Pro 1.6 Turbo",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2025/pro-1-6-turbo"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "Pro Hybrid 1.5",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2025/pro-hybrid-1-5"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "TXS 1.6",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2024/txs-1-6"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "FOUNDER S EDITION 1.6",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2024/founder-s-edition-1-6"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "Max Drive 1.6 Turbo Aut.",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2024/max-drive-1-6-turbo-aut"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "TXS 1.6",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2023/txs-1-6"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "TXS Max Drive 1.6 Turbo GDI",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2023/txs-max-drive-1-6-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "Founder’s Edition 1.6 Turbo GDI",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2023/founder-s-edition-1-6-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "FOUNDER S EDITION 1.6 TGDi Aut.",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2023/founder-s-edition-1-6-tgdi-aut"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "TXS 1.6 Turbo GDI",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2022/txs-1-6-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "TXS 1.6 Turbo GDI",
+      "ano": "2021",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2021/txs-1-6-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "TXS 1.6 Turbo GDI",
+      "ano": "2020",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2020/txs-1-6-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8",
+      "descricao": "TXS 1.6 Turbo GDI",
+      "ano": "2019",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8/2019/txs-1-6-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "1.6 Turbo GDi",
+      "ano": "2027",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2027/1-6-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "Hybrid 1.5 Turbo",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2026/hybrid-1-5-turbo"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "1.6 Turbo GDi",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2026/1-6-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "Hybrid 1.5 Turbo",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2025/hybrid-1-5-turbo"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "1.6L Turbo GDi",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2025/1-6l-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "1.6L Turbo GDi",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2024/1-6l-turbo-gdi"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "Hybrid 1.5 Turbo",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2024/hybrid-1-5-turbo"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "Hybrid 1.5 Turbo",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2023/hybrid-1-5-turbo"
+    },
+    {
+      "modelo": "Tiggo 8 Pro",
+      "descricao": "Tiggo 8 Pro Plug-In Hybrid",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/tiggo-8-pro/2022/tiggo-8-pro-plug-in-hybrid"
+    },
+    {
+      "modelo": "iCar",
+      "descricao": "EQ1 TECH (Elétrico)",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/icar/2026/eq1-tech-eletrico"
+    },
+    {
+      "modelo": "iCar",
+      "descricao": "EQ1 TECH (Elétrico)",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/icar/2025/eq1-tech-eletrico"
+    },
+    {
+      "modelo": "iCar",
+      "descricao": "EQ1 TECH (Elétrico)",
+      "ano": "2024",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/icar/2024/eq1-tech-eletrico"
+    },
+    {
+      "modelo": "iCar",
+      "descricao": "EQ1 TECH (Elétrico)",
+      "ano": "2023",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/icar/2023/eq1-tech-eletrico"
+    },
+    {
+      "modelo": "iCar",
+      "descricao": "EQ1 TECH (Elétrico)",
+      "ano": "2022",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/caoa-chery/icar/2022/eq1-tech-eletrico"
+    }
+  ]
+}
