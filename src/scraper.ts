@@ -1,13 +1,46 @@
 import axios from "axios"
 import * as cheerio from "cheerio"
 import fs from "fs"
-import puppeteer from "puppeteer"
+import puppeteer, { Page } from "puppeteer"
+import { TipoVeiculo, TIPOS, VersaoVeiculo } from "./types"
 
 const BASE = "https://www.mobiauto.com.br"
-const TIPO = process.argv[2] || "carros"
+const ROTAS_POR_TIPO: Record<TipoVeiculo, string> = {
+  carro: "carros",
+  moto: "motos",
+  caminhao: "caminhoes"
+}
+
+function normalizarTipo(valor: string): TipoVeiculo {
+  const entrada = valor
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+
+  const aliases: Record<string, TipoVeiculo> = {
+    carro: "carro",
+    carros: "carro",
+    moto: "moto",
+    motos: "moto",
+    caminhao: "caminhao",
+    caminhoes: "caminhao"
+  }
+
+  const tipo = aliases[entrada]
+
+  if (tipo && TIPOS.includes(tipo)) return tipo
+
+  throw new Error(
+    `Tipo de veiculo invalido: "${valor}". Use carro, moto ou caminhao.`
+  )
+}
+
+const TIPO = normalizarTipo(process.argv[2] || "carro")
+const ROTA_TIPO = ROTAS_POR_TIPO[TIPO]
 const MARCA = process.argv[3] || "volkswagen"
 
-const URL_MARCA = `${BASE}/tabela-fipe/${TIPO}/${MARCA}`
+const URL_MARCA = `${BASE}/tabela-fipe/${ROTA_TIPO}/${MARCA}`
 
 function buildURL(link: string) {
   if (!link) return ""
@@ -36,7 +69,7 @@ function capitalize(text: string) {
 }
 
 function salvarCheckpoint(
-  dados: any[],
+  dados: VersaoVeiculo[],
   marca: string,
   tipo: string,
   logo: string
@@ -50,6 +83,7 @@ function salvarCheckpoint(
     finalPath,
     JSON.stringify(
       {
+        tipo,
         marca: {
           nome: capitalize(marca),
           logo
@@ -166,6 +200,48 @@ async function obterVersoes(ano: string, link: string) {
   return versoes
 }
 
+function obterImagemVeiculo($: cheerio.CheerioAPI) {
+  const imagem =
+    $("img[alt*='Imagem do veículo']").attr("src") ||
+    $("img[alt*='Imagem do veículo']").attr("data-src") ||
+    ""
+
+  if (imagem && !imagem.includes("statics.mobiauto.com.br")) return imagem
+
+  return (
+    $("img[alt*='Image da categoria']").attr("src") ||
+    $("img[alt*='Image da categoria']").attr("data-src") ||
+    null
+  )
+}
+
+async function obterItensDaAba(
+  page: Page,
+  nome: string
+) {
+  try {
+    const clicou = await page.evaluate((texto: string) => {
+      const botao = Array.from(document.querySelectorAll("button")).find(
+        item => item.textContent?.includes(texto)
+      ) as HTMLElement | undefined
+
+      botao?.click()
+      return Boolean(botao)
+    }, nome)
+
+    if (!clicou) return []
+
+    await new Promise(resolve => setTimeout(resolve, 800))
+    return await page.$$eval("table span", (spans: Element[]) =>
+      spans
+        .map(span => span.textContent?.trim() || "")
+        .filter((texto: string) => Boolean(texto))
+    )
+  } catch {
+    return []
+  }
+}
+
 ////////////////////////////////////////////////////////
 // DETALHES
 ////////////////////////////////////////////////////////
@@ -182,18 +258,26 @@ async function obterDetalhesVersao(modelo: string, ano: string, link: string) {
     const page = await browser.newPage()
     await page.goto(link, { waitUntil: "domcontentloaded" })
 
+    await page.waitForSelector("section", { timeout: 10000 }).catch(() => null)
+
     const html = await page.content()
     const $ = cheerio.load(html)
 
     const descricao = $(".trim-name").first().text().trim()
+    const imagem = obterImagemVeiculo($)
+    const mecanica = await obterItensDaAba(page, "Mecânica")
+    const dimensoes = await obterItensDaAba(page, "Dimens")
 
     console.log(`   ✔ ${modelo} ${ano} - ${descricao}`)
 
     return {
+      tipo: TIPO,
       modelo,
       descricao,
+      imagem,
       ano,
-      link
+      link,
+      fichaTecnica: { mecanica, dimensoes }
     }
   } catch {
     return null
@@ -216,7 +300,7 @@ async function run() {
 
   const checkpointPath = `./jsons/${MARCA}-${TIPO}-checkpoint.json`
 
-  let todasVersoes: any[] = []
+  let todasVersoes: VersaoVeiculo[] = []
   let processados = new Set<string>()
 
   if (fs.existsSync(checkpointPath)) {

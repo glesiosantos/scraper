@@ -68,6 +68,7 @@ for (const file of files) {
         '${foto}',
         '${descricao}',
         ${ano},
+        '${tipo}',
         (select m.id from marca_tipos mt 
             join marcas m on m.id = mt.marca_id
             join tipos t  on t.id = mt.tipo_id
@@ -79,7 +80,7 @@ for (const file of files) {
       sql += `
 
 -- ${file}
-INSERT INTO modelos (nome, foto, descricao, ano, marca_id)
+INSERT INTO modelos (nome, foto, descricao, ano, tipo, marca_id)
 VALUES
 ${rows.join(",\n")};
 `
