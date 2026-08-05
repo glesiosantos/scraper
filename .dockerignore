@@ -1,0 +1,8 @@
+.git
+.cache
+node_modules
+dist
+jsons
+jsons.antigos
+sql
+*.log

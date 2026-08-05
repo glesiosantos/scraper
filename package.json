@@ -5,10 +5,11 @@
   "license": "MIT",
   "scripts": {
     "scraper": "ts-node src/scraper.ts",
+    "worker": "ts-node src/worker.ts",
     "scraper:test": "ts-node src/teste.ts",
     "convert": "ts-node src/converter-todos-modelos.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/worker.js"
   },
   "dependencies": {
     "axios": "^1.13.2",

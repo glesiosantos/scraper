@@ -366,4 +366,7 @@ async function run() {
   console.log(`\n🎉 Finalizado com ${todasVersoes.length} registros`)
 }
 
-run()
+run().catch(error => {
+  console.error("❌ Falha fatal no scraper:", error)
+  process.exitCode = 1
+})

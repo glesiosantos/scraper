@@ -1,34 +1,49 @@
-FROM node:22-slim
+FROM node:22-slim AS build
+
+WORKDIR /app
+ENV PUPPETEER_SKIP_DOWNLOAD=true
+
+COPY package.json yarn.lock ./
+RUN corepack enable && yarn install --frozen-lockfile
+
+COPY tsconfig.json ./
+COPY src ./src
+RUN yarn build
+
+FROM node:22-slim AS runtime
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     chromium \
-    libnss3 \
+    ca-certificates \
+    fonts-liberation \
+    libasound2 \
     libatk-bridge2.0-0 \
+    libgbm1 \
+    libgtk-3-0 \
+    libnss3 \
     libx11-xcb1 \
     libxcomposite1 \
     libxdamage1 \
     libxrandr2 \
-    libgbm1 \
-    libgtk-3-0 \
-    libasound2 \
     libxshmfence1 \
     libxss1 \
     && rm -rf /var/lib/apt/lists/*
 
-ENV PUPPETEER_SKIP_DOWNLOAD=true
-ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+ENV NODE_ENV=production \
+    PUPPETEER_SKIP_DOWNLOAD=true \
+    PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium \
+    TZ=America/Sao_Paulo
 
-COPY package.json ./
-RUN npm install --omit=dev
+COPY package.json yarn.lock ./
+RUN corepack enable && yarn install --frozen-lockfile --production \
+    && yarn cache clean
 
-RUN npm install typescript
+COPY --from=build /app/dist ./dist
 
-COPY tsconfig.json ./
-COPY src ./src
+RUN mkdir -p /app/jsons && chown -R node:node /app
+USER node
 
-RUN npx tsc
-
-# ENTRYPOINT ["node", "dist/scraper.js"]
-CMD []
+VOLUME ["/app/jsons"]
+CMD ["node", "dist/worker.js"]

@@ -64,6 +64,59 @@ Os tipos aceitos são `carro`, `carros`, `moto`, `motos`, `caminhao` e
 
 Os resultados e checkpoints são gravados no diretório `jsons`.
 
+## Docker e Portainer
+
+O container executa os trabalhos em sequência. Cada item processa uma marca e,
+dentro dela, o scraper percorre um modelo por vez. Os arquivos e checkpoints
+ficam no volume `scraper_jsons`, portanto não são perdidos ao recriar ou
+reiniciar o container.
+
+### Subir como Stack no Portainer
+
+No Portainer, crie uma Stack a partir deste repositório Git e use o arquivo
+`compose.yaml`. Antes de fazer o deploy, ajuste estas variáveis no arquivo:
+
+```yaml
+environment:
+  TZ: America/Sao_Paulo
+  RUN_MODE: daily
+  DAILY_AT: "02:00"
+  SCRAPER_JOBS: |-
+    carro:volkswagen
+    carro:toyota
+    moto:honda
+    caminhao:volvo
+```
+
+- `DAILY_AT`: horário diário no formato `HH:MM`, usando o fuso de `TZ`.
+- `SCRAPER_JOBS`: lista de trabalhos no formato `tipo:marca`, um por linha.
+- `RUN_MODE=daily`: mantém o container ativo e executa diariamente.
+- `RUN_MODE=once`: executa toda a lista uma vez e encerra o container.
+
+O primeiro trabalho começa no próximo horário configurado. Para executar
+imediatamente uma carga manual pelo Portainer, duplique temporariamente o
+serviço com `RUN_MODE=once`, ou use localmente:
+
+```bash
+docker compose run --rm -e RUN_MODE=once scraper
+```
+
+Para acompanhar a execução:
+
+```bash
+docker compose logs -f scraper
+```
+
+O checkpoint permite continuar uma execução interrompida e faz com que as
+versões já coletadas sejam puladas nas rodadas seguintes. Novas versões
+encontradas continuam sendo adicionadas.
+
+### Construir e iniciar sem Portainer
+
+```bash
+docker compose up -d --build
+```
+
 ## Solução de problemas
 
 ### `Could not find Chrome`

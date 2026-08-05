@@ -1,0 +1,24 @@
+services:
+  scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fipe-scraper:latest
+    container_name: fipe-scraper
+    restart: unless-stopped
+    init: true
+    environment:
+      TZ: America/Sao_Paulo
+      RUN_MODE: daily
+      DAILY_AT: "02:00"
+      SCRAPER_JOBS: |-
+        carro:volkswagen
+        carro:toyota
+        moto:honda
+        caminhao:volvo
+    volumes:
+      - scraper_jsons:/app/jsons
+    shm_size: "1gb"
+
+volumes:
+  scraper_jsons:
