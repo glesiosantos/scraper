@@ -80,7 +80,7 @@ for (const file of files) {
       sql += `
 
 -- ${file}
-INSERT INTO modelos (nome, foto, descricao, ano, tipo, marca_id)
+INSERT INTO modelos (nome, foto, descricao, ano, tipo_veiculo, marca_id)
 VALUES
 ${rows.join(",\n")};
 `

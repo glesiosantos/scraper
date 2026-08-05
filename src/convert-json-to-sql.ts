@@ -58,7 +58,7 @@ data.versoes.forEach(v => {
 if (rows.length) {
   sql += `
 
-INSERT INTO modelos (nome, foto, descricao, ano, tipo, marca_id)
+INSERT INTO modelos (nome, foto, descricao, ano, tipo_veiculo, marca_id)
 VALUES
 ${rows.join(",\n")};
 `
