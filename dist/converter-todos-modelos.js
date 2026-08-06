@@ -47,10 +47,8 @@ for (const file of files) {
         '${descricao}',
         ${ano},
         '${tipo}',
-        (select m.id from marca_tipos mt 
-            join marcas m on m.id = mt.marca_id
-            join tipos t  on t.id = mt.tipo_id
-            where m.nome ilike '%${marcaNome}%' and t.nome = '${tipo.toLowerCase()}')
+        (select m.id from marcas m
+            where m.nome ilike '%${marcaNome}%')
         )`);
         });
         if (rows.length) {
