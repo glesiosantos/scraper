@@ -1,5 +1,1027 @@
 
 
+-- byd-carro.json
+INSERT INTO modelos (nome, foto, descricao, ano, tipo_veiculo, marca_id)
+VALUES
+(
+        'Byd ATTO 2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd ATTO 2-GL',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd ATTO 2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd ATTO 2-GS',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd ATTO 2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd ATTO 2-GL',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd ATTO 2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd ATTO 2-GS',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Atto 8',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Atto 8-DM-p',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Atto 8',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Atto 8-DM-p',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd D1',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265547190/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd D1-(Elétrico)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd D1',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Byd D1-EV (Elétrico)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880813/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-SE',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880813/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-GS',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880813/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-EV',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880813/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-GS',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880813/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-EV',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880813/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-GS',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880813/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-EV',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-Plus',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-Plus',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284880813/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-EV',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/284575868/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin-Diamond',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Byd Dolphin-Plus (Elétrico)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/333721572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin Mini-EV',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/333721572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin Mini-GS EV',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/333721572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin Mini-EV',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/333721572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin Mini-GS EV',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/333721572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin Mini-EV',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/333721572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin Mini-GS EV',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Byd Dolphin Mini-Cargo',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Byd Dolphin Mini-Elétrico',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/333721572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Dolphin Mini-EV',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Dolphin Mini',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Byd Dolphin Mini-Elétrico',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Han',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/144039294/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Han-EV',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Han',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/144039294/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Han-EV',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Han',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/144039294/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Han-EV',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd King',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/coupe.png',
+        'Byd King-DM-i GL',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd King',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/coupe.png',
+        'Byd King-DM-i GS',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd King',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/coupe.png',
+        'Byd King-DM-i GL',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd King',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/coupe.png',
+        'Byd King-DM-i GS',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd King',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/coupe.png',
+        'Byd King-DM-i GL',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd King',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/coupe.png',
+        'Byd King-DM-i GS',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd King',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/coupe.png',
+        'Byd King-DM-i GL',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd King',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/coupe.png',
+        'Byd King-DM-i GS',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Sea Lion 7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Sea Lion 7-GS',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Sea Lion 7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Sea Lion 7-Performance (AWD)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Sea Lion 7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Sea Lion 7-231cv',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Sea Lion 7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Sea Lion 7-312cv',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Sea Lion 7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Sea Lion 7-530cv',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Sea Lion 7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Sea Lion 7-231cv',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Sea Lion 7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Sea Lion 7-312cv',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Sea Lion 7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Sea Lion 7-530cv',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Seal',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/276477451/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Seal-EV',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Seal',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/276477451/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Seal-EV',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Seal',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/276477451/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Seal-EV',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Seal',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/276477451/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Seal-EV',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Shark',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Byd Shark-Embaixador Edition',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Shark',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Byd Shark-GS',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Shark',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Byd Shark-GS',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Shark',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Byd Shark-GS',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265546514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Song Plus-(Híbrido)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265546514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Song Plus-Premium (Híb.)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265546514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Song Plus-(Híbrido)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265546514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Song Plus-Premium (Híb.)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265546514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Song Plus-(Híbrido)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265546514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Song Plus-Premium (Híb.)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265546514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Song Plus-(Híbrido)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/265546514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Song Plus-(Híbrido)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Song Pro-DM-i GL (Híb.)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Song Pro-DM-i GL (Híb.)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Song Pro-DM-i GS (Híb.)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Song Pro-DM-i GL (Híb.)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Song Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Song Pro-DM-i GS (Híb.)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/82515602/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Tan-EV',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/82515602/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Tan-EV',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/82515602/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Tan-EV',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/82515602/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Tan-EV',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/82515557/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Tan-EV',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tang L',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Tang L-Elétrico',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tang L',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Tang L-PHEV',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tang L',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Tang L-PHEV',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Tang L',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Tang L-Elétrico',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/186860866/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Yuan Plus-EV',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/186860866/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Yuan Plus-AWD',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/186860866/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Yuan Plus-EV',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/186860866/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Yuan Plus-EV',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/186860866/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Yuan Plus-EV',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/186860866/transform/fl_progressive,f_webp,q_100,w_694',
+        'Byd Yuan Plus-EV',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Yuan Pro-Pro',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Yuan Pro-Pro',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Yuan Pro-Pro',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd Yuan Pro',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Byd Yuan Pro-Pro',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd eT3',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Byd eT3-eT3  (Elétrico)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        ),
+(
+        'Byd eT3',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Byd eT3-eT3  (Elétrico)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Byd%' and t.nome = 'carro')
+        );
+
+
+-- fiat-caminhao.json
+INSERT INTO modelos (nome, foto, descricao, ano, tipo_veiculo, marca_id)
+VALUES
+(
+        'Fiat Ducato',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/caminhoes/leve.png',
+        'Fiat Ducato-Chassi Longo',
+        2020,
+        'CAMINHAO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Fiat%' and t.nome = 'caminhao')
+        );
+
+
 -- fiat-carro.json
 INSERT INTO modelos (nome, foto, descricao, ano, tipo_veiculo, marca_id)
 VALUES
@@ -30098,4 +31120,17922 @@ VALUES
             join marcas m on m.id = mt.marca_id
             join tipos t  on t.id = mt.tipo_id
             where m.nome ilike '%Fiat%' and t.nome = 'carro')
+        );
+
+
+-- geely-carro.json
+INSERT INTO modelos (nome, foto, descricao, ano, tipo_veiculo, marca_id)
+VALUES
+(
+        'Geely EC7',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Geely EC7-1.8 CVVT GS',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Geely EX2-EV',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Geely EX2-Max',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Geely EX2-Pro',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Geely EX2-Max',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Geely EX2-EV',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX5',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Geely EX5-Max',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX5',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Geely EX5-Ultra',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX5',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Geely EX5-Pro',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX5',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Geely EX5-Pro',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX5',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Geely EX5-Max',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX5 EM-i',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Geely EX5 EM-i-PRO',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX5 EM-i',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Geely EX5 EM-i-ULTRA',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely EX5 EM-i',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Geely EX5 EM-i-MAX',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely GC2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Geely GC2-GL 1.0 CVVT',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        ),
+(
+        'Geely GC2',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Geely GC2-GL 1.0 CVVT',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Geely%' and t.nome = 'carro')
+        );
+
+
+-- renault-carro.json
+INSERT INTO modelos (nome, foto, descricao, ano, tipo_veiculo, marca_id)
+VALUES
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211040940/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Sedan RT 1.8 i',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211040996/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RN 1.6',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041304/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RN 1.6 4p',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041376/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RT 1.8 16V',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041053/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RN 1.6',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041406/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Sedan RT 1.8 i',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041460/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RN 1.6',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041518/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Sedan RT 1.8 i',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041394/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RT 1.8 16V',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041349/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Sedan RT 1.8',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041501/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RN 1.6',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041530/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Cabriolet RT 1.8 i',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041411/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Sedan RT 1.8 i',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041030/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Cabriolet RT 1.8',
+        1994,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211041168/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RN 1.6',
+        1994,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 19',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211040917/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 19-Hatch. RN 1.6',
+        1993,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211042913/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 21-GTX 2.2',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211043117/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 21-Sedan GTX 2.0',
+        1994,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211043639/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 21-Sedan TXE 2.2',
+        1994,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211042763/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 21-Nevada TXE 2.2',
+        1994,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/211043417/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault 21-Nevada GTX 2.2',
+        1994,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        '',
+        'Renault 21-',
+        1993,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        '',
+        'Renault 21-',
+        1993,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        '',
+        'Renault 21-',
+        1993,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        '',
+        'Renault 21-',
+        1993,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        '',
+        'Renault 21-',
+        1992,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        '',
+        'Renault 21-',
+        1992,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        '',
+        'Renault 21-',
+        1992,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault 21',
+        '',
+        'Renault 21-',
+        1992,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Boreal',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Boreal-Evolution 1.3 Turbo AT',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Boreal',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Boreal-Techno 1.3 Turbo AT',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Boreal',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Boreal-Iconic 1.3 Turbo AT',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Boreal',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Boreal-Evolution 1.3 Turbo AT',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Boreal',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Boreal-Iconic 1.3 Turbo AT',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Boreal',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Boreal-Techno 1.3 Turbo AT',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438830/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Zen 1.3 TB 16V Flex 5p Aut.',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438783/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 1.3 Turbo (flex) (Aut)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438806/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Iconic 1.3 Turbo (flex) (Aut)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438830/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Zen 1.3 TB 16V Flex 5p Aut.',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438783/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 1.3 Turbo (flex) (Aut)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438806/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Iconic 1.3 TB 16V Flex 5p Aut.',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49864679/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Life 1.6 16v SCe CVT (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3907/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Zen 1.6 16v SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3901/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 1.6 16v SCe CVT (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 2.0 16v (Aut) (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-BOSE 2.0 16V (Aut) (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49864958/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-BOSE 1.6 16v SCe CVT (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438830/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Zen 1.3 TB 16V Flex 5p Aut.',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438783/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 1.3 Turbo CVT',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438806/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Iconic 1.3 Turbo CVT',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49864679/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Life 1.6 16v SCe CVT (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3907/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Zen 1.6 16v SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3901/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 1.6 16v SCe CVT (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-BOSE 2.0 16V (Aut) (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 2.0 16v (Aut) (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49864958/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-BOSE 1.6 16v SCe CVT (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438783/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 1.3 Turbo CVT',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Zen 1.3 TB 16V Flex (Aut.)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/63438806/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Iconic 1.3 Turbo CVT',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/390972/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Life 1.6 16v SCe CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/356227/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Life 1.6 CVT (Flex) (PCD)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3907/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Zen 1.6 16v SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3901/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 1.6 16v SCe CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 2.0 16v (Aut) (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3901/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-BOSE 1.6 16v SCe CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 2.0 16V SCe CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-BOSE 2.0 16V (Aut) (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Zen 1.6 16V Flex (Aut.)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/356227/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Life 1.6 16v SCe CVT (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3907/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Zen 1.6 16v SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3922/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Zen 1.6 16v SCe CVT (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3901/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 1.6 16v SCe CVT (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Intense 2.0 16v (Aut) (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/390972/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Life 1.6 16v SCe CVT (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/390972/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Life 1.6 CVT (Flex) (PCD)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Zen 1.6 16v SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Zen 1.6 16v SCe CVT (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Intense 1.6 16v SCe CVT (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Intense 2.0 16v (Aut) (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/390972/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Captur-Life 1.6 16v SCe CVT (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Zen 1.6 16v SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Zen 1.6 16v SCe CVT (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Intense 1.6 16v SCe CVT (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Captur',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Captur-Intense 2.0 16v (Aut) (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Authentique 1.0 16V (Flex) 2p',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Expression 1.0 16V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-RL/ JP/Auth.1.0/1.0 Hi-Power 16V',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 16V',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Authentique 1.0 16V (Flex) 2p',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Authentique 1.0 16V (Flex) 4p',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Expression 1.0 16V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-RL/ JP/Auth.1.0/1.0 Hi-Power 16V',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-1.0 Hi-Power 16V',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 16V',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN/ALIZÉ/EXPR./1.0 HI-POWER 16V',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Authentique 1.0 16V (Flex) 2p',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Expression 1.0 16V (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-RL/ JP/Auth.1.0/1.0 Hi-Power 16V',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Authentique 1.0 16V (Flex) 4p',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 16V',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Authentique 1.0 16V (Flex) 2p',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Authentique 1.0 16V (Flex) 4p',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Expression 1.0 16V (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-RL/ JP/Auth.1.0/1.0 Hi-Power 16V',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-1.0 16V (flex) 2p',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-1.0 16V (flex) 4p',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hi-Flex 1.0 16V 3p',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus 1.0 16V (flex) 2p',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus 1.0 16V (flex) 4p',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hi-Flex 1.0 16V',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus Internet 1.0 16V (flex) 2p',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus Internet 1.0 16V (flex) 4p',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus 1.0 16V (flex) 2p',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus 1.0 16V (flex) 4p',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus Internet 1.0 16V (flex) 4p',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus Internet 1.0 16V (flex) 2p',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus 1.0 16V (flex) 2p',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Get Up 1.0 16V (flex) 2p',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus 1.0 16V (flex) 4p',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Get Up 1.0 16V (flex) 4p',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique Plus 1.0 8V 4p',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Campus 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique Plus 1.0 8V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V 4p',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V (flex) 4p',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V (flex) 4p',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Air 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique Plus 1.0 8V 4p',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique Plus 1.0 8V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V 4p',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V (flex) 4p',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V (flex) 4p',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Série Limitada Air 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V (flex) 4p',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.0 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique Plus 1.0 8V 4p',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique Plus 1.0 8V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V 4p',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V (flex) 4p',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. GetUp 1.0 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 8V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V (série limitada)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. GetUp 1.0 16V (flex) 4p',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V (série limitada) 4p',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V 4p',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 8v 4p',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V (flex) 4p',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique Hi-Power 1.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.0 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression Hi-Power 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique Plus 1.0 8V 4p',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique Plus 1.0 8V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V 4p',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V 4p',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 8V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.0 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 8v 4p',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V 4p',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.6 16V (série limitada)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V (flex) 4p',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.6 16V (série limitada) 4p',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.0 16V 4p',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V 4p',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V 4p',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 8V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 8v 4p',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V 4p',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Dynamique 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 8V Yahoo',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 8V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 8V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V Jovem Pan',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 8V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Authentique 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V Alize',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Expression 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V Tech. Run',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.6 16V Alize',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. Privilége 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. SI 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch RL 1.0 8V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.6 16V Alize',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V Alize',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.6 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 8V Yahoo',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 8V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V Jovem Pan',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.6 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V Tech. Run',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. SI 1.6 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 16V Tech. Run',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.6 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. 1.0 8V Yahoo',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.0 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. SI 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.0 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. SI 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.6 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.6 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.0 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.0 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.6 (importado)',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 8V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.6',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RN 1.6 (importado)',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 8V',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RL 1.6 (importado)',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Clio-Hatch. RT 1.6 (importado)',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.0 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.0 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Plug 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.0 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.0 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique Hi-Power 1.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége Hi-Power 1.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.0 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Egeus 1.0 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Alizé Hi-Power 1.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Egeus 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.0 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Alizé 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression Hi-Power 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Alizé Hi-Power 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.0 16V O Boticario',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Alizé 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Rl 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique Hi-Power 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége Hi-Power 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.6 16V O Boticario',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.6 16V (flex) (série limitada)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.6 16V O Boticario',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        '',
+        'Renault Clio Sedan-',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Rl 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.6 16V O Boticario',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Rl 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Authentique 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.0 16V Alize',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.0 16V O Boticario',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Expression 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.6 16V Alize',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-Privilége 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.0 16V Alize',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.6 16V O Boticario',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.6 16V Alize',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RL 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-1.0 16V O Boticario',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.6 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.6 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RN 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.0 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Clio Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Clio Sedan-RT 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784755/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex) (Aut)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784785/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.3 16V (Flex) (Aut)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784785/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.6 16V (Flex) (Aut)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784834/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784755/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex) (Aut)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784785/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.6 16V (Flex) (Aut)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784755/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex) (Aut)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784785/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.6 16V (Flex) (Aut)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784834/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784605/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Zen 1.6 16V (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784834/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784755/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex) (Aut)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784785/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.6 16V (Flex) (Aut)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784808/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.3 Turbo (Flex) (Aut.)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784605/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Zen 1.6 16V (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784586/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Zen 1.6 16V (Flex) (Aut)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784834/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784618/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex) (Aut)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784662/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.6 16V (Flex) (Aut)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784733/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.3 Turbo (Flex) (Aut.)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037205/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Zen 1.6 16V (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037368/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Zen 1.6 16V (Flex) CVT',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037442/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex) CVT',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037467/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.6 16V (Flex) CVT',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784808/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.3 Turbo (Flex) (Aut.)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037205/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Zen 1.6 16V (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037368/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Zen 1.6 16V (Flex) CVT',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037442/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex) CVT',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037467/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.6 16V (Flex) CVT',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/390971/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16v Authentique CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V GoPro (Aut) (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/4705/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16V Expression (flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/4712/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16V Expression CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V GoPro 4x4 (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/4683/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16V SCe Dynamique CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/4744/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-2.0 16V Dynamique 4x4 (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/4677/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/4725/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-2.0 Dynamique',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/4745/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-2.0 16V Dynamique (Aut) (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784662/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Iconic 1.6 16V (Flex) (Aut)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256784618/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Intense 1.6 16V (Flex) (Aut)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-Zen 1.6 16V Flex (Mec.)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/50037205/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-Zen 1.6 16V (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/390971/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16v Authentique CVT (Flex) (PCD)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V GoPro (Aut) (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3955/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16V Expression (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3962/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16V Expression CVT (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3939/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3945/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16V SCe Dynamique CVT (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Aut) (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique 4x4 (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/390971/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16v Authentique CVT (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/390971/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster-1.6 16v Authentique CVT (Flex) (PCD)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Expression (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Expression CVT (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V SCe Dakar II (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V SCe Dynamique CVT (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Aut) (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dakar II (Flex) (Aut)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique 4x4 (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dakar II 4x4 (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-Dynamique 2.0 Flex 16V (Aut.)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Expression (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V SCe Dakar II (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Aut) (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique 4x4 (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dakar II (Flex) (Aut)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dakar II 4x4 (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Expression (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Dakar (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Aut) (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dakar 4x4 (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique 4wd (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 Hi-Flex 16V Mec.',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Expression (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-Outdoor 1.6 16V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Tech Road II (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Aut) (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Tech Road II (Aut)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique 4wd (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Tech Road II 4wd (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-TECHROAD 1.6 Hi-Flex 16V (Mec.)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Expression (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Tech Road (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V  Tech Road (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Tech Road II (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Tech Road (Aut) (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)(Aut)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Tech Road II (Aut) (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique 4x4 (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Tech Road II 4x4 (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Expression (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Tech Road (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V  Tech Road (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)(Aut)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Tech Road (Aut) (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique 4x4 (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Expression (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-1.6 16V Dynamique (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique (Flex)(Aut)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png',
+        'Renault Duster-2.0 16V Dynamique 4x4 (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/55234794/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Express (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/55234773/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Expression (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8001/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-2.0 16V Dynamique (Aut) (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54374514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Dynamique (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54374589/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-2.0 16V Dynamique (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/55234794/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Express (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8001/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-2.0 16V Dynamique (Aut) (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/55234773/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Expression (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/7986/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Dynamique (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-2.0 16V Dynamique (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-1.6 16V SCe Expression (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/7978/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Express (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/7986/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Dynamique (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8000/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-2.0 16V Dynamique (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8001/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-2.0 16V Dynamique (Aut) (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/7978/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Express (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/7979/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Expression (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/7986/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Dynamique (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8000/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-2.0 16V Dynamique (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8001/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-2.0 16V Dynamique (Aut) (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-1.6 16V SCe Expression (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-1.6 16V SCe Dynamique (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/7979/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Express (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-2.0 16V Dynamique (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-2.0 16V Dynamique (Aut) (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-1.6 16V SCe Expression (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-1.6 16V SCe Dynamique (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-2.0 16V Dynamique (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/7979/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Oroch-1.6 16V SCe Express (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-2.0 16V Dynamique (Aut) (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-1.6 16V SCe Expression (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-1.6 16V SCe Dynamique (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Oroch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/picape.png',
+        'Renault Duster Oroch-2.0 16V Dynamique (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361622/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Intense 1.6',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361622/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Intense 1.6',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319362186/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Intense 1.6 (Aut.)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361980/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Iconic 1.6',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361197/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Iconic 1.3',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361622/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Intense 1.6',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319362186/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Intense 1.6 (Aut.)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361980/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Iconic 1.6',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361197/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Iconic 1.3',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361622/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Intense 1.6',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319362186/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Intense 1.6 (Aut.)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361980/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Iconic 1.6',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Duster Plus',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/319361197/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Duster Plus-Iconic 1.3',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique Plus X-Tronic (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Privilege X-Tronic (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-Sed. Dynamique 2.0 16V FLEX (Aut.)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique Plus X-Tronic (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Privilege X-Tronic (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-Sed. Dyn. Plus 2.0 16V FLEX (Aut.)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique X-Tronic (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique Plus X-Tronic (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V GT Line X-Tronic (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Privilege X-Tronic (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique X-Tronic (Aut) (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique Plus X-Tronic (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Privilege X-Tronic (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-Sed. Dyn. Plus 2.0 16V FLEX (Aut.)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-1.6 16V Expression (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique X-Tronic (Aut) (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V GT Line X-Tronic',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Privilege (Aut) (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V GT Turbo',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-1.6 16V Expression (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Aut) (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Privilege (Aut) (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V GT Turbo',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Aut) (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Privilege (Aut) (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-Sedan Expres. 1.6 16V FLEX (Mec.)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Dynamique (Aut) (Flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Fluence',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Fluence-2.0 16V Privilege (Aut) (Flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Grand Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Grand Scenic-Grand Scénic Dynamique 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Grand Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Grand Scenic-Grand Scénic Dynamique 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Advanced 1.6 SCe (Flex)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Advanced 1.6 SCe (Flex)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Advanced 1.6 SCe (Flex)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Advanced 1.6 SCe (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/286756963/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kangoo-E-Tech',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/230550370/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kangoo-Z.E. Maxi Furgão (Elétrico)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/230550370/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kangoo-Z.E. Maxi Furgão (Elétrico)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/230550370/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kangoo-Z.E. Maxi Furgão (Elétrico)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex) (7 lug.)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex) (7 lug.)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex) (7 lug.)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex) (7 lug.)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex) (7 lug.)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex) (7 lug.)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Expression 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex) (7 lug.)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex) (7 lug.)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Expression 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Expression 1.6 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Expression 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Sportway 1.6 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Expression 1.6 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RT 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RT 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Expression 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Authentique 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Expression 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RT 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RT 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 8V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.6 8V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RL 1.0 16V Yahoo',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.6 8V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 16V Yahoo',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RT 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RT 1.6 8V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RT 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.6 8V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.0 8V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 8V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.0 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.6 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-RN 1.6 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo-Rl 1.6 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-PRO',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-PRO',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/62059/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kangoo Express-1.6 16V (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/62058/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kangoo Express-1.6 16V Com Porta Lateral (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Com Porta Lateral (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Com Porta Lateral (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Com Porta Lateral(Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Com Porta Lateral(Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Com Porta Lateral(Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Com Porta Lateral(Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex (com porta lateral corr.)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex (com porta lateral corr.)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex (com porta lateral corr.)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex (com porta lateral corr.)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex (com porta lateral corr.)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex Pack Clim',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex (com porta lateral corr.)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6 16V Hi-Flex',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.6 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.0 8V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.0 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-Rl 1.6 16V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kangoo Express',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Kangoo Express-1.6',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Evolution 1.0 Turbo AT',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Evolution 1.0 Turbo MT',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Techno 1.0 Turbo AT',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Authentic 1.0 Turbo AT',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Iconic 1.0 Turbo AT',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Evolution 1.0 Turbo MT',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Evolution 1.0 Turbo AT',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Techno 1.0 Turbo AT',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kardian',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/335909491/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kardian-Premiere Edition 1.0 Turbo AT',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Koleos',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Koleos-E-TECH',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140586/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Intense 1.0',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140298/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Iconic 1.0',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140586/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Intense 1.0',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140298/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140586/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Intense 1.0 12v SCe (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140298/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0 12v SCe (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140586/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Intense 1.0 12v SCe (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95140298/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0 12v SCe (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021119/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Life 1.0 12v SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021135/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021139/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Intense 1.0 12v SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021131/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0 12v SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021119/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Life 1.0 12v SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021135/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021139/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Intense 1.0 12v SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021131/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0 12v SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/117302038/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/117265543/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Life 1.0 12v SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/117256084/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-ConnecTV 1.0 12v SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/6873/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Intense 1.0 12v SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/117264164/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/6874/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Life 1.0 12v SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/6872/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/6873/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Intense 1.0 12v SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8943/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0 12v SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Kwid-Life 1.0 12v SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Kwid-Intense 1.0 12v SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8943/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0 12v SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/6872/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Zen 1.0 12v SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8943/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-Outsider 1.0 12v SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49021131/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid-EXCLUIR',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid E-Tech',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256794425/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid E-Tech-Techno',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid E-Tech',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256794425/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid E-Tech-Intense',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid E-Tech',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256794425/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid E-Tech-Intense',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Kwid E-Tech',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256794425/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Kwid E-Tech-Intense',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Hatch. Privilége 3.0 V6',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Hatch. Privilége V6 3.0 24V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Hatch. Privilége V6 3.0 24V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RT 2.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-V6 3.0',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-RXE 2.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RXE 2.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RXE 2.0 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RT 2.0 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RXE 2.0 16V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-RXE S 2.0 16V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-V6 3.0',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RT 2.0 16V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RT 2.0 16V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-RXE S 2.0 16V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RXE 2.0 16V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RXE 2.0 16V 7L',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-V6 3.0',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-RT 2.0 8V',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-RXE 2.0 16V',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada 2.0 16V',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RXE 2.0 16V',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-V6 3.0',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Nevada RXE 2.0 16V',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna-Sedan RXE 2.0 8V',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna',
+        '',
+        'Renault Laguna-',
+        1994,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna Grand Tour-Privilége 3.0 V6',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna Grand Tour-Laguna Touring Grand Tour Privilége V6 3.0 24V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Laguna Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Laguna Grand Tour-Laguna Touring Grand Tour Privilége V6 3.0 24V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/274315031/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.0',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/274315103/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Life 1.0',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/274315031/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.0',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104675/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.6 16V SCe (Flex) (Aut)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256795021/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Life 1.0 12V SCe (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256795064/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.0 12V SCe (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478914/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Intense 1.6 16V SCe (Flex) (Aut)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478914/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Iconic 1.6 16V SCe (Flex) (Aut)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104675/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.6 16V SCe (Flex) (Aut)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104619/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Life 1.0 12V SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104653/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.6 16V SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104631/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.0 12V SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478914/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Intense 1.6 16V SCe (Flex) CVT',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478914/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Iconic 1.6 16V SCe (Flex) CVT',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104619/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Life 1.0 12V SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104631/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.0 12V SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104675/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.6 16V SCe (Flex) CVT',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49104653/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.6 16V SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77820497/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77820680/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478905/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Life 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478907/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77822641/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression Pack Avantage 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77824809/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478914/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Intense 1.6 16V SCe (Flex) CVT',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478910/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478910/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Zen 1.6 16V SCe (Flex) CVT',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77820591/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression Pack Avantage 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1478914/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Iconic 1.6 16V SCe (Flex) CVT',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77813009/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 12V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77812841/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 12V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77812481/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression Pack Avantage 1.0 12V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77804522/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77810426/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77804594/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression Pack Avantage 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Expression Easy R Flex 1.6 16V',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77803691/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 12V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77803805/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 12V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77804402/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression Pack Avantage 1.0 12V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77804311/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77803977/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77804175/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 16V SCe Easy-R (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77804450/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression Pack Avantage 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77804105/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 16V SCe Easy-R (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77802673/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 16V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77803561/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77800171/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 12V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77801396/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 12V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77803244/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77797805/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 16V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77799180/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression Pack Avantage 1.6 8V Hi-Power (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77803433/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V Easy-r (Aut)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77796532/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 16V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77798380/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 16V SCe Easy-R (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77797015/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 16V SCe Easy-R (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Dynamique Flex 1.6 16V',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Dynamique EasyR Flex 1.6',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Dynamique Flex 1.6',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783858/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique Plus 1.0 16V (flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783812/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783899/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77795521/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783978/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 8V (flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77795572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V Easy-r (Aut)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77795391/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 8V Easy-r (flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77782911/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783002/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783231/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V (flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783138/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 8V',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783505/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V Easy-r (Aut)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783602/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-SL Exclusive 1.6 8V',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783362/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 8V Easy-r (Aut)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77783732/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-SL Exclusive Easy-R 1.6 8V',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77782635/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77782752/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77782833/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V (flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77782720/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Dynamique 1.6 8V',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Dynamique EasyR Flex 1.6',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77782290/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77782444/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77781976/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V Hi-Torque (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77782543/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 16V (Flex) (aut)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77773033/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77778306/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77781463/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Avantage 1.0 16V (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77781393/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V Hi-Torque (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77772943/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 16V (Flex) (aut)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77772070/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77772147/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77772278/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V Hi-Torque (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77772328/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Serie Limitada Up 1.0 16V (Hi-Flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77763407/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77771750/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77771911/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Expression 1.6 8V Hi-Torque (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77742087/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Up 1.0 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/77771965/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Logan-Privilège 1.6 8V Hi-Torque',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Privilège 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Authentique 1.6 8V Hi-Torque (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Up 1.0 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Expression 1.6 8V Hi-Torque (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Privilège 1.6 8V Hi-Torque',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Privilège 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Authentique 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Expression 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Authentique 1.6 8V Hi-Torque (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Expression 1.6 8V Hi-Torque (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Privilège 1.6 8V Hi-Torque',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Logan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Logan-Privilège 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380782/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Vitré L3H2',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797433/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Minibus Executive L3H2',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797481/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Furgão L2H2',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Master 2.3 dCi Furgão 16V Diesel',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Pro 16V Diesel',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797471/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Furgão L3H2',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380782/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Vitré L3H2',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797433/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Minibus Executive L3H2',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Master 2.3 dCi Furgão 16V Diesel',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Extra Pro 16V Diesel',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Furgão L1H1',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Pro 16V Diesel',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Grand Pro 16V Diesel',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797481/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Furgão L2H2',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797471/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Furgão L3H2',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380782/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Vitré L3H2',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256798098/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Vitré L2H2 2.3',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797433/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Minibus Executive L3H2',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Furgão L1H1',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Grand Pro 16V Diesel',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Pro 16V Diesel',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Extra Pro 16V Diesel',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95875679/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Furgão L2H2 2.3',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797481/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Furgão L2H2',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797471/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Furgão L3H2',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256798098/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Vitré L2H2 2.3',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256797433/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Minibus Executive L3H2',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Pro 16V Diesel',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Extra Pro 16V Diesel',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Master 2.3 dCi Grand Pro 16V Diesel',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256798301/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Furgão L1H1',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256798175/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Furgão L2H2',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256798136/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Furgão L3H2',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256798098/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Vitré L2H2 2.3',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/256798198/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Minibus Executive 16L L3H2',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/95876466/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Minibus Executive L3H2',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380024/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Vitré L3H2 2.3',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380294/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Vitré L3H2 2.3',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380456/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Vitré L2H2',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380651/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Vitré L2H2 2.3',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Furgão L1H1',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380446/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Furgão L2H2',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380514/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Furgão L3H2',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380782/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Vitré L3H2',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379931/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Minibus Executive L3H2',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380024/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Vitré L3H2 2.3',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380294/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Vitré L3H2 2.3',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380651/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Vitré L2H2 2.3',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380255/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Furgão L1H1',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380126/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Grand Furgão L2H2',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380213/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Furgão L3H2',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380782/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Extra Vitré L3H2',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379931/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-Minibus Executive L3H2',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380240/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-L1H1 Furgão',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380048/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L2H2 Grand Furgão',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380200/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L3H2 Extra Furgão',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379975/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L2H2 Grand Vitré',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54380174/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L3H2 Extra Vitré',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379929/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Executive',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379735/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L2H2 Furgão',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379735/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L1H1 Furgão',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379765/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L2H2 Grand Furgão',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/62189/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L3H2 Extra Furgão',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/62193/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L2H2 Grand Vitré',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/62114/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L3H2 Extra Vitré',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/62199/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L2H2 Minibus 16L Executive',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/62199/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Executive',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L1H1 Furgão',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Furgão',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16v dCi L1H1 STD Médio',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Vitré',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Furgão',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Vitré',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/62197/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Executive',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L1H1 Furgão',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Furgão',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Vitré',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Furgão',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Vitré',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Minibus 16L standard',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Minibus 20L Escolar',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Executive',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L VIP',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L1H1 Furgão',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Furgão',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Vitré',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Furgão',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Vitré',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Minibus 16L Standard',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Minibus 20L Escolar',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Série Lmtd',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Executive',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L VIP',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L1H1 Vitré',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L1H1 Furgão',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Furgão',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Vitré',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Furgão',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Vitré',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Minibus 16L Standard',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Minibus 20L Escolar',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Executive',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V L3H2  Minibus 16L Série Lmtd',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L VIP',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 dCi STD Longo 16L (Diesel)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L1H1 Furgão',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-L1H1 Vitré',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Furgão',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L2H2 Grand Vitré',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Furgão',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Extra Vitré',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-L2H2 Minibus 16L Standard',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-L2H2 Minibus 20L Escolar',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-L3H2 Minibus 16L Standard',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Standard',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-L3H2 Minibus 16L Executive',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 16V dCi L3H2 Minibus 16L Pack Clim',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-L3H2 Minibus 16L VIP',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 dCi Executive Longo 16L Dies',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao 2.5 dCi L1H1',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao Vitre 2.5 dCi L1H1',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao 2.5 dCi L2H2',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao Vitre 2.5 dCi L2H2',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao 2.5 dCi L3H2',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao Vitre 2.5 dCi L3H2',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus 2.5 dCi L2H2 16L',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Executivo 115cv 16L Dies',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 dCi VIP Longo 16L (Diesel)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Escolar 115cv 16/19L (Dies)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 dCi STD Longo 16L (Diesel)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 dCi STD Médio 16L Diesel',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 dCi Executive Longo 16L Dies',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.3 dCi STD Médio Esco. 20L (Dies.)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao Vitre 2.5 dCi L1H1',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao 2.5 dCi L1H1',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao 2.5 dCi L2H2',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao Vitre 2.5 dCi L2H2',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao 2.5 dCi L3H2',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao Vitre 2.5 dCi L3H2',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus 2.5 dCi L2H2 16L',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Vitré 115cv Longa Diesel',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Vitré 115cv Curto Diesel',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Executivo 115cv 16L Dies',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (curto) 2.5 16V',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (medio) 2.5 16V',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (longo) 2.5 16V',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus 13 lugares',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus 16 lugares',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Executivo 115cv 16L Dies',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Escolar 115cv 16/19L (Dies)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (curto) 2.5 16V',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (medio) 2.5 16V',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (longo) 2.5 16V',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus 13 lugares',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus 16 lugares',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Executivo 115cv 16L Dies',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-2.5 dCi Escolar 115cv 16/19L (Dies)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (curto) 2.5 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L1H2 2.5 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (medio) 2.5 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (longo) 2.5 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L1H1 13 lugares',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L1H1 16 lugares',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 13 lugares',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 16 lugares',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 16 lugares Pack Clim',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (curto) 2.5 16V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L1H2 2.5 16V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (medio) 2.5 16V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão (longo) 2.5 16V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L1H1 16 lugares',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 13 lugares',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L1H1 13 lugares',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 16 lugares',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L1H1 2.5 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L1H2 2.5 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-L3H2 Minibus 2.5 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L2H2 2.5 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L3H2 2.5 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L1H1 13 lugares',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 13 lugares Pack Clim',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L1H1 16 lugares',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 13 lugares',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 16 lugares',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 16 lugares Pack Clim',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-L2H1 2.5 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L1H1 2.5 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L1H2 2.5 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L2H2 2.5 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L3H2 2.5 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 13 lugares 2.5 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 16 lugares 2.5 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L3H2 2.8',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L1H1 2.5 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L1H2 2.5 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 2.8 16L',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L2H2 2.5 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgão L3H2 2.5 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 16 lugares 2.5 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L1H2 2.8',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L1H1 2.8',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L1H2 2.8',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L1H1 2.8 TDi',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L1H2 2.8 TDi',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 2.8 16L TDi',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L2H2 2.8 TDi',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L3H2 2.8 TDi',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L3H2 2.8',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L1H2 2.8',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L1H1 2.8',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L1H1 2.8 TDi',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Furgao L2H2 2.8 TDi',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master-Minibus L2H2 2.8 16L TDi',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/153194915/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Cabine L2H1 2.3',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/153194915/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Cabine L2H1 2.3',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/153194915/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Chassi Cabine L1H1 2.3 16V dCi',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/153194915/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Chassi Cabine L1H1 2.3 16V dCi',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/153194915/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Cabine L2H1 2.3',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/153194915/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Chassi Cabine L1H1 2.3 16V dCi',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379670/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Master 2.3 16V dCi L2H1 Chassi Cabine',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379668/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Chassi Cabine L1H1 2.3 16V dCi',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379670/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Cabine 2.3 dCi',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379668/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Chassi Cabine L1H1 2.3 16V dCi',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54379670/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Master Chassi-Master 2.3 16V dCi L2H1 Chassi Cabine',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Master 2.3 16V dCi L2H1 Chassi Cabine',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Master 2.3 16V dCi L2H1 Chassi Cabine',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Master 2.3 16V dCi L2H1 Chassi Cabine',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Master 2.3 16V dCi L2H1 Chassi Cabine',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Master 2.3 16V dCi L2H1 Chassi Cabine',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Master 2.3 16V dCi L2H1 Chassi Cabine',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cabine L2H1',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Master Chassi',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Master Chassi-Cab L2H1 2.8',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Cabriolet',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Cabriolet-Mégane Coupé Cabriolet Dynamique 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Cabriolet',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Cabriolet-Mégane Coupé Cabriolet Dynamique 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane E-Tech',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/283922684/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Megane E-Tech-EV60',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 1.6 16V (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 1.6 16V (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Expression 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V (aut)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Expression 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Extreme 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Extreme 2.0 16V',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Extreme 2.0 16V (aut)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V (aut)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Privilège 2.0 16V (aut)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Extreme 2.0 16V (Mec.)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Megane G. Tour Extreme Hi-Flex 1.6 (Mec.)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Extreme 2.0 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Extreme 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Expression 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Extreme 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Privilège 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Privilège 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Expression 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Grand Tour',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/wagon.png',
+        'Renault Megane Grand Tour-Mégane Grand Tour Dynamique 2.0 16V (aut)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. Expression 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. Expression 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RT 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RT 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane RT 1.6 16V Alize',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RXE 1.6 16V Egeus',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RXE 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RN 1.6 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RT 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RXE 2.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RXE 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RN 1.6 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RT 1.6 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RXE 2.0 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RN 1.6 8V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RT 1.6 8V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Hatch',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Megane Hatch-Mégane Hatch. RXE 2.0 8V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V (aut)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Expression 2.0 16V Aut.',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 2.0 16V',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 2.0 16V (aut)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Extreme 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Extreme 2.0 16V',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Extreme 2.0 16V (aut)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V (aut)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilège 2.0 16V (aut)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-EXTREME 2.0 16V (Aut.)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-EXTREME 2.0 16V (Mec).',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-EXTREME HI-Flex 1.6 16V Mec.',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Extreme 2.0 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Extreme 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Extreme 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 2.0 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilège 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilège 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 2.0 16V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V (aut)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Expression 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Dynamique 2.0 16V (aut)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilége 2.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilége 2.0 16V (aut)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilége 2.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilége 2.0 16V (aut)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilége 2.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan Privilége 2.0 16V (aut)',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RXE 2.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RT 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RT 1.6 16V Alize',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RXE 2.0 16V Egeus',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RXE 2.0 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RT 2.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RT 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RXE 2.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RT 2.0 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RXE 2.0 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RT 2.0 8V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RXE 2.0 8V',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RT 2.0 8V',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Megane Sedan',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Megane Sedan-Mégane Sedan RXE 2.0 8V',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112661908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Pro 1.6 (Flex)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112662932/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Intense 1.6 (Flex)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112661908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Iconic 1.6 (Flex)',
+        2027,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112661908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Pro 1.6 (Flex)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112662932/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Iconic 1.6 (Flex)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112662932/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Intense 1.6 (Flex)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112663469/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Outsider 1.3 (Flex) (Aut.)',
+        2026,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112661908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Pro 1.6 (Flex)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112662932/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Iconic 1.6 (Flex)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112662932/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Intense 1.6 (Flex)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112663469/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Outsider 1.3 (Flex) (Aut.)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112661908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Pro 1.6 (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112662932/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Intense 1.6 (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112663469/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Outsider 1.3 TCe (Flex) (Aut.)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112661908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Pro 1.6 (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112662932/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Intense 1.6 (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112663469/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Outsider 1.3 TCe (Flex) (Aut.)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112661908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Pro 1.6 Flex 16V Mec.',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112662932/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Intense 1.6 Flex 16V Mec.',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Oroch',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/112663469/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Oroch-Outsider 1.3Tce Flex Aut.',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Safrane',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Safrane-RXE 2.0',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/258483300/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT line/RLIN Flex 1.0 12v 5p',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/258483300/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-S Edition 1.0 12v (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79597001/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79597146/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Intense 1.6 16V SCe (Aut) (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596378/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.6 16V SCe (Flex) (Aut)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596498/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.6 16V SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596610/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Life 1.0 12V SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596664/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.0 12V SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596786/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.0 12v (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596865/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V SCe (Aut) (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79588746/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-S Edition 1.0 12v (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596726/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596237/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79591728/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Intense 1.6 16V SCe (Aut) (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79590278/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.0 12V SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79590810/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.6 16V SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79589452/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Life 1.0 12V SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79589780/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.6 16V SCe (Flex) (Aut)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79588202/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-S Edition 1.0 12v (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596401/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.0 12v (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596308/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V SCe (Aut) (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596153/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79596726/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS Finale 2.0 16V (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79588879/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79587550/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79587602/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79587860/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Life 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79584459/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.0 12v (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79587941/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.0 12V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79587693/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79588003/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79588087/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79588052/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.6 16V SCe (Flex) (Aut)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79587793/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79589182/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Intense 1.6 16V SCe (Aut) (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Sandero-GT line Hi-Flex 1.6 8V',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79547179/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 12V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79552878/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.0 12v (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79548001/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 12V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79549316/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Vibe 1.0 12V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79550282/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79552562/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79551399/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79552657/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique Easy-r 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79552777/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.6 16V SCe (Flex) (Aut)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79552151/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79552505/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V Racing Spirit (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79552978/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Zen 1.0 12V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79537939/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 12V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79537993/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 12V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79538090/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Vibe 1.0 12V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79544957/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79538553/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79545101/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression Easy-r 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79545327/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79544539/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique Easy-r 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79546384/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79546524/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V Racing Spirit (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79537797/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique Hi-Power 1.0 16V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79537449/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79535537/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 12V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79535744/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 12V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79535888/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Vibe 1.0 12V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79536345/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79533864/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 16V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79535031/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression Pack Avantage 1.6 8V Hi-Power',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79536150/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 8V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79537106/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression Easy-r 1.6 8V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79536566/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 8V Easy-r (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79534463/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 16V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79534334/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression Easy-r 1.6 16V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79534779/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79534583/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique Easy-r 1.6 16V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79535381/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Sandero-Expression EasyR Flex 1.6 16V',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Sandero-GT line Hi-Power 1.6 8V',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79523963/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique Plus Hi-Power 1.0 16V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79523774/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique Hi-Power 1.0 16V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79524062/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79524356/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79524139/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 8V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79527884/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression Easy-r 1.6 8V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79530484/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line  1.6 8V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79532165/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 8V Easy-r (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79528842/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79517038/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique HIi-Power 1.0 16V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79517071/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79517181/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79517140/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 8V',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79517347/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression Easy-r 1.6 8V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79517322/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 8V Easy-r (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79517376/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-RS 2.0 16V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79507463/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 16V (flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79507840/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79509633/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Tech Run 1.0 16V (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79508141/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79508991/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 8V (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79509371/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 8V (flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79516968/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Dynamique 1.6 8V',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79508033/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilege 1.6 16V (Flex)(aut)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79505780/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 16V (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79506653/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79507012/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79507304/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 8V (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79507206/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 8V Hi-Torque (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/79506798/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilege 1.6 16V (Flex)(aut)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78576271/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 16V (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78576361/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78576437/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78584928/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 8V Hi-Torque (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78584986/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilege 1.6 16V (Flex)(aut)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Sandero-GT line Hi-Flex 1.6 8V',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78569836/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78575064/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78575812/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78576224/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 8V Hi-Torque (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78576142/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-GT Line 1.6 16V (Flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78567787/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78552477/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.6 8V Hi-Torque (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78568680/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78569246/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78567754/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Vibe 1.6 8V Hi-Torque (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78567636/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 8V Hi-Torque (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/78569558/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918743/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918678/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.6 8V Hi-Torque (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918025/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918276/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918866/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Vibe 1.6 8V Hi-Torque (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918716/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 8V Hi-Torque (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918640/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918804/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège Nokia 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919146/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège Nokia 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918908/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918956/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Authentique 1.6 8V Hi-Torque (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918926/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.0 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202918996/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Expression 1.6 8V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919105/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 8V Hi-Torque (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919061/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero-Privilège 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Sandero Stepway-Easy R Flex 1.6 16V',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919678/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Expression 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919326/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919572/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V SCe Easy-R (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8008/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Dynamique 1.6 16V SCe (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919633/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Dynamique 1.6 16V SCe Easy-R (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1166552/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Iconic 1.6 16V SCe Easy-R (Flex)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919904/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Expression 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919863/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919827/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V SCe Easy-R (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8008/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Dynamique 1.6 16V SCe (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919889/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Dynamique 1.6 16V SCe Easy-R (Flex)',
+        2018,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202920075/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 8V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202920050/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Rip Curl 1.6 8V (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919919/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V SCe (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919974/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 8V Easy-R (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919997/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Rip Curl 1.6 8V Easy-R (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202933933/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V SCe Easy-R (Flex)',
+        2017,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202933956/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 8V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934015/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Rip Curl 1.6 8V (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934048/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 8V Easy-R (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202933999/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Rip Curl 1.6 8V Easy-R (Flex)',
+        2016,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934106/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 8V (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934080/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 8V Easy-R (Flex)',
+        2015,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934204/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 8V (flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934181/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-TechRun 1.0 16V Hi-Flex (aut)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934243/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Tweed 1.6 8V (Flex)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934257/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V Hi-Flex (aut)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919771/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Tweed 1.6 16V (Flex) (Aut)',
+        2014,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934663/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Rip Curl 1.6 16V (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934701/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 8V (Flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934729/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V Hi-Flex (aut)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png',
+        'Renault Sandero Stepway-Hi-Flex 1.6 16V',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934735/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934562/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-Rip Curl 1.6 16V (Flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934756/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V Hi-Flex (aut)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934584/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V (Flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934599/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V (Flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Sandero Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202934611/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Sandero Stepway-1.6 16V (Flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Authentique 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Kids 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilège 1.6 16V (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Authentique 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilège 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Sportway 1.6 16V (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Hi-Flex/Express. 1.6',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Expression 1.6 Aut.',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilège 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Authentique 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Sportway 1.6 16V (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V (aut)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Authentique 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Kids 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Sportway 1.6 16V (flex)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége Plus 2.0 16V (aut)',
+        2008,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Authentique 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Kids 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (aut)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Sportway 1.6 16V (flex)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V (aut)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége Plus 2.0 16V (aut)',
+        2007,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Authentique 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Sportway 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V (flex)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (aut)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 2.0 16V (aut)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V (aut)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V (aut)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége Plus 2.0 16V (aut)',
+        2006,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 2.0 16V (aut)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Authentique 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic 1.6 16V Alize',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic 1.6 16V (flex) (série limitada)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (aut)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V (flex)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V (aut)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V (aut)',
+        2005,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége Plus 2.0 16V (aut)',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Authentique 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V (aut)',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 2.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V (aut)',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V (aut)',
+        2004,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V (aut)',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 2.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Expression 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Privilége 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 1.6 16V (nova série)',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Alize 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic Alize 2.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 2.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 1.6 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 2.0 16V (aut)',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 16V',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 16V (aut)',
+        2003,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 1.6 16V (nova série)',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 2.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 1.6 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 2.0 16V (aut)',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 2.0 16V Alize',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 16V (aut)',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 2.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 8V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 1.6 16V (nova série)',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 1.6 16V Alize',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 1.6 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 8V Egeus',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 2.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 1.6 16V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 8V',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 8V Egeus',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 1.6 16V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RT 2.0 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Scenic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Scenic-Scénic RXE 2.0 8V',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/258493449/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Zen 1.0 12V SCe (Flex)',
+        2025,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/258493449/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Zen 1.0 12V SCe (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/258493279/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Zen 1.6 16V SCe (Flex)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/258493486/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Iconic 1.6 16V SCe (Flex) (Aut)',
+        2024,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/258493353/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Zen 1.0 12V SCe (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49860143/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Zen 1.6 16V SCe (Flex)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/258493301/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Iconic 1.6 16V SCe (Flex) (Aut)',
+        2023,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919346/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Intense 1.6 16V SCe CVT (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49860143/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Zen 1.6 16V SCe (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49860661/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Iconic 1.6 16V SCe CVT (Flex)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919406/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Intense 1.6 16V SCe CVT (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49860143/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Zen 1.6 16V SCe (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/49860661/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Iconic 1.6 16V SCe CVT (Flex)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919434/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1166552/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Zen 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919509/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Intense 1.6 16V SCe CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/8008/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Dynamique 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919488/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Iconic 1.6 16V SCe CVT (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/202919543/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Dynamique 1.6 16V SCe Easy-R (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Stepway',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/1166552/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Stepway-Intense 1.6 16V SCe (Flex)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Privilège (flex)',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-Expression Hi-Flex 1.6',
+        2013,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Expression (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Privilège (flex)',
+        2012,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Expression (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 8V Expression Hi-Torque (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 8V Hi-Torque SL Conectividade',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Privilège (flex)',
+        2011,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 8V Expression Hi-Torque (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Expression (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Privilège (flex)',
+        2010,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Expression (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 8V Expression Hi-Torque (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Symbol',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Symbol-1.6 16V Privilège (flex)',
+        2009,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao Extra 2.0 (ch. curto)',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao Extra 2.0 (ch. curto)',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.0 (ch. curto)',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao Extra 2.0 (ch. curto)',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.0 (ch. curto)',
+        2000,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.1 (ch. longo)',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.2 (ch. curto)',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.2 (ch. longo)',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Van 2.2 (ch. curto)',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.1 (ch. longo)',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.2 (ch. curto)',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.2 (ch. longo)',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.2 (ch. longo)',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Van 2.2 (ch. curto)',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.1 (ch. longo)',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.2 (ch. curto)',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.1 (ch. longo)',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Van 2.2 (ch. curto)',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.2 (ch. curto)',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Trafic',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/furgao_van.png',
+        'Renault Trafic-Furgao 2.2 (ch. longo)',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.0 16V Pack',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-Initiale 1.0 16V',
+        2002,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.0 8V Pack',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-Initiale 1.0 16V',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.0 16V Pack',
+        2001,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2 MPI Pack',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2 MPI',
+        1999,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2 MPI Pack',
+        1998,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2',
+        1997,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2 MPI Pack',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-Easy 1.2',
+        1996,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-Easy 1.2',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2',
+        1995,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2',
+        1994,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Twingo',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/monovolume.png',
+        'Renault Twingo-1.2',
+        1993,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/59143251/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Zoe-Life 92cv (Elétrico)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/59143173/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Zoe-Intense (Elétrico)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Zoe-ZOE Zen (Elétrico)',
+        2022,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/59143251/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Zoe-Life (Elétrico)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/59143173/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Zoe-Intense (Elétrico)',
+        2021,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54311670/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Zoe-Intense 92cv (Elétrico)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54311668/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Zoe-Life (Elétrico)',
+        2020,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/3096642/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Zoe-Intense 92cv (Elétrico)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://image1.mobiauto.com.br/images/api/images/v1.0/54311668/transform/fl_progressive,f_webp,q_100,w_694',
+        'Renault Zoe-Life (Elétrico)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
+        ),
+(
+        'Renault Zoe',
+        'https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png',
+        'Renault Zoe-Ultimate 92cv (Elétrico)',
+        2019,
+        'CARRO',
+        (select m.id from marca_tipos mt 
+            join marcas m on m.id = mt.marca_id
+            join tipos t  on t.id = mt.tipo_id
+            where m.nome ilike '%Renault%' and t.nome = 'carro')
         );

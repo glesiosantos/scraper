@@ -1,0 +1,490 @@
+{
+  "tipo": "carro",
+  "marca": {
+    "nome": "Geely",
+    "logo": "https://image1.mobiauto.com.br/images/api/images/v1.0/64144089/transform/fl_progressive,f_webp,q_50,w_128,h_128"
+  },
+  "versoes": [
+    {
+      "tipo": "carro",
+      "modelo": "EC7",
+      "descricao": "1.8 CVVT GS",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ec7/2014/1-8-cvvt-gs",
+      "fichaTecnica": {
+        "mecanica": [
+          "Combustível:",
+          "Gasolina",
+          "Câmbio:",
+          "Manual",
+          "Tração:",
+          "Tração",
+          "Suspensão dianteira:",
+          "Suspensão tipo McPherson e dianteira com barra estabilizadora, roda tipo independente e molas helicoidal.",
+          "Suspensão traseira:",
+          "N/C",
+          "Freios dianteiros:",
+          "Quatro freios à disco com dois discos ventilados.",
+          "Freios traseiros:",
+          "N/C"
+        ],
+        "dimensoes": [
+          "Peso (kg):",
+          "1280",
+          "Ocupantes:",
+          "5"
+        ]
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX2",
+      "descricao": "EV",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex2/2026/ev",
+      "fichaTecnica": {
+        "mecanica": [
+          "Combustível:",
+          "Eletricidade",
+          "Câmbio:",
+          "Automática"
+        ],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX2",
+      "descricao": "Max",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex2/2026/max",
+      "fichaTecnica": {
+        "mecanica": [
+          "Combustível:",
+          "Eletricidade",
+          "Câmbio:",
+          "Automática"
+        ],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX2",
+      "descricao": "Pro",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex2/2026/pro",
+      "fichaTecnica": {
+        "mecanica": [
+          "Combustível:",
+          "Eletricidade",
+          "Câmbio:",
+          "Automática"
+        ],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX2",
+      "descricao": "Max",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex2/2025/max",
+      "fichaTecnica": {
+        "mecanica": [
+          "Combustível:",
+          "Eletricidade",
+          "Câmbio:",
+          "Automática"
+        ],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX2",
+      "descricao": "EV",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex2/2025/ev",
+      "fichaTecnica": {
+        "mecanica": [
+          "Combustível:",
+          "Eletricidade",
+          "Câmbio:",
+          "Automática"
+        ],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX5",
+      "descricao": "Max",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex5/2026/max",
+      "fichaTecnica": {
+        "mecanica": [
+          "Motorização:",
+          "Motor elétrico de 160kW",
+          "Combustível:",
+          "Eletricidade",
+          "Potência (cv):",
+          "218 (E)",
+          "Torque (kgf.m):",
+          "32.6 (E)",
+          "Velocidade máxima (km/h):",
+          "180 (E)",
+          "Tempo 0-100 (s):",
+          "7.1 (E)",
+          "Câmbio:",
+          "Automática",
+          "Tração:",
+          "Dianteira",
+          "Direção:",
+          "Elétrica",
+          "Suspensão dianteira:",
+          "McPherson",
+          "Suspensão traseira:",
+          "Multilink",
+          "Freios dianteiros:",
+          "Disco duplo, ABS",
+          "Freios traseiros:",
+          "Disco duplo, ABS"
+        ],
+        "dimensoes": [
+          "Altura (mm):",
+          "1670",
+          "Largura (mm):",
+          "1901",
+          "Comprimento (mm):",
+          "4615",
+          "Peso (kg):",
+          "1765",
+          "Entre-eixos (mm):",
+          "2750",
+          "Porta-Malas (L):",
+          "461",
+          "Ocupantes:",
+          "5"
+        ]
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX5",
+      "descricao": "Ultra",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex5/2026/ultra",
+      "fichaTecnica": {
+        "mecanica": [],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX5",
+      "descricao": "Pro",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex5/2026/pro",
+      "fichaTecnica": {
+        "mecanica": [
+          "Motorização:",
+          "Motor elétrico de 160kW",
+          "Combustível:",
+          "Eletricidade",
+          "Potência (cv):",
+          "218 (E)",
+          "Torque (kgf.m):",
+          "32.6 (E)",
+          "Velocidade máxima (km/h):",
+          "180 (E)",
+          "Tempo 0-100 (s):",
+          "6.9 (E)",
+          "Câmbio:",
+          "Automática",
+          "Tração:",
+          "Dianteira",
+          "Direção:",
+          "Elétrica",
+          "Suspensão dianteira:",
+          "McPherson",
+          "Suspensão traseira:",
+          "Multilink",
+          "Freios dianteiros:",
+          "Disco duplo, ABS",
+          "Freios traseiros:",
+          "Disco duplo, ABS"
+        ],
+        "dimensoes": [
+          "Altura (mm):",
+          "1670",
+          "Largura (mm):",
+          "1901",
+          "Comprimento (mm):",
+          "4615",
+          "Peso (kg):",
+          "1715",
+          "Entre-eixos (mm):",
+          "2750",
+          "Porta-Malas (L):",
+          "461",
+          "Ocupantes:",
+          "5"
+        ]
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX5",
+      "descricao": "Pro",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex5/2025/pro",
+      "fichaTecnica": {
+        "mecanica": [
+          "Motorização:",
+          "Motor elétrico de 160kW",
+          "Combustível:",
+          "Eletricidade",
+          "Potência (cv):",
+          "218 (E)",
+          "Torque (kgf.m):",
+          "32.6 (E)",
+          "Velocidade máxima (km/h):",
+          "180 (E)",
+          "Tempo 0-100 (s):",
+          "6.9 (E)",
+          "Câmbio:",
+          "Automática",
+          "Tração:",
+          "Dianteira",
+          "Direção:",
+          "Elétrica",
+          "Suspensão dianteira:",
+          "McPherson",
+          "Suspensão traseira:",
+          "Multilink",
+          "Freios dianteiros:",
+          "Disco duplo, ABS",
+          "Freios traseiros:",
+          "Disco duplo, ABS"
+        ],
+        "dimensoes": [
+          "Altura (mm):",
+          "1670",
+          "Largura (mm):",
+          "1901",
+          "Comprimento (mm):",
+          "4615",
+          "Peso (kg):",
+          "1715",
+          "Entre-eixos (mm):",
+          "2750",
+          "Porta-Malas (L):",
+          "461",
+          "Ocupantes:",
+          "5"
+        ]
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX5",
+      "descricao": "Max",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/SUV.png",
+      "ano": "2025",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex5/2025/max",
+      "fichaTecnica": {
+        "mecanica": [
+          "Motorização:",
+          "Motor elétrico de 160kW",
+          "Combustível:",
+          "Eletricidade",
+          "Potência (cv):",
+          "218 (E)",
+          "Torque (kgf.m):",
+          "32.6 (E)",
+          "Velocidade máxima (km/h):",
+          "180 (E)",
+          "Tempo 0-100 (s):",
+          "7.1 (E)",
+          "Câmbio:",
+          "Automática",
+          "Tração:",
+          "Dianteira",
+          "Direção:",
+          "Elétrica",
+          "Suspensão dianteira:",
+          "McPherson",
+          "Suspensão traseira:",
+          "Multilink",
+          "Freios dianteiros:",
+          "Disco duplo, ABS",
+          "Freios traseiros:",
+          "Disco duplo, ABS"
+        ],
+        "dimensoes": [
+          "Altura (mm):",
+          "1670",
+          "Largura (mm):",
+          "1901",
+          "Comprimento (mm):",
+          "4615",
+          "Peso (kg):",
+          "1765",
+          "Entre-eixos (mm):",
+          "2750",
+          "Porta-Malas (L):",
+          "461",
+          "Ocupantes:",
+          "5"
+        ]
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX5 EM-i",
+      "descricao": "PRO",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex5-em-i/2026/pro",
+      "fichaTecnica": {
+        "mecanica": [],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX5 EM-i",
+      "descricao": "ULTRA",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex5-em-i/2026/ultra",
+      "fichaTecnica": {
+        "mecanica": [],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "EX5 EM-i",
+      "descricao": "MAX",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/Sedan.png",
+      "ano": "2026",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/ex5-em-i/2026/max",
+      "fichaTecnica": {
+        "mecanica": [],
+        "dimensoes": []
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "GC2",
+      "descricao": "GL 1.0 CVVT",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png",
+      "ano": "2015",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/gc2/2015/gl-1-0-cvvt",
+      "fichaTecnica": {
+        "mecanica": [
+          "Motorização:",
+          "1.0",
+          "Combustível:",
+          "Gasolina",
+          "Potência (cv):",
+          "68 (G)",
+          "Torque (kgf.m):",
+          "9.1 (G)",
+          "Câmbio:",
+          "Manual",
+          "Tração:",
+          "dianteira",
+          "Suspensão dianteira:",
+          "Suspensão tipo McPherson e dianteira com barra estabilizadora, roda tipo independente e molas helicoidal.",
+          "Suspensão traseira:",
+          "Suspensão tipo eixo de torção, roda tipo semi-independente e molas helicoidal.",
+          "Freios dianteiros:",
+          "Dois freios à disco com dois discos ventilados.",
+          "Freios traseiros:",
+          "N/C"
+        ],
+        "dimensoes": [
+          "Altura (mm):",
+          "1465",
+          "Largura (mm):",
+          "1630",
+          "Comprimento (mm):",
+          "3598",
+          "Peso (kg):",
+          "973",
+          "Tanque (L):",
+          "35",
+          "Entre-eixos (mm):",
+          "2340",
+          "Porta-Malas (L):",
+          "205",
+          "Ocupantes:",
+          "5"
+        ]
+      }
+    },
+    {
+      "tipo": "carro",
+      "modelo": "GC2",
+      "descricao": "GL 1.0 CVVT",
+      "imagem": "https://statics.mobiauto.com.br/public/media/mobiauto/carros/hatch.png",
+      "ano": "2014",
+      "link": "https://www.mobiauto.com.br/tabela-fipe/carros/geely/gc2/2014/gl-1-0-cvvt",
+      "fichaTecnica": {
+        "mecanica": [
+          "Motorização:",
+          "1.0",
+          "Combustível:",
+          "Gasolina",
+          "Potência (cv):",
+          "68 (G)",
+          "Torque (kgf.m):",
+          "9.075475 (G)",
+          "Câmbio:",
+          "Manual",
+          "Tração:",
+          "dianteira",
+          "Suspensão dianteira:",
+          "N/C",
+          "Suspensão traseira:",
+          "Suspensão tipo eixo de torção, roda tipo semi-independente e molas helicoidal.",
+          "Freios dianteiros:",
+          "Dois freios à disco com dois discos ventilados.",
+          "Freios traseiros:",
+          "N/C"
+        ],
+        "dimensoes": [
+          "Altura (mm):",
+          "1465",
+          "Largura (mm):",
+          "1630",
+          "Comprimento (mm):",
+          "3598",
+          "Peso (kg):",
+          "973",
+          "Tanque (L):",
+          "35",
+          "Entre-eixos (mm):",
+          "2340",
+          "Porta-Malas (L):",
+          "205",
+          "Ocupantes:",
+          "5"
+        ]
+      }
+    }
+  ]
+}
